@@ -1,0 +1,27 @@
+Mono path[0] = 'D:/Games/Steam/steamapps/common/Rise of the Third Power/Rise of the Third Power_Data/Managed'
+Mono config path = 'D:/Games/Steam/steamapps/common/Rise of the Third Power/MonoBleedingEdge/etc'
+Initialize engine version: 2019.3.9f1 (e6e740a1c473)
+[Subsystems] Discovering subsystems at path D:/Games/Steam/steamapps/common/Rise of the Third Power/Rise of the Third Power_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   
+    VRAM:     8171 MB
+    Driver:   27.20.14535.1000
+Begin MonoManager ReloadAssembly
+- Completed reload, in  1.784 seconds
+D3D11 device created for Microsoft Media Foundation video decoding.
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+WARNING: Shader Unsupported: 'Hidden/PostProcessing/FinalPass' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/PostProcessing/FinalPass' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/PostProcessing/Uber' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/PostProcessing/Uber' - Pass '' has no vertex shader
+UnloadTime: 4.745400 ms
+Searching for compatible XInput library...
+Found Xinput1_4.dll.
+Joystick reconnected ("Controller (XBOX 360 For Windows)"). 
+(Filename:  Line: 1409)
+
