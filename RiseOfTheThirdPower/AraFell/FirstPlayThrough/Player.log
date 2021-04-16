@@ -1,0 +1,346 @@
+Mono path[0] = 'D:/Games/Steam/steamapps/common/Ara Fell/RPG_RT_Data/Managed'
+Mono config path = 'D:/Games/Steam/steamapps/common/Ara Fell/MonoBleedingEdge/etc'
+Loading player data from D:/Games/Steam/steamapps/common/Ara Fell/RPG_RT_Data/data.unity3d
+Initialize engine version: 2019.2.17f1 (8e603399ca02)
+[XR] Discovering subsystems at path D:/Games/Steam/steamapps/common/Ara Fell/RPG_RT_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   (null)
+    VRAM:     3072 MB
+    Driver:   27.20.2001.16003
+Begin MonoManager ReloadAssembly
+- Completed reload, in  1.102 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.279800 ms
+Searching for compatible XInput library...
+Found Xinput1_4.dll.
+Joystick connected ("Xbox Bluetooth Gamepad").
+ 
+(Filename: C:\buildslave\unity\build\PlatformDependent/Win/Input/RawInput.cpp Line: 1437)
+
+GSync mode enabled
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Joystick connected ("Controller (XBOX 360 For Windows)").
+ 
+(Filename: C:\buildslave\unity\build\PlatformDependent/Win/Input/RawInput.cpp Line: 1437)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 2510 unused Assets to reduce memory usage. Loaded Objects now: 9805.
+Total: 24.276800 ms (FindLiveObjects: 0.633300 ms CreateObjectMapping: 0.195600 ms MarkObjects: 21.641800 ms  DeleteObjects: 1.805800 ms)
+
+ERROR: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+  at System.ThrowHelper.ThrowArgumentOutOfRangeException (System.ExceptionArgument argument, System.ExceptionResource resource) [0x00029] in <319b5411003b47fbaceecace494b6f79>:0 
+  at System.ThrowHelper.ThrowArgumentOutOfRangeException () [0x00000] in <319b5411003b47fbaceecace494b6f79>:0 
+  at Assets.Scripts.Battle.Skills.Lita.ChargedShotSkill.HandlePerTargetPayloadFrame () [0x0010c] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.Battle.BattleSkill.Update () [0x00298] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.Battle.Battler.UpdateTurnParallel () [0x00008] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.BattleScene.Update () [0x0014c] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.GameScene.DoUpdate () [0x00032] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.GameScene.UpdateCurrentScene () [0x0000d] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.PlayerSettings.MainLoop () [0x00352] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.Game.GameManager.Update () [0x0008b] in <8008478e8122422890549346d2056f41>:0 
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ERROR: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+  at System.ThrowHelper.ThrowArgumentOutOfRangeException (System.ExceptionArgument argument, System.ExceptionResource resource) [0x00029] in <319b5411003b47fbaceecace494b6f79>:0 
+  at System.ThrowHelper.ThrowArgumentOutOfRangeException () [0x00000] in <319b5411003b47fbaceecace494b6f79>:0 
+  at Assets.Scripts.Battle.Skills.Lita.ChargedShotSkill.HandlePerTargetPayloadFrame () [0x0010c] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.Battle.BattleSkill.Update () [0x00298] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.Battle.Battler.UpdateTurnParallel () [0x00008] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.BattleScene.Update () [0x0014c] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.GameScene.DoUpdate () [0x00032] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.GameScene.UpdateCurrentScene () [0x0000d] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.PlayerSettings.MainLoop () [0x00352] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.Game.GameManager.Update () [0x0008b] in <8008478e8122422890549346d2056f41>:0 
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 3852 unused Assets to reduce memory usage. Loaded Objects now: 15647.
+Total: 26.105100 ms (FindLiveObjects: 0.726500 ms CreateObjectMapping: 0.299900 ms MarkObjects: 22.419000 ms  DeleteObjects: 2.659500 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 1469 unused Assets to reduce memory usage. Loaded Objects now: 15933.
+Total: 24.354500 ms (FindLiveObjects: 0.702200 ms CreateObjectMapping: 0.265700 ms MarkObjects: 22.126200 ms  DeleteObjects: 1.259900 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 1860 unused Assets to reduce memory usage. Loaded Objects now: 18106.
+Total: 24.963700 ms (FindLiveObjects: 0.800400 ms CreateObjectMapping: 0.299400 ms MarkObjects: 22.833300 ms  DeleteObjects: 1.030000 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 337 unused Assets to reduce memory usage. Loaded Objects now: 18590.
+Total: 23.965600 ms (FindLiveObjects: 0.683200 ms CreateObjectMapping: 0.301800 ms MarkObjects: 22.784100 ms  DeleteObjects: 0.196200 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 1847 unused Assets to reduce memory usage. Loaded Objects now: 22784.
+Total: 27.855300 ms (FindLiveObjects: 0.944300 ms CreateObjectMapping: 0.420900 ms MarkObjects: 25.239100 ms  DeleteObjects: 1.250600 ms)
+
+ERROR: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+  at System.ThrowHelper.ThrowArgumentOutOfRangeException (System.ExceptionArgument argument, System.ExceptionResource resource) [0x00029] in <319b5411003b47fbaceecace494b6f79>:0 
+  at System.ThrowHelper.ThrowArgumentOutOfRangeException () [0x00000] in <319b5411003b47fbaceecace494b6f79>:0 
+  at Assets.Scripts.Battle.Skills.Lita.ChargedShotSkill.HandlePerTargetPayloadFrame () [0x0010c] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.Battle.BattleSkill.Update () [0x00298] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.Battle.Battler.UpdateTurnParallel () [0x00008] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.BattleScene.Update () [0x0014c] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.GameScene.DoUpdate () [0x00032] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.GameScene.UpdateCurrentScene () [0x0000d] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.PlayerSettings.MainLoop () [0x00352] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.Game.GameManager.Update () [0x0008b] in <8008478e8122422890549346d2056f41>:0 
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ERROR: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+  at System.ThrowHelper.ThrowArgumentOutOfRangeException (System.ExceptionArgument argument, System.ExceptionResource resource) [0x00029] in <319b5411003b47fbaceecace494b6f79>:0 
+  at System.ThrowHelper.ThrowArgumentOutOfRangeException () [0x00000] in <319b5411003b47fbaceecace494b6f79>:0 
+  at Assets.Scripts.Battle.Skills.Lita.ChargedShotSkill.HandlePerTargetPayloadFrame () [0x0010c] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.Battle.BattleSkill.Update () [0x00298] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.Battle.Battler.UpdateTurnParallel () [0x00008] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.BattleScene.Update () [0x0014c] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.GameScene.DoUpdate () [0x00032] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.GameScene.UpdateCurrentScene () [0x0000d] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.PlayerSettings.MainLoop () [0x00352] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.Game.GameManager.Update () [0x0008b] in <8008478e8122422890549346d2056f41>:0 
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 4156 unused Assets to reduce memory usage. Loaded Objects now: 21527.
+Total: 29.406900 ms (FindLiveObjects: 1.077600 ms CreateObjectMapping: 0.445000 ms MarkObjects: 24.142400 ms  DeleteObjects: 3.741500 ms)
+
+ERROR: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+  at System.ThrowHelper.ThrowArgumentOutOfRangeException (System.ExceptionArgument argument, System.ExceptionResource resource) [0x00029] in <319b5411003b47fbaceecace494b6f79>:0 
+  at System.ThrowHelper.ThrowArgumentOutOfRangeException () [0x00000] in <319b5411003b47fbaceecace494b6f79>:0 
+  at Assets.Scripts.Battle.Skills.Lita.ChargedShotSkill.HandlePerTargetPayloadFrame () [0x0010c] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.Battle.BattleSkill.Update () [0x00298] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.Battle.Battler.UpdateTurnParallel () [0x00008] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.BattleScene.Update () [0x0014c] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.GameScene.DoUpdate () [0x00032] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.GameScene.UpdateCurrentScene () [0x0000d] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.PlayerSettings.MainLoop () [0x00352] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.Game.GameManager.Update () [0x0008b] in <8008478e8122422890549346d2056f41>:0 
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 2077 unused Assets to reduce memory usage. Loaded Objects now: 29556.
+Total: 32.642300 ms (FindLiveObjects: 1.300800 ms CreateObjectMapping: 0.467600 ms MarkObjects: 29.198100 ms  DeleteObjects: 1.675500 ms)
+
+ERROR: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+  at System.ThrowHelper.ThrowArgumentOutOfRangeException (System.ExceptionArgument argument, System.ExceptionResource resource) [0x00029] in <319b5411003b47fbaceecace494b6f79>:0 
+  at System.ThrowHelper.ThrowArgumentOutOfRangeException () [0x00000] in <319b5411003b47fbaceecace494b6f79>:0 
+  at Assets.Scripts.Battle.Skills.Lita.ChargedShotSkill.HandlePerTargetPayloadFrame () [0x0010c] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.Battle.BattleSkill.Update () [0x00298] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.Battle.Battler.UpdateTurnParallel () [0x00008] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.BattleScene.Update () [0x0014c] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.GameScene.DoUpdate () [0x00032] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.GameScene.UpdateCurrentScene () [0x0000d] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.PlayerSettings.MainLoop () [0x00352] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.Game.GameManager.Update () [0x0008b] in <8008478e8122422890549346d2056f41>:0 
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ERROR: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+  at System.ThrowHelper.ThrowArgumentOutOfRangeException (System.ExceptionArgument argument, System.ExceptionResource resource) [0x00029] in <319b5411003b47fbaceecace494b6f79>:0 
+  at System.ThrowHelper.ThrowArgumentOutOfRangeException () [0x00000] in <319b5411003b47fbaceecace494b6f79>:0 
+  at Assets.Scripts.Battle.Skills.Lita.ChargedShotSkill.HandlePerTargetPayloadFrame () [0x0010c] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.Battle.BattleSkill.Update () [0x00298] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.Battle.Battler.UpdateTurnParallel () [0x00008] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.BattleScene.Update () [0x0014c] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.GameScene.DoUpdate () [0x00032] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.GameScene.UpdateCurrentScene () [0x0000d] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.PlayerSettings.MainLoop () [0x00352] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.Game.GameManager.Update () [0x0008b] in <8008478e8122422890549346d2056f41>:0 
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ERROR: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+  at System.ThrowHelper.ThrowArgumentOutOfRangeException (System.ExceptionArgument argument, System.ExceptionResource resource) [0x00029] in <319b5411003b47fbaceecace494b6f79>:0 
+  at System.ThrowHelper.ThrowArgumentOutOfRangeException () [0x00000] in <319b5411003b47fbaceecace494b6f79>:0 
+  at Assets.Scripts.Battle.Skills.Lita.ChargedShotSkill.HandlePerTargetPayloadFrame () [0x0010c] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.Battle.BattleSkill.Update () [0x00298] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.Battle.Battler.UpdateTurnParallel () [0x00008] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.BattleScene.Update () [0x0014c] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.GameScene.DoUpdate () [0x00032] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.GameScene.UpdateCurrentScene () [0x0000d] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.PlayerSettings.MainLoop () [0x00352] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.Game.GameManager.Update () [0x0008b] in <8008478e8122422890549346d2056f41>:0 
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 3899 unused Assets to reduce memory usage. Loaded Objects now: 29650.
+Total: 34.508600 ms (FindLiveObjects: 1.510200 ms CreateObjectMapping: 0.563200 ms MarkObjects: 29.275200 ms  DeleteObjects: 3.159600 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 4776 unused Assets to reduce memory usage. Loaded Objects now: 30189.
+Total: 35.070700 ms (FindLiveObjects: 1.440600 ms CreateObjectMapping: 0.528500 ms MarkObjects: 29.311200 ms  DeleteObjects: 3.789700 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 1825 unused Assets to reduce memory usage. Loaded Objects now: 30251.
+Total: 33.157300 ms (FindLiveObjects: 1.424200 ms CreateObjectMapping: 0.602900 ms MarkObjects: 29.610600 ms  DeleteObjects: 1.519200 ms)
+
+<RI.Hid> Failed to read input report:
+The I/O operation has been aborted because of either a thread exit or an application request.
+
+ 
+(Filename: C:\buildslave\unity\build\PlatformDependent/Win/Input/RawInput.cpp Line: 697)
+
+<RI.Hid> Failed to read input report:
+The requested resource is in use.
+
+ 
+(Filename: C:\buildslave\unity\build\PlatformDependent/Win/Input/RawInput.cpp Line: 697)
+
+<RI.Hid> Failed to read input report:
+The requested resource is in use.
+
+ 
+(Filename: C:\buildslave\unity\build\PlatformDependent/Win/Input/RawInput.cpp Line: 697)
+
+<RI.Hid> Failed to read input report:
+The requested resource is in use.
+
+ 
+(Filename: C:\buildslave\unity\build\PlatformDependent/Win/Input/RawInput.cpp Line: 697)
+
+<RI.Hid> Failed to read input report:
+The requested resource is in use.
+
+ 
+(Filename: C:\buildslave\unity\build\PlatformDependent/Win/Input/RawInput.cpp Line: 697)
+
+Joystick disconnected ("Xbox Bluetooth Gamepad").
+ 
+(Filename: C:\buildslave\unity\build\PlatformDependent/Win/Input/RawInput.cpp Line: 1344)
+
+Joystick disconnected ("Controller (XBOX 360 For Windows)").
+ 
+(Filename: C:\buildslave\unity\build\PlatformDependent/Win/Input/RawInput.cpp Line: 1344)
+
+Joystick reconnected ("Xbox Bluetooth Gamepad").
+ 
+(Filename: C:\buildslave\unity\build\PlatformDependent/Win/Input/RawInput.cpp Line: 1409)
+
+Joystick reconnected ("Controller (XBOX 360 For Windows)").
+ 
+(Filename: C:\buildslave\unity\build\PlatformDependent/Win/Input/RawInput.cpp Line: 1409)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 3681 unused Assets to reduce memory usage. Loaded Objects now: 32808.
+Total: 36.319400 ms (FindLiveObjects: 1.520800 ms CreateObjectMapping: 0.519200 ms MarkObjects: 31.081600 ms  DeleteObjects: 3.197600 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 442 unused Assets to reduce memory usage. Loaded Objects now: 30270.
+Total: 31.152800 ms (FindLiveObjects: 1.177100 ms CreateObjectMapping: 0.442200 ms MarkObjects: 29.168600 ms  DeleteObjects: 0.364800 ms)
+
+ERROR: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+  at System.ThrowHelper.ThrowArgumentOutOfRangeException (System.ExceptionArgument argument, System.ExceptionResource resource) [0x00029] in <319b5411003b47fbaceecace494b6f79>:0 
+  at System.ThrowHelper.ThrowArgumentOutOfRangeException () [0x00000] in <319b5411003b47fbaceecace494b6f79>:0 
+  at Assets.Scripts.Battle.Skills.Lita.ChargedShotSkill.HandlePerTargetPayloadFrame () [0x0010c] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.Battle.BattleSkill.Update () [0x00298] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.Battle.Battler.UpdateTurnParallel () [0x00008] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.BattleScene.Update () [0x0014c] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.GameScene.DoUpdate () [0x00032] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.GameScene.UpdateCurrentScene () [0x0000d] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.PlayerSettings.MainLoop () [0x00352] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.Game.GameManager.Update () [0x0008b] in <8008478e8122422890549346d2056f41>:0 
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 6567 unused Assets to reduce memory usage. Loaded Objects now: 30474.
+Total: 38.464800 ms (FindLiveObjects: 1.520300 ms CreateObjectMapping: 0.570800 ms MarkObjects: 30.622900 ms  DeleteObjects: 5.750600 ms)
+
+Joystick disconnected ("Xbox Bluetooth Gamepad").
+ 
+(Filename: C:\buildslave\unity\build\PlatformDependent/Win/Input/RawInput.cpp Line: 1344)
+
+Joystick disconnected ("Controller (XBOX 360 For Windows)").
+ 
+(Filename: C:\buildslave\unity\build\PlatformDependent/Win/Input/RawInput.cpp Line: 1344)
+
+Joystick reconnected ("Xbox Bluetooth Gamepad").
+ 
+(Filename: C:\buildslave\unity\build\PlatformDependent/Win/Input/RawInput.cpp Line: 1409)
+
+Joystick reconnected ("Controller (XBOX 360 For Windows)").
+ 
+(Filename: C:\buildslave\unity\build\PlatformDependent/Win/Input/RawInput.cpp Line: 1409)
+
+ERROR: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+  at System.ThrowHelper.ThrowArgumentOutOfRangeException (System.ExceptionArgument argument, System.ExceptionResource resource) [0x00029] in <319b5411003b47fbaceecace494b6f79>:0 
+  at System.ThrowHelper.ThrowArgumentOutOfRangeException () [0x00000] in <319b5411003b47fbaceecace494b6f79>:0 
+  at Assets.Scripts.Battle.Skills.Lita.ChargedShotSkill.HandlePerTargetPayloadFrame () [0x0010c] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.Battle.BattleSkill.Update () [0x00298] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.Battle.Battler.UpdateTurnParallel () [0x00008] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.BattleScene.Update () [0x0014c] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.GameScene.DoUpdate () [0x00032] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.GameScene.UpdateCurrentScene () [0x0000d] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.PlayerSettings.MainLoop () [0x00352] in <8008478e8122422890549346d2056f41>:0 
+  at Assets.Scripts.Game.GameManager.Update () [0x0008b] in <8008478e8122422890549346d2056f41>:0 
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 8546 unused Assets to reduce memory usage. Loaded Objects now: 31430.
+Total: 42.881600 ms (FindLiveObjects: 1.694100 ms CreateObjectMapping: 0.623900 ms MarkObjects: 31.092600 ms  DeleteObjects: 9.470500 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 2080 unused Assets to reduce memory usage. Loaded Objects now: 33805.
+Total: 35.090400 ms (FindLiveObjects: 1.548600 ms CreateObjectMapping: 0.553700 ms MarkObjects: 31.439100 ms  DeleteObjects: 1.548600 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 451 unused Assets to reduce memory usage. Loaded Objects now: 34374.
+Total: 32.034100 ms (FindLiveObjects: 1.311600 ms CreateObjectMapping: 0.546200 ms MarkObjects: 29.988800 ms  DeleteObjects: 0.187200 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 550 unused Assets to reduce memory usage. Loaded Objects now: 34855.
+Total: 34.017100 ms (FindLiveObjects: 1.380300 ms CreateObjectMapping: 0.570000 ms MarkObjects: 31.785300 ms  DeleteObjects: 0.281200 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 460 unused Assets to reduce memory usage. Loaded Objects now: 34792.
+Total: 33.268300 ms (FindLiveObjects: 1.462900 ms CreateObjectMapping: 0.522900 ms MarkObjects: 31.051300 ms  DeleteObjects: 0.230800 ms)
+
+Setting up 6 worker threads for Enlighten.
+  Thread -> id: 10c -> priority: 1 
+  Thread -> id: 2500 -> priority: 1 
+  Thread -> id: 47a8 -> priority: 1 
+  Thread -> id: 4280 -> priority: 1 
+  Thread -> id: 49f4 -> priority: 1 
+  Thread -> id: 4ed4 -> priority: 1 
