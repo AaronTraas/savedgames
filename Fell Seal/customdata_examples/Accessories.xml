@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLAccessories>
+  <Accessories HashName="ABO-00" Name="Toad Boots" Desc="acc-boot-00" Icon="icon-accshoe-00" Jump="1" Price="1000" Tier="1">
+    <Stats Values="0 7 0 1" />
+  </Accessories>
+  <Accessories HashName="ABO-01" Name="Running Treads" Desc="acc-boot-01" Icon="icon-accshoe-01" Move="1" Price="1000" Tier="3">
+    <Stats Values="0 3 0 0" />
+  </Accessories>
+  <Accessories HashName="ABO-02" Name="Impala Boots" Desc="acc-boot-02" Icon="icon-accshoe-02" Jump="2" Price="4000" Tier="4">
+    <Stats Values="0 7 0 4" />
+  </Accessories>
+  <Accessories HashName="ABO-03" Name="Wayfarer Treads" Desc="acc-boot-03" Icon="icon-accshoe-03" Move="1" Jump="1" Price="7500" Tier="6">
+    <Stats Values="0 4 0 0" />
+  </Accessories>
+  <Accessories HashName="ABO-04" Name="Jet Boots" Desc="acc-boot-04" Icon="icon-accshoe-04" Jump="20" Tier="6">
+    <Stats Values="0 7 0 6" />
+  </Accessories>
+  <Accessories HashName="ABO-05" Name="Gremlin Treads" Desc="acc-boot-05" Icon="icon-accshoe-05" Speed="3" Evasion="1" Move="1" Jump="1" Price="11000" Tier="8">
+    <Stats Values="0 7 0 6" />
+  </Accessories>
+  <Accessories HashName="ABO-06" Name="Plainwalkers" Desc="acc-boot-06" Icon="icon-accshoe-06" Move="2" Price="15000" Tier="999">
+    <Stats Values="0 4 0 0" />
+  </Accessories>
+  <Accessories HashName="ABO-07" Name="Hover Boots" Desc="acc-boot-07" Icon="icon-accshoe-07" Tier="9" Special="kfFloat">
+    <Stats Values="0 7 0 0" />
+  </Accessories>
+  <Accessories HashName="ABO-08" Name="Riftwalkers" Desc="acc-boot-08" Icon="icon-accshoe-08" Tier="999" Special="kfTeleport">
+    <Stats Values="0 3 0 0" />
+  </Accessories>
+  <Accessories HashName="ABO-09" Name="Flippers" Desc="acc-boot-09" Icon="icon-accshoe-09" Speed="-3" Price="4000" Tier="4" Special="kfSwim">
+    <Stats Values="0 6 0 0" />
+  </Accessories>
+  <Accessories HashName="ARI-00" Name="Pure Band" Desc="acc-ring-00" Icon="icon-accring-00" NegativeEffectsProtect="kfPoison" Price="1100" Tier="1">
+    <Stats Values="0 4 0 4" />
+  </Accessories>
+  <Accessories HashName="ARI-01" Name="Shining Band" Desc="acc-ring-01" Icon="icon-accring-01" Speed="3" NegativeEffectsProtect="kfBlind" Price="1850" Tier="2">
+    <Stats Values="0 4 0 4" />
+  </Accessories>
+  <Accessories HashName="ARI-02" Name="Clarity Band" Desc="acc-ring-02" Icon="icon-accring-02" NegativeEffectsProtect="kfBerserk" Price="4500" Tier="4">
+    <Stats Values="0 0 4 9" />
+  </Accessories>
+  <Accessories HashName="ARI-03" Name="Oath Band" Desc="acc-ring-03" Icon="icon-accring-03" NegativeEffectsProtect="kfCharm" Price="6000" Tier="5">
+    <Stats Values="4 9 0 0" />
+  </Accessories>
+  <Accessories HashName="ARI-04" Name="Sapphire Earring" Desc="acc-ring-04" Icon="icon-accring-04" NegativeEffectsProtect="kfBleed kfBlind kfRoot kfSlow" Price="11000" Tier="6">
+    <Stats Values="0 3 0 3" />
+  </Accessories>
+  <Accessories HashName="ARI-05" Name="Phoenix Band" Desc="acc-ring-05" Icon="icon-accring-05" PositiveEffectsAdd="kfRebirth" Tier="999" />
+  <Accessories HashName="ARI-06" Name="Ruby Earring" Desc="acc-ring-06" Icon="icon-accring-06" NegativeEffectsProtect="kfMute kfCripple kfSleep kfBerserk kfCharm" Price="24000" Tier="999">
+    <Stats Values="0 3 0 3" />
+  </Accessories>
+  <Accessories HashName="ARI-07" Name="Amethyst Earring" Desc="acc-ring-07" Icon="icon-accring-07" NegativeEffectsProtect="kfAll" Tier="999">
+    <Stats Values="0 1 0 1" />
+  </Accessories>
+  <Accessories HashName="ARI-08" Name="Energy Locket" Desc="acc-ring-08" Icon="icon-accring-08" Price="16000" Tier="999">
+    <Stats Values="0 0 48 0" />
+  </Accessories>
+  <Accessories HashName="ARI-09" Name="Battle Locket" Desc="acc-ring-09" Icon="icon-accring-09" Price="16000" Tier="999">
+    <Stats Values="48 0 0 0" />
+  </Accessories>
+  <Accessories HashName="ARI-10" Name="Zephyr Locket" Desc="acc-ring-10" Icon="icon-accring-10" Speed="20" Evasion="4" Critical="5" Price="16000" Tier="999" />
+  <Accessories HashName="ARI-11" Name="Shield Locket" Desc="acc-ring-11" Icon="icon-accring-11" Price="16000" Tier="999">
+    <Stats Values="0 48 0 0" />
+  </Accessories>
+  <Accessories HashName="ARI-12" Name="Mirror Locket" Desc="acc-ring-12" Icon="icon-accring-12" Price="16000" Tier="999">
+    <Stats Values="0 0 0 48" />
+  </Accessories>
+  <Accessories HashName="ARI-13" Name="Glasses" Desc="acc-ring-13" Icon="icon-accring-13" Critical="2" BonusAcc="10" Price="3100" Tier="3" />
+  <Accessories HashName="ARI-14" Name="Vigil Band" Desc="acc-ring-14" Icon="icon-accring-14" NegativeEffectsProtect="kfSleep" Price="5500" Tier="5">
+    <Stats Values="4 3 4 3" />
+  </Accessories>
+  <Accessories HashName="ARI-15" Name="Power Locket" Desc="acc-ring-15" Icon="icon-accring-15" Speed="-20" Tier="999">
+    <Stats Values="10 10 10 10" />
+  </Accessories>
+  <Accessories HashName="ARI-16" Name="Ancient Locket" Desc="acc-ring-16" Icon="icon-accring-16" NegativeEffectsProtect="kfMental" Tier="1000" Special="kfInjuryPrevention kfAncientLocked">
+    <Stats Values="8 6 8 6" />
+  </Accessories>
+  <Accessories HashName="AGL-00" Name="Demi-Gauntlet" Desc="acc-glove-00" Icon="icon-accglove-00" Evasion="1" Price="800" Tier="2">
+    <Stats Values="0 1 0 1" />
+  </Accessories>
+  <Accessories HashName="AGL-01" Name="Gauntlet" Desc="acc-glove-01" Icon="icon-accglove-01" Price="1400" Tier="2">
+    <Stats Values="8 4 0 1" />
+  </Accessories>
+  <Accessories HashName="AGL-02" Name="Wizard Glove" Desc="acc-glove-02" Icon="icon-accglove-02" Price="1400" Tier="2">
+    <Stats Values="0 1 8 4" />
+  </Accessories>
+  <Accessories HashName="AGL-03" Name="Sharp Gauntlet" Desc="acc-glove-03" Icon="icon-accglove-03" Critical="5" NegativeEffectsProtect="kfBleed" Price="1800" Tier="3" />
+  <Accessories HashName="AGL-04" Name="Plate Glove" Desc="acc-glove-04" Icon="icon-accglove-04" Price="2500" Tier="4">
+    <Stats Values="0 10 0 3" />
+  </Accessories>
+  <Accessories HashName="AGL-05" Name="Exo Gauntlet" Desc="acc-glove-05" Icon="icon-accglove-05" Evasion="3" Price="3800" Tier="5">
+    <Stats Values="0 7 0 7" />
+  </Accessories>
+  <Accessories HashName="AGL-06" Name="Battle Claw" Desc="acc-glove-06" Icon="icon-accglove-06" Critical="2" Price="3000" Tier="6">
+    <Stats Values="10 3 10 3" />
+  </Accessories>
+  <Accessories HashName="AGL-07" Name="Gigas Fist" Desc="acc-glove-07" Icon="icon-accglove-07" Price="6000" Tier="8">
+    <Stats Values="12 19 0 12" />
+  </Accessories>
+  <Accessories HashName="AGL-08" Name="Arcane Glove" Desc="acc-glove-08" Icon="icon-accglove-08" Tier="8">
+    <Stats Values="0 15 12 15" />
+  </Accessories>
+  <Accessories HashName="AGL-09" Name="Drake Talon" Desc="acc-glove-09" Icon="icon-accglove-09" Speed="13" Critical="10" Tier="999" />
+  <Accessories HashName="AGL-10" Name="Bandit's Glove" Desc="acc-glove-10" Icon="icon-accglove-10" Speed="7" Evasion="4" Critical="2" Price="6000" Tier="999" Special="kfStealMoreGold">
+    <Stats Values="4 0 0 0" />
+  </Accessories>
+  <Accessories HashName="AGL-11" Name="Throwing Glove" Desc="acc-glove-11" Icon="icon-accglove-11" ItemRange="1" Price="3000" Tier="999">
+    <Stats Values="0 3 0 3" />
+  </Accessories>
+  <Accessories HashName="AGL-12" Name="Old Letter" Desc="acc-glove-12" Icon="icon-accglove-12" Tier="1000" />
+</XMLAccessories>

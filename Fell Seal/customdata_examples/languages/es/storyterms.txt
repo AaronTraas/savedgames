@@ -1,0 +1,25 @@
+arbiter=Mediador
+arbiters=Mediadores
+immortal=Inmortal
+immortals=Inmortales
+immortalsn=Inmortales
+guild=Gremio
+marked=Elegido
+markeds=Elegidos
+mark=Marca
+council=Consejo
+immortal-council={council} {Immortal}
+relic=Reliquia
+relics=Reliquias
+ancient-bone=Hueso de bestia ancestral
+chapterhouse=Casa del gremio
+rebel-faction=Sigilo
+rebels=Miembros del sigilo
+temple=Templo
+temples=Templos
+sealed-temple={temple} sellado
+sealed-temples={Temples} sellados
+medallion=Medallón
+ancient-beast=Las Fauces
+ancient-path=Camino antiguo
+

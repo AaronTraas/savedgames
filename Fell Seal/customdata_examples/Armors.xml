@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLArmors>
+  <Armors HashName="BCL-00" Name="Linen Robe" Desc="ar-cloth-00" Icon="icon-armorcloth-00" Type="robes" Price="600" Tier="1">
+    <Stats Values="0 30 0 52" />
+  </Armors>
+  <Armors HashName="BCL-01" Name="Cotton Robe" Desc="ar-cloth-01" Icon="icon-armorcloth-01" Type="robes" Price="1200" Tier="2">
+    <Stats Values="0 30 0 60" />
+  </Armors>
+  <Armors HashName="BCL-02" Name="Silk Robe" Desc="ar-cloth-02" Icon="icon-armorcloth-02" Type="robes" Price="2400" Tier="3">
+    <Stats Values="0 33 0 64" />
+  </Armors>
+  <Armors HashName="BCL-03" Name="Flowing Robe" Desc="ar-cloth-03" Icon="icon-armorcloth-05" Type="robes" Price="4750" Tier="4">
+    <Stats Values="0 36 0 61" />
+    <ElementalResist Values="100 0 0 0 0 0" />
+  </Armors>
+  <Armors HashName="BCL-04" Name="Molten Robe" Desc="ar-cloth-04" Icon="icon-armorcloth-03" Type="robes" Price="4750" Tier="4">
+    <Stats Values="0 36 0 61" />
+    <ElementalResist Values="0 100 0 0 0 0" />
+  </Armors>
+  <Armors HashName="BCL-05" Name="Sand Robe" Desc="ar-cloth-05" Icon="icon-armorcloth-06" Type="robes" Price="4750" Tier="4">
+    <Stats Values="0 36 0 61" />
+    <ElementalResist Values="0 0 100 0 0 0" />
+  </Armors>
+  <Armors HashName="BCL-06" Name="Spark Robe" Desc="ar-cloth-06" Icon="icon-armorcloth-04" Type="robes" Price="4750" Tier="4">
+    <Stats Values="0 36 0 61" />
+    <ElementalResist Values="0 0 0 100 0 0" />
+  </Armors>
+  <Armors HashName="BCL-07" Name="Monk Robe" Desc="ar-cloth-07" Icon="icon-armorcloth-07" Type="robes" Tier="5">
+    <Stats Values="16 42 0 67" />
+  </Armors>
+  <Armors HashName="BCL-08" Name="White Robe" Desc="ar-cloth-08" Icon="icon-armorcloth-08" Type="robes" Price="6000" Tier="6">
+    <Stats Values="0 39 0 75" />
+    <ElementalResist Values="0 0 0 0 0 50" />
+  </Armors>
+  <Armors HashName="BCL-09" Name="Black Robe" Desc="ar-cloth-09" Icon="icon-armorcloth-09" Type="robes" Price="6000" Tier="6">
+    <Stats Values="0 39 10 67" />
+    <ElementalResist Values="0 0 0 0 50 0" />
+  </Armors>
+  <Armors HashName="BCL-10" Name="Velvet Robe" Desc="ar-cloth-10" Icon="icon-armorcloth-10" Type="robes" Price="6000" Tier="5">
+    <Stats Values="0 42 0 69" />
+  </Armors>
+  <Armors HashName="BCL-11" Name="Devout Robe" Desc="ar-cloth-11" Icon="icon-armorcloth-11" Type="robes" Price="10500" Tier="6">
+    <Stats Values="0 45 0 75" />
+  </Armors>
+  <Armors HashName="BCL-12" Name="Darksilk Robe" Desc="ar-cloth-12" Icon="icon-armorcloth-12" Type="robes" Tier="7">
+    <Stats Values="0 54 0 72" />
+    <ElementalResist Values="0 0 0 0 150 0" />
+  </Armors>
+  <Armors HashName="BCL-13" Name="Scholar Robe" Desc="ar-cloth-13" Icon="icon-armorcloth-13" Type="robes" Price="17000" Tier="7">
+    <Stats Values="0 48 16 79" />
+  </Armors>
+  <Armors HashName="BCL-14" Name="Embroidered Robe" Desc="ar-cloth-14" Icon="icon-armorcloth-14" Type="robes" Price="22000" Tier="8">
+    <Stats Values="0 51 0 85" />
+  </Armors>
+  <Armors HashName="BCL-15" Name="Master Robe" Desc="ar-cloth-15" Icon="icon-armorcloth-15" Type="robes" Tier="999">
+    <Stats Values="16 54 16 100" />
+  </Armors>
+  <Armors HashName="HCL-00" Name="Circlet" Desc="ar-hat-00" Icon="icon-helmcloth-00" Type="clothhelmet" Price="150" Tier="1">
+    <Stats Values="0 1 0 6" />
+  </Armors>
+  <Armors HashName="HCL-01" Name="Phrygian Cap" Desc="ar-hat-01" Icon="icon-helmcloth-01" Type="clothhelmet" Price="300" Tier="2">
+    <Stats Values="0 3 0 10" />
+  </Armors>
+  <Armors HashName="HCL-02" Name="Silver Circlet" Desc="ar-hat-02" Icon="icon-helmcloth-02" Type="clothhelmet" Price="550" Tier="3">
+    <Stats Values="0 4 6 15" />
+  </Armors>
+  <Armors HashName="HCL-03" Name="Battlemage Hat" Desc="ar-hat-03" Icon="icon-helmcloth-03" Type="clothhelmet" Price="1350" Tier="4">
+    <Stats Values="6 6 6 19" />
+  </Armors>
+  <Armors HashName="HCL-04" Name="Sage Hat" Desc="ar-hat-04" Icon="icon-helmcloth-10" Type="clothhelmet" Speed="2" Evasion="1" Critical="1" Tier="6">
+    <Health Values="0 20" />
+    <Stats Values="10 7 10 24" />
+  </Armors>
+  <Armors HashName="HCL-05" Name="Teorite Circlet" Desc="ar-hat-05" Icon="icon-helmcloth-04" Type="clothhelmet" Price="2500" Tier="5">
+    <Stats Values="0 6 0 28" />
+  </Armors>
+  <Armors HashName="HCL-06" Name="Wizard Cone" Desc="ar-hat-06" Icon="icon-helmcloth-05" Type="clothhelmet" Price="3000" Tier="5">
+    <Stats Values="0 4 12 24" />
+  </Armors>
+  <Armors HashName="HCL-07" Name="Miter" Desc="ar-hat-07" Icon="icon-helmcloth-06" Type="clothhelmet" NegativeEffectsProtect="kfMute" Price="4750" Tier="6">
+    <Stats Values="0 9 0 28" />
+  </Armors>
+  <Armors HashName="HCL-08" Name="White Hat" Desc="ar-hat-08" Icon="icon-helmcloth-07" Type="clothhelmet" Price="6500" Tier="7">
+    <Stats Values="0 10 0 39" />
+  </Armors>
+  <Armors HashName="HCL-09" Name="Black Hat" Desc="ar-hat-09" Icon="icon-helmcloth-08" Type="clothhelmet" Price="8000" Tier="7">
+    <Stats Values="0 9 16 30" />
+  </Armors>
+  <Armors HashName="HCL-10" Name="Royal Crown" Desc="ar-hat-10" Icon="icon-helmcloth-09" Type="clothhelmet" Speed="3" Price="9000" Tier="8">
+    <Health Values="35 0" />
+    <Stats Values="0 13 0 37" />
+  </Armors>
+  <Armors HashName="HCL-11" Name="Witch Crown" Desc="ar-hat-11" Icon="icon-helmcloth-11" Type="clothhelmet" Speed="3" Evasion="3" Critical="5" Tier="999">
+    <Stats Values="12 15 16 39" />
+  </Armors>
+  <Armors HashName="BLI-00" Name="Traveler Garb" Desc="ar-light-00" Icon="icon-armorlight-00" Type="lightarmor" Speed="2" Price="200" Tier="1">
+    <Stats Values="0 39 0 9" />
+  </Armors>
+  <Armors HashName="BLI-01" Name="Leather Armor" Desc="ar-light-01" Icon="icon-armorlight-01" Type="lightarmor" Price="400" Tier="2">
+    <Stats Values="0 45 0 9" />
+  </Armors>
+  <Armors HashName="BLI-02" Name="Chain Mail" Desc="ar-light-02" Icon="icon-armorlight-02" Type="lightarmor" Price="1000" Tier="3">
+    <Stats Values="0 48 0 9" />
+  </Armors>
+  <Armors HashName="BLI-03" Name="Brigandine" Desc="ar-light-03" Icon="icon-armorlight-03" Type="lightarmor" Price="2100" Tier="4">
+    <Stats Values="0 52 0 12" />
+  </Armors>
+  <Armors HashName="BLI-04" Name="Teorite Vest" Desc="ar-light-04" Icon="icon-armorlight-04" Type="lightarmor" Price="3800" Tier="5">
+    <Stats Values="0 57 0 21" />
+  </Armors>
+  <Armors HashName="BLI-05" Name="Judogi" Desc="ar-light-05" Icon="icon-armorlight-05" Type="lightarmor" Price="3700" Tier="5">
+    <Stats Values="10 52 0 15" />
+  </Armors>
+  <Armors HashName="BLI-06" Name="Desert Garb" Desc="ar-light-06" Icon="icon-armorlight-06" Type="lightarmor" Price="5000" Tier="6">
+    <Stats Values="0 63 0 18" />
+    <ElementalResist Values="0 0 50 0 0 0" />
+  </Armors>
+  <Armors HashName="BLI-07" Name="Ninja Garb" Desc="ar-light-07" Icon="icon-armorlight-07" Type="lightarmor" Speed="5" Evasion="3" Price="6500" Tier="6">
+    <Stats Values="0 63 0 18" />
+  </Armors>
+  <Armors HashName="BLI-08" Name="Chitin Suit" Desc="ar-light-08" Icon="icon-armorlight-08" Type="lightarmor" Evasion="2" Tier="8">
+    <Stats Values="0 69 0 21" />
+    <ElementalResist Values="0 0 0 50 0 0" />
+  </Armors>
+  <Armors HashName="BLI-09" Name="Golden Garb" Desc="ar-light-09" Icon="icon-armorlight-09" Type="lightarmor" Price="11000" Tier="7">
+    <Stats Values="0 66 8 21" />
+  </Armors>
+  <Armors HashName="BLI-10" Name="Arbiter Garb" Desc="ar-light-10" Icon="icon-armorlight-10" Type="lightarmor" Speed="5" Evasion="3" Critical="3" Price="14000" Tier="999">
+    <Stats Values="6 75 6 27" />
+  </Armors>
+  <Armors HashName="BLI-11" Name="Lorica Speculo" Desc="ar-light-11" Icon="icon-armorlight-11" Type="lightarmor" Price="15000" Tier="8">
+    <Stats Values="0 72 0 33" />
+  </Armors>
+  <Armors HashName="BLI-12" Name="Lorica Musculata" Desc="ar-light-12" Icon="icon-armorlight-12" Type="lightarmor" Price="15000" Tier="8">
+    <Stats Values="12 72 0 18" />
+  </Armors>
+  <Armors HashName="BLI-13" Name="Lorica Mentis" Desc="ar-light-13" Icon="icon-armorlight-13" Type="lightarmor" Price="15000" Tier="8">
+    <Stats Values="0 72 12 18" />
+  </Armors>
+  <Armors HashName="BLI-14" Name="Noctis Garb" Desc="ar-light-14" Icon="icon-armorlight-14" Type="lightarmor" Tier="999">
+    <Stats Values="0 76 0 33" />
+    <ElementalResist Values="0 0 0 0 100 0" />
+  </Armors>
+  <Armors HashName="BLI-15" Name="Shining Mail" Desc="ar-light-15" Icon="icon-armorlight-15" Type="lightarmor" Critical="3" Tier="999">
+    <Stats Values="0 79 0 48" />
+  </Armors>
+  <Armors HashName="HLI-00" Name="Fur Cap" Desc="ar-cap-00" Icon="icon-helmlight-00" Type="lighthelmet" Price="150" Tier="1">
+    <Stats Values="0 3 0 3" />
+    <ElementalResist Values="50 0 0 0 0 0" />
+  </Armors>
+  <Armors HashName="HLI-01" Name="Feathered Cap" Desc="ar-cap-01" Icon="icon-helmlight-01" Type="lighthelmet" Price="300" Tier="2">
+    <Stats Values="0 6 0 6" />
+  </Armors>
+  <Armors HashName="HLI-02" Name="Leather Helmet" Desc="ar-cap-02" Icon="icon-helmlight-02" Type="lighthelmet" Speed="2" Price="500" Tier="3">
+    <Stats Values="0 7 0 10" />
+  </Armors>
+  <Armors HashName="HLI-03" Name="Green Beret" Desc="ar-cap-03" Icon="icon-helmlight-03" Type="lighthelmet" Evasion="1" Price="1200" Tier="4">
+    <Health Values="20 0" />
+    <Stats Values="0 10 0 12" />
+  </Armors>
+  <Armors HashName="HLI-04" Name="Poseur's Cap" Desc="ar-cap-04" Icon="icon-helmlight-04" Type="lighthelmet" Speed="2" Evasion="1" Price="1000" Tier="4">
+    <Stats Values="0 10 0 12" />
+  </Armors>
+  <Armors HashName="HLI-05" Name="Red Beret" Desc="ar-cap-05" Icon="icon-helmlight-05" Type="lighthelmet" Critical="2" Price="2200" Tier="5">
+    <Stats Values="6 13 0 13" />
+  </Armors>
+  <Armors HashName="HLI-06" Name="Studded Helm" Desc="ar-cap-06" Icon="icon-helmlight-06" Type="lighthelmet" Price="2000" Tier="5">
+    <Stats Values="0 13 0 16" />
+  </Armors>
+  <Armors HashName="HLI-07" Name="Chain Coif" Desc="ar-cap-07" Icon="icon-helmlight-07" Type="lighthelmet" Price="3200" Tier="6">
+    <Stats Values="0 16 0 18" />
+  </Armors>
+  <Armors HashName="HLI-08" Name="Spidersilk Cap" Desc="ar-cap-08" Icon="icon-helmlight-08" Type="lighthelmet" Speed="3" Evasion="2" Price="4200" Tier="7">
+    <Stats Values="0 19 0 24" />
+  </Armors>
+  <Armors HashName="HLI-09" Name="Black Cowl" Desc="ar-cap-09" Icon="icon-helmlight-09" Type="lighthelmet" Price="6000" Tier="7">
+    <Stats Values="0 19 8 24" />
+  </Armors>
+  <Armors HashName="HLI-10" Name="Arbiter Cap" Desc="ar-cap-10" Icon="icon-helmlight-10" Type="lighthelmet" Speed="5" Evasion="2" Critical="3" Price="8000" Tier="999">
+    <Stats Values="6 24 6 31" />
+  </Armors>
+  <Armors HashName="HLI-11" Name="Ninja Cowl" Desc="ar-cap-11" Icon="icon-helmlight-11" Type="lighthelmet" Speed="3" Evasion="2" Critical="2" Price="8500" Tier="8">
+    <Stats Values="4 21 0 27" />
+  </Armors>
+  <Armors HashName="HLI-12" Name="Flash Cap" Desc="ar-cap-12" Icon="icon-helmlight-12" Type="lighthelmet" Speed="10" Evasion="4" Price="8500" Tier="8">
+    <Stats Values="0 19 0 25" />
+  </Armors>
+  <Armors HashName="HLI-13" Name="Cap of Ages" Desc="ar-cap-13" Icon="icon-helmlight-13" Type="lighthelmet" Speed="8" Evasion="5" Critical="5" PositiveEffectsAdd="kfAtkUp kfMAtkUp kfThorns" Tier="999">
+    <Stats Values="10 12 10 12" />
+  </Armors>
+  <Armors HashName="BHE-00" Name="Bronze Armor" Desc="ar-heavy-00" Icon="icon-armorheavy-00" Type="heavyarmor" Price="250" Tier="1">
+    <Stats Values="0 51 0 4" />
+  </Armors>
+  <Armors HashName="BHE-01" Name="Steel Armor" Desc="ar-heavy-01" Icon="icon-armorheavy-01" Type="heavyarmor" Price="600" Tier="2">
+    <Stats Values="0 55 0 6" />
+  </Armors>
+  <Armors HashName="BHE-02" Name="Silver Armor" Desc="ar-heavy-02" Icon="icon-armorheavy-02" Type="heavyarmor" Price="1400" Tier="3">
+    <Stats Values="0 60 6 6" />
+  </Armors>
+  <Armors HashName="BHE-03" Name="Gold Armor" Desc="ar-heavy-03" Icon="icon-armorheavy-03" Type="heavyarmor" Price="2800" Tier="4">
+    <Stats Values="0 64 0 7" />
+  </Armors>
+  <Armors HashName="BHE-04" Name="Teorite Armor" Desc="ar-heavy-04" Icon="icon-armorheavy-04" Type="heavyarmor" Price="4600" Tier="5">
+    <Stats Values="0 69 0 13" />
+  </Armors>
+  <Armors HashName="BHE-05" Name="Cold Armor" Desc="ar-heavy-05" Icon="icon-armorheavy-05" Type="heavyarmor" Price="6000" Tier="6">
+    <Stats Values="0 73 0 10" />
+    <ElementalResist Values="50 0 0 0 0 0" />
+  </Armors>
+  <Armors HashName="BHE-06" Name="Ancient Armor" Desc="ar-heavy-06" Icon="icon-armorheavy-06" Type="heavyarmor" Price="7300" Tier="6">
+    <Stats Values="0 75 0 10" />
+  </Armors>
+  <Armors HashName="BHE-07" Name="Dragonscale Mail" Desc="ar-heavy-07" Icon="icon-armorheavy-07" Type="heavyarmor" Tier="8">
+    <Stats Values="0 84 0 12" />
+    <ElementalResist Values="0 50 0 50 0 0" />
+  </Armors>
+  <Armors HashName="BHE-08" Name="Dendrite Armor" Desc="ar-heavy-08" Icon="icon-armorheavy-08" Type="heavyarmor" Price="13000" Tier="7">
+    <Stats Values="0 81 0 13" />
+  </Armors>
+  <Armors HashName="BHE-09" Name="Arbiter Armor" Desc="ar-heavy-09" Icon="icon-armorheavy-09" Type="heavyarmor" NegativeEffectsProtect="kfPoison kfBleed" Price="18000" Tier="999">
+    <Stats Values="0 87 0 21" />
+  </Armors>
+  <Armors HashName="BHE-10" Name="Royal Armor" Desc="ar-heavy-10" Icon="icon-armorheavy-10" Type="heavyarmor" Price="20000" Tier="8">
+    <Stats Values="0 84 0 15" />
+  </Armors>
+  <Armors HashName="BHE-11" Name="Valiant Armor" Desc="ar-heavy-11" Icon="icon-armorheavy-11" Type="heavyarmor" Evasion="2" Critical="2" Tier="999">
+    <Stats Values="10 93 0 24" />
+  </Armors>
+  <Armors HashName="BHE-12" Name="Soul Armor" Desc="ar-heavy-12" Icon="icon-armorheavy-12" Type="heavyarmor" Speed="2" Evasion="1" Critical="1" Tier="1000">
+    <Stats Values="2 67 2 12" />
+    <ElementalResist Values="0 0 0 0 0 -25" />
+  </Armors>
+  <Armors HashName="BHE-13" Name="Old Armor" Desc="ar-heavy-13" Icon="icon-armorheavy-13" Type="heavyarmor" Tier="1000">
+    <Stats Values="0 54 0 6" />
+  </Armors>
+  <Armors HashName="BHE-14" Name="Old Armor" Desc="ar-heavy-14" Icon="icon-armorheavy-13" Type="heavyarmor" Tier="1000">
+    <Stats Values="0 75 0 15" />
+    <ElementalResist Values="0 0 50 0 0 0" />
+  </Armors>
+  <Armors HashName="HHE-00" Name="Bronze Helm" Desc="ar-helm-00" Icon="icon-helmheavy-00" Type="heavyhelmet" Price="175" Tier="1">
+    <Stats Values="0 7 0 3" />
+  </Armors>
+  <Armors HashName="HHE-01" Name="Steel Helm" Desc="ar-helm-01" Icon="icon-helmheavy-01" Type="heavyhelmet" Price="400" Tier="2">
+    <Stats Values="0 12 0 4" />
+  </Armors>
+  <Armors HashName="HHE-02" Name="Silver Helm" Desc="ar-helm-02" Icon="icon-helmheavy-02" Type="heavyhelmet" Price="700" Tier="3">
+    <Stats Values="0 15 6 7" />
+  </Armors>
+  <Armors HashName="HHE-03" Name="Gold Helm" Desc="ar-helm-03" Icon="icon-helmheavy-03" Type="heavyhelmet" Price="1400" Tier="4">
+    <Stats Values="0 16 0 10" />
+  </Armors>
+  <Armors HashName="HHE-04" Name="Teorite Helm" Desc="ar-helm-04" Icon="icon-helmheavy-04" Type="heavyhelmet" Price="2800" Tier="5">
+    <Stats Values="0 21 0 15" />
+  </Armors>
+  <Armors HashName="HHE-05" Name="Malcubus Helm" Desc="ar-helm-05" Icon="icon-helmheavy-05" Type="heavyhelmet" NegativeEffectsProtect="kfCharm" Tier="7">
+    <Stats Values="0 25 0 15" />
+  </Armors>
+  <Armors HashName="HHE-06" Name="Morion" Desc="ar-helm-06" Icon="icon-helmheavy-06" Type="heavyhelmet" Price="4500" Tier="6">
+    <Stats Values="0 27 0 13" />
+  </Armors>
+  <Armors HashName="HHE-07" Name="Dendrite Helm" Desc="ar-helm-07" Icon="icon-helmheavy-07" Type="heavyhelmet" Price="6500" Tier="7">
+    <Stats Values="0 30 0 16" />
+  </Armors>
+  <Armors HashName="HHE-08" Name="Arbiter Helm" Desc="ar-helm-08" Icon="icon-helmheavy-08" Type="heavyhelmet" NegativeEffectsProtect="kfStats" Price="8000" Tier="999">
+    <Stats Values="0 37 0 19" />
+  </Armors>
+  <Armors HashName="HHE-09" Name="Royal Helm" Desc="ar-helm-09" Icon="icon-helmheavy-09" Type="heavyhelmet" Price="9000" Tier="8">
+    <Stats Values="0 34 0 18" />
+  </Armors>
+  <Armors HashName="HHE-10" Name="Valiant Helm" Desc="ar-helm-10" Icon="icon-helmheavy-10" Type="heavyhelmet" Critical="5" Tier="999">
+    <Stats Values="10 36 0 19" />
+  </Armors>
+  <Armors HashName="SHI-00" Name="Buckler" Desc="ar-shield-00" Icon="icon-shield-00" Type="shield" Evasion="5" Price="350" Tier="1" WeaponSprite="Hu-Ma-Fe-Shield@Shield00">
+    <Stats Values="0 3 0 3" />
+  </Armors>
+  <Armors HashName="SHI-01" Name="Bronze Shield" Desc="ar-shield-01" Icon="icon-shield-01" Type="shield" Evasion="6" Price="700" Tier="2" WeaponSprite="Hu-Ma-Fe-Shield@Shield01">
+    <Stats Values="0 4 0 4" />
+  </Armors>
+  <Armors HashName="SHI-02" Name="Steel Shield" Desc="ar-shield-02" Icon="icon-shield-02" Type="shield" Evasion="7" Price="1350" Tier="3" WeaponSprite="Hu-Ma-Fe-Shield@Shield02">
+    <Stats Values="0 9 0 9" />
+  </Armors>
+  <Armors HashName="SHI-03" Name="Gold Shield" Desc="ar-shield-03" Icon="icon-shield-03" Type="shield" Evasion="9" Price="2200" Tier="4" WeaponSprite="Hu-Ma-Fe-Shield@Shield03">
+    <Stats Values="0 7 0 13" />
+  </Armors>
+  <Armors HashName="SHI-04" Name="Water Shield" Desc="ar-shield-04" Icon="icon-shield-05" Type="shield" Evasion="7" Price="9000" Tier="6" WeaponSprite="Hu-Ma-Fe-Shield@Shield05">
+    <Stats Values="0 6 0 12" />
+    <ElementalResist Values="150 0 0 0 0 0" />
+  </Armors>
+  <Armors HashName="SHI-05" Name="Fire Shield" Desc="ar-shield-05" Icon="icon-shield-04" Type="shield" Evasion="7" Price="9000" Tier="6" WeaponSprite="Hu-Ma-Fe-Shield@Shield04">
+    <Stats Values="0 6 0 12" />
+    <ElementalResist Values="0 150 0 0 0 0" />
+  </Armors>
+  <Armors HashName="SHI-06" Name="Earth Shield" Desc="ar-shield-06" Icon="icon-shield-06" Type="shield" Evasion="7" Price="9000" Tier="6" WeaponSprite="Hu-Ma-Fe-Shield@Shield06">
+    <Stats Values="0 6 0 12" />
+    <ElementalResist Values="0 0 150 0 0 0" />
+  </Armors>
+  <Armors HashName="SHI-07" Name="Thunder Shield" Desc="ar-shield-07" Icon="icon-shield-07" Type="shield" Evasion="7" Price="9000" Tier="6" WeaponSprite="Hu-Ma-Fe-Shield@Shield07">
+    <Stats Values="0 6 0 12" />
+    <ElementalResist Values="0 0 0 150 0 0" />
+  </Armors>
+  <Armors HashName="SHI-08" Name="Teorite Shield" Desc="ar-shield-08" Icon="icon-shield-08" Type="shield" Evasion="10" Price="5000" Tier="5" WeaponSprite="Hu-Ma-Fe-Shield@Shield08">
+    <Stats Values="0 16 0 16" />
+  </Armors>
+  <Armors HashName="SHI-09" Name="Aegis Shield" Desc="ar-shield-09" Icon="icon-shield-09" Type="shield" Evasion="2" PositiveEffectsAdd="kfMDefUp" Price="13500" Tier="7" WeaponSprite="Hu-Ma-Fe-Shield@Shield09">
+    <Stats Values="0 9 0 9" />
+  </Armors>
+  <Armors HashName="SHI-10" Name="Arbiter Shield" Desc="ar-shield-10" Icon="icon-shield-10" Type="shield" Evasion="10" NegativeEffectsProtect="kfBlind kfMute kfCripple" Price="14000" Tier="999" WeaponSprite="Hu-Ma-Fe-Shield@Shield10">
+    <Stats Values="10 16 10 16" />
+  </Armors>
+  <Armors HashName="SHI-11" Name="Magic Shield" Desc="ar-shield-11" Icon="icon-shield-11" Type="shield" Evasion="10" Price="15000" Tier="7" WeaponSprite="Hu-Ma-Fe-Shield@Shield11">
+    <Stats Values="0 9 16 16" />
+  </Armors>
+  <Armors HashName="SHI-12" Name="Valiant Shield" Desc="ar-shield-12" Icon="icon-shield-12" Type="shield" Evasion="15" Tier="999" WeaponSprite="Hu-Ma-Fe-Shield@Shield12">
+    <Stats Values="0 6 0 6" />
+  </Armors>
+  <Armors HashName="SHI-13" Name="Behemoth Guard" Desc="ar-shield-13" Icon="icon-shield-13" Type="shield" Evasion="7" Tier="999" WeaponSprite="Hu-Ma-Fe-Shield@Shield13">
+    <Health Values="100 0" />
+    <Stats Values="0 30 0 30" />
+  </Armors>
+  <Armors HashName="SHI-14" Name="Cursed Shield" Desc="ar-shield-14" Icon="icon-shield-14" Type="shield" Evasion="5" Tier="999" WeaponSprite="Hu-Ma-Fe-Shield@Shield14">
+    <Stats Values="0 18 0 18" />
+    <ElementalResist Values="-50 -50 -50 -50 0 0" />
+  </Armors>
+  <Armors HashName="SHI-15" Name="Shield of the Six" Desc="ar-shield-15" Icon="icon-shield-15" Type="shield" Evasion="12" Tier="999" WeaponSprite="Hu-Ma-Fe-Shield@Shield15">
+    <Stats Values="0 18 0 18" />
+    <ElementalResist Values="100 100 100 100 0 0" />
+  </Armors>
+</XMLArmors>

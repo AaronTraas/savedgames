@@ -1,0 +1,43 @@
+-- Adding a new language to Fell Seal, or modifying an existing one. --
+
+You can easily add your own new language to Fell Seal, or modify existing language files.
+
+
+- Adding a new language
+To add a new language, simply add a new 2 letters folder name that represents your language (we recommend you use the international 2 letters language codes) in the language override folder ("My Documents\Fell Seal\customdata\languages" on Windows and "~/Fell Seal/customdata/languages" on Mac/Linux). eg: "bo".
+
+Then, to make it easy, grab all the files from the Fell Seal English language folder ("My Documents\Fell Seal\customdata_examples\languages\en" for windows, "~/Fell Seal/customdata_examples/languages\en" for Mac/Linux) and copy them in your new folder.
+With this, you have just created a new language called "bo" and setup all the necessary language strings for it (although they are in english currently).
+
+From there, just open all the language files in the folder 1 by 1 and translate their contents. There's 2 types of files:
+.txt files, which is most of them. They use a very simple system of "ini files", like so:
+
+special-value=Some text you should be translating.
+
+Just translate the text part and leave the "special-value" alone.
+
+The other type is an .xml file for the dialogues. It's a standard XML file really. You'll want to translate all the field labeled <t> and leave everything else alone.
+
+
+- Modifying a current language
+To modify a language, the concept is the same as above, except you don't necessarily have to include as much text. All the .txt file use an incremental system, so you don't have to copy all the old files.
+Just modify the files you need to modify. Even then, you only need update a specific line rather than the whole file. eg:
+
+If you wanted to change the name of a specific armor as your only change, the simplest would be to create a file called "armors.txt" (the name of the armors file) and then add to it your lone change, like so for example:
+
+ar-cloth-02=Not-Silky Robe
+
+That file would have only this one line and would change only that item (the Silk Robe) to a new name (Not-Silk Robe). Or you could add as many changes as you need, like so:
+
+ar-cloth-02=Not-Silk Robe
+ar-cloth-02-desc=Some other Desc
+ar-cloth-03=Not-Flowing Robe
+
+
+Which would change 2 armors names and one description.
+That's all there is to it really. After making changes, you'll have to restart the game to pick them up (or change your language back and forth in game to force a reload).
+
+
+Same concept with the dialogues.xml file: you only need to have the entries you're changing in your XML file.
+
+The main advantage of keeping your changes as small as possible is that when the game gets an update/patch/etc, you won't be inadvertently overriding a new text/dialogue with an old one because you had it in your file, but weren't really changing it.

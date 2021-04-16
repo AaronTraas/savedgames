@@ -1,0 +1,18 @@
+item-healing=Stellt {power} {hp} bei einem Ziel wieder her.
+item-negative=Verursacht {addnegative} beim Ziel.
+item-potion=Trank
+item-potions=Tränke
+item-heavypotion=Starker {item-potion}
+item-fullpotion=Voller {item-potion}
+item-raisepotion=Phoenixasche
+item-raisepotion-desc=Belebt einen gefallenen Verbündeten mit {percent} {hp} wieder.
+item-acidbomb=Ätzende Bombe
+item-mindnumber=Giftbombe
+item-manastone=Manastein
+item-manastone-desc=Stellt {power} {mp} bei einem Ziel wieder her.
+item-rock=Stein
+item-rocks=Steine
+item-rock-desc=Verursacht {power} Schaden bei einem Ziel.
+item-remedy=Heilmittel
+item-remedys=Heilmittel
+

@@ -1,0 +1,6 @@
+miss-bandit-male-nickname=Lebrice Sortudo
+miss-super-female-recruit=A Celestial
+hunt-monster-bulldrake=Zelk Mestre da Praia
+hunt-monster-raife=Fragmento de Raife
+hunt-monster-thunder-pektite=Merengue
+

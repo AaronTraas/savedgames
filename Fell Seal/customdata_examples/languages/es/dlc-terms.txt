@@ -1,0 +1,13 @@
+company-points-long=Puntos de Influencia
+company-points=PI
+mission=Misión
+missions=Misiones
+experience-points=Puntos de Experiencia
+variant=Variante
+variants=Variantes
+upgrade=Mejora
+upgrades=Mejoras
+gpandip={currency} y {ip}
+pet-effect=Efecto de mascota
+pet-effects=Efectos de mascota
+

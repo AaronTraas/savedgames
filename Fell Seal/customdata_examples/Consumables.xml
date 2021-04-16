@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLConsumables>
+  <Consumables HashName="POTION" Name="Potion" Desc="item-POTION" Icon="icon-potion-healing-light" power="45 75 100" usage="2 3 3" isAHeal="true" range="1" minRange="0" height="2.5" />
+  <Consumables HashName="HEAVYPOTION" Name="Heavy Potion" Desc="item-HEAVYPOTION" Icon="icon-potion-healing-medium" power="0 150 300" usage="0 1 1" isAHeal="true" range="1" minRange="0" height="3" />
+  <Consumables HashName="FULLPOTION" Name="Full Potion" Desc="item-FULLPOTION" Icon="icon-potion-healing-full" power="0 500 999" usage="0 1 1" isAHeal="true" range="1" minRange="0" height="3.5" />
+  <Consumables HashName="RAISEPOTION" Name="Phoenix Ashes" Desc="item-RAISEPOTION" Icon="icon-potion-revive" power="0.15 0.2 0.4" usage="1 2 2" isAHeal="true" isARevive="true" range="1" minRange="1" height="2.5" />
+  <Consumables HashName="ACIDBOMB" Name="Corrosive Bomb" Desc="item-ACIDBOMB" Icon="icon-bomb-acid" power="0 0 0" usage="0 1 3" giveNegative="kfDefDown" range="3" minRange="1" height="4" />
+  <Consumables HashName="MINDNUMBER" Name="Noxious Bomb" Desc="item-MINDNUMBER" Icon="icon-potion-bomb-mindnumbing" power="0 0 0" usage="0 1 3" giveNegative="kfMDefDown" range="3" minRange="1" height="4" />
+  <Consumables HashName="MANASTONE" Name="Mana Stone" Desc="item-MANASTONE" Icon="icon-manastone" power="0 10 20" usage="0 1 1" isAHeal="true" targetsMp="true" range="1" minRange="0" height="2.5" />
+  <Consumables HashName="ROCK" Name="Rock" Desc="item-ROCK" Icon="icon-rock" power="25 40 50" usage="1 2 2" range="3" minRange="1" height="4" />
+  <Consumables HashName="REMEDY" Name="Remedy" Desc="item-REMEDY" Icon="icon-potion-remedy" power="0 0 0" usage="1 2 3" isAHeal="true" removeNegative="kfAll" range="1" minRange="0" height="2.5" />
+</XMLConsumables>

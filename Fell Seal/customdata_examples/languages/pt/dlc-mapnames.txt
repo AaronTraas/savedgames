@@ -1,0 +1,12 @@
+mapname-arena02=Arena Real de Batalha
+mapname-arena02-desc=As multidões vêm de muito longe para assistir às várias lutas que acontecem aqui.
+mapname-coastal02-desc=Um paraíso sem leis para piratas e bandidos, o {mapname-coastal02} é sem sombra de dúvidas um refúgio contra os mares tempestuosos que o cercam.
+mapname-coastal01-desc=Uma pequena aldeia em ruínas no interior. O povo honesto daqui sempre recebe a visita de um mediador de braços abertos. Já o povo desonesto, nem tanto.
+mapname-graveyard02=Túmulo Perdido
+mapname-graveyard02-desc=Esse local remoto, bem dentro do interior, é o lar de um túmulo solitário.
+mapname-lab01=Sala de Estudos de {name-kawa-evil}
+mapname-lab01-desc=Esse museu abandonado se tornou uma sala de estudos de um mago. Uma névoa de magias profanas flutua pelo ar, resultado dos terríveis experimentos que já aconteceram aqui.
+mapname-sewer01=Profundezas de Dumadi
+mapname-sewer01-desc=Olhos atentos e famintos brilham nas sombras desses túneis úmidos de esgoto.
+mapname-shop01=Empório de {name-kawamerchant}
+

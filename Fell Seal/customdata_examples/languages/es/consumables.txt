@@ -1,0 +1,18 @@
+item-healing=Restaura {power} {hp} a un solo objetivo
+item-negative=Inflige {addnegative} al objetivo.
+item-potion=Poción
+item-potions=Pociones
+item-heavypotion={item-potion} pesada
+item-fullpotion={item-potion} máxima
+item-raisepotion=Cenizas de fénix
+item-raisepotion-desc=Revive a un aliado caído con un {percent} {hp}.
+item-acidbomb=Bomba corrosiva
+item-mindnumber=Bomba nociva
+item-manastone=Piedra de maná
+item-manastone-desc=Restaura {power} {mp} a un solo objetivo.
+item-rock=Roca
+item-rocks=Rocas
+item-rock-desc=Causa {power} de daño a un solo objetivo.
+item-remedy=Remedio
+item-remedys=Remedios
+

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLCrafting>
+  <Ingredients HashName="ing-00" Name="Snakebite Oil" Desc="ing-00" Icon="icon-component-00" IngIndex="0" />
+  <Ingredients HashName="ing-01" Name="Shellac Powder" Desc="ing-01" Icon="icon-component-01" IngIndex="1" />
+  <Ingredients HashName="ing-02" Name="Ammoniac Gum" Desc="ing-02" Icon="icon-component-02" IngIndex="2" />
+  <Ingredients HashName="ing-03" Name="Catalyst" Desc="ing-03" Icon="icon-component-03" IngIndex="3" />
+  <Ingredients HashName="ing-04" Name="Cobbleweed Pod" Desc="ing-04" Icon="icon-component-04" IngIndex="4" />
+  <Ingredients HashName="ing-05" Name="Distilled Water" Desc="ing-05" Icon="icon-component-05" IngIndex="5" />
+  <Ingredients HashName="ing-06" Name="Aloe Leaf" Desc="ing-06" Icon="icon-component-06" IngIndex="6" />
+  <Ingredients HashName="ing-07" Name="Mycoleather" Desc="ing-07" Icon="icon-component-07" IngIndex="7" />
+  <Ingredients HashName="ing-08" Name="Jammy Fruit" Desc="ing-08" Icon="icon-component-08" IngIndex="8" />
+  <Ingredients HashName="ing-09" Name="Sinewdle Fruit" Desc="ing-09" Icon="icon-component-09" IngIndex="9" />
+  <Ingredients HashName="ing-10" Name="Meteorite" Desc="ing-10" Icon="icon-component-10" IngIndex="10" />
+  <Ingredients HashName="ing-11" Name="Dragonsblood Sap" Desc="ing-11" Icon="icon-component-11" IngIndex="11" />
+  <Ingredients HashName="ing-12" Name="Energized Crystal" Desc="ing-12" Icon="icon-component-12" IngIndex="12" />
+  <Ingredients HashName="ing-13" Name="Angel Tears" Desc="ing-13" Icon="icon-component-13" IngIndex="13" />
+  <Ingredients HashName="ing-14" Name="Dormant Crystal" Desc="ing-14" Icon="icon-component-14" IngIndex="14" />
+  <Ingredients HashName="ing-15" Name="Coronal Plume" Desc="ing-15" Icon="icon-component-15" IngIndex="15" />
+  <Ingredients HashName="ing-16" Name="Cold Iron" Desc="ing-16" Icon="icon-component-16" IngIndex="16" />
+  <Ingredients HashName="ing-17" Name="Dark Core" Desc="ing-17" Icon="icon-component-17" IngIndex="17" />
+  <Ingredients HashName="ing-18" Name="Quality Thread" Desc="ing-18" Icon="icon-component-18" IngIndex="18" />
+  <Ingredients HashName="ing-19" Name="Adamant Ingot" Desc="ing-19" Icon="icon-component-19" IngIndex="19" />
+  <Ingredients HashName="ing-20" Name="Aegisite Ingot" Desc="ing-20" Icon="icon-component-20" IngIndex="20" />
+  <Ingredients HashName="ing-21" Name="Demon Leather" Desc="ing-21" Icon="icon-component-21" IngIndex="21" />
+  <Ingredients HashName="ing-22" Name="Platinum Thread" Desc="ing-22" Icon="icon-component-22" IngIndex="22" />
+  <Ingredients HashName="ing-23" Name="Mythical Leather" Desc="ing-23" Icon="icon-component-23" IngIndex="23" />
+  <Ingredients HashName="ing-24" Name="Diamond Thread" Desc="ing-24" Icon="icon-component-24" IngIndex="24" />
+  <Ingredients HashName="ing-25" Name="Gold Thread" Desc="ing-25" Icon="icon-component-25" IngIndex="25" />
+  <Ingredients HashName="ing-26" Name="Godwood" Desc="ing-26" Icon="icon-component-26" IngIndex="26" />
+  <Ingredients HashName="ing-27" Name="Tarnished Locket" Desc="ing-27" Icon="icon-component-27" IngIndex="27" />
+  <Recipes ItemHash="POTION" Type="kItem" Ing0="3" Count0="1" Ing1="2" Count1="2" ItemTier="1" />
+  <Recipes ItemHash="POTION" Type="kItem" Ing0="5" Count0="2" Ing1="7" Count1="1" ItemTier="2" />
+  <Recipes ItemHash="HEAVYPOTION" Type="kItem" Ing0="8" Count0="1" Ing1="2" Count1="2" ItemTier="1" />
+  <Recipes ItemHash="HEAVYPOTION" Type="kItem" Ing0="12" Count0="1" Ing1="5" Count1="2" ItemTier="2" />
+  <Recipes ItemHash="FULLPOTION" Type="kItem" Ing0="13" Count0="2" Ing1="11" Count1="1" ItemTier="1" />
+  <Recipes ItemHash="FULLPOTION" Type="kItem" Ing0="17" Count0="1" Ing1="8" Count1="1" ItemTier="2" />
+  <Recipes ItemHash="RAISEPOTION" Type="kItem" Ing0="6" Count0="3" Ing1="3" Count1="1" ItemTier="1" />
+  <Recipes ItemHash="RAISEPOTION" Type="kItem" Ing0="12" Count0="2" Ing1="5" Count1="1" ItemTier="2" />
+  <Recipes ItemHash="ACIDBOMB" Type="kItem" Ing0="3" Count0="2" Ing1="0" Count1="1" ItemTier="1" />
+  <Recipes ItemHash="ACIDBOMB" Type="kItem" Ing0="8" Count0="2" Ing1="0" Count1="2" ItemTier="2" />
+  <Recipes ItemHash="MINDNUMBER" Type="kItem" Ing0="3" Count0="2" Ing1="1" Count1="1" ItemTier="1" />
+  <Recipes ItemHash="MINDNUMBER" Type="kItem" Ing0="8" Count0="2" Ing1="1" Count1="2" ItemTier="2" />
+  <Recipes ItemHash="MANASTONE" Type="kItem" Ing0="11" Count0="1" Ing1="6" Count1="1" ItemTier="1" />
+  <Recipes ItemHash="MANASTONE" Type="kItem" Ing0="14" Count0="1" Ing1="24" Count1="1" ItemTier="2" />
+  <Recipes ItemHash="ROCK" Type="kItem" Ing0="4" Count0="3" Ing1="1" Count1="1" ItemTier="1" />
+  <Recipes ItemHash="ROCK" Type="kItem" Ing0="10" Count0="1" Ing1="8" Count1="2" ItemTier="2" />
+  <Recipes ItemHash="REMEDY" Type="kItem" Ing0="6" Count0="2" Ing1="4" Count1="1" ItemTier="1" />
+  <Recipes ItemHash="REMEDY" Type="kItem" Ing0="11" Count0="1" Ing1="8" Count1="1" ItemTier="2" />
+  <Recipes ItemHash="ABO-00" Type="kGear" Ing0="9" Count0="1" Ing1="0" Count1="2" />
+  <Recipes ItemHash="ABO-01" Type="kGear" Ing0="9" Count0="1" Ing1="3" Count1="2" />
+  <Recipes ItemHash="ABO-09" Type="kGear" Ing0="9" Count0="1" Ing1="1" Count1="2" />
+  <Recipes ItemHash="ABO-02" Type="kGear" Ing0="9" Count0="2" Ing1="6" Count1="1" />
+  <Recipes ItemHash="ABO-03" Type="kGear" Ing0="7" Count0="1" Ing1="6" Count1="2" />
+  <Recipes ItemHash="ABO-06" Type="kGear" Ing0="24" Count0="1" Ing1="7" Count1="1" />
+  <Recipes ItemHash="ABO-04" Type="kGear" Ing0="7" Count0="2" Ing1="13" Count1="1" />
+  <Recipes ItemHash="ABO-08" Type="kGear" Ing0="22" Count0="1" Ing1="12" Count1="1" />
+  <Recipes ItemHash="AGL-11" Type="kGear" Ing0="9" Count0="2" Ing1="4" Count1="1" />
+  <Recipes ItemHash="AGL-06" Type="kGear" Ing0="16" Count0="1" Ing1="9" Count1="1" />
+  <Recipes ItemHash="AGL-07" Type="kGear" Ing0="23" Count0="1" Ing1="10" Count1="2" />
+  <Recipes ItemHash="AGL-08" Type="kGear" Ing0="23" Count0="1" Ing1="18" Count1="1" />
+  <Recipes ItemHash="ARI-07" Type="kGear" Ing0="22" Count0="1" Ing1="13" Count1="2" />
+  <Recipes ItemHash="ARI-05" Type="kGear" Ing0="22" Count0="1" Ing1="11" Count1="1" />
+  <Recipes ItemHash="ARI-08" Type="kGear" Ing0="25" Count0="1" Ing1="12" Count1="2" />
+  <Recipes ItemHash="ARI-09" Type="kGear" Ing0="25" Count0="1" Ing1="10" Count1="2" />
+  <Recipes ItemHash="ARI-10" Type="kGear" Ing0="25" Count0="1" Ing1="14" Count1="1" />
+  <Recipes ItemHash="ARI-11" Type="kGear" Ing0="25" Count0="1" Ing1="16" Count1="2" />
+  <Recipes ItemHash="ARI-12" Type="kGear" Ing0="25" Count0="1" Ing1="11" Count1="2" />
+  <Recipes ItemHash="ARI-16" Type="kGear" Ing0="27" Count0="1" Ing1="11" Count1="1" />
+  <Recipes ItemHash="BCL-08" Type="kGear" Ing0="18" Count0="1" Ing1="6" Count1="2" />
+  <Recipes ItemHash="BCL-09" Type="kGear" Ing0="18" Count0="1" Ing1="11" Count1="1" />
+  <Recipes ItemHash="BLI-06" Type="kGear" Ing0="16" Count0="1" Ing1="9" Count1="2" />
+  <Recipes ItemHash="BHE-05" Type="kGear" Ing0="16" Count0="1" Ing1="8" Count1="2" />
+  <Recipes ItemHash="BHE-09" Type="kGear" Ing0="21" Count0="1" Ing1="16" Count1="2" />
+  <Recipes ItemHash="BLI-10" Type="kGear" Ing0="21" Count0="1" Ing1="18" Count1="2" />
+  <Recipes ItemHash="HLI-10" Type="kGear" Ing0="21" Count0="1" Ing1="0" Count1="2" />
+  <Recipes ItemHash="HHE-08" Type="kGear" Ing0="21" Count0="1" Ing1="6" Count1="2" />
+  <Recipes ItemHash="SHI-10" Type="kGear" Ing0="20" Count0="2" Ing1="21" Count1="1" />
+  <Recipes ItemHash="SHI-05" Type="kGear" Ing0="20" Count0="1" Ing1="1" Count1="2" />
+  <Recipes ItemHash="SHI-04" Type="kGear" Ing0="20" Count0="1" Ing1="0" Count1="2" />
+  <Recipes ItemHash="SHI-06" Type="kGear" Ing0="20" Count0="1" Ing1="2" Count1="2" />
+  <Recipes ItemHash="SHI-07" Type="kGear" Ing0="20" Count0="1" Ing1="4" Count1="2" />
+  <Recipes ItemHash="AXE-05" Type="kGear" Ing0="16" Count0="1" Ing1="7" Count1="1" />
+  <Recipes ItemHash="SWD-15" Type="kGear" Ing0="19" Count0="1" Ing1="10" Count1="1" />
+  <Recipes ItemHash="DAG-06" Type="kGear" Ing0="18" Count0="2" Ing1="1" Count1="2" />
+  <Recipes ItemHash="AXE-10" Type="kGear" Ing0="19" Count0="1" Ing1="16" Count1="2" />
+  <Recipes ItemHash="RAP-08" Type="kGear" Ing0="19" Count0="1" Ing1="13" Count1="1" />
+  <Recipes ItemHash="BOW-09" Type="kGear" Ing0="26" Count0="1" Ing1="0" Count1="3" />
+  <Recipes ItemHash="ROD-16" Type="kGear" Ing0="26" Count0="1" Ing1="12" Count1="2" />
+  <Recipes ItemHash="STF-10" Type="kGear" Ing0="26" Count0="1" Ing1="13" Count1="2" />
+  <Recipes ItemHash="GADG-A11" Type="kGadget" Ing0="2" Count0="1" Ing1="0" Count1="2" />
+  <Recipes ItemHash="GADG-A10" Type="kGadget" Ing0="2" Count0="3" Ing1="1" Count1="2" />
+  <Recipes ItemHash="GADG-A12" Type="kGadget" Ing0="5" Count0="2" Ing1="1" Count1="1" />
+  <Recipes ItemHash="GADG-A14" Type="kGadget" Ing0="8" Count0="1" Ing1="0" Count1="2" />
+  <Recipes ItemHash="GADG-A3" Type="kGadget" Ing0="4" Count0="1" Ing1="1" Count1="2" />
+  <Recipes ItemHash="GADG-A8" Type="kGadget" Ing0="16" Count0="1" Ing1="11" Count1="1" />
+  <Recipes ItemHash="GADG-A13" Type="kGadget" Ing0="10" Count0="2" Ing1="9" Count1="1" />
+  <Recipes ItemHash="GADG-A6" Type="kGadget" Ing0="11" Count0="2" Ing1="6" Count1="1" />
+  <Recipes ItemHash="GADG-A9" Type="kGadget" Ing0="7" Count0="2" Ing1="3" Count1="2" />
+  <Recipes ItemHash="GADG-A15" Type="kGadget" Ing0="8" Count0="2" Ing1="6" Count1="1" />
+  <Recipes ItemHash="GADG-A2" Type="kGadget" Ing0="16" Count0="1" Ing1="10" Count1="1" />
+  <Recipes ItemHash="GADG-A5" Type="kGadget" Ing0="16" Count0="2" Ing1="2" Count1="2" />
+  <Recipes ItemHash="GADG-A4" Type="kGadget" Ing0="12" Count0="2" Ing1="7" Count1="1" />
+  <Recipes ItemHash="GADG-A7" Type="kGadget" Ing0="14" Count0="1" Ing1="7" Count1="1" />
+  <Recipes ItemHash="BADG-03" Type="kSpecial" Ing0="12" Count0="1" Ing1="7" Count1="1" />
+  <Recipes ItemHash="BADG-04" Type="kSpecial" Ing0="14" Count0="1" Ing1="11" Count1="2" />
+  <Recipes ItemHash="BADG-05" Type="kSpecial" Ing0="17" Count0="1" Ing1="16" Count1="1" />
+  <Recipes ItemHash="BADG-00" Type="kSpecial" Ing0="17" Count0="1" Ing1="10" Count1="1" />
+  <Recipes ItemHash="BADG-01" Type="kSpecial" Ing0="15" Count0="1" Ing1="12" Count1="1" />
+  <Recipes ItemHash="BADG-02" Type="kSpecial" Ing0="15" Count0="1" Ing1="13" Count1="1" />
+  <Badges HashName="BADG-00" Name="Badge 0" Desc="BADG-00" Icon="icon-badge-vessel" Class="SMED" />
+  <Badges HashName="BADG-01" Name="Badge 1" Desc="BADG-01" Icon="icon-badge-lord" Class="LORD" />
+  <Badges HashName="BADG-02" Name="Badge 2" Desc="BADG-02" Icon="icon-badge-princess" Class="PRIN" />
+  <Badges HashName="BADG-03" Name="Badge 3" Desc="BADG-03" Icon="icon-badge-werewolf" Class="WERE" />
+  <Badges HashName="BADG-04" Name="Badge 4" Desc="BADG-04" Icon="icon-badge-vampire" Class="VAMP" />
+  <Badges HashName="BADG-05" Name="Badge 5" Desc="BADG-05" Icon="icon-badge-lich" Class="LICH" />
+  <Gadgets HashName="GADG-A1" Name="Springger" Desc="GADG-A1" Icon="icon-gadget-01" GadgetIndex="0" />
+  <Gadgets HashName="GADG-A2" Name="Impalotron" Desc="GADG-A2" Icon="icon-gadget-02" GadgetIndex="1" />
+  <Gadgets HashName="GADG-A3" Name="Harmonizer" Desc="GADG-A3" Icon="icon-gadget-03" GadgetIndex="2" />
+  <Gadgets HashName="GADG-A4" Name="Shockerotron" Desc="GADG-A4" Icon="icon-gadget-04" GadgetIndex="3" />
+  <Gadgets HashName="GADG-A5" Name="Speed Generator" Desc="GADG-A5" Icon="icon-gadget-05" GadgetIndex="4" />
+  <Gadgets HashName="GADG-A6" Name="Demoralizer" Desc="GADG-A6" Icon="icon-gadget-06" GadgetIndex="5" />
+  <Gadgets HashName="GADG-A7" Name="Energizer" Desc="GADG-A7" Icon="icon-gadget-07" GadgetIndex="6" />
+  <Gadgets HashName="GADG-A8" Name="Surpriser-Plus" Desc="GADG-A8" Icon="icon-gadget-08" GadgetIndex="7" />
+  <Gadgets HashName="GADG-A9" Name="Molecular Infuser" Desc="GADG-A9" Icon="icon-gadget-09" GadgetIndex="8" />
+  <Gadgets HashName="GADG-A10" Name="Reflectotron" Desc="GADG-A10" Icon="icon-gadget-10" GadgetIndex="9" />
+  <Gadgets HashName="GADG-A11" Name="Absorber-Plus" Desc="GADG-A11" Icon="icon-gadget-11" GadgetIndex="10" />
+  <Gadgets HashName="GADG-A12" Name="Electroconstrictor" Desc="GADG-A12" Icon="icon-gadget-12" GadgetIndex="11" />
+  <Gadgets HashName="GADG-A13" Name="Demolecularizer" Desc="GADG-A13" Icon="icon-gadget-13" GadgetIndex="12" />
+  <Gadgets HashName="GADG-A14" Name="Dispelotron" Desc="GADG-A14" Icon="icon-gadget-14" GadgetIndex="13" />
+  <Gadgets HashName="GADG-A15" Name="Healbot-3000" Desc="GADG-A15" Icon="icon-gadget-15" GadgetIndex="14" />
+</XMLCrafting>

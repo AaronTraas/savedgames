@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLMonsters>
+  <Monsters HashName="BOL-01" Img="bzzerkaa" Portrait="portrait-monster-bzzerk1" Immunities="kfRoot" WpSfx="FS_FX_212_v01" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_213_v02" TameChance="70">
+    <ElemsRes data="-50,0,0,50,0,0" />
+  </Monsters>
+  <Monsters HashName="BOL-99" Img="" Portrait="" Immunities="kfRoot" UseItem="true" WpSfx="FS_FX_234_v01" WpDelay="0.35" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_242_v04" CanTame="false" IsBzil="true" Tier="0">
+    <ElemsRes data="-50,0,0,50,0,0" />
+  </Monsters>
+  <Monsters HashName="BOL-02" Img="bzzerkab" Portrait="portrait-monster-bzzerk2" Immunities="kfRoot" WpSfx="FS_FX_212_v01" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_213_v02" TameChance="70" Tier="2">
+    <ElemsRes data="-50,0,25,50,0,0" />
+  </Monsters>
+  <Monsters HashName="BOL-03" Img="bzzerkac" Portrait="portrait-monster-bzzerk3" Immunities="kfRoot" WpSfx="FS_FX_212_v01" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_213_v02" Counter="BOL-03-C1" TameChance="70" Tier="3">
+    <ElemsRes data="-50,0,25,50,0,0" />
+  </Monsters>
+  <Monsters HashName="BLA-01" Img="blardgerAAEyes" Portrait="portrait-monster-blardger1" WpHeight="2.5" Immunities="kfBlind" UseItem="true" WpSfx="FS_FX_214_v01" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_215_v01" TameChance="65">
+    <ExtraImg data="BlardgerAAHairPiece" />
+    <ElemsRes data="50,0,-25,0,0,0" />
+  </Monsters>
+  <Monsters HashName="BLA-99" Img="" Portrait="" WpHeight="2.5" Immunities="kfBlind" UseItem="true" WpSfx="FS_FX_234_v01" WpDelay="0.35" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_242_v04" CanTame="false" IsBzil="true" Tier="0">
+    <ElemsRes data="50,0,-25,0,0,0" />
+  </Monsters>
+  <Monsters HashName="BLA-02" Img="blardgerABEyes" Portrait="portrait-monster-blardger2" WpHeight="2.5" Immunities="kfBlind" UseItem="true" WpSfx="FS_FX_214_v01" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_215_v01" Counter="BLA-02-C1" TameChance="65" Tier="2">
+    <ExtraImg data="BlardgerABHairPiece" />
+    <ElemsRes data="50,0,-25,0,25,0" />
+  </Monsters>
+  <Monsters HashName="BLA-03" Img="blardgerACEyes" Portrait="portrait-monster-blardger3" WpHeight="2.5" Immunities="kfBlind" UseItem="true" WpSfx="FS_FX_214_v01" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_215_v01" Counter="BLA-02-C1" TameChance="70" Tier="3">
+    <ExtraImg data="BlardgerACHairPiece" />
+    <ElemsRes data="50,0,-25,0,25,0" />
+  </Monsters>
+  <Monsters HashName="BUL-01" Img="bulldrake-polaraa" Portrait="portrait-monster-bulldrakePolar" Style="kHybrid" Immunities="kfBerserk" GearFill="kNoSleep" WpSfx="FS_FX_236_v02" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_237_v01" TameChance="70">
+    <ElemsRes data="100,25,0,-75,0,0" />
+  </Monsters>
+  <Monsters HashName="BUL-02" Img="bulldrake-polaraa" Portrait="portrait-monster-bulldrakePolar" Style="kHybrid" Immunities="kfBerserk" GearFill="kNoSleep" WpSfx="FS_FX_236_v02" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_237_v01" Counter="WARM-C1" TameChance="70" Tier="2">
+    <ElemsRes data="100,50,0,-75,0,0" />
+  </Monsters>
+  <Monsters HashName="BUL-03" Img="bulldrake-polaraa" Portrait="portrait-monster-bulldrakePolar" Style="kHybrid" Immunities="kfBerserk" GearFill="kNoSleep" WpSfx="FS_FX_236_v02" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_237_v01" Counter="WARM-C1" TameChance="70" Tier="3">
+    <ElemsRes data="100,50,0,-75,0,0" />
+  </Monsters>
+  <Monsters HashName="BUL-11" Img="bulldrake-fireaa" Portrait="portrait-monster-bulldrakeFire" Style="kHybrid" Immunities="kfBerserk" WpSfx="FS_FX_236_v02" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_237_v01" TameChance="70">
+    <ElemsRes data="-75,100,25,0,0,0" />
+  </Monsters>
+  <Monsters HashName="BUL-12" Img="bulldrake-fireaa" Portrait="portrait-monster-bulldrakeFire" Style="kHybrid" Immunities="kfBerserk" WpSfx="FS_FX_236_v02" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_237_v01" Counter="WARM-C1" TameChance="70" Tier="2">
+    <ElemsRes data="-75,100,50,0,0,0" />
+  </Monsters>
+  <Monsters HashName="BUL-13" Img="bulldrake-fireaa" Portrait="portrait-monster-bulldrakeFire" Style="kHybrid" Immunities="kfBerserk" WpSfx="FS_FX_236_v02" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_237_v01" Counter="WARM-C1" TameChance="70" Tier="3">
+    <ElemsRes data="-75,100,50,0,0,0" />
+  </Monsters>
+  <Monsters HashName="BUL-21" Img="bulldrake-earthaa" Portrait="portrait-monster-bulldrakeEarth" Style="kHybrid" Immunities="kfBerserk" WpSfx="FS_FX_236_v02" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_237_v01" TameChance="70">
+    <ElemsRes data="0,-75,100,25,0,0" />
+  </Monsters>
+  <Monsters HashName="BUL-22" Img="bulldrake-earthaa" Portrait="portrait-monster-bulldrakeEarth" Style="kHybrid" Immunities="kfBerserk" WpSfx="FS_FX_236_v02" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_237_v01" Counter="WARM-C1" TameChance="70" Tier="2">
+    <ElemsRes data="0,-75,100,50,0,0" />
+  </Monsters>
+  <Monsters HashName="BUL-23" Img="bulldrake-earthaa" Portrait="portrait-monster-bulldrakeEarth" Style="kHybrid" Immunities="kfBerserk" WpSfx="FS_FX_236_v02" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_237_v01" Counter="WARM-C1" TameChance="70" Tier="3">
+    <ElemsRes data="0,-75,100,50,0,0" />
+  </Monsters>
+  <Monsters HashName="BUL-31" Img="bulldrake-lightningaa" Portrait="portrait-monster-bulldrakeLightning" Style="kHybrid" Immunities="kfBerserk" WpSfx="FS_FX_236_v02" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_237_v01" TameChance="70">
+    <ElemsRes data="25,0,-75,100,0,0" />
+  </Monsters>
+  <Monsters HashName="BUL-32" Img="bulldrake-lightningaa" Portrait="portrait-monster-bulldrakeLightning" Style="kHybrid" Immunities="kfBerserk" WpSfx="FS_FX_236_v02" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_237_v01" Counter="WARM-C1" TameChance="70" Tier="2">
+    <ElemsRes data="50,0,-75,100,0,0" />
+  </Monsters>
+  <Monsters HashName="BUL-33" Img="bulldrake-lightningaa" Portrait="portrait-monster-bulldrakeLightning" Style="kHybrid" Immunities="kfBerserk" WpSfx="FS_FX_236_v02" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_237_v01" Counter="WARM-C1" TameChance="70" Tier="3">
+    <ElemsRes data="50,0,-75,100,0,0" />
+  </Monsters>
+  <Monsters HashName="BUL-99" Img="" Portrait="" Style="kHybrid" Immunities="kfBerserk" UseItem="true" WpSfx="FS_FX_234_v01" WpDelay="0.35" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_242_v04" CanTame="false" IsBzil="true" Tier="0">
+    <ElemsRes data="25,25,25,25,0,0" />
+  </Monsters>
+  <Monsters HashName="DAO-01" Img="daodrennerAA" Portrait="portrait-monster-daodrenner1" Style="kHybrid" WpHeight="2" WpSfx="FS_FX_003_v03" WpDelay="0.35" WpMissSfx="FS_FX_002_v03" WpMissDelay="0.35" DeathSfx="FS_FX_211_v02" TameChance="75">
+    <ElemsRes data="50,25,-25,0,-75,150" />
+  </Monsters>
+  <Monsters HashName="DAO-99" Img="" Portrait="" Style="kHybrid" WpHeight="2" UseItem="true" WpSfx="FS_FX_234_v01" WpDelay="0.35" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_242_v04" CanTame="false" IsBzil="true" Tier="0">
+    <ElemsRes data="50,25,-25,0,-75,150" />
+  </Monsters>
+  <Monsters HashName="DAO-02" Img="daodrennerAB" Portrait="portrait-monster-daodrenner2" Style="kHealerOrMagic" WpHeight="2" WpSfx="FS_FX_003_v03" WpDelay="0.35" WpMissSfx="FS_FX_002_v03" WpMissDelay="0.35" DeathSfx="FS_FX_211_v02" TameChance="75" Tier="2">
+    <ElemsRes data="50,25,-25,0,-75,150" />
+  </Monsters>
+  <Monsters HashName="DAO-03" Img="daodrennerAC" Portrait="portrait-monster-daodrenner3" Style="kHybrid" WpHeight="2" WpSfx="FS_FX_003_v03" WpDelay="0.35" WpMissSfx="FS_FX_002_v03" WpMissDelay="0.35" DeathSfx="FS_FX_211_v02" Counter="PEDD-C1" TameChance="75" Tier="3">
+    <ElemsRes data="50,25,-25,0,-50,150" />
+  </Monsters>
+  <Monsters HashName="KAW-01" Img="kawaaa" Portrait="portrait-monster-kawa1" UseItem="true" WpSfx="FS_FX_003_v03" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_208_v02" Counter="KAW-01-C1" TameChance="75">
+    <ElemsRes data="-50,0,0,0,50,0" />
+  </Monsters>
+  <Monsters HashName="KAW-99" Img="" Portrait="" UseItem="true" WpSfx="FS_FX_234_v01" WpDelay="0.35" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_242_v04" Counter="KAW-01-C1" CanTame="false" IsBzil="true" Tier="0">
+    <ElemsRes data="-50,0,0,0,50,0" />
+  </Monsters>
+  <Monsters HashName="KAW-02" Img="kawaab" Portrait="portrait-monster-kawa2" UseItem="true" WpSfx="FS_FX_003_v03" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_208_v02" Counter="KAW-01-C1" TameChance="75" Tier="2">
+    <ElemsRes data="-25,0,0,0,50,0" />
+  </Monsters>
+  <Monsters HashName="KAW-03" Img="kawaac" Portrait="portrait-monster-kawa3" UseItem="true" WpSfx="FS_FX_003_v03" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_208_v02" Counter="KAW-01-C1" TameChance="75" Tier="3">
+    <ElemsRes data="-25,0,0,0,50,0" />
+  </Monsters>
+  <Monsters HashName="KAW-21" Img="kawaaa" Portrait="portrait-monster-kawa1SkullHead" Immunities="kfPoison kfBleed kfSleep" WpSfx="FS_FX_003_v03" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_208_v02" Counter="MARK-C1" TameChance="65" ExtraRace="kUndead">
+    <ExtraImg data="KawaAASkullHead" />
+    <ElemsRes data="-25,-50,25,0,200,-50" />
+  </Monsters>
+  <Monsters HashName="KAW-22" Img="kawaab" Portrait="portrait-monster-kawa2SkullHead" Immunities="kfPoison kfBleed kfSleep" WpSfx="FS_FX_003_v03" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_208_v02" Counter="MARK-C1" TameChance="65" ExtraRace="kUndead" Tier="2">
+    <ExtraImg data="KawaABSkullHead" />
+    <ElemsRes data="-25,-50,25,0,200,-50" />
+  </Monsters>
+  <Monsters HashName="KAW-23" Img="kawaac" Portrait="portrait-monster-kawa3SkullHead" Immunities="kfPoison kfBleed kfSleep" WpSfx="FS_FX_003_v03" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_208_v02" Counter="MARK-C1" TameChance="65" ExtraRace="kUndead" Tier="3">
+    <ExtraImg data="KawaACSkullHead" />
+    <ElemsRes data="-25,-25,25,0,200,-25" />
+  </Monsters>
+  <Monsters HashName="KAW-11" Img="kawaAAbackpack" Portrait="portrait-monster-KawaBackpack1" CustomAI="kKawaBandit" Immunities="kfMental" UseItem="true" NoUpgrade="true" WpSfx="FS_FX_003_v03" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_208_v02" Counter="GAMB-C1" CanTame="false" ExtraRace="kBanditKawa" NoVariant="true" Tier="0" NoCopy="true">
+    <ElemsRes data="50,50,50,50,75,25" />
+  </Monsters>
+  <Monsters HashName="MKA-01" Img="kawaABbackpack" Portrait="portrait-monster-kawabackpack2" UseItem="true" NoUpgrade="true" WpSfx="FS_FX_003_v03" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_208_v02" CanTame="false" NoVariant="true" Tier="0" NoCopy="true">
+    <ElemsRes data="0,0,0,0,50,0" />
+  </Monsters>
+  <Monsters HashName="RAK-01" Img="rakkerjakaa" Portrait="portrait-monster-rakkerjak1" WpHeight="1.5" WpSfx="FS_FX_202_v01" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_203_v02" Counter="GAMB-C1" TameChance="65">
+    <ElemsRes data="100,0,0,-50,0,0" />
+  </Monsters>
+  <Monsters HashName="RAK-99" Img="" Portrait="" WpHeight="1.5" UseItem="true" WpSfx="FS_FX_234_v01" WpDelay="0.35" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_242_v04" Counter="GAMB-C1" CanTame="false" IsBzil="true" Tier="0">
+    <ElemsRes data="100,0,0,-50,0,0" />
+  </Monsters>
+  <Monsters HashName="RAK-02" Img="rakkerjakab" Portrait="portrait-monster-rakkerjak2" WpHeight="1.5" WpSfx="FS_FX_202_v01" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_203_v02" Counter="GAMB-C1" TameChance="65" Tier="2">
+    <ElemsRes data="100,0,0,-50,0,0" />
+  </Monsters>
+  <Monsters HashName="RAK-03" Img="rakkerjakac" Portrait="portrait-monster-rakkerjak3" WpHeight="1.5" WpSfx="FS_FX_202_v01" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_203_v02" Counter="GAMB-C1" TameChance="70" Tier="3">
+    <ElemsRes data="100,0,0,-50,0,0" />
+  </Monsters>
+  <Monsters HashName="THE-01" Img="therva" Portrait="portrait-monster-therva1" Style="kHybrid" WpSfx="FS_FX_209_v02" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_210_v01" TameChance="70">
+    <ElemsRes data="-25,25,25,25,-25,25" />
+  </Monsters>
+  <Monsters HashName="THE-99" Img="" Portrait="" Style="kHybrid" UseItem="true" WpSfx="FS_FX_234_v01" WpDelay="0.35" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_242_v04" CanTame="false" IsBzil="true" Tier="0">
+    <ElemsRes data="-25,25,25,25,-25,25" />
+  </Monsters>
+  <Monsters HashName="THE-02" Img="thervaab" Portrait="portrait-monster-therva2" Style="kHybrid" WpSfx="FS_FX_209_v02" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_210_v01" Counter="GADG-C1" TameChance="70" Tier="2">
+    <ElemsRes data="-25,25,25,25,-25,25" />
+  </Monsters>
+  <Monsters HashName="THE-03" Img="thervaac" Portrait="portrait-monster-therva3" Style="kHybrid" WpSfx="FS_FX_209_v02" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_210_v01" Counter="GADG-C1" TameChance="70" Tier="3">
+    <ElemsRes data="-25,25,25,25,-25,25" />
+  </Monsters>
+  <Monsters HashName="VAN-01" Img="vangalaa" Portrait="portrait-monster-vangal1" Immunities="kfBerserk kfCharm" WpSfx="DaggerSmallStab03" WpMissSfx="WhooshDagger04" DeathSfx="DogDeath" Counter="KNIG-C1" TameChance="80">
+    <ElemsRes data="0,-50,0,0,0,0" />
+  </Monsters>
+  <Monsters HashName="VAN-99" Img="" Portrait="" Immunities="kfBerserk kfCharm" UseItem="true" WpSfx="FS_FX_234_v01" WpDelay="0.35" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_242_v04" Counter="KNIG-C1" CanTame="false" IsBzil="true" Tier="0">
+    <ElemsRes data="0,-50,0,0,0,0" />
+  </Monsters>
+  <Monsters HashName="VAN-02" Img="vangalab" Portrait="portrait-monster-vangal2" Immunities="kfBerserk kfCharm" WpSfx="DaggerSmallStab03" WpMissSfx="WhooshDagger04" DeathSfx="DogDeath" AI="kguardianall" Counter="KNIG-C1" TameChance="80" Tier="2">
+    <ElemsRes data="0,-50,0,0,0,0" />
+  </Monsters>
+  <Monsters HashName="VAN-03" Img="vangalac" Portrait="portrait-monster-vangal3" Immunities="kfBerserk kfCharm" WpSfx="DaggerSmallStab03" WpMissSfx="WhooshDagger04" DeathSfx="DogDeath" AI="kguardianall" Counter="KNIG-C1" TameChance="80" Tier="3">
+    <ElemsRes data="0,-50,0,0,0,0" />
+  </Monsters>
+  <Monsters HashName="ZOT-01" Img="zotzitaa" Portrait="portrait-monster-zotzit1" WpRange="4" WpHeight="4" AtkHash="ATK-ZOTZIT" Move1="kfFloat" Immunities="kfBlind kfCripple kfBerserk kfCharm kfAtkDown" NoUpgrade="true" WpSfx="FS_FX_228_v01" WpDelay="0.3" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_229_v01" Counter="ZOT-01-C1" TameChance="65" ExtraRace="kZotzit" Tier="2">
+    <ElemsRes data="0,0,0,0,-50,0" />
+  </Monsters>
+  <Monsters HashName="ZOT-99" Img="" Portrait="" WpRange="4" WpHeight="4" AtkHash="ATK-ZOTZIT" Move1="kfFloat" Immunities="kfBlind kfCripple kfBerserk kfCharm kfAtkDown" UseItem="true" WpSfx="FS_FX_234_v01" WpDelay="0.35" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_242_v04" Counter="ZOT-01-C1" CanTame="false" IsBzil="true" Tier="0">
+    <ElemsRes data="0,0,0,0,-50,0" />
+  </Monsters>
+  <Monsters HashName="ZOT-02" Img="zotzitab" Portrait="portrait-monster-zotzit2" WpRange="4" WpHeight="4" AtkHash="ATK-ZOTZIT" Move1="kfFloat" Immunities="kfBlind kfCripple kfBerserk kfCharm kfAtkDown" NoUpgrade="true" WpSfx="FS_FX_228_v01" WpDelay="0.3" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_229_v01" Counter="ZOT-01-C1" TameChance="65" ExtraRace="kZotzit" Tier="2">
+    <ElemsRes data="0,0,0,0,-50,0" />
+  </Monsters>
+  <Monsters HashName="ZOT-03" Img="zotzitac" Portrait="portrait-monster-zotzit3" WpRange="4" WpHeight="4" AtkHash="ATK-ZOTZIT" Move1="kfFloat" Immunities="kfBlind kfCripple kfBerserk kfCharm kfAtkDown" NoUpgrade="true" WpSfx="FS_FX_228_v01" WpDelay="0.3" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_229_v01" Counter="ZOT-01-C1" TameChance="65" ExtraRace="kZotzit" Tier="3">
+    <ElemsRes data="0,0,0,0,-25,0" />
+  </Monsters>
+  <Monsters HashName="UND-01" Img="zombieaa" Portrait="portrait-monster-cadaver1" Immunities="kfPoison kfBleed kfSleep" WpSfx="FS_FX_216_v02" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_217_v01" CanTame="false" ExtraRace="kUndead" NoVariant="true">
+    <ElemsRes data="0,-50,25,0,150,-75" />
+  </Monsters>
+  <Monsters HashName="UND-99" Img="" Portrait="" Immunities="kfPoison kfBleed kfSleep" UseItem="true" WpSfx="FS_FX_234_v01" WpDelay="0.35" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_242_v04" CanTame="false" IsBzil="true" Tier="0">
+    <ElemsRes data="0,-50,25,0,150,-75" />
+  </Monsters>
+  <Monsters HashName="UND-02" Img="zombieab" Portrait="portrait-monster-cadaver2" Immunities="kfPoison kfBleed kfSleep" WpSfx="FS_FX_216_v02" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_217_v01" Counter="UND-02-C1" CanTame="false" ExtraRace="kUndead" NoVariant="true" Tier="2">
+    <ElemsRes data="0,-50,50,0,150,-75" />
+  </Monsters>
+  <Monsters HashName="UND-03" Img="zombieac" Portrait="portrait-monster-cadaver3" Immunities="kfPoison kfBleed kfSleep" WpSfx="FS_FX_216_v02" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_217_v01" Counter="UND-02-C1" CanTame="false" ExtraRace="kUndead" NoVariant="true" Tier="3">
+    <ElemsRes data="0,-50,50,0,175,-75" />
+  </Monsters>
+  <Monsters HashName="HAR-01" Img="arpiaaaheadless" Portrait="portrait-monster-arpia1" Style="kMagic" WpHeight="1.5" Move2="kfFly" UseItem="true" WpSfx="FS_FX_205_v03" WpDelay="0.15" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_206_v01" TameChance="70">
+    <ExtraImg data="arpiaaahead" />
+    <ElemsRes data="0,0,25,-50,0,0" />
+  </Monsters>
+  <Monsters HashName="HAR-99" Img="" Portrait="" Style="kMagic" WpHeight="1.5" Move2="kfFly" UseItem="true" WpSfx="FS_FX_234_v01" WpDelay="0.35" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_242_v04" CanTame="false" IsBzil="true" Tier="0">
+    <ElemsRes data="0,0,25,-50,0,0" />
+  </Monsters>
+  <Monsters HashName="HAR-02" Img="arpiaabheadless" Portrait="portrait-monster-arpia2" Style="kHybrid" WpHeight="1.5" Move2="kfFly" UseItem="true" WpSfx="FS_FX_205_v03" WpDelay="0.15" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_206_v01" TameChance="70" Tier="2">
+    <ExtraImg data="arpiaabhead" />
+    <ElemsRes data="0,0,50,-50,0,0" />
+  </Monsters>
+  <Monsters HashName="HAR-03" Img="arpiaacheadless" Portrait="portrait-monster-arpia3" Style="kHybrid" WpHeight="1.5" Move2="kfFly" UseItem="true" WpSfx="FS_FX_205_v03" WpDelay="0.15" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_206_v01" Counter="HAR-03-C1" TameChance="70" Tier="3">
+    <ExtraImg data="arpiaachead" />
+    <ElemsRes data="0,0,50,-25,0,0" />
+  </Monsters>
+  <Monsters HashName="HAR-11" Img="arpiaaaheadless" Portrait="portrait-monster-arpia1skull" WpHeight="1.5" Move2="kfFly" Immunities="kfPoison kfBleed kfSleep" WpSfx="FS_FX_205_v03" WpDelay="0.15" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_206_v01" TameChance="65" ExtraRace="kUndead">
+    <ExtraImg data="ArpiaAASkullHead" />
+    <ElemsRes data="0,-50,50,-50,150,-75" />
+  </Monsters>
+  <Monsters HashName="HAR-12" Img="arpiaabheadless" Portrait="portrait-monster-arpia2skull" WpHeight="1.5" Move2="kfFly" Immunities="kfPoison kfBleed kfSleep" WpSfx="FS_FX_205_v03" WpDelay="0.15" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_206_v01" TameChance="65" ExtraRace="kUndead" Tier="2">
+    <ExtraImg data="ArpiaABSkullHead" />
+    <ElemsRes data="0,-50,75,-50,200,-75" />
+  </Monsters>
+  <Monsters HashName="HAR-13" Img="arpiaacheadless" Portrait="portrait-monster-arpia3skull" WpHeight="1.5" Move2="kfFly" Immunities="kfPoison kfBleed kfSleep" WpSfx="FS_FX_205_v03" WpDelay="0.15" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_206_v01" Counter="HAR-03-C1" TameChance="65" ExtraRace="kUndead" Tier="3">
+    <ExtraImg data="ArpiaACSkullHead" />
+    <ElemsRes data="0,-50,75,-25,200,-75" />
+  </Monsters>
+  <Monsters HashName="PEK-01" Img="pektitewater" Portrait="portrait-monster-pektitewater" Style="kMagic" WpHeight="2" WpElement="kWater" Move1="kfFloat" WpSfx="FS_FX_224_v01" WpDelay="0.2" WpMissSfx="FS_FX_244_v01" DeathSfx="FS_FX_225_v02" Counter="DRUI-C1" TameChance="70">
+    <ElemsRes data="150,50,0,-75,0,0" />
+  </Monsters>
+  <Monsters HashName="PEK-02" Img="pektitewater" Portrait="portrait-monster-pektitewater" Style="kMagic" WpHeight="2" WpElement="kWater" Move1="kfFloat" WpSfx="FS_FX_224_v01" WpDelay="0.2" WpMissSfx="FS_FX_244_v01" DeathSfx="FS_FX_225_v02" Counter="DRUI-C1" TameChance="70" Tier="2">
+    <ElemsRes data="150,50,0,-75,0,0" />
+  </Monsters>
+  <Monsters HashName="PEK-03" Img="pektitewater" Portrait="portrait-monster-pektitewater" Style="kMagic" WpHeight="2" WpElement="kWater" Move1="kfFloat" WpSfx="FS_FX_224_v01" WpDelay="0.2" WpMissSfx="FS_FX_244_v01" DeathSfx="FS_FX_225_v02" Counter="DRUI-C1" TameChance="70" Tier="3">
+    <ElemsRes data="150,50,0,-75,0,0" />
+  </Monsters>
+  <Monsters HashName="PEK-11" Img="pektitefire" Portrait="portrait-monster-pektitefire" Style="kMagic" WpHeight="2" WpElement="kFire" Move1="kfFloat" WpSfx="FS_FX_233_v01" WpDelay="0.3" WpMissSfx="FS_FX_244_v01" DeathSfx="FS_FX_225_v02" Counter="DRUI-C1" TameChance="70">
+    <ElemsRes data="-75,150,50,0,0,0" />
+  </Monsters>
+  <Monsters HashName="PEK-12" Img="pektitefire" Portrait="portrait-monster-pektitefire" Style="kMagic" WpHeight="2" WpElement="kFire" Move1="kfFloat" WpSfx="FS_FX_233_v01" WpDelay="0.3" WpMissSfx="FS_FX_244_v01" DeathSfx="FS_FX_225_v02" Counter="DRUI-C1" TameChance="70" Tier="2">
+    <ElemsRes data="-75,150,50,0,0,0" />
+  </Monsters>
+  <Monsters HashName="PEK-13" Img="pektitefire" Portrait="portrait-monster-pektitefire" Style="kMagic" WpHeight="2" WpElement="kFire" Move1="kfFloat" WpSfx="FS_FX_233_v01" WpDelay="0.3" WpMissSfx="FS_FX_244_v01" DeathSfx="FS_FX_225_v02" Counter="DRUI-C1" TameChance="70" Tier="3">
+    <ElemsRes data="-75,150,50,0,0,0" />
+  </Monsters>
+  <Monsters HashName="PEK-21" Img="pektiteearth" Portrait="portrait-monster-pektiteearth" Style="kMagic" WpHeight="2" WpElement="kEarth" Move1="kfFloat" WpSfx="FS_FX_240_v01" WpMissSfx="FS_FX_244_v01" DeathSfx="FS_FX_225_v02" Counter="DRUI-C1" TameChance="70">
+    <ElemsRes data="0,-75,150,50,0,0" />
+  </Monsters>
+  <Monsters HashName="PEK-22" Img="pektiteearth" Portrait="portrait-monster-pektiteearth" Style="kMagic" WpHeight="2" WpElement="kEarth" Move1="kfFloat" WpSfx="FS_FX_240_v01" WpMissSfx="FS_FX_244_v01" DeathSfx="FS_FX_225_v02" Counter="DRUI-C1" TameChance="70" Tier="2">
+    <ElemsRes data="0,-75,150,50,0,0" />
+  </Monsters>
+  <Monsters HashName="PEK-23" Img="pektiteearth" Portrait="portrait-monster-pektiteearth" Style="kMagic" WpHeight="2" WpElement="kEarth" Move1="kfFloat" WpSfx="FS_FX_240_v01" WpMissSfx="FS_FX_244_v01" DeathSfx="FS_FX_225_v02" Counter="DRUI-C1" TameChance="70" Tier="3">
+    <ElemsRes data="0,-75,150,50,0,0" />
+  </Monsters>
+  <Monsters HashName="PEK-31" Img="pektiteLightning" Portrait="portrait-monster-pektiteLightning" Style="kMagic" WpHeight="2" WpElement="kThunder" Move1="kfFloat" WpSfx="FS_FX_223_v01" WpMissSfx="FS_FX_244_v01" DeathSfx="FS_FX_225_v02" Counter="DRUI-C1" TameChance="70">
+    <ElemsRes data="50,0,-75,150,0,0" />
+  </Monsters>
+  <Monsters HashName="PEK-32" Img="pektiteLightning" Portrait="portrait-monster-pektiteLightning" Style="kMagic" WpHeight="2" WpElement="kThunder" Move1="kfFloat" WpSfx="FS_FX_223_v01" WpMissSfx="FS_FX_244_v01" DeathSfx="FS_FX_225_v02" Counter="DRUI-C1" TameChance="70" Tier="2">
+    <ElemsRes data="50,0,-75,150,0,0" />
+  </Monsters>
+  <Monsters HashName="PEK-33" Img="pektiteLightning" Portrait="portrait-monster-pektiteLightning" Style="kMagic" WpHeight="2" WpElement="kThunder" Move1="kfFloat" WpSfx="FS_FX_223_v01" WpMissSfx="FS_FX_244_v01" DeathSfx="FS_FX_225_v02" Counter="DRUI-C1" TameChance="70" Tier="3">
+    <ElemsRes data="50,0,-75,150,0,0" />
+  </Monsters>
+  <Monsters HashName="PEK-99" Img="" Portrait="" Style="kMagic" WpHeight="2" Move1="kfFloat" UseItem="true" WpSfx="FS_FX_234_v01" WpDelay="0.35" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_242_v04" CanTame="false" IsBzil="true" Tier="0">
+    <ElemsRes data="25,25,25,25,-25,0" />
+  </Monsters>
+  <Monsters HashName="DEM-01" Img="TurretAA" Portrait="portrait-monster-turret1" Style="kRange" WpRange="0" WpHeight="0" Flags="kfCantWalk kfOnly1Direction kfNoDisplacement kf2x2 kfNoWalkSpeedChange" CustomAI="kMortarDemon" Immunities="kfCripple kfBerserk kfCharm" NoRaise="true" IsBoss="true" NoUpgrade="true" GearFill="kNoDots" DeathSfx="FS_FX_201_v01" Counter="MARK-C1" CanTame="false" ExtraRace="kDemon" NoVariant="true" Tier="0" NoCopy="true">
+    <ElemsRes data="0,150,-50,50,0,-50" />
+  </Monsters>
+  <Monsters HashName="DEM-02" Img="TurretAB" Portrait="portrait-monster-turret2" Style="kRange" WpRange="0" WpHeight="0" Flags="kfCantWalk kfOnly1Direction kfNoDisplacement kf2x2 kfNoWalkSpeedChange" CustomAI="kMortarDemon" Immunities="kfCripple kfBerserk kfCharm" NoRaise="true" IsBoss="true" NoUpgrade="true" GearFill="kNoDots" DeathSfx="FS_FX_201_v01" Counter="MARK-C1" CanTame="false" ExtraRace="kDemon" NoVariant="true" Tier="0" NoCopy="true">
+    <ElemsRes data="0,50,25,-25,150,-50" />
+  </Monsters>
+  <Monsters HashName="DAA-01" Img="archafflictorAA" Portrait="portrait-monster-archafflictor1" Style="kHybrid" WpHeight="2" Move1="kfFloat" Immunities="kfPoison kfSleep kfBerserk kfSlow" UseItem="true" WeightsTable="viciousdps" WpSfx="FS_FX_102_v02" WpDelay="0" WpMissSfx="FS_FX_103_v02" WpMissDelay="0" DeathSfx="FS_VOX_003B" Counter="DAA-02-C1" CanTame="false" ExtraRace="kDemon">
+    <ElemsRes data="0,50,25,-50,100,-75" />
+  </Monsters>
+  <Monsters HashName="DAA-99" Img="" Portrait="" Style="kHybrid" WpHeight="2" Move1="kfFloat" Immunities="kfPoison kfSleep kfBerserk kfSlow" UseItem="true" WeightsTable="viciousdps" WpSfx="FS_FX_234_v01" WpDelay="0.35" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_242_v04" Counter="DAA-02-C1" CanTame="false" IsBzil="true" Tier="0">
+    <ElemsRes data="0,50,25,-50,100,-75" />
+  </Monsters>
+  <Monsters HashName="DAA-02" Img="archafflictorAB" Portrait="portrait-monster-archafflictor2" Style="kHybrid" WpHeight="2" Move1="kfFloat" Immunities="kfPoison kfSleep kfBerserk kfSlow" UseItem="true" WeightsTable="viciousdps" WpSfx="FS_FX_102_v02" WpDelay="0" WpMissSfx="FS_FX_103_v02" WpMissDelay="0" DeathSfx="FS_VOX_003B" Counter="DAA-02-C1" CanTame="false" ExtraRace="kDemon" Tier="2">
+    <ElemsRes data="0,50,25,-50,100,-75" />
+  </Monsters>
+  <Monsters HashName="DAA-03" Img="archafflictorAC" Portrait="portrait-monster-archafflictor3" Style="kHybrid" WpHeight="2" Move1="kfFloat" Immunities="kfPoison kfSleep kfBerserk kfSlow" UseItem="true" WeightsTable="viciousdps" WpSfx="FS_FX_102_v02" WpDelay="0" WpMissSfx="FS_FX_103_v02" WpMissDelay="0" DeathSfx="FS_VOX_003B" Counter="DAA-02-C1" CanTame="false" ExtraRace="kDemon" Tier="3">
+    <ElemsRes data="0,50,50,-25,100,-75" />
+  </Monsters>
+  <Monsters HashName="MAL-01" Img="malcubusaa" Portrait="portrait-monster-malcubus1" Style="kMagic" WpHeight="1.5" Move2="kfFly" Immunities="kfCharm" UseItem="true" WeightsTable="debuffer" WpSfx="FS_FX_109_v03" WpMissSfx="FS_FX_110_v01" DeathSfx="FS_FX_232_v01" Counter="ASSA-C1" CanTame="false" ExtraRace="kDemon">
+    <ElemsRes data="25,50,0,0,75,-75" />
+    <Weights data="MAL-01-A1|20" />
+  </Monsters>
+  <Monsters HashName="MAL-99" Img="" Portrait="" Style="kMagic" WpHeight="1.5" Move2="kfFly" Immunities="kfCharm" UseItem="true" WeightsTable="debuffer" WpSfx="FS_FX_234_v01" WpDelay="0.35" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_242_v04" Counter="ASSA-C1" CanTame="false" IsBzil="true" Tier="0">
+    <ElemsRes data="25,50,0,0,75,-75" />
+  </Monsters>
+  <Monsters HashName="MAL-02" Img="malcubusab" Portrait="portrait-monster-malcubus2" Style="kMagic" WpHeight="1.5" Move2="kfFly" Immunities="kfCharm" UseItem="true" WeightsTable="debuffer" WpSfx="FS_FX_109_v03" WpMissSfx="FS_FX_110_v01" DeathSfx="FS_FX_232_v01" Counter="ASSA-C1" CanTame="false" ExtraRace="kDemon" Tier="2">
+    <ElemsRes data="25,50,0,0,75,-75" />
+    <Weights data="MAL-02-A1|20" />
+  </Monsters>
+  <Monsters HashName="MAL-03" Img="malcubusac" Portrait="portrait-monster-malcubus3" WpHeight="1.5" Move2="kfFly" Immunities="kfCharm" UseItem="true" WeightsTable="debuffer" WpSfx="FS_FX_109_v03" WpMissSfx="FS_FX_110_v01" DeathSfx="FS_FX_232_v01" Counter="ASSA-C1" CanTame="false" ExtraRace="kDemon" Tier="3">
+    <ElemsRes data="25,50,0,0,75,-50" />
+    <Weights data="MAL-03-A1|20" />
+  </Monsters>
+  <Monsters HashName="HHU-01" Img="helhundaa" Portrait="portrait-monster-helhund1" Style="kHybrid" WpHeight="1.5" WpSfx="FS_FX_219_v01" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_220_v01" TameChance="70">
+    <ElemsRes data="-50,100,-25,100,25,0" />
+  </Monsters>
+  <Monsters HashName="HHU-99" Img="" Portrait="" Style="kHybrid" WpHeight="1.5" UseItem="true" WpSfx="FS_FX_234_v01" WpDelay="0.35" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_242_v04" CanTame="false" IsBzil="true" Tier="0">
+    <ElemsRes data="-50,100,-25,100,25,0" />
+  </Monsters>
+  <Monsters HashName="HHU-02" Img="helhundab" Portrait="portrait-monster-helhund2" WpHeight="1.5" WpSfx="FS_FX_219_v01" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_220_v01" Counter="HHU-02-C1" TameChance="70" Tier="2">
+    <ElemsRes data="-50,100,-25,100,50,0" />
+  </Monsters>
+  <Monsters HashName="HHU-03" Img="helhundac" Portrait="portrait-monster-helhund3" WpHeight="1.5" WpSfx="FS_FX_219_v01" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_220_v01" Counter="HHU-02-C1" TameChance="70" Tier="3">
+    <ElemsRes data="-25,100,-25,100,50,0" />
+  </Monsters>
+  <Monsters HashName="NIW-01" Img="niwotaa" Portrait="portrait-monster-niwot1" Style="kMagic" WpHeight="1.5" Immunities="kfMute" WpSfx="FS_FX_226_v01" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_227_v02" TameChance="75">
+    <ElemsRes data="25,25,-50,25,0,0" />
+  </Monsters>
+  <Monsters HashName="NIW-99" Img="" Portrait="" Style="kMagic" WpHeight="1.5" Immunities="kfMute" UseItem="true" WpSfx="FS_FX_234_v01" WpDelay="0.35" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_242_v04" CanTame="false" IsBzil="true" Tier="0">
+    <ElemsRes data="25,25,-50,25,0,0" />
+  </Monsters>
+  <Monsters HashName="NIW-02" Img="niwotab" Portrait="portrait-monster-niwot2" Style="kMagic" WpHeight="1.5" Immunities="kfMute" WpSfx="FS_FX_226_v01" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_227_v02" Counter="WIZA-C1" TameChance="75" Tier="2">
+    <ElemsRes data="25,25,-50,25,0,0" />
+  </Monsters>
+  <Monsters HashName="NIW-03" Img="niwotac" Portrait="portrait-monster-niwot3" Style="kHealerOrMagic" WpHeight="1.5" Immunities="kfMute" WpSfx="FS_FX_226_v01" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_227_v02" Counter="WIZA-C1" TameChance="70" Tier="3">
+    <ElemsRes data="25,25,-25,25,0,0" />
+  </Monsters>
+  <Monsters HashName="PHO-01" Img="ercineeaa" Portrait="portrait-monster-ercinee1" Style="kMagic" Move2="kfFly" CustomAI="kPhoenix" WpSfx="FS_FX_234_v01" WpDelay="0.35" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_235_v02" Counter="PHO-01-C1" TameChance="65">
+    <ElemsRes data="-50,100,25,0,-50,50" />
+  </Monsters>
+  <Monsters HashName="PHO-99" Img="" Portrait="" Style="kMagic" Move2="kfFly" UseItem="true" WpSfx="FS_FX_234_v01" WpDelay="0.35" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_242_v04" Counter="PHO-01-C1" CanTame="false" IsBzil="true" Tier="0">
+    <ElemsRes data="-50,100,25,0,-50,50" />
+  </Monsters>
+  <Monsters HashName="PHO-02" Img="ercineeab" Portrait="portrait-monster-ercineeab" Style="kMagic" Move2="kfFly" CustomAI="kPhoenix" WpSfx="FS_FX_234_v01" WpDelay="0.35" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_235_v02" Counter="PHO-01-C1" TameChance="65" Tier="2">
+    <ElemsRes data="-50,100,25,0,-50,50" />
+  </Monsters>
+  <Monsters HashName="PHO-03" Img="ercineeac" Portrait="portrait-monster-ercineeac" Style="kMagic" Move2="kfFly" CustomAI="kPhoenix" WpSfx="FS_FX_234_v01" WpDelay="0.35" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_235_v02" Counter="PHO-01-C1" TameChance="65" Tier="3">
+    <ElemsRes data="-25,100,25,0,-50,50" />
+  </Monsters>
+  <Monsters HashName="HRV-01" Img="harvesteraa" Portrait="portrait-monster-harvester1" WpRange="2" WpHeight="2.5" WpSfx="FS_FX_202_v01" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_231_v01" Counter="MERC-C1" CanTame="false" ExtraRace="kDemon">
+    <ElemsRes data="0,-50,25,0,0,-50" />
+  </Monsters>
+  <Monsters HashName="HRV-99" Img="" Portrait="" WpRange="2" WpHeight="2.5" UseItem="true" WpSfx="FS_FX_234_v01" WpDelay="0.35" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_242_v04" Counter="MERC-C1" CanTame="false" IsBzil="true" Tier="0">
+    <ElemsRes data="0,-50,25,0,0,-50" />
+  </Monsters>
+  <Monsters HashName="HRV-02" Img="harvesterab" Portrait="portrait-monster-harvester2" WpRange="2" WpHeight="2.5" WpSfx="FS_FX_202_v01" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_231_v01" Counter="MERC-C1" CanTame="false" ExtraRace="kDemon" Tier="2">
+    <ElemsRes data="0,-25,25,0,25,-50" />
+  </Monsters>
+  <Monsters HashName="HRV-03" Img="harvesterac" Portrait="portrait-monster-harvester3" WpRange="2" WpHeight="2.5" WpSfx="FS_FX_202_v01" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_231_v01" Counter="MERC-C1" CanTame="false" ExtraRace="kDemon" Tier="3">
+    <ElemsRes data="0,-25,25,0,25,-25" />
+  </Monsters>
+  <Monsters HashName="TAN-01" Img="tangrelaa" Portrait="portrait-monster-tangrel1" Move2="kfBurrow" WeightsTable="dps" WpSfx="FS_FX_234_v01" WpDelay="0.35" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_239_v01" Counter="TAN-01-C1" TameChance="70">
+    <ElemsRes data="25,-25,50,25,0,0" />
+  </Monsters>
+  <Monsters HashName="TAN-99" Img="" Portrait="" Move2="kfBurrow" UseItem="true" WeightsTable="dps" WpSfx="FS_FX_234_v01" WpDelay="0.35" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_242_v04" Counter="TAN-01-C1" CanTame="false" IsBzil="true" Tier="0">
+    <ElemsRes data="25,-25,50,25,0,0" />
+  </Monsters>
+  <Monsters HashName="TAN-02" Img="tangrelab" Portrait="portrait-monster-tangrel2" Move2="kfBurrow" WeightsTable="dps" WpSfx="FS_FX_234_v01" WpDelay="0.35" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_239_v01" Counter="TAN-01-C1" TameChance="70" Tier="2">
+    <ElemsRes data="25,-25,50,25,0,0" />
+  </Monsters>
+  <Monsters HashName="TAN-03" Img="tangrelac" Portrait="portrait-monster-tangrel3" Move2="kfBurrow" WeightsTable="dps" WpSfx="FS_FX_234_v01" WpDelay="0.35" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_239_v01" Counter="TAN-01-C1" TameChance="70" Tier="3">
+    <ElemsRes data="25,-25,50,25,0,0" />
+  </Monsters>
+  <Monsters HashName="SND-01" Img="NobleDemon" Portrait="portrait-story-alphonsedemon" WpHeight="2" Move1="kfFloat" CustomAI="kDemonAlphonse" Immunities="kfSleep kfBerserk kfSlow" NoUpgrade="true" WpSfx="FS_FX_102_v02" WpDelay="0" WpMissSfx="FS_FX_103_v02" WpMissDelay="0" DeathSfx="FS_VOX_003A" AI="kkiller" Counter="MERC-C1" Passive0="FELL-P1" CanTame="false" ExtraRace="kDemon" NoVariant="true" Tier="0" NoCopy="true">
+    <ElemsRes data="0,50,25,-25,100,-100" />
+  </Monsters>
+  <Monsters HashName="SDA-01" Img="ApprenticeDemon" Portrait="portrait-story-anadinedemon" WpHeight="1.5" CustomAI="kDemonAlphonse" NoUpgrade="true" WpSfx="FS_FX_109_v03" WpMissSfx="FS_FX_110_v01" DeathSfx="FS_FX_232_v01" CanTame="false" ExtraRace="kDemon" NoVariant="true" Tier="0" NoCopy="true">
+    <ElemsRes data="0,25,0,-12,50,-50" />
+  </Monsters>
+  <Monsters HashName="EKA-01" Img="evilkawa" Portrait="portrait-story-evilkawa" Style="kMagic" CustomAI="kEvilKawa" NoUpgrade="true" WpSfx="FS_FX_003_v03" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_208_v02" Counter="HAR-03-C1" CanTame="false" NoVariant="true" Tier="0" NoCopy="true">
+    <ElemsRes data="-25,0,0,25,75,-25" />
+  </Monsters>
+  <Monsters HashName="BWO-01" Img="earthwyrmhead" PartsOverride="-1" Portrait="portrait-monster-earthwyrm" WpHeight="2" AtkHash="ATK-WORM" Flags="kfOnly1Direction kfNoDisplacement kfNoWalkSpeedChange" CustomAI="kBossWorm" Immunities="kfRoot kfCripple kfSleep kfBerserk kfCharm" IsBoss="true" NoUpgrade="true" GearFill="kNoExtra kNoBoots" WpSfx="FS_FX_155_v03" WpDelay="1.3" WpMissSfx="FS_FX_155_v03" WpMissDelay="1.3" DeathSfx="FS_FX_218_v01" AI="kffisok" Counter="BWO-01-C1" Passive0="BWO-01-P3" Passive1="DEM-01-P1" CanTame="false" NoVariant="true" Tier="0" NoCopy="true">
+    <ExtraImg data="earthwyrmbody1,earthwyrmbody2,earthwyrmbody3,earthwyrmbody4" />
+    <ElemsRes data="-50,0,100,50,-25,0" />
+  </Monsters>
+  <Monsters HashName="BWO-02" Img="earthwyrmqueenhead" PartsOverride="-1" Portrait="portrait-monster-earthwyrmqueen" WpHeight="2" AtkHash="ATK-WORM" Flags="kfOnly1Direction kfNoDisplacement kf2x2 kfNoWalkSpeedChange" CustomAI="kBossWorm" Immunities="kfRoot kfCripple kfSleep kfBerserk kfCharm" IsBoss="true" NoUpgrade="true" GearFill="kNoExtra kNoBoots" WpSfx="FS_FX_155_v03" WpDelay="1.3" WpMissSfx="FS_FX_155_v03" WpMissDelay="1.3" DeathSfx="FS_FX_218_v01" AI="kffisok" Counter="BWO-01-C1" Passive0="BWO-01-P3" Passive1="DEM-01-P1" CanTame="false" NoVariant="true" Tier="0" NoCopy="true">
+    <ExtraImg data="earthwyrmqueenbody1,earthwyrmqueenbody2,earthwyrmqueenbody3,earthwyrmqueenbody4" />
+    <ElemsRes data="-50,25,100,50,-25,0" />
+  </Monsters>
+  <Monsters HashName="GHO-01" Img="ghostgirl" Portrait="portrait-monster-ghostgirl" Style="kHybrid" WpHeight="2" Move1="kfFloat" Flags="kfNoFloatVisuals" Immunities="kfPoison kfBleed kfSleep" IsBoss="true" NoUpgrade="true" WpSfx="FS_FX_221_v01" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_222_v03" Counter="ALCH-C1" Passive0="KNIG-P2" Passive1="KNIG-P1" CanTame="false" ExtraRace="kUndead" NoVariant="true" Tier="0" NoCopy="true">
+    <ElemsRes data="50,0,50,0,50,25" />
+  </Monsters>
+  <Monsters HashName="APB-01" Img="immortalbzil" Portrait="portrait-story-quarta" Style="kMagic" WpRange="10" WpHeight="15" AtkHash="ATK-SCARAB" IsBoss="true" NoUpgrade="true" WpSfx="FS_FX_234_v01" WpDelay="0.35" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_242_v04" Counter="APB-01-C1" CanTame="false" NoVariant="true" Tier="4" NoCopy="true">
+    <ElemsRes data="25,25,25,25,0,0" />
+  </Monsters>
+  <Monsters HashName="APB-99" Img="" Portrait="" Style="kMagic" WpRange="10" WpHeight="15" AtkHash="ATK-SCARAB" UseItem="true" WpSfx="FS_FX_234_v01" WpDelay="0.35" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_242_v04" CanTame="false" NoVariant="true" IsBzil="true" Tier="2">
+    <ElemsRes data="0,0,0,0,-25,-25" />
+  </Monsters>
+  <Monsters HashName="MAW-01" Img="ancientbeastlower" Portrait="portrait-story-maw" Style="kHybrid" WpRange="7" WpHeight="15" AtkHash="ATK-MAW" Move1="kfFloat" Move2="kfFly" Flags="kfNoFloatVisuals" CustomAI="kTheMaw" Immunities="kfBerserk kfCharm" IsBoss="true" NoUpgrade="true" DeathSfx="FS_FX_336_v01" Counter="MERC-C1" Passive0="MAW-01-P3" Passive1="SND-01-P2" CanTame="false" NoVariant="true" Tier="0" NoCopy="true">
+    <ExtraImg data="ancientbeastupper" />
+    <ElemsRes data="0,0,0,0,100,0" />
+  </Monsters>
+  <Monsters HashName="MAW-02" Img="ancientbeastlower" Portrait="portrait-story-maw" Style="kHybrid" WpRange="7" WpHeight="15" AtkHash="ATK-MAW" Move1="kfFloat" Move2="kfFly" Flags="kfNoFloatVisuals" CustomAI="kTheMaw" Immunities="kfBerserk kfCharm" IsBoss="true" NoUpgrade="true" DeathSfx="FS_FX_336_v01" Counter="MERC-C1" Passive0="MAW-01-P3" Passive1="SND-01-P2" CanTame="false" NoVariant="true" Tier="0" NoCopy="true">
+    <ExtraImg data="ancientbeastupper" />
+    <ElemsRes data="0,0,0,0,100,0" />
+  </Monsters>
+  <Monsters HashName="MAM-01" Img="ancientbeastviscerawyrm" Portrait="portrait-story-viscerawyrm" Style="kHybrid" WpRange="10" WpHeight="15" AtkHash="ATK-SLIME" Flags="kfCantWalk kfNoDisplacement" CustomAI="kViscerawyrm" Immunities="kfCharm" NoUpgrade="true" WpSfx="FS_FX_328_A_v01" WpDelay="0.35" WpMissSfx="FS_FX_328_A_v01" WpMissDelay="0.35" DeathSfx="FS_FX_310_v01" Counter="FELL-C1" Passive0="DEM-01-P1" CanTame="false" NoVariant="true" Tier="0" NoCopy="true">
+    <ElemsRes data="50,0,-25,150,100,0" />
+  </Monsters>
+  <Monsters HashName="MAM-02" Img="ancientbeastviscerawyrm" Portrait="portrait-story-viscerawyrm" Style="kHybrid" WpRange="10" WpHeight="15" AtkHash="ATK-SLIME" Flags="kfCantWalk kfNoDisplacement" CustomAI="kViscerawyrm" Immunities="kfCharm" NoUpgrade="true" WpSfx="FS_FX_328_A_v01" WpDelay="0.35" WpMissSfx="FS_FX_328_A_v01" WpMissDelay="0.35" DeathSfx="FS_FX_310_v01" Counter="BLAD-C1" Passive0="DEM-01-P1" CanTame="false" NoVariant="true" Tier="0" NoCopy="true">
+    <ElemsRes data="-25,150,50,0,100,0" />
+  </Monsters>
+  <Monsters HashName="MAA-01" Img="Immortal2Soul" Portrait="portrait-story-CorruptedSoul" Style="kHybrid" WpHeight="1.5" Immunities="kfBerserk kfCharm" NoUpgrade="true" WpSfx="FS_FX_109_v03" WpMissSfx="FS_FX_110_v01" DeathSfx="FS_FX_222_v03" Counter="MAA-01-C1" CanTame="false" NoVariant="true" Tier="0" NoCopy="true">
+    <ElemsRes data="50,0,-50,100,25,25" />
+  </Monsters>
+  <Monsters HashName="MAA-02" Img="Immortal5Soul" Portrait="portrait-story-CorruptedSoul" Style="kHybrid" WpHeight="1.5" Immunities="kfBerserk kfCharm" NoUpgrade="true" WpSfx="FS_FX_109_v03" WpMissSfx="FS_FX_110_v01" DeathSfx="FS_FX_222_v03" Counter="MAA-02-C1" CanTame="false" NoVariant="true" Tier="0" NoCopy="true">
+    <ElemsRes data="0,-50,100,50,25,25" />
+  </Monsters>
+  <Monsters HashName="MAA-03" Img="Immortal6Soul" Portrait="portrait-story-CorruptedSoul" Style="kHybrid" WpHeight="1.5" Immunities="kfBerserk kfCharm" NoUpgrade="true" WpSfx="FS_FX_109_v03" WpMissSfx="FS_FX_110_v01" DeathSfx="FS_FX_222_v03" Counter="MAA-02-C1" CanTame="false" NoVariant="true" Tier="0" NoCopy="true">
+    <ElemsRes data="-50,100,50,0,25,25" />
+  </Monsters>
+  <Monsters HashName="MAA-04" Img="Immortal7Soul" Portrait="portrait-story-CorruptedSoul" Style="kHybrid" WpHeight="1.5" Immunities="kfBerserk kfCharm" NoUpgrade="true" WpSfx="FS_FX_109_v03" WpMissSfx="FS_FX_110_v01" DeathSfx="FS_FX_222_v03" Counter="MAA-01-C1" CanTame="false" NoVariant="true" Tier="0" NoCopy="true">
+    <ElemsRes data="100,50,0,-50,25,25" />
+  </Monsters>
+</XMLMonsters>

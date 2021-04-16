@@ -1,0 +1,26 @@
+arbiter=Вершитель
+arbiters=Вершители
+immortal=Бессмертный
+immortals=Бессмертные
+immortalsn=Бессмертные
+guild=Гильдия
+marked=Избранный
+markeds=Избранный
+mark=Знак
+council=Совет
+immortal-council=Совет бессмертных
+relic=Реликвия
+relics=Реликвии
+ancient-bone=Кость древнего чудовища
+chapterhouse=Дом капитула
+rebel-faction=Символ
+rebels=Люди Символа
+temple=Храм
+temples=Храмы
+sealed-temple=Опечатанный храм
+sealed-temples=Опечатанные храмы
+medallion=Медальон
+ancient-beast=Утроба
+worldname=Теора
+ancient-path=Древний путь
+

@@ -1,0 +1,3 @@
+bulldrakes=Canes Dracónicos
+arbiter-female=Mediadora
+

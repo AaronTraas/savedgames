@@ -1,0 +1,459 @@
+[entry 0-0]
+[h1]Aufstellungsphase[/h1]
+
+Vor Beginn eines Kampfes musst du die Charaktere, mit denen du kämpfen willst, auf den leuchtenden, blaugrünen Feldern platzieren und entscheiden, in welche Richtung sie schauen sollen. Die maximale Anzahl an Truppen, die du einsetzen kannst, wird links oben im Bildschirm angezeigt. Rechts unten siehst du die Steuerungselemente, um deine Truppen durchzusehen. Nachdem du die Charaktere für den Kampf ausgewählt hast, drücke die {button-battlestart}-Taste, um den Kampf einzuleiten.
+
+Tipps für die Aufstellung:
+[list] 
+[*]Allgemein ist es ratsam, schwerere Nahkämpfer vor weniger robusten Zauberern und Schützeneinheiten zu platzieren. 
+[*]Nimm dir in der Aufstellungsphase die nötige Zeit, um das Schlachtfeld und deine Gegner zu studieren und zu entscheiden, welche Truppen du einsetzen solltest. Im Truppenmenü kannst du auch die Ausrüstung deiner Charaktere anpassen, damit sie optimal für die einzigartigen Herausforderungen gerüstet sind, die jeder Kampf bereithält.
+[*]Verletzungen, die Charaktere in einem früheren Kampf erlitten haben, verheilen nur, wenn der Charakter einen Kampf aussetzt. Wenn du eine verletzte Einheit für den Kampf aufstellst, verheilt die Verletzung nicht und es besteht die Gefahr, dass der Charakter weitere Verletzungen erleidet. Wenn du einen verletzten Charakter in einem Kampf jedoch unbedingt einsetzen musst, kannst du seine Verletzung auch verheilen lassen, indem du ihn einen späteren Kampf aussetzen lässt (außer du hast die Optionen „Dauerhafte Verletzung“ oder „Permadeath“ aktiviert).
+[/list]
+
+
+[entry 0-1]
+[h1]Zugwarteschlange[/h1]
+
+Im Kampf wird dir oben am Bildschirm angezeigt, wann jede Einheit an die Reihe kommt. Wenn du den Mauszeiger über einen Charakter auf dem Schlachtfeld bewegst, wird dessen Porträt in der Warteschlange hervorgehoben, um dir anzuzeigen, wann er an der Reihe ist. Porträts mit einem blauen Rahmen (meist nach rechts schauend) sind Verbündete, und Porträts mit einem roten Rahmen (meist nach links schauend) sind Gegner.
+
+Die Zugreihenfolge wird vom Geschwindigkeitswert ({spd}) eines Charakters bestimmt. Charaktere mit hoher Geschwindigkeit kommen schneller und öfter an die Reihe als langsamere Charaktere. 
+
+
+[entry 0-2]
+[h1]Bewegung und Höhe[/h1]
+
+Charaktere können sich in ihrem Zug einmalig bewegen, entweder bevor oder nachdem sie eine Aktion ausführen. Wie weit sich ein Charakter bewegen kann, hängt in erster Linie von seinem Bewegungswert (<sprite name="icon-stats-move">) ab. Dieser wird unten in seinem Infofenster angezeigt. Das Gelände kann die Bewegung eines Charakters jedoch einschränken. Bei einem großen Höhenunterschied zwischen Feldern bestimmt der Sprungwert (<sprite name="icon-stats-jump">) eines Charakters, ob dieser den Höhenunterschied überwinden kann oder nicht. Die Höhe eines Feldes wird im Kampf links oben im Bildschirm angezeigt. Die Bewegungs- und Sprungwerte eines Charakters hängen von dessen Klasse ab und können durch bestimmte Zubehörgegenstände vom Typ Stiefel erhöht werden.
+
+Einige Einheiten haben besondere Eigenschaften, die es ihnen erlauben, Gebiete zu betreten, die für andere nicht zugänglich sind. Wenn eine Einheit über diese Eigenschaften verfügt, wird dies durch ein Symbol unten in ihrem Infofenster angezeigt.
+[list]
+[*]Schwimmen (<sprite name="icon-stats-swim">) ist eine Eigenschaft, die nur für bestimmte Klassen und Monster verfügbar ist. Der Charakter kann schwimmen und sich daher auch auf Felder mit Wasser oder vergiftetem Wasser bewegen. Beim Schwimmen teilen Charaktere weniger Schaden aus und stecken mehr Schaden ein. Beim Schwimmen können keine Schätze geöffnet oder Komponenten gesammelt werden. Charaktere, die nicht schwimmen können, sollten in der Nähe von Wasser vorsichtig sein, damit sie nicht hineingestoßen werden und ertrinken!
+[*]Einheiten, die fliegen, graben und sich teleportieren können, werden mit dem Symbol (<sprite name="icon-stats-fly">) markiert. Der Charakter kann sich sofort an sein Ziel begeben, ohne sich über die dazwischenliegenden Felder zu bewegen. Dadurch kann er Höhenunterschiede ignorieren und löst keine Fallen aus (außer jene auf dem Zielfeld selbst). Über diese Eigenschaft verfügen in erster Linie Monster, aber seltene Gegenstände und passive Fähigkeiten können sie auch menschlichen Charakteren verleihen.
+[*]Schwebende Einheiten werden mit dem Symbol (<sprite name="icon-stats-levitate">) markiert. Der Charakter kann über dem Boden schweben und somit Wasserfelder überwinden und am Boden ausgelegte Fallen ignorieren. Über diese Eigenschaft verfügen in erster Linie Monster, aber seltene Gegenstände können sie auch menschlichen Charakteren verleihen. Wenn eine Einheit sowohl schweben als auch schwimmen kann, schwebt sie im Zweifelsfall.
+[/list]
+
+
+[entry 0-3]
+[h1]Zielen[/h1]
+
+Ein Charakter kann in seinem Zug eine Aktion ausführen, entweder bevor oder nachdem er sich bewegt hat. Eine Aktion ist in der Regel entweder ein regulärer Angriff mit der ausgerüsteten Waffe oder der Einsatz einer aktiven Fähigkeit, die der Charakter erlernt hat. Nachdem eine Aktion ausgewählt wurde, muss als Nächstes das Ziel dafür ausgewählt werden.
+[list]
+[*]Die Positionierung ist bei der Auswahl eines Ziels sehr wichtig! Reguläre Angriffe und viele Fähigkeiten verursachen zusätzlichen Schaden, wenn sie von der Seite erfolgen, und noch mehr, wenn sie von hinten erfolgen. (Für Zauberschaden gibt es in der Regel keinen Flankierungsbonus).
+[*]Die Auswahl der verfügbaren Ziele wird durch die Reichweite der Waffe oder Fähigkeit begrenzt. Die Reichweite umfasst zwei Aspekte: Wie weit eine Fähigkeit wirkt (Reichweite) und wie hoch ihr Höhenwert (ihre „Vertikalität“) ist. Nachdem du eine Aktion ausgewählt hast, werden die Felder hervorgehoben, die du mit ihr erreichen kannst.
+[*]Nachdem du ein Ziel ausgewählt hast und bevor du die Aktion bestätigst, wird ihr voraussichtlicher Schaden und ihre Genauigkeit angezeigt. Wenn mit einer Fähigkeit mehrere Charaktere anvisiert werden können, kannst du sie durchsehen, um die Effekte auf jedes einzelne Ziel anzuzeigen. Wenn das voraussichtliche Ergebnis nicht vielversprechend aussieht, kannst du überlegen, stattdessen eine andere Aktion oder andere Ziele auszuwählen. Beachte, dass der voraussichtliche Schaden ein fester Wert ohne Zufallskomponente ist. Ausnahmen sind kritische Treffer und gewisse seltene Fähigkeiten. Wenn für eine Fähigkeit ein bestimmter Schadenswert angezeigt wird, wird sie bei einem Treffer auch genau diesen Schaden verursachen.
+[*]Manche Fähigkeiten können auf mehrere nebeneinanderliegende Felder wirken. Daher solltest du dir das voraussichtliche Ergebnis genau ansehen, um sicherzustellen, dass du nicht versehentlich Verbündete verletzt oder deine Gegner heilst!
+[*]Beachte, dass es für Fernkampfangriffe in {fell-seal} keine „Sichtlinien“ gibt. Wenn ein Charakter innerhalb der Reichweite einer Aktion ist, kann er auch getroffen werden, wenn Hindernisse oder andere Charaktere zwischen dem Ausführenden und dem Ziel der Aktion stehen.
+[/list]
+
+
+[entry 0-4]
+[h1]Gegenstände[/h1]
+
+Gegenstände funktionieren in {fell-seal} ein wenig anders als in vielen anderen Spielen. Sie können zwar in Kämpfen nicht unbegrenzt eingesetzt werden, dein Inventar wird jedoch nach jedem Kampf wieder aufgefüllt. Daher kannst du Gegenstände ruhig einsetzen, ohne Angst zu haben, dass sie dir ausgehen. Du kannst zwar keine Gegenstände kaufen, aber durch Herstellen kannst du die Anzahl ihrer möglichen Einsätze pro Kampf, ihre Wirksamkeit und die Zahl ihrer verfügbaren Varianten erhöhen.
+
+Alle deine Charaktere können auf dein gesamtes Inventar an Gegenständen zugreifen.
+
+Allgemeine Tipps für den Einsatz von Gegenständen:
+[list]
+[*]Gegenstände sind besonders am Anfang des Spiels nützlich, wenn deine Heiler noch nicht so stark sind. Setze sie also ein, wenn du in einem Kampf Schwierigkeiten hast!
+[*]Gegenstände wie Tränke und Heilmittel können für benachbarte Verbündete benutzt werden und können deinen Charakteren das Leben retten, wenn dein Heiler ihnen nicht mehr rechtzeitig helfen kann.
+[*]Steine und andere Wurfgegenstände sind ideal für Nahkämpfer, die noch nicht in Nahkampfreichweite eines Gegners kommen können. Diese Gegenstände verfehlen außerdem nie ihr Ziel und sind daher besonders effektiv gegen Ziele mit hohem Ausweichwert (AUS). Sie ignorieren auch den Verteidigungswert (VER) von Einheiten und sind daher ideal gegen Ziele mit hohem Verteidigungswert, wie Pektit-Monster.
+[/list]
+
+
+[entry 0-5]
+[h1]Verletzungen / K.o. im Kampf[/h1]
+
+Wenn die HP eines Charakters auf 0 fallen, scheidet er aus dem Kampf aus und erleidet in den Standard-Spieleinstellungen eine Verletzung.
+
+Jede Verletzung, die ein Charakter hat, reduziert seine Werte und macht ihn weniger effektiv im Kampf. Damit eine Verletzung verheilt, muss ein Charakter im Kampf aussetzen. Pro Kampf, den ein Charakter aussetzt, verheilt eine Verletzung. Beachte, dass Kyrie immun gegen Verletzungen ist. Allerdings erhält das gesamte Team einen FP-Bonus, wenn sie im Kampf nicht k.o. geht.
+
+Ein Charakter, dessen HP auf 0 gefallen sind, kann durch bestimmte Gegenstände und Fähigkeiten im Kampf wiederbelebt werden. Charaktere können auf jedem Feld innerhalb der Reichweite des Gegenstands oder der Fähigkeit wiederbelebt werden, egal wo am Schlachtfeld sie k.o. gegangen sind. Beachte aber, dass wiederbelebte Charaktere, die erneut k.o. gehen, eine weitere Verletzung erleiden.
+
+
+[entry 0-6]
+[h1]Interaktive Objekte[/h1]
+
+Auf manchen Schlachtfeldern gibt es Objekte, über die du mit einer Spezialaktion interagieren kannst. Diese Objekte werden in der Regel in der Aufstellungsphase durch leuchtende gelbe Felder markiert. Du kannst sie im Kampf hervorheben, indem du die {button-details}-Taste drückst. Gelegentlich können interaktive Objekte versteckt sein, also halte die Augen offen!
+
+Arten von interaktiven Objekten:
+[list]
+[*][b]Schätze[/b]: Um eine Schatzkiste zu öffnen, musst du neben ihr stehen und die Aktion „Öffnen“ in der Befehlsliste des Charakters auswählen. Schätze können nur einmalig erhalten werden. Schwimmende Charaktere können keine Schatzkisten öffnen.
+[*][b]Sammelplätze[/b]: Um eine Komponente für das Herstellen zu erhalten, musst du neben einem Sammelplatz stehen und die Aktion „Sammeln“ in der Befehlsliste des Charakters auswählen. Sammelplätze werden nach jedem Kampf wieder aufgefüllt. Schwimmende Charaktere können keine Komponenten sammeln.
+[*][b]Leitern / Treppen / Seile[/b]: Manche Felder können einen Charakter zu einem anderen Bereich des Schlachtfelds bringen. Die Koordinaten des Ziels werden angezeigt, wenn du den Mauszeiger im Detailbildschirm oder während der Aufstellungsphase über das leuchtende gelbe Feld bewegst. Um diese Felder zu nutzen, musst du dich auf sie stellen und die Aktion „Klettern“ in der Befehlsliste des Charakters auswählen. Die Aktion „Klettern“ ist nur verfügbar, wenn der Charakter auf dem Zielfeld stehen kann.
+[*][b]Gräben / Wasserrohre[/b]: Diese Felder transportieren einen Charakter zu einem anderen Bereich des Schlachtfelds, ohne dass seine Aktion dafür aufgebraucht wird. Die Koordinaten des Ziels werden angezeigt, wenn du den Mauszeiger im Detailbildschirm oder während der Aufstellungsphase über das leuchtende gelbe Feld bewegst. Um diese Felder zu nutzen, stelle dich einfach auf sie, wenn das Ziel nicht besetzt ist.
+[*][b]Schalter[/b]: Um einen Schalter zu aktivieren, musst du neben ihm stehen und die Aktion „Aktivieren“ in der Befehlsliste des Charakters auswählen. Schalter können verschiedene Effekte auf dem Schlachtfeld haben. Sie können beispielsweise neue Bereiche freilegen.
+[/list]
+
+
+[entry 0-7]
+[h1]Beute[/h1]
+
+Beute kannst du auf verschiedene Weise bekommen. Die Art der Beute, die du bekommst, hängt vom Schlachtfeld ab, nicht von der Art der Gegner, die du bekämpfst. Kampfkarten später in der Geschichte bringen in der Regel bessere Beute.
+[list]
+[*]Besiegte Gegner lassen manchmal Beute fallen.
+[*]Du bekommst Beute im Siegbildschirm nach dem Kampf. Beachte, dass Kämpfe im Rahmen der Geschichte manchmal besondere, einmalige Belohnungen bringen können.
+[*]Es gibt Fähigkeiten, die dir ermöglichen, Beute von Gegnern zu stehlen. Beim Stehlen hast du die Chance, bessere Beute als gewöhnlich zu bekommen. 
+[*]Es gibt Fähigkeiten, die dir ermöglichen, eine Trophäe von einem Ziel zu bekommen, und wenn du es auf diese Weise besiegen kannst, bekommst du garantiert Beute. Dabei hast du die Chance, bessere Beute als gewöhnlich zu bekommen.
+[/list]
+
+
+[entry 0-8]
+[h1]FP erhalten[/h1]
+
+Fähigkeitspunkte (FP) werden für das Erlernen von Fähigkeiten benötigt. Nach jedem Kampf erhalten alle Charaktere FP, wobei jene, die am Kampf teilgenommen haben, mehr FP erhalten als die anderen. FP werden folgendermaßen vergeben:
+[list]
+[*]Charaktere, die am Kampf teilgenommen haben, erhalten viele FP für ihre primäre Klasse.
+[*]Alle Teilnehmer am Kampf erhalten außerdem einen geringen FP-Bonus, wenn Kyries HP nie auf 0 gefallen sind (nur bei Kämpfen im Rahmen der Geschichte).
+[*]Alle Charaktere, auch jene, die nicht am Kampf teilgenommen haben, erhalten einen kleinen „Lern“-FP-Bonus, weil sie ihre Verbündeten im Kampf beobachtet und von ihnen gelernt haben. Diese Bonus-FP werden auch für Klassen verdient, die der Charakter noch nicht freigeschaltet hat.
+[*]Es gibt einen besonderen Monster-Charakter, der keine FP durch den „Lernbonus“ bekommt. Stattdessen bekommt er, nachdem er eine Klasse freigeschaltet hat, Bonus-FP für die Teilnahme am Kampf gegen mit dieser Klasse verbundene Monster. 
+[*]Gelegentlich kann sich ein Charakter aufgrund besonderer Leistungen im Kampf den Titel „MVP“ verdienen. Dieser Charakter erhält für den Kampf einen beträchtlichen FP-Bonus.
+[*]In manchen Bereichen gibt es „Gast“-Charaktere, die dem Spieler für eine Patrouille zur Seite stehen. Wenn sie den Kampf überleben, gibt es einen kleinen FP-Bonus.
+[*]Kämpfe im Rahmen der Geschichte bringen deutlich mehr FP als Patrouillen. 
+[*]Wie viele FP verdient werden, hängt vom Verhältnis des Levels deiner Gruppe zu dem der Gegner ab. Wenn deine Gruppe einen deutlich höheren Level hat als die bekämpften Gegner, verdient sie nach dem Kampf weniger FP.
+[/list]
+
+
+[entry 1-0]
+[h1]Charakter-Infofenster[/h1]
+
+Das Infofenster eines Charakters zeigt eine Reihe von Informationen zu seinen Kampffähigkeiten an und verrät dir alles, was du über den Charakter wissen musst. Es wird in der Regel links unten im Bildschirm angezeigt, wenn du den Mauszeiger über einen Charakter bewegst.
+
+Das Infofenster hat bis zu fünf Seiten mit Informationen. Mit der {patchstring1-term} kannst du durch die Seiten blättern. Hier ist eine kurze Beschreibung der einzelnen Seiten:
+[list]
+[*]Seite 1 ist die wichtigste. Sie zeigt die wichtigsten Werte und Elementarresistenzen des Charakters an. Mit der {button-help}-Taste kannst du Erklärungen zu den einzelnen Werten und Resistenzen einsehen.
+[*]Seite 2 zeigt die Ausrüstung sowie Immunitäten des Charakters gegen Mali an. Mit {patchstring2-term} kannst du Beschreibungen zu allen Ausrüstungsgegenständen und vor allem zur Waffenreichweite anzeigen.
+[*]Seite 3 zeigt die aktiven {Abilities} der primären {Class} des Charakters an. Wie auf Seite 2 kannst du {patchstring2-term} nutzen, um die {Abilities} zu sichten und weitere Informationen dazu anzuzeigen.
+[*]Seite 4 ist wie Seite 3 aufgebaut, zeigt jedoch die aktiven Fähigkeiten der Unterklasse des Charakters an. (Diese Seite wird nur angezeigt, wenn der Charakter eine Unterklasse ausgerüstet hat).
+[*]Seite 5 zeigt die {passive-traits} sowie die {counter} {Ability} des Charakters an. Wie auf den Seiten 3 und 4 kannst du dir mit {patchstring2-term} weitere Informationen zu diesen {Abilities} anzeigen lassen.
+[/list]
+
+
+[entry 1-1]
+[h1]Klasse und Unterklasse[/h1]
+
+Klasse und Unterklasse eines Charakters werden in seinem Infofenster auf Seite 1 unter seinem Namen angezeigt. Sie geben dir auf einen Blick eine ungefähre Vorstellung von den aktiven Fähigkeiten und der Ausrüstung, die dieser Charakter nutzen kann. Für genauere Informationen zu Fähigkeiten und Ausrüstung solltest du dir jedoch immer auch die Seiten 2 bis 5 im Infofenster eines Charakters ansehen. 
+
+Im Truppenmenü kannst du Klasse und Unterklasse eines Charakters festlegen und weitere Informationen über die Fähigkeiten der einzelnen Klassen anzeigen.
+
+
+[entry 1-2]
+[h1]Erfahrung und Levelaufstiege[/h1]
+
+Ein Charakter bekommt immer dann Erfahrung (EP), wenn er eine Aktion mit erkennbarer Wirkung ausführt. Wenn ein Charakter 100 EP erreicht hat, steigt er einen Level auf, wodurch seine Werte basierend auf seiner primären Klasse gesteigert werden. Bei einem Levelaufstieg wird der EP-Zähler zurückgesetzt.
+
+Beispiele für Aktionen, die EP bringen:
+[list]
+[*]Einem Gegner Schaden zufügen
+[*]Einen Gegner besiegen 
+[*]Erfolgreich einen Bonus oder Malus wirken
+[*]Einen Charakter heilen
+[*]Einen Malus entfernen
+[/list]
+
+Keine EP gibt es für Interaktionen mit Objekten, Angriffe, die ihr Ziel verfehlen, nutzlose Aktionen ohne erkennbare Wirkung oder fürs Gehen.
+
+Besondere Hinweise zu EP:
+[list]
+[*]Wer einem Gegner den entscheidenden Schlag versetzt, erhält deutlich mehr EP als normal.
+[*]Der Einsatz von Heilfähigkeiten bringt im Vergleich zu Angriffsaktionen mehr EP. Dies ist ein Ausgleich dafür, dass Heiler nur selten den entscheidenden Schlag gegen einen Gegner landen werden. 
+[*]Wie viel EP ein Charakter bekommt, hängt vom Verhältnis seines Levels zu dem des Ziels ab. Wenn ein Charakter mit niedrigerem Level einen mit höherem Level angreift, bekommt er je nach Differenz im Level mehr EP. Umgekehrt gilt dasselbe: Einen schwächeren Gegner mit einem Charakter mit hohem Level anzugreifen, bringt weniger EP.
+[/list]
+
+
+[entry 1-3]
+[h1]Werte[/h1]
+Werte geben die Stärke des Charakters in verschiedenen Bereichen an.
+[list]
+[*]{HP}: Trefferpunkte (HP) spiegeln die Gesundheit eines Charakters wider. Wenn die HP eines Charakters im Kampf auf 0 fallen, geht er k.o. und trägt in den meisten Schwierigkeitseinstellungen eine Verletzung aus dem Kampf davon.
+[*]{MP}: Manapunkte (MP) sind eine Ressource, die Charaktere für den Einsatz bestimmter Fähigkeiten im Kampf benötigen. Charaktere starten einen Kampf mit 0 MP und erhalten zu Beginn jeder Runde 10 MP dazu. MP werden in der Regel für den Einsatz der stärksten Fähigkeiten im Spiel benötigt.
+[*]{atk}: Der Angriffswert spiegelt die körperliche Stärke eines Charakters hinsichtlich der Stärke seiner Angriffe und Fähigkeiten wider. Der Schaden (oder die Heilung) von regulären Angriffen und der meisten Kampffähigkeiten basiert auf dem Angriffswert. Wenn der Schaden von Fähigkeiten auf dem Angriffswert basiert, wird dies in ihrer Beschreibung erwähnt.
+[*]{mnd}: Intellekt spiegelt die magische Stärke eines Charakters hinsichtlich der Stärke seiner Angriffe und Fähigkeiten wider. Der Schaden (oder die Heilung) der meisten magischen Fähigkeiten basiert auf dem Wert für Intellekt. Wenn der Schaden von Fähigkeiten auf dem Wert für Intellekt basiert, wird dies in ihrer Beschreibung erwähnt.
+[*]{def}: Verteidigung gibt die Widerstandsfähigkeit eines Charakters gegen körperlichen Schaden an. Je höher der Verteidigungswert, desto weniger Schaden nimmt der Charakter von Angriffen, die auf den Verteidigungswert abzielen. Das sind die meisten körperlichen Angriffe.
+[*]{RES}: Resistenz gibt die Widerstandsfähigkeit eines Charakters gegen Magieschaden an. Je höher der Wert für die Resistenz, desto weniger Schaden nimmt der Charakter von Angriffen, die auf die Resistenz abzielen. Das sind die meisten magischen Angriffe.
+[*]{spd}: Geschwindigkeit gibt an, wie schnell der Charakter im Kampf agieren kann. Je höher dieser Wert, desto schneller kommt ein Charakter im Kampf erneut an die Reihe. Charaktere, deren Geschwindigkeit hoch genug ist, können im Kampf mehr Züge haben als Charaktere mit geringerer Geschwindigkeit.
+[*]{eva}: Ausweichen gibt an, wie gut ein Charakter auf ihn gerichteten offensiven Aktionen (einschließlich Fähigkeiten und reguläre Angriffe) vollständig ausweichen kann. Dein Wert für Ausweichen basiert auf deiner aktuellen Klasse und deiner Ausrüstung. Generell haben alle Charaktere eine Trefferchance von (100 - AUS-Wert des Ziels) %. Sofern ein Ziel also Ausweichen nicht anhäuft, ist deine Trefferchance in der Regel hoch (zwischen 95 und 99 %). Das Anhäufen von Ausweichen kann jedoch ein wirksames Mittel sein, um Schaden abzuwehren.
+[*]<sprite name="icon-stats-crit">: Die Chance auf kritischen Treffer gibt an, wie wahrscheinlich der Charakter einen kritischen Treffer beim Ziel landen kann. Kritische Treffer verursachen standardmäßig 50 % mehr Schaden und wenden automatisch jeden Malus an, der mit dem Angriff verbunden ist. Deine Chance auf einen kritischen Treffer basiert auf deiner aktuellen Klasse und Ausrüstung. Normalerweise sind kritische Treffer nur mit regulären Angriffen möglich, aber eine spezielle passive Fähigkeit ermöglicht es, dass auch mit Fähigkeiten kritische Treffer erzielt werden können.
+[/list]
+
+
+[entry 1-4]
+[h1]Zustand des Charakters[/h1]
+
+Bestimmte Ausrüstungsgegenstände und {Abilities} können den Zustand eines Charakters ändern. Die aktuellen Boni und Mali eines Charakters siehst du rechts oben in seinem Infofenster. Im Kampf kannst du auch {button-details} gedrückt halten, um rasch einen Überblick über den Zustand aller Kämpfer zu erhalten. Eine Zahl auf dem Symbol eines Bonus oder Malus gibt an, wie viele Runden die Wirkung noch anhalten wird. Symbole ohne Zahl haben eine dauerhafte Wirkung. Sie wird meist durch Ausrüstung oder passive {Abilities} verliehen.
+
+Statuszustände beeinflussen das Ziel auf folgende Weisen:
+[b]Boni:[/b]
+[list]
+[*]<sprite name="icon-buff-atkup">{positive-ATKUp}: Erhöht den Angriffswert der Einheit.
+[*]<sprite name="icon-buff-matkup">{positive-MNDUp}: Erhöht den Intellekt der Einheit.
+[*]<sprite name="icon-buff-defup">{positive-DEFUp}: Erhöht die Verteidigung der Einheit.
+[*]<sprite name="icon-buff-mdefup">{positive-RESUp}: Erhöht die Resistenz der Einheit.
+[*]<sprite name="icon-buff-critup">{positive-CRITUp}: Erhöht die Chance der Einheit, einen kritischen Treffer zu landen.
+[*]<sprite name="icon-buff-thorns">{positive-Thorns}: Eine Einheit mit Dornen wirft automatisch einen Teil des erlittenen Schadens (egal aus welcher Quelle) zurück.
+[*]<sprite name="icon-buff-haste">{positive-Haste}: Eine beschleunigte Einheit kommt schneller an die Reihe.
+[*]<sprite name="icon-buff-regen">{positive-Renew}: Eine Einheit mit Erneuern erhält in jeder Runde HP zurück.
+[*]<sprite name="icon-buff-reraise">{positive-Rebirth}: Eine Einheit mit Wiedergeburt steht automatisch wieder auf, nachdem sie im Kampf ausgeknockt wurde.
+[*]<sprite name="icon-buff-mirage">{positive-Mirage}: Eine Einheit mit Trugbild weicht automatisch der nächsten Schaden verursachenden Angriffsaktion gegen sich aus.
+[*]<sprite name="icon-buff-barrier">{positive-Barrier}: Eine Einheit mit Barriere weicht automatisch dem nächsten offensiven Statuseffekt aus, mit dem sie belegt wird.
+[*]<sprite name="icon-buff-aegiswater"><sprite name="icon-buff-aegisfire"><sprite name="icon-buff-aegisearth"><sprite name="icon-buff-aegiselectric"><sprite name="icon-buff-aegisdark"><sprite name="icon-buff-aegisholy">{positive-AdaptAegis}:Eine Einheit mit Elementarschutz hat höhere Resistenz gegen das letzte Element, mit dem sie angegriffen wurde.
+[*]<sprite name="icon-buff-fleetoffoot">{positive-fleetoffoot}: Eine Einheit mit Flinkheit hat Bewegung +1.
+[*]<sprite name="icon-buff-affinitywater"><sprite name="icon-buff-affinityfire"><sprite name="icon-buff-affinityearth"><sprite name="icon-buff-affinityelectric"><sprite name="icon-buff-affinitydark"><sprite name="icon-buff-affinityholy">[b]{DRUI-C1}[/b]: Eine Einheit mit Adaptiver Affinität verursacht erhöhten Schaden mit dem letzten Element, von dem sie Schaden erlitten hat.
+[*]<sprite name="icon-buff-boon">{positive-boon}: Die nächste Aktion der Einheit wird garantiert ein kritischer Treffer.
+[*]<sprite name="icon-buff-focus">{positive-focus}: Die nächste Aktion der Einheit verursacht doppelten Schaden oder doppelte Heilung. (Gilt nicht für Gegenstände).
+[/list]
+
+[b]Mali:[/b]
+[list]
+[*]<sprite name="icon-debuff-poison">{help-status-0-0}: Verursacht in jeder Runde Schaden basierend auf max. HP. HP der Einheit können durch diesen Effekt nicht unter 1 fallen.
+[*]<sprite name="icon-debuff-bleed">{help-status-0-1}: Verursacht in jeder Runde Schaden basierend auf max. HP. HP der Einheit können durch diesen Effekt nicht unter 1 fallen.
+[*]<sprite name="icon-debuff-blind">{help-status-0-2}: Senkt die Genauigkeit der Einheit dramatisch.
+[*]<sprite name="icon-debuff-root">{help-status-0-3}: Verhindert, dass die Einheit den Befehl „Bewegen“ verwenden kann.
+[*]<sprite name="icon-debuff-silence">{help-status-0-4}: Verhindert, dass die Einheit Zauber einsetzen kann (für jede Fähigkeit wird der Typ in der Beschreibung genannt).
+[*]<sprite name="icon-debuff-cripple">{help-status-1-0}: Verhindert, dass die Einheit Fertigkeiten einsetzen kann (für jede Fähigkeit wird der Typ in der Beschreibung genannt).
+[*]<sprite name="icon-debuff-sleep">{help-status-1-1}: Die Einheit schläft ein und setzt aus, bis sie wieder aufwacht. Wenn der Charakter Schaden erleidet, wird dieser Malus entfernt. (Eine Einheit kann nur jeweils eine Wirkung Raserei, Schlaf oder Bezaubern haben).
+[*]<sprite name="icon-debuff-berserk">{help-status-1-2}: Die Einheit greift blindlings das nächste Ziel an, egal ob Freund oder Feind. (Eine Einheit kann nur jeweils eine Wirkung Raserei, Schlaf oder Bezaubern haben).
+[*]<sprite name="icon-debuff-charm">{help-status-1-3}: Die Einheit unternimmt Aktionen, die dem Team des Bezaubernden helfen. Wenn der Charakter Schaden erleidet, wird dieser Malus entfernt. (Eine Einheit kann nur jeweils eine Wirkung Raserei, Schlaf oder Bezaubern haben).
+[*]<sprite name="icon-debuff-slow">{help-status-1-4}: Die Einheit kommt langsamer als gewöhnlich an die Reihe.
+[*]<sprite name="icon-debuff-atkdown">{help-status-2-0}: Reduziert den Angriffswert der betroffenen Einheit.
+[*]<sprite name="icon-debuff-matkdown">{help-status-2-1}: Reduziert den Intellekt der betroffenen Einheit.
+[*]<sprite name="icon-debuff-defdown">{help-status-2-2}: Reduziert die Verteidigung der betroffenen Einheit.
+[*]<sprite name="icon-debuff-mdefdown">{help-status-2-3}: Reduziert die Resistenz der betroffenen Einheit.
+[*]<sprite name="icon-debuff-weaken">{help-status-2-4}: Jede auf die betroffene Einheit angewendete normale Heilung hat 0 Wirkung.
+[*]<sprite name="icon-debuff-noquicken">{negative-exhaust}: {help-status-exhaust-desc}
+[/list]
+
+
+[entry 1-5]
+[h1]Resistenzen[/h1]
+
+Charaktere haben zwei Arten von Resistenzen: Elementarresistenzen und Resistenzen gegen Mali.
+[list]
+[*]Elementarresistenzen werden auf Seite 1 des Infofensters eines Charakters angezeigt. Die Elemente sind: {element-water-icon}{element-Water}, {element-fire-icon}{element-fire}, {element-earth-icon}{element-earth}, {element-thunder-icon}{element-thunder}, {element-dark-icon}{element-dark} und {element-holy-icon}{element-holy}. Die Zahlen neben den einzelnen Symbolen sind Prozentsätze: Ein Charakter mit einer Resistenz von 50 nimmt 50 % weniger Schaden von diesem Element, einer mit einer Resistenz von -50 nimmt dagegen 50 % mehr Schaden. Bei Resistenzen über 100 werden Charaktere durch dieses Element geheilt!
+[*]Immunitäten gegen Mali werden auf Seite 2 des Infofensters eines Charakters angezeigt. Hier gibt es keine Abstufungen: Wenn ein Symbol hervorgehoben ist, ist der Charakter gegen diesen Malus immun. Wenn nicht, kann der Charakter ganz normal davon betroffen werden.
+[/list]
+
+
+[entry 2-0]
+[h1]Was ist das Truppenmenü?[/h1]
+
+Das Truppenmenü ist dein wichtigstes Werkzeug, um deine Charaktere stärker zu machen. Hier kannst du die Klassen deiner Charaktere ändern, neue Fähigkeiten lernen, mächtige Ausrüstung anlegen, neue Gegenstände herstellen und den Schwierigkeitsgrad des Spiels anpassen. Das Truppenmenü kannst du sowohl über die Weltkarte als auch während der Aufstellungsphase vor einem Kampf öffnen. Wähle einen Charakter aus, um eine Liste von Optionen anzuzeigen.
+
+
+[entry 2-1]
+[h1]Ausrüstung[/h1]
+
+In diesem Bereich des Truppenmenüs kannst du deine Charaktere mit bis zu 6 Ausrüstungsgegenständen ausstatten, darunter Waffen, Rüstungsteile und Zubehör.
+[list]
+[*]Denk daran, dass die Waffe mit dem größten Angriffswert oder die Rüstung mit der höchsten Verteidigung nicht immer automatisch die beste Wahl sein müssen – Ausrüstungsgegenstände können eine ganze Reihe von Eigenschaften haben, die sie für verschiedene Situationen jeweils besonders geeignet machen. Zum Beispiel können Waffen mit zusätzlicher Reichweite trotz ihrer grundsätzlich geringeren Angriffsstärke extrem wirksam sein.
+[*]Welche Waffen und Rüstung ein Charakter verwenden kann, hängt von seiner Klasse ab.
+[*]Ein Charakter kann einen Helm und ein Rüstungsset für den Körper anlegen. In den Händen kann er entweder eine einhändige Waffe (und einen Schild, wenn dies seine Klasse erlaubt) oder eine zweihändige Waffe halten. Einige passive Fähigkeiten eröffnen noch weitere Möglichkeiten, etwa eine zweihändige Waffe in einer Hand zu halten oder zwei Waffen zu halten. Beachte, dass Bögen und Armbrüste immer zweihändig sind.
+[*]Zubehörgegenstände können beliebig in einem der verbleibenden Ausrüstungsplätze eines Charakters angelegt werden. Hier gibt es keine Einschränkung nach Art der Ausrüstung oder nach Klasse. Das bedeutet, ein Charakter kann beispielsweise so viele Zubehörgegenstände vom Typ Stiefel oder Handschuh anlegen, wie er will.
+[/list]
+
+
+[entry 2-2]
+[h1]Fähigkeiten[/h1]
+
+Die Entscheidung, welche Fähigkeiten ein Charakter erlernen soll, ist der wichtigste Faktor bei ihrer Entwicklung. Fähigkeiten können mit den in Kämpfen erhaltenen FP erlernt werden. Wenn ein Charakter genug FP verdient hat, um eine Fähigkeit zu erlernen, wird im Truppenmenü neben diesem Charakter ein kleiner Pfeil (<sprite name="icon-ability-ready">) angezeigt. Wenn der Pfeil sich bewegt, bedeutet das, dass der Charakter eine neue Fähigkeit erlernen kann.
+
+[b]Fähigkeiten erlernen:[/b] Um eine Fähigkeit zu erlernen, wähle einen Charakter aus und danach „Fähigkeiten“ und „Fähigkeiten erlernen“. Es wird eine Liste der Klassen angezeigt, auf die dieser Charakter Zugriff hat, sowie die Anzahl der FP für jede Klasse. Wenn du eine Klasse aus der Liste auswählst, kannst du alle Fähigkeiten im Fähigkeitsbaum dieser Klasse anzeigen. Der Fähigkeitsbaum ist in einzelne „Stufen“ unterteilt und höhere Stufen werden erst verfügbar, wenn der Charakter eine Fähigkeit der darunterliegenden Stufe erlernt hat. 
+
+Es gibt drei Arten von Fähigkeiten, die jede Klasse erlernen kann:
+[list]
+[*][b]Aktive Fähigkeiten[/b] (<sprite name="icon-ability-active">) sind Befehle, die während des Kampfs ausgewählt werden können. Aktive Fähigkeiten können Fertigkeiten, Zauber oder Spezialfähigkeiten sein. Fertigkeiten beziehen ihre Stärke in der Regel aus dem Angriffswert und zielen auf den Verteidigungswert. Sie können mit dem Malus „Behindern“ außer Kraft gesetzt werden. Zauber beziehen ihre Stärke in der Regel aus dem Wert für Intellekt und zielen auf die Resistenz. Sie können mit dem Malus „Stumm“ außer Kraft gesetzt werden. Einige wenige aktive Fähigkeiten sind Spezialfähigkeiten, die weder Fertigkeiten noch Zauber sind.
+[*][b]Passive Fähigkeiten[/b] (<sprite name="icon-ability-passive">) verbessern einen Charakter automatisch auf verschiedene Weisen, wenn sie ausgerüstet sind. 
+[*][b]Konterfähigkeiten[/b] (<sprite name="icon-ability-counter">) werden in verschiedenen Situationen im Kampf automatisch ausgelöst, wenn sie ausgerüstet sind. 
+[/list]
+
+[b]Fähigkeiten ausrüsten:[/b] Nachdem deine Charaktere Fähigkeiten verschiedener Klassen erlernt haben, musst du diese ausrüsten, damit du von ihrer Wirkung profitieren kannst. Wähle dazu im Fähigkeitenmenü des Charakters „Fähigkeiten festlegen“ aus.
+[list]
+[*][b]Aktive Fähigkeiten[/b]: Charaktere rüsten automatisch alle aktiven Fähigkeiten aus, die sie in ihrer primären Klasse erlernt haben. Zusätzlich können sie auch alle aktiven Fähigkeiten ausrüsten, die sie von einer anderen Klasse als Unterklasse erlernt haben.
+[*][b]Passive Fähigkeiten[/b]: Charaktere rüsten automatisch alle passiven Fähigkeiten ihrer primären Klasse aus, die sie erlernt haben. Zusätzlich können sie auch noch zwei beliebige erlernte passive Fähigkeiten anderer Klassen ausrüsten.
+[*][b]Konterfähigkeiten[/b]: Ein Charakter kann eine einzige erlernte Konterfähigkeit ausrüsten.
+[/list]
+
+
+[entry 2-3]
+[h1]Klassenwechsel[/h1]
+
+Die Klasse eines Charakters beeinflusst, welche Fähigkeiten er besitzt, welche Ausrüstung er verwenden kann, wie er seine verdienten FP ausgeben kann und wie sich seine Werte beim Levelaufstieg verbessern. Du kannst die primäre Klasse eines Charakters ändern und Informationen zu jeder Klasse anzeigen lassen, indem du im Truppenmenü einen Charakter auswählst und dann „Klassenwechsel“ auswählst.
+
+[b]Neue Klassen freischalten:[/b]
+Immer, wenn ein Charakter FP für das Erlernen einer Fähigkeit ausgibt, erhöht sich sein Klassenlevel um 1. Das Erhöhen verschiedener Klassenlevel schaltet neue Klassen für diesen Charakter frei. Die Voraussetzungen kannst du im Klassenwechsel-Bildschirm anzeigen. Wenn deine Gruppe Klassen freischaltet, werden immer weitere Klassen im Klassenwechsel-Bildschirm angezeigt.
+
+Nachdem du die Klasse eines Charakters geändert hast, solltest du seine Fähigkeiten und Ausrüstung nochmal kontrollieren, da diese von der Klasse beeinflusst werden.
+
+
+[entry 2-4]
+[h1]Einheiten sortieren[/h1]
+
+Mit dieser Option kannst du die Reihenfolge ändern, in der deine Charaktere im Truppenmenü angeordnet sind. Du kannst aus vielen verschiedenen Sortierungsoptionen wählen.
+
+
+[entry 2-5]
+[h1]Einheiten entlassen[/h1]
+
+Wenn du einen Charakter aus irgendeinem Grund aus deiner Armee entfernen möchtest, kannst du ihn im Truppenmenü entlassen. Entlassene Charaktere verlassen dich für immer und können nicht zurückgeholt werden. Setze diesen Befehl also mit Bedacht ein. Für die Geschichte relevante Charaktere können nicht entlassen werden.
+
+
+[entry 2-6]
+[h1]Herstellen[/h1]
+
+Wenn du die richtigen Komponenten hast, kannst du neue Gegenstände, Ausrüstung, Apparate und Abzeichen herstellen oder vorhandene Gegenstände verbessern. Wenn du alle benötigten Komponenten hast, um etwas herzustellen, wird neben dem jeweiligen Plan ein grünes Häkchen angezeigt. 
+
+Wenn du neue Komponenten bekommst, können dadurch auch neue Rezepte im Herstellen-Menü verfügbar werden. Daher solltest du dieses Menü öffnen, nachdem du eine neue Komponente erhalten hast, um nachzusehen, ob du etwas Neues herstellen kannst.
+
+
+[entry 2-7]
+[h1]Schwierigkeit einstellen[/h1]
+
+Im {hint-wm-menu} kannst du den Schwierigkeitsgrad ändern, den du zu Beginn eines neuen Spiels eingestellt hast. Über {ps4-button-size-on}{button-difficulty}{ps4-button-size-off} kannst du die Schwierigkeitsoptionen aufrufen. Im Kampf kannst du die Einstellungen für die Schwierigkeit nicht ändern.
+
+
+[entry 3-0]
+[h1]Überblick[/h1]
+
+Von der Weltkarte aus kannst du das Truppenmenü öffnen und zu verschiedenen Gebieten reisen, die durch verschiedenfarbige Punkte symbolisiert werden. Das Truppenmenü wird in einem eigenen Abschnitt näher beschrieben, daher konzentrieren wir uns hier auf die anderen Funktionen der Weltkarte. 
+
+Im Verlauf der Geschichte werden neue Punkte auf der Weltkarte verfügbar.
+[list]
+[*]Ein roter Punkt zeigt das nächste Ziel im Rahmen der Geschichte an. 
+[*]Ein grüner Punkt ist ein Schlachtfeld. Auf diesen kannst du patrouillieren, um optionale Kämpfe zu beginnen.
+[*]Ein großer blauer Punkt zeigt eine Stadt an, in der du Truppen anheuern und einkaufen kannst. In einigen wenigen Städten kannst du auch patrouillieren, um einen optionalen Kampf zu beginnen.
+[*]Ein kleiner blauer Punkt ist „neutral“. Mit diesen Punkt kann in der Regel nicht interagiert werden. 
+[/list]
+
+Punkte auf der Karte können auch mit einem <sprite name="speechbubble"> markiert sein.
+[list]
+[*]Das bedeutet, dass dort optionale Dialoge ausgelöst werden können, die dir mehr über die Hintergründe und Persönlichkeiten der Charaktere verraten.
+[/list]
+
+
+[entry 3-1]
+[h1]Teammitglieder in der Gilde anheuern[/h1]
+
+Neue Teammitglieder kannst du in der Gilde anheuern, die du in den Städten findest.
+[list]
+[*]Du kannst mehr Goldstücke (GP) ausgeben, um einen Charakter mit höherem Level anzuheuern. Der maximale Level von Charakteren, die du anheuern kannst, ist an Kyries Level gebunden.
+[*]Du kannst Charaktere aller Klassen anheuern, die du derzeit freigeschaltet hast (ausgenommen einige wenige eingeschränkte Spezialklassen). Die Auswahl der Klasse beeinflusst ihre Werte, da sie sich verhalten, als hätten sie diese Klasse seit Level 1 hochgelevelt. Beachte auch, dass ein als fortgeschrittene Klasse angeheuerter Charakter Zugriff auf diese verlieren kann, wenn er später seine Klasse wechselt. Um wieder zu dieser Klasse zu wechseln, muss er die normalen Voraussetzungen für die Klasse erfüllen. Überlege dir also einen Klassenwechsel gut.
+[*]Neu angeheuerte Charaktere beginnen mit Bonus-FP für alle Klassen, die dein Team genutzt hat.
+[*]Wenn du einen neuen Charakter auswählst, kannst du sein Aussehen, sein Porträt und seinen Namen auswählen. {patchstring3-term}
+[/list]
+
+In der Gilde kannst du außerdem das Aussehen vorhandener Charaktere anpassen (ausgenommen für die Geschichte relevante Charaktere).
+
+
+[entry 3-2]
+[h1]Läden[/h1]
+
+In blauen Stadt-Punkten kannst du Ausrüstung kaufen. In allen Städten ist dieselbe Ausrüstung verfügbar. Alle Läden erhalten jedoch an bestimmten Punkten in der Geschichte neues Inventar, daher ist es klug, sich das Angebot in jeder neuen Stadt, die du entdeckst, anzusehen.
+[list]
+[*][b]Kaufen[/b]: Mit GP kannst du einkaufen. Wähle dazu zunächst die Kategorie, dann den Gegenstand und schließlich die Menge, die du kaufen willst.
+[*][b]Verkaufen[/b]: Nicht mehr benötigte Ausrüstung kannst du für GP verkaufen. Wie beim Einkaufen wählst du zuerst die gewünschte Kategorie, dann den Gegenstand und schließlich die Menge, die du verkaufen willst.
+[*][b]Probieren & Kaufen[/b]: Das ist die effizienteste Weise, um Ausrüstung für deine Charaktere zu kaufen, denn sie ermöglicht dir den direkten Vergleich zwischen neuer und aktueller Ausrüstung. Verbesserungen werden im Infofenster des Charakters blau angezeigt, negative Auswirkungen dagegen rot. Während du das Angebot in einem Laden ausprobierst, kannst du rechts oben im Bildschirm deine Ausgaben im Auge behalten. Wenn du fertig mit dem Ausprobieren bist, wirst du aufgefordert, deinen Einkauf zu bestätigen.
+[/list]
+
+
+[entry 3-3]
+[h1]Patrouillieren, um optionale Kämpfe zu beginnen[/h1]
+
+Auf grünen Schlachtfeld-Punkten und in einigen ausgewählten Städten hast du die Option, zu patrouillieren und einen optionalen Kampf zu beginnen. In jedem Punkt auf der Karte gibt es einen minimalen und maximalen Level der Gegner, denen du während einer Patrouille begegnen kannst. Dieser Levelbereich wird auf der Weltkarte angezeigt und Gegner leveln innerhalb dieses Bereichs mit deinen sechs stärksten Charakteren mit. 
+
+Ein solches Schlachtfeld öfter aufzusuchen, erfüllt mehrere Zwecke:
+[list]
+[*]Durch Patrouillieren kannst du deine Charaktere für den nächsten Kampf im Rahmen der Geschichte trainieren, falls dies nötig sein sollte. 
+[*]Viele Schatzkisten sind beim ersten Mal, wenn du ein Schlachtfeld besuchst, noch außer Reichweite. Wenn du später jedoch die nötigen Ausrüstungsgegenstände oder Fähigkeiten freigeschaltet hast, um sie zu erreichen, musst du das Gebiet erneut aufsuchen, um die Schätze zu erhalten. Auf der Weltkarte siehst du, in welchen Punkten es noch ungeöffnete Schätze gibt.
+[*]An einem bestimmten Punkt im Spiel musst du vielleicht bestimmte Arten von Monstern suchen und patrouillieren ist oft der beste Weg, um sie zu finden.
+[/list]
+
+
+[entry 4-0]
+[h1]Gruppenzusammenstellung[/h1]
+
+Es ist eine gute Idee, deine Gruppe abwechslungsreich zusammenzustellen -- in einer vielseitigen Gruppe können die Charaktere ihre jeweiligen Schwächen gegenseitig ausgleichen.
+[list]
+[*]Wähle eine Kombination aus Nah- und Fernkämpfern, Zauberern und Heilern. In den meisten Kämpfen kannst du 6 Charaktere einsetzen, du hast also noch reichlich Raum für Experimente mit ausgefalleneren Einheiten.
+[*]Es ist außerdem eine gute Idee, ein paar Ersatzleute dabeizuhaben, falls jemand aussetzen muss, um eine Verletzung auszuheilen, ein Charakter aufgrund des Verlaufs der Geschichte vorübergehend nicht verfügbar ist oder du in einem Kampf mehr Truppen als gewöhnlich einsetzen kannst.
+[/list]
+
+
+[entry 4-1]
+[h1]Sieh dir nach jedem Kampf das Truppenmenü an[/h1]
+
+Deine Charaktere erhalten nach jedem Kampf FP und möglicherweise auch Zugriff auf neue Gegenstände. Daher solltest du dir nach jedem Kampf das Truppenmenü ansehen.
+[list]
+[*]Gib deine neu verdienten FP aus. Das Erlernen der richtigen Fähigkeit kann einen Charakter deutlich stärker machen. 
+[*]Wenn ein Charakter seine primäre Klasse gemeistert hat (d. h. er hat alle Fähigkeiten der Klasse erlernt), kann es eine gute Idee sein, sofort seine Klasse zu wechseln, denn die meisten FP, die ein Charakter in einer bereits gemeisterten Klasse erhält, bringen ihm nichts mehr. 
+[*]Wenn du die Klasse eines Charakters änderst, solltest du danach seine Fähigkeiten und Ausrüstung kontrollieren. Du solltest immer Unterklasse, passive Fähigkeiten und Konterfähigkeit ausgewählt haben, wenn du sie erlernt hast. Und die Ausrüstung wird nach einem Klassenwechsel zwar automatisch optimiert, aber vielleicht ist die automatische Ausstattung nicht genau das, was du willst. Wenn ein Charakter die Klasse beispielsweise zu Halunke wechselt, kann er einen Dolch oder eine Armbrust als Waffe ausrüsten. Da Dolche oft stärker sind als Armbrüste, wird die automatische Optimierung Dolche bevorzugen. Dir könnte jedoch vielleicht die zusätzliche Reichweite der Armbrust wichtiger sein.
+[*]Aktualisiere die Ausrüstung deiner Charaktere. Vielleicht hast du aus einer Schatztruhe, nach dem Kampf oder von einem neu verfügbaren Laden auf der Weltkarte einen neuen Ausrüstungsgegenstand erhalten.
+[*]Sieh dir das Herstellen-Menü an. Oft findest du in Kämpfen im Rahmen der Geschichte neue Komponenten für das Herstellen. Sieh also immer mal wieder nach, ob du etwas Neues herstellen oder verbessern kannst.
+[/list]
+
+
+[entry 4-2]
+[h1]Warten: Schneller an die Reihe kommen[/h1]
+
+Wenn dein Charakter in seiner Runde keine Aktion ausführt (ausgenommen Bewegung), kommt er beim nächsten Mal etwas schneller an die Reihe. Das kann im Kampf eine nützliche Taktik sein, wenn ein Charakter noch nicht in Reichweite der Gegner ist. Wenn du keine Aktion ausführst, bekommst du jedoch auch keine EP. Du musst also abwägen: Ist es besser, schneller wieder an die Reihe zu kommen, oder lieber eine nicht ganz optimale Aktion auszuführen, um dafür EP zu erhalten? Das hängt von der jeweiligen Situation ab und auch davon, ob du auf den kurzfristigen oder den langfristigen Vorteil aus bist.
+
+
+[entry 4-3]
+[h1]Unterschätze nicht Boni und Mali[/h1]
+
+Selbst wenn du schwächer bist als dein Gegner, kannst du das Blatt mit Boni und Mali zu deinen Gunsten wenden. Beispielsweise kannst du einen Zauberwirker mit Stumm oder Raserei belegen und ihn so völlig neutralisieren. Einen Kämpfer kannst du durch Behindern weniger bedrohlich machen und bei Gegnern, die nur Waffen und Fähigkeiten mit geringer Reichweite haben, kann ein gut platziertes Verwurzeln denselben Effekt haben. Feinde mit vielen HP sind besonders anfällig gegen Schaden durch Gift und Bluten, da dieser auf den max. HP basiert.
+Natürlich können aber auch Gegner diese Strategien gegen dich anwenden. Verwende Barriere, Allheilmittel oder Schutzausrüstung, um dich vor Mali zu schützen, und verbessere wann immer möglich deine Heilmittel durch Herstellen.
+
+
+[entry 4-4]
+[h1]Gegner wegstoßen und ertränken[/h1]
+
+Es ist extrem nützlich, wenn mindestens ein Charakter über Fähigkeiten verfügt, mit denen du Ziele wegstoßen kannst, wie der Wuchtige Schlag des Söldners. Sie verursachen zusätzlichen Schaden, wenn sie Gegner gegen Wände, gegen andere Einheiten oder in Abgründe stoßen. Du kannst sogar Gegner, die nicht schwimmen können, ins Wasser schubsen und so ertränken! Beachte, dass der Schaden durch das Stoßen in Abgründe nicht nur von der Fallhöhe, sondern auch vom Sprungwert des Ziels und dessen Fähigkeit zu fliegen abhängt.
+
+
+[entry 4-5]
+[h1]Steckst du in einem Kampf fest?[/h1]
+
+Hier sind einige einfache Strategien, die großen Einfluss auf den Ausgang eines Kampfs haben können:
+[list]
+[*]Setze immer die maximale Anzahl an Truppen ein! In den meisten Kämpfen sind das 6 Einheiten, aber in manchen auch 7.
+[*]Verwende Gegenstände! Da dein Inventar nach jedem Kampf wieder aufgefüllt wird, gibt es keinen Grund, Gegenstände zu horten. 
+[*]Versuche, einen Gegner nach dem anderen auszuschalten! Wenn du die Anzahl deiner Gegner schnell reduzieren kannst, kann dir das den entscheidenden Vorteil verschaffen.
+[*]Nutze die Schwächen von Monstern gegen Elemente aus! Halte Elementarzauber und Elementarwaffen bereit, um die Macht der Elemente zu nutzen. 
+[*]Studiere deine Feinde vor dem Kampf! Ihre Waffen, passiven Fähigkeiten und Konter verlangen vielleicht eine andere Taktik von dir. Während der Aufstellungsphase kannst du deine Charaktere im Truppenmenü anpassen, um deine Erfolgschancen angesichts verschiedener Herausforderungen zu erhöhen.
+[/list]
+
+
+[entry 4-6]
+[h1]Hilfe-Taste[/h1]
+
+In den meisten Bildschirmen kannst du {button-help} {patchstring-click1-term}, um Erklärungen zu den Symbolen und sonstigen Elementen der Benutzeroberfläche anzuzeigen. Wenn die Hilfe-Funktion verfügbar ist, findest du sie rechts unten im Bildschirm.
+
+
+[entry 5-0]
+[h1]Zurücksetzen auf Level 1[/h1]
+
+[b]Überblick[/b]
+In der Gilde hast du die Möglichkeit, einen Charakter auf Level 1 zurückzusetzen. Das ermöglicht dir, die Werte eines Charakters ganz nach deinen Vorstellungen zu optimieren. Es ist jedoch keinesfalls nötig, um das Spiel zu meistern und wird auch grundsätzlich nicht empfohlen. Verwende diese Funktion mit Bedacht!
+
+[b]Warum Charaktere auf Level 1 zurücksetzen?[/b]
+Wenn du einen Charakter zurücksetzt, werden sämtliche bislang gesteigerten Werte wieder auf Level 1 zurückgesetzt. Seine FP, Fähigkeiten und freigeschalteten Klassen bleiben jedoch erhalten. 
+
+Wenn ein Charakter im Level aufsteigt, steigert er bestimmte Werte basierend auf seiner zu diesem Zeitpunkt aktiven Klasse. Diese Steigerung der Werte kannst du im Klassenwechsel-Bildschirm anzeigen. Wenn du ganz bestimmte Charakterwerte erreichen willst und das Gefühl hast, es „verbockt“ zu haben, oder Wertesteigerungen einer erst später freigeschalteten Klasse nutzen möchtest, kannst du den Charakter auf Level 1 zurücksetzen und ihn dann perfekt nach deinen Vorstellungen entwickeln.
+
+[b]Gründe, Charaktere NICHT auf Level 1 zurückzusetzen[/b]
+[list]
+[*]Das erneute Aufleveln eines Charakters kann lange dauern. Wenn du einen Charakter auf Level 1 zurücksetzt, musst du deinen Fortschritt in der Geschichte möglicherweise unterbrechen, bis du diesen Charakter wieder in Form gebracht hast.
+[*]Es kostet eine Menge Gold. Wenn du dieses Gold stattdessen für Ausrüstung ausgibst, bekommst du die gewünschte Steigerung der Charakterwerte vielleicht ebenfalls.
+[*]Es könnte einfacher sein, einen Charakter in der Gilde anzuheuern. Die Rekrutierung ist nur halb so teuer wie das Zurücksetzen und du musst keine Zeit für das erneute Aufleveln des Charakters aufwenden, bis er wieder so stark ist wie der Rest deines Teams. Der Nachteil ist jedoch, dass der neue Rekrut in der Regel insgesamt weniger FP haben wird als ein Charakter, der schon länger Teil deines Teams ist und aktiv an Kämpfen teilgenommen hat. 
+[*]Du brauchst keine perfekten Charakterwerte, um das Spiel zu meistern. {fell-seal} wurde bewusst so konzipiert, dass du mit deinem Team experimentieren kannst. Auch wenn ein Charakter ein paar Level in einer Klasse aufsteigt, die nicht ideal für ihn ist, ist er deshalb noch lange nicht ineffektiv.
+[*]Für die meisten Charakterwerte gibt es eine Begrenzung auf den Höchstwert von {stat-cap} ({spd-cap} bei {spd}, {hp-cap} bei {HP}/{MP}). Das bedeutet, selbst wenn du „Min-Maxing“ für einen Charakter betreiben möchtest, hast du noch einigen Spielraum zum Maximieren eines Charakterwerts, selbst wenn dieser Wert nicht bei jedem Levelaufstieg höchstmöglich gesteigert wird.
+[*]Ein Beispiel: Wenn du einen Charakter ausschließlich als {prin-title} auflevelst, weil bei dieser Klasse {mnd} so stark erhöht wird, wird dein Charakter bei etwa Level 84 den Höchstwert von {stat-cap} für {mnd} erreicht haben. Danach ist bei jedem weiteren Levelaufstieg als Zauberer die {mnd}-Steigerung wirkungslos. Das bedeutet, dass es auf lange Sicht sinnvoll ist, Klassen von Charakteren zu mischen, um ihre Werte gleichmäßig zu steigern und sicherzustellen, dass du bei jedem Levelaufstieg von der Steigerung der Werte profitierst.
+[/list]
+
+[b]Besondere Überlegungen zum Zurücksetzen von für die Geschichte relevanten Charakteren[/b]
+[list]
+[*]Neue Rekruten in der Gilde können nur bis zu Kyries Level angeheuert werden. Wenn du Kyries Level zurücksetzt, beschränkst du auch den Level der Rekruten, die du anheuern kannst. 
+[*]Der Level von für die Geschichte relevanten Charakteren, die sich deiner Gruppe anschließen, ist ebenfalls direkt an Kyries Level gebunden. Wenn du ihren Level zurücksetzt, reduzierst du also auch den Level der neuen für die Geschichte relevanten Charaktere. 
+[*]Bei einigen Kämpfen im Rahmen der Geschichte müssen bestimmte für die Geschichte relevante Charaktere anwesend sein. Wenn du den Level eines solchen Charakters zurücksetzt und dann zu einem Kampf kommst, in dem du diesen Charakter einsetzen musst, könntest du in Schwierigkeiten kommen. In Kämpfen im Rahmen der Geschichte muss in der Regel zumindest Kyrie dabei sein, gelegentlich vielleicht auch weitere Charaktere.
+[*]Da du keine alternative Version von für die Geschichte relevanten Charakteren anheuern kannst, könnte es sinnvoll sein, sie auf Level 1 zurückzusetzen, wenn du mit der Entwicklung ihrer Werte gar nicht zufrieden bist.
+[*]Es gibt einen bestimmten Monster-Charakter, dessen Werte sich nicht dauerhaft erhöhen. Sie spiegeln stattdessen seine aktuelle Monsterklasse wieder. Dieses Monster auf Level 1 zurückzusetzen bringt daher keine Vorteile.
+[/list]

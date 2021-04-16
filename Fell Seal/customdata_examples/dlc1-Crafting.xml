@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XMLCrafting>
+  <Recipes ItemHash="BADG-14" Type="kSpecial" Ing0="12" Count0="1" Ing1="11" Count1="2" />
+  <Recipes ItemHash="BADG-12" Type="kSpecial" Ing0="15" Count0="1" Ing1="6" Count1="1" />
+  <Recipes ItemHash="BADG-13" Type="kSpecial" Ing0="15" Count0="1" Ing1="17" Count1="1" />
+  <Recipes ItemHash="ABO-35" Type="kGear" Ing0="7" Count0="1" Ing1="4" Count1="1" />
+  <Recipes ItemHash="ACO-00" Type="kGear" Ing0="20" Count0="1" Ing1="0" Count1="2" />
+  <Recipes ItemHash="ACO-01" Type="kGear" Ing0="20" Count0="1" Ing1="1" Count1="2" />
+  <Recipes ItemHash="ACO-02" Type="kGear" Ing0="20" Count0="1" Ing1="2" Count1="2" />
+  <Recipes ItemHash="ACO-03" Type="kGear" Ing0="20" Count0="1" Ing1="4" Count1="2" />
+  <Recipes ItemHash="ACO-04" Type="kGear" Ing0="20" Count0="1" Ing1="3" Count1="2" />
+  <Recipes ItemHash="ACO-05" Type="kGear" Ing0="20" Count0="1" Ing1="3" Count1="2" />
+  <Recipes ItemHash="ARI-41" Type="kGear" Ing0="22" Count0="1" Ing1="13" Count1="1" />
+  <Recipes ItemHash="ARI-42" Type="kGear" Ing0="22" Count0="1" Ing1="13" Count1="1" />
+  <Recipes ItemHash="HLI-35" Type="kGear" Ing0="16" Count0="1" Ing1="0" Count1="2" />
+  <Recipes ItemHash="SHI-35" Type="kGear" Ing0="20" Count0="1" Ing1="0" Count1="1" />
+  <Recipes ItemHash="SHI-36" Type="kGear" Ing0="20" Count0="1" Ing1="1" Count1="1" />
+  <Recipes ItemHash="STF-35" Type="kGear" Ing0="9" Count0="1" Ing1="8" Count1="1" />
+  <Recipes ItemHash="AXE-35" Type="kGear" Ing0="21" Count0="1" Ing1="16" Count1="1" />
+  <Recipes ItemHash="AXE-36" Type="kGear" Ing0="25" Count0="1" Ing1="9" Count1="1" />
+  <Recipes ItemHash="RAP-37" Type="kGear" Ing0="19" Count0="1" Ing1="12" Count1="1" />
+  <Badges HashName="BADG-06" Name="Badge 6" Desc="BADG-06" Icon="icon-serum-venom" IsDLCIcon="true" Class="VAR-VEN" Price="6000" />
+  <Badges HashName="BADG-07" Name="Badge 7" Desc="BADG-07" Icon="icon-serum-dermestid" IsDLCIcon="true" Class="VAR-SKE" Price="6500" />
+  <Badges HashName="BADG-08" Name="Badge 8" Desc="BADG-08" Icon="icon-serum-claw" IsDLCIcon="true" Class="VAR-FER" Price="9000" />
+  <Badges HashName="BADG-09" Name="Badge 9" Desc="BADG-09" Icon="icon-serum-thorn" IsDLCIcon="true" Class="VAR-THO" Price="9500" />
+  <Badges HashName="BADG-10" Name="Badge 10" Desc="BADG-10" Icon="icon-serum-wing" IsDLCIcon="true" Class="VAR-AER" Price="13500" />
+  <Badges HashName="BADG-11" Name="Badge 11" Desc="BADG-11" Icon="icon-serum-tyrant" IsDLCIcon="true" Class="VAR-TYR" Price="18000" />
+  <Badges HashName="BADG-12" Name="Badge 12" Desc="BADG-12" Icon="icon-serum-godwood" IsDLCIcon="true" Class="VAR-WRD" />
+  <Badges HashName="BADG-13" Name="Badge 13" Desc="BADG-13" Icon="icon-serum-fell" IsDLCIcon="true" Class="VAR-FEL" />
+  <Badges HashName="BADG-14" Name="Badge 14" Desc="BADG-14" Icon="icon-serum-draconic" IsDLCIcon="true" Class="VAR-DRE" />
+</XMLCrafting>

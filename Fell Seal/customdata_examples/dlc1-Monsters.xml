@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XMLMonsters>
+  <Monsters HashName="CHI-01" Img="sack" Portrait="Portrait-Human-Unisex-Mage-Shadow" Style="kHealer" Flags="kfCantWalk kfOnly1Direction kfNoDisplacement kfNoWalkSpeedChange" CustomAI="kChildren" NoUpgrade="true" GearFill="kNoExtra" WpSfx="FS_FX_003_v03" WpMissSfx="FS_FX_204_v01" DeathSfx="FS_FX_208_v02" DeathVolume="0.5" AI="kchild" CanTame="false" NoVariant="true" NoCopy="true">
+    <ElemsRes data="0,0,0,0,0,0" />
+  </Monsters>
+  <Monsters HashName="LORD" Img="rebelleaderdemon" Portrait="portrait-story-rebelleaderdemon" Style="kHybrid" WpHeight="1.5" IsBoss="true" NoUpgrade="true" WpSfx="Weapons/HammerMediumHit03" WpDelay="0.45" WpMissSfx="Weapons/WhooshHammerMedium02" WpMissDelay="0.45" DeathSfx="Monsters/FS_VOX_003B" CustomFolder="true" CanTame="false">
+    <ElemsRes data="0,0,0,0,0,0" />
+  </Monsters>
+</XMLMonsters>

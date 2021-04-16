@@ -1,0 +1,182 @@
+#version 2
+
+; This file is here for reference only and will not be loaded as customdata file. Put all your GameOptions changes into GameOptions.txt.
+
+[Game]
+VanguardReduction=0.25
+
+JuggernautPerMovementGain=0.07
+JuggernautPerMovementGainMax=0.35
+
+; When a monster already has flight and their main variant grants flight, they instead get a bonus to their speed
+VariantDoubleFlightSpeedBonus=2.5
+VariantDoubleSwimSpeedBonus=1
+
+OwnersPrideGainPerStack=0.1
+OwnersPrideGainMax=0.4
+MpGainPerDispel=3
+HpGainPerDispelPercent=12
+
+; Overrides
+StartingGold=3000
+GoldGainMax=16500
+
+; Missions AP award vicarious AP of that amount to heroes, to compensate for them not being able to participate
+VicariousMissionAPForHeroes=0.15
+
+TamingBonusFromCharm=15
+
+[npc-variant-abilities-tier-known]
+Tier0=1
+Tier1=6
+Tier2=11
+Tier3=17
+Tier4=24
+Tier5=28
+
+
+; Odds for a monster to have 2 variants, 1 variant. Otherwise, 0 variants.
+; This is for the Less difficulty setting for Enemy Skills
+[npc-variant-job-Two-Less]
+Level1=0
+Level5=0
+Level10=15
+Level15=20
+Level20=27
+Level25=34
+Level30=40
+Level40=50
+Level50=60
+Level99=90
+
+[npc-variant-job-One-Less]
+Level1=20
+Level5=30
+Level10=50
+Level15=70
+Level20=77
+Level25=83
+Level30=90
+Level40=90
+Level50=90
+Level99=90
+
+; This is for the Regular difficulty setting for Enemy Skills
+[npc-variant-job-Two-Regular]
+Level1=0
+Level5=0
+Level10=20
+Level15=25
+Level20=40
+Level25=45
+Level30=50
+Level40=65
+Level50=80
+Level99=100
+
+[npc-variant-job-One-Regular]
+Level1=25
+Level5=35
+Level10=50
+Level15=75
+Level20=82
+Level25=87
+Level30=90
+Level40=95
+Level50=95
+Level99=100
+
+[DLC1]
+; This is used as a multiplier to all mission timers. This way, one can quickly cut them in half or increase them, etc., without having to edit all values.
+MissionTimeRatio=1.0
+RazorWindCost=6
+RazorWindRange=4
+RazorWindHeight=12
+
+TameMinHp=0.5
+TameMinChance=5
+TamingAPRecruitMod=0.85
+
+PetEffect-zoneheight=4
+pet-bleed-bonus=5
+
+VariantBaseCounterChance=33
+
+PresenceBonusPer=0.07
+
+IpPerStoryMap=100
+IpPerPatrolMap=25
+
+DoubleVersatileCritUp=10
+
+; Ambient drops
+; After Forest04
+[AmbientLootTable-4]
+#autonumber
+fixeddrop*=BADG-06, 0.05
+fixeddrop*=BADG-07, 0.05
+
+; After Temple1
+[AmbientLootTable-11]
+#autonumber
+fixeddrop*=BADG-06, 0.25
+fixeddrop*=BADG-07, 0.25
+fixeddrop*=BADG-08, 0.1
+fixeddrop*=BADG-09, 0.1
+
+; After 2nd Cabin01
+[AmbientLootTable-15]
+#autonumber
+fixeddrop*=BADG-06, 0.5
+fixeddrop*=BADG-07, 0.5
+fixeddrop*=BADG-08, 0.25
+fixeddrop*=BADG-09, 0.25
+
+; After Temple2
+[AmbientLootTable-20]
+#autonumber
+fixeddrop*=ARI-37, 0.15
+fixeddrop*=BADG-08, 0.5
+fixeddrop*=BADG-09, 0.5
+
+; After Oasis01
+[AmbientLootTable-23]
+#autonumber
+fixeddrop*=ARI-37, 0.15
+fixeddrop*=BADG-08, 1
+fixeddrop*=BADG-09, 1
+fixeddrop*=BADG-11, 0.25
+
+; After Temple3
+[AmbientLootTable-30]
+#autonumber
+fixeddrop*=ARI-37, 0.15
+fixeddrop*=BADG-10, 1
+fixeddrop*=BADG-11, 0.5
+fixeddrop*=BADG-12, 0.05
+fixeddrop*=BADG-14, 0.05
+
+; After Aqueduct01
+[AmbientLootTable-35]
+#autonumber
+fixeddrop*=ARI-37, 0.25
+fixeddrop*=BADG-11, 1
+fixeddrop*=BADG-12, 0.1
+fixeddrop*=BADG-14, 0.1
+fixeddrop*=BADG-13, 0.05
+
+; After Temple4
+[AmbientLootTable-40]
+#autonumber
+fixeddrop*=ARI-37, 0.25
+fixeddrop*=BADG-12, 0.2
+fixeddrop*=BADG-14, 0.2
+fixeddrop*=BADG-13, 0.1
+
+; After Mountain02
+[AmbientLootTable-46]
+#autonumber
+fixeddrop*=ARI-37, 0.4
+fixeddrop*=BADG-12, 0.4
+fixeddrop*=BADG-14, 0.4
+fixeddrop*=BADG-13, 0.2

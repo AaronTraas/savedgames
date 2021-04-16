@@ -1,0 +1,13 @@
+company-points-long=Очки влияния
+company-points=ОВ
+mission=Задание
+missions=Задания
+experience-points=Очки опыта
+variant=Вариант
+variants=Варианты
+upgrade=улучшение
+upgrades=Улучшения
+gpandip={currency} и {ip}
+pet-effect=Эффект питомца
+pet-effects=Эффекты питомца
+

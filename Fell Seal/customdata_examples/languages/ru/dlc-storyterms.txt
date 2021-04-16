@@ -1,0 +1,11 @@
+rakkerjaks=Раккерджеки
+niwots=Нивоты
+bzzerks=Ззерки
+tangrels=Тангрелы
+arpias=Арпии
+ercinees=Эрсини
+bulldrakes=Быкоящеры
+pektites=Пектиты
+zotzits=Зоциты
+arbiter-female=Вершитель
+

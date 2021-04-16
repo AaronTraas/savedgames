@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XMLWeapons>
+  <Weapons HashName="BOW-35" Name="Sidewinder" Desc="wp-bow-35" Icon="icon-bow-35" IsDLCIcon="true" Type="bow" PositiveEffectsAdd="kfCritUp" PositiveBuffTrigger="kBuffsOnFlankingRegulars" Tier="5" WeaponSprite="Hu-Ma-Fe-Bow@Bow35" Range="4" Height="10">
+    <Stats Values="74 0 0 0" />
+  </Weapons>
+  <Weapons HashName="BOW-36" Name="Piercing Bow" Desc="wp-bow-36" Icon="icon-bow-36" IsDLCIcon="true" Type="bow" Tier="7" WeaponSprite="Hu-Ma-Fe-Bow@Bow36" Range="5" Height="10" Shape="kVLine">
+    <Stats Values="84 0 0 0" />
+  </Weapons>
+  <Weapons HashName="BOW-37" Name="Withering Longbow" Desc="wp-bow-37" Icon="icon-bow-37" IsDLCIcon="true" Type="bow" Speed="-3" Tier="999" WeaponSprite="Hu-Ma-Fe-Bow@Bow37" Range="7" Height="10" NegativeEffectsGive="kfWeaken" NegativeEffectsGiveChance="50">
+    <Stats Values="96 0 0 0" />
+  </Weapons>
+  <Weapons HashName="SWD-35" Name="Bladebreaker" Desc="wp-sword-35" Icon="icon-sword-35" IsDLCIcon="true" Type="sword" Evasion="3" Tier="5" WeaponSprite="Hu-Ma-Fe-Sword@Sword35" Height="1.5" NegativeEffectsGive="kfAtkDown" NegativeEffectsGiveChance="50">
+    <Stats Values="68 0 0 -6" />
+  </Weapons>
+  <Weapons HashName="SWD-36" Name="Forlorn Hope" Desc="wp-sword-36" Icon="icon-sword-36" IsDLCIcon="true" Type="sword" PositiveEffectsAdd="kfFleetOfFoot kfDarkBarrier" PositiveBuffTrigger="kBuffs" Tier="6" WeaponSprite="Hu-Ma-Fe-Sword@Sword36" Height="1.5">
+    <Stats Values="76 0 0 0" />
+  </Weapons>
+  <Weapons HashName="MAU-35" Name="Concussion" Desc="wp-maul-35" Icon="icon-maul-35" IsDLCIcon="true" Type="maul" Tier="5" WeaponSprite="Hu-Ma-Fe-Sword@Maul35" Height="2" NegativeEffectsGive="kfDefDown" NegativeEffectsGiveChance="65">
+    <Health Values="20 0" />
+    <Stats Values="92 0 0 0" />
+  </Weapons>
+  <Weapons HashName="MAU-36" Name="Stunning Sledge" Desc="wp-maul-36" Icon="icon-maul-36" IsDLCIcon="true" Type="maul" Tier="999" WeaponSprite="Hu-Ma-Fe-Sword@Maul36" Height="2" DelayTurn="0.33">
+    <Health Values="50 0" />
+    <Stats Values="138 0 0 0" />
+  </Weapons>
+  <Weapons HashName="SCY-35" Name="Death's Due" Desc="wp-scythe-35" Icon="icon-scythe-35" IsDLCIcon="true" Type="scythe" PositiveBuffTrigger="kBuffsOnRegularKills" Tier="5" WeaponSprite="Hu-Ma-Fe-Sword@Scythe35" Height="2" Element="kEarth" RandomBuffCount="1">
+    <Stats Values="98 0 8 0" />
+  </Weapons>
+  <Weapons HashName="SCY-36" Name="Shallow Grave" Desc="wp-scythe-36" Icon="icon-scythe-36" IsDLCIcon="true" Type="scythe" Critical="5" PositiveEffectsAdd="kfRenew kfFleetOfFoot" PositiveBuffTrigger="kBuffsOnCriticalHp" Tier="999" WeaponSprite="Hu-Ma-Fe-Sword@Scythe36" Height="2" Element="kEarth">
+    <Stats Values="140 0 8 0" />
+  </Weapons>
+  <Weapons HashName="STF-35" Name="Blood Staff" Desc="wp-staff-35" Icon="icon-staff-35" IsDLCIcon="true" Type="staff" SpellRange="1" Tier="5" WeaponSprite="Hu-Ma-Fe-Sword@Staff35" Height="1.5" Special="kDrainHp">
+    <Stats Values="54 0 20 0" />
+  </Weapons>
+  <Weapons HashName="STF-36" Name="Nap Staff" Desc="wp-staff-36" Icon="icon-staff-36" IsDLCIcon="true" Type="staff" SpellRange="1" Tier="7" WeaponSprite="Hu-Ma-Fe-Sword@Staff36" Height="1.5" NegativeEffectsGive="kfSleep" NegativeEffectsGiveChance="85">
+    <Stats Values="70 22 30 0" />
+  </Weapons>
+  <Weapons HashName="MAC-35" Name="Lobotomizer" Desc="wp-mace-35" Icon="icon-mace-35" IsDLCIcon="true" Type="mace" Critical="3" Tier="5" WeaponSprite="Hu-Ma-Fe-Sword@Mace35" NegativeEffectsGive="kfMAtkDown" NegativeEffectsGiveChance="65">
+    <Stats Values="66 4 14 4" />
+  </Weapons>
+  <Weapons HashName="MAC-36" Name="Contagion" Desc="wp-mace-36" Icon="icon-mace-36" IsDLCIcon="true" Type="mace" Critical="4" Tier="7" WeaponSprite="Hu-Ma-Fe-Sword@Mace36" NegativeEffectsGiveChance="65" Special="kInflictsUserDebuff">
+    <Stats Values="78 0 22 0" />
+  </Weapons>
+  <Weapons HashName="MAC-37" Name="Bzzerk Bludgeon" Desc="wp-mace-37" Icon="icon-mace-37" IsDLCIcon="true" Type="mace" Critical="3" PositiveEffectsAdd="kfFleetOfFoot" Tier="999" WeaponSprite="Hu-Ma-Fe-Sword@Mace37">
+    <Stats Values="96 9 28 6" />
+  </Weapons>
+  <Weapons HashName="SPR-35" Name="Jousting Lance" Desc="wp-spear-35" Icon="icon-spear-35" IsDLCIcon="true" Type="spear" PositiveEffectsAdd="kfAtkUp kfCritUp" PositiveBuffTrigger="kBuffs" Tier="6" WeaponSprite="Hu-Ma-Fe-Spear@Spear35" Range="2" Height="2.5">
+    <Stats Values="78 7 0 0" />
+  </Weapons>
+  <Weapons HashName="SPR-36" Name="Direct Current" Desc="wp-spear-36" Icon="icon-spear-36" IsDLCIcon="true" Type="spear" Tier="7" WeaponSprite="Hu-Ma-Fe-Spear@Spear36" EffectExtra="3" Height="2.5" Shape="kVLine" PosStyle="kLine" Element="kThunder">
+    <Stats Values="84 6 8 0" />
+  </Weapons>
+  <Weapons HashName="SPR-37" Name="Partisan+" Desc="wp-spear-37" Icon="icon-spear-37" IsDLCIcon="true" Type="spear" Tier="8" WeaponSprite="Hu-Ma-Fe-Spear@Spear37" SpriteOffset="124" Range="3" Height="3.5">
+    <Stats Values="96 12 0 0" />
+  </Weapons>
+  <Weapons HashName="ROD-35" Name="Dueling Rod" Desc="wp-rod-35" Icon="icon-rod-35" IsDLCIcon="true" Type="rod" Tier="6" WeaponSprite="Hu-Ma-Fe-Sword@Rod35" NegativeEffectsGive="kfMDefDown" NegativeEffectsGiveChance="85">
+    <Stats Values="66 0 38 0" />
+  </Weapons>
+  <Weapons HashName="ROD-36" Name="Sacrosanct Scepter" Desc="wp-rod-36" Icon="icon-rod-36" IsDLCIcon="true" Type="rod" Critical="10" Price="12500" Tier="8" WeaponSprite="Hu-Ma-Fe-Sword@Rod36" Element="kHoly">
+    <Stats Values="80 0 54 0" />
+    <ElementalResist Values="0 0 0 0 0 100" />
+  </Weapons>
+  <Weapons HashName="RAP-35" Name="Foul Foil" Desc="wp-rapier-35" Icon="icon-rapier-35" IsDLCIcon="true" Type="rapier" BonusAcc="5" BonusDebuffAcc="5" Tier="6" WeaponSprite="Hu-Ma-Fe-Spear@Rapier35" Height="1.5" Element="kDark">
+    <Stats Values="70 0 24 0" />
+  </Weapons>
+  <Weapons HashName="RAP-36" Name="Refinement" Desc="wp-rapier-36" Icon="icon-rapier-36" IsDLCIcon="true" Type="rapier" SpellRange="1" BonusAcc="4" Price="9250" Tier="6" WeaponSprite="Hu-Ma-Fe-Spear@Rapier36" Height="1.5">
+    <Stats Values="68 0 30 0" />
+  </Weapons>
+  <Weapons HashName="RAP-37" Name="Glorious Foil" Desc="wp-rapier-37" Icon="icon-rapier-37" IsDLCIcon="true" Type="rapier" BonusAcc="5" elementalBonus="kfHoly" Tier="999" WeaponSprite="Hu-Ma-Fe-Spear@Rapier37" Height="1.5" Element="kHoly">
+    <Stats Values="112 0 64 0" />
+  </Weapons>
+  <Weapons HashName="CBO-35" Name="Rogue's End" Desc="wp-crossbow-35" Icon="icon-crossbow-35" IsDLCIcon="true" Type="crossbow" BonusAcc="10" Tier="6" WeaponSprite="Hu-Ma-Fe-Gun@Crossbow35" Range="5" Height="6" NegativeEffectsGive="kfSlow" NegativeEffectsGiveChance="35">
+    <Stats Values="70 0 0 0" />
+  </Weapons>
+  <Weapons HashName="CBO-36" Name="Point Blank" Desc="wp-crossbow-36" Icon="icon-crossbow-36" IsDLCIcon="true" Type="crossbow" Speed="3" Critical="3" BonusAcc="5" PositiveEffectsAdd="kfCritUp" PositiveBuffTrigger="kBuffsOnRegulars" Tier="999" WeaponSprite="Hu-Ma-Fe-Gun@Crossbow36" Height="3" NegativeEffectsGive="kfBlind" NegativeEffectsGiveChance="50">
+    <Stats Values="102 0 16 0" />
+  </Weapons>
+  <Weapons HashName="GUN-35" Name="Launcher" Desc="wp-gun-35" Icon="icon-gun-35" IsDLCIcon="true" Type="gun" Speed="-8" Tier="7" WeaponSprite="Hu-Ma-Fe-Gun@Gun35" EffectExtra="1" Range="6" Height="15" Shape="kCross" ShapeSize="3" Element="kFire">
+    <Stats Values="58 0 6 0" />
+  </Weapons>
+  <Weapons HashName="GUN-36" Name="Shard Launcher" Desc="wp-gun-36" Icon="icon-gun-36" IsDLCIcon="true" Type="gun" Critical="4" Price="23500" Tier="8" WeaponSprite="Hu-Ma-Fe-Gun@Gun36" EffectExtra="2" Range="7" Height="15" Element="kWater">
+    <Stats Values="66 0 8 0" />
+  </Weapons>
+  <Weapons HashName="GUN-37" Name="Stake Shooter" Desc="wp-gun-37" Icon="icon-gun-37" IsDLCIcon="true" Type="gun" Tier="999" WeaponSprite="Hu-Ma-Fe-Gun@Gun37" Range="7" Height="15" Element="kHoly" NegativeEffectsGive="kfBleed" NegativeEffectsGiveChance="100">
+    <Stats Values="72 0 8 0" />
+  </Weapons>
+  <Weapons HashName="DAG-35" Name="Instigator" Desc="wp-dagger-35" Icon="icon-dagger-35" IsDLCIcon="true" Type="dagger" Speed="10" Critical="3" Tier="7" WeaponSprite="Hu-Ma-Fe-Sword@Dagger35" HpFullBonus="50">
+    <Stats Values="72 0 0 0" />
+  </Weapons>
+  <Weapons HashName="DAG-36" Name="Neutralizer" Desc="wp-dagger-36" Icon="icon-dagger-36" IsDLCIcon="true" Type="dagger" Speed="3" Evasion="2" Critical="5" Tier="999" WeaponSprite="Hu-Ma-Fe-Sword@Dagger36" NegativeEffectsGive="kfMute kfCripple" NegativeEffectsGiveChance="50">
+    <Stats Values="84 0 0 0" />
+  </Weapons>
+  <Weapons HashName="AXE-35" Name="Half Halberd" Desc="wp-axe-35" Icon="icon-axe-35" IsDLCIcon="true" Type="axe" Tier="9" WeaponSprite="Hu-Ma-Fe-Sword@Axe35" Range="2" Height="2">
+    <Stats Values="108 0 0 0" />
+  </Weapons>
+  <Weapons HashName="AXE-36" Name="Blood Axe+" Desc="wp-axe-36" Icon="icon-axe-36" IsDLCIcon="true" Type="axe" Tier="999" WeaponSprite="Hu-Ma-Fe-Sword@Axe36" Height="2" Special="kDrainHp">
+    <Stats Values="112 -21 0 0" />
+  </Weapons>
+</XMLWeapons>

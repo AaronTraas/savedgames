@@ -1,0 +1,4 @@
+miss-super-female-recruit=Die Göttliche
+hunt-monster-bulldrake=Strandmeisterin Zelk
+hunt-monster-raife=Splitter von Raife
+

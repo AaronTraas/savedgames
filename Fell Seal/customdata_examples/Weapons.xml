@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLWeapons>
+  <Weapons HashName="DAG-99" Name="" Desc="wp-dagger-99" Icon="icon-dagger-99" Type="dagger" Tier="1000" WeaponSprite="Hu-Ma-Fe-Sword@Dagger00" />
+  <Weapons HashName="SWD-00" Name="Shortsword" Desc="wp-sword-00" Icon="icon-sword-00" Type="sword" Price="250" Tier="1" WeaponSprite="Hu-Ma-Fe-Sword@Sword00" Height="1.5">
+    <Stats Values="44 0 0 0" />
+  </Weapons>
+  <Weapons HashName="SWD-01" Name="Longsword" Desc="wp-sword-01" Icon="icon-sword-01" Type="sword" Price="700" Tier="2" WeaponSprite="Hu-Ma-Fe-Sword@Sword01" Height="1.5">
+    <Stats Values="50 0 0 0" />
+  </Weapons>
+  <Weapons HashName="SWD-02" Name="Silver Sword" Desc="wp-sword-02" Icon="icon-sword-02" Type="sword" Price="1400" Tier="3" WeaponSprite="Hu-Ma-Fe-Sword@Sword02" Height="1.5">
+    <Stats Values="54 0 8 0" />
+    <ElementalResist Values="0 0 0 0 0 50" />
+  </Weapons>
+  <Weapons HashName="SWD-03" Name="Toothed Sword" Desc="wp-sword-03" Icon="icon-sword-03" Type="sword" Critical="5" Price="2800" Tier="4" WeaponSprite="Hu-Ma-Fe-Sword@Sword03" Height="1.5" NegativeEffectsGive="kfBleed" NegativeEffectsGiveChance="50">
+    <Stats Values="60 0 0 0" />
+  </Weapons>
+  <Weapons HashName="SWD-04" Name="Teorite Sword" Desc="wp-sword-04" Icon="icon-sword-04" Type="sword" Price="5000" Tier="5" WeaponSprite="Hu-Ma-Fe-Sword@Sword04" Height="1.5">
+    <Stats Values="70 0 0 4" />
+  </Weapons>
+  <Weapons HashName="SWD-05" Name="Icebrand" Desc="wp-sword-05" Icon="icon-sword-07" Type="sword" Price="8500" Tier="6" WeaponSprite="Hu-Ma-Fe-Sword@Sword07" Height="1.5" Element="kWater">
+    <Stats Values="78 0 8 0" />
+    <ElementalResist Values="50 0 0 0 0 0" />
+  </Weapons>
+  <Weapons HashName="SWD-06" Name="Flamebrand" Desc="wp-sword-06" Icon="icon-sword-06" Type="sword" Price="8500" Tier="6" WeaponSprite="Hu-Ma-Fe-Sword@Sword06" Height="1.5" Element="kFire">
+    <Stats Values="78 0 8 0" />
+    <ElementalResist Values="0 50 0 0 0 0" />
+  </Weapons>
+  <Weapons HashName="SWD-07" Name="Stonebrand" Desc="wp-sword-07" Icon="icon-sword-08" Type="sword" Price="8500" Tier="6" WeaponSprite="Hu-Ma-Fe-Sword@Sword08" Height="1.5" Element="kEarth">
+    <Stats Values="78 0 8 0" />
+    <ElementalResist Values="0 0 50 0 0 0" />
+  </Weapons>
+  <Weapons HashName="SWD-08" Name="Boltbrand" Desc="wp-sword-08" Icon="icon-sword-05" Type="sword" Price="8500" Tier="6" WeaponSprite="Hu-Ma-Fe-Sword@Sword05" Height="1.5" Element="kThunder">
+    <Stats Values="78 0 8 0" />
+    <ElementalResist Values="0 0 0 50 0 0" />
+  </Weapons>
+  <Weapons HashName="SWD-09" Name="Enhancer" Desc="wp-sword-09" Icon="icon-sword-09" Type="sword" Price="13000" Tier="7" WeaponSprite="Hu-Ma-Fe-Sword@Sword09" Height="1.5">
+    <Stats Values="84 0 44 0" />
+  </Weapons>
+  <Weapons HashName="SWD-10" Name="Ebony Sword" Desc="wp-sword-10" Icon="icon-sword-10" Type="sword" Price="13000" Tier="7" WeaponSprite="Hu-Ma-Fe-Sword@Sword10" Height="1.5" Element="kDark">
+    <Stats Values="90 0 8 0" />
+    <ElementalResist Values="0 0 0 0 50 0" />
+  </Weapons>
+  <Weapons HashName="SWD-11" Name="Guardian Sword" Desc="wp-sword-11" Icon="icon-sword-11" Type="sword" PositiveEffectsAdd="kfDefUp kfMDefUp" Tier="999" WeaponSprite="Hu-Ma-Fe-Sword@Sword11" Height="1.5">
+    <Stats Values="92 0 0 0" />
+  </Weapons>
+  <Weapons HashName="SWD-12" Name="Dendrite Sword" Desc="wp-sword-12" Icon="icon-sword-12" Type="sword" Price="18000" Tier="8" WeaponSprite="Hu-Ma-Fe-Sword@Sword12" Height="1.5">
+    <Stats Values="100 0 0 0" />
+    <ElementalResist Values="0 0 0 0 0 100" />
+  </Weapons>
+  <Weapons HashName="SWD-13" Name="Singing Sword" Desc="wp-sword-13" Icon="icon-sword-13" Type="sword" Speed="8" NegativeEffectsProtect="kfSleep" Price="25000" Tier="9" WeaponSprite="Hu-Ma-Fe-Sword@Sword13" Height="1.5">
+    <Stats Values="110 0 0 0" />
+  </Weapons>
+  <Weapons HashName="SWD-14" Name="Excalibur" Desc="wp-sword-14" Icon="icon-sword-14" Type="sword" PositiveEffectsAdd="kfRenew" Tier="999" WeaponSprite="Hu-Ma-Fe-Sword@Sword14" Height="1.5" Element="kHoly">
+    <Stats Values="112 0 14 0" />
+    <ElementalResist Values="0 0 0 0 0 150" />
+  </Weapons>
+  <Weapons HashName="SWD-15" Name="Eternias" Desc="wp-sword-15" Icon="icon-sword-15" Type="sword" Speed="7" Critical="10" PositiveEffectsAdd="kfAtkUp" Tier="999" WeaponSprite="Hu-Ma-Fe-Sword@Sword15" Height="1.5">
+    <Stats Values="120 0 0 0" />
+  </Weapons>
+  <Weapons HashName="SWD-16" Name="Soul Eater" Desc="wp-sword-16" Icon="icon-sword-16" Type="sword" Speed="2" Evasion="1" Critical="1" Tier="1000" WeaponSprite="Hu-Ma-Fe-Sword@Sword16" Height="1.5" Element="kDark">
+    <Stats Values="70 1 0 1" />
+    <ElementalResist Values="0 0 0 0 0 -25" />
+  </Weapons>
+  <Weapons HashName="DAG-00" Name="Dagger" Desc="wp-dagger-00" Icon="icon-dagger-00" Type="dagger" Speed="7" Evasion="2" Critical="2" Price="150" Tier="1" WeaponSprite="Hu-Ma-Fe-Sword@Dagger00">
+    <Stats Values="38 0 0 0" />
+  </Weapons>
+  <Weapons HashName="DAG-01" Name="Hidden Knife" Desc="wp-dagger-01" Icon="icon-dagger-01" Type="dagger" Speed="10" Evasion="1" Critical="5" Price="350" Tier="2" WeaponSprite="Hu-Ma-Fe-Sword@Dagger01">
+    <Stats Values="44 0 0 0" />
+  </Weapons>
+  <Weapons HashName="DAG-02" Name="Dirk" Desc="wp-dagger-02" Icon="icon-dagger-02" Type="dagger" Speed="7" Evasion="2" Critical="2" Price="700" Tier="3" WeaponSprite="Hu-Ma-Fe-Sword@Dagger02" NegativeEffectsGive="kfBlind" NegativeEffectsGiveChance="62">
+    <Stats Values="50 0 0 0" />
+  </Weapons>
+  <Weapons HashName="DAG-03" Name="Ebony Dagger" Desc="wp-dagger-03" Icon="icon-dagger-07" Type="dagger" Speed="7" Evasion="2" Critical="2" Price="1400" Tier="4" WeaponSprite="Hu-Ma-Fe-Sword@Dagger07" Element="kDark">
+    <Stats Values="56 0 8 0" />
+    <ElementalResist Values="0 0 0 0 50 0" />
+  </Weapons>
+  <Weapons HashName="DAG-04" Name="Tongueslicer" Desc="wp-dagger-04" Icon="icon-dagger-04" Type="dagger" Speed="7" Evasion="2" Critical="2" Price="1400" Tier="4" WeaponSprite="Hu-Ma-Fe-Sword@Dagger04" NegativeEffectsGive="kfMute" NegativeEffectsGiveChance="62">
+    <Stats Values="56 0 0 0" />
+  </Weapons>
+  <Weapons HashName="DAG-05" Name="Teorite Dagger" Desc="wp-dagger-05" Icon="icon-dagger-05" Type="dagger" Speed="7" Evasion="2" Critical="2" Price="2500" Tier="5" WeaponSprite="Hu-Ma-Fe-Sword@Dagger05" NegativeEffectsGive="kfRoot" NegativeEffectsGiveChance="62">
+    <Stats Values="62 0 0 4" />
+  </Weapons>
+  <Weapons HashName="DAG-06" Name="Main Gauche" Desc="wp-dagger-06" Icon="icon-dagger-06" Type="dagger" Evasion="12" Price="6000" Tier="7" WeaponSprite="Hu-Ma-Fe-Sword@Dagger06">
+    <Stats Values="66 0 0 0" />
+  </Weapons>
+  <Weapons HashName="DAG-07" Name="Kunai" Desc="wp-dagger-07" Icon="icon-dagger-03" Type="dagger" Speed="7" Evasion="2" Critical="2" Price="5000" Tier="6" WeaponSprite="Hu-Ma-Fe-Sword@Dagger03" NegativeEffectsGive="kfCripple" NegativeEffectsGiveChance="62">
+    <Stats Values="68 0 4 0" />
+  </Weapons>
+  <Weapons HashName="DAG-08" Name="Janbiya" Desc="wp-dagger-08" Icon="icon-dagger-08" Type="dagger" Speed="10" Evasion="3" Critical="3" Price="7500" Tier="7" WeaponSprite="Hu-Ma-Fe-Sword@Dagger08">
+    <Stats Values="74 0 0 0" />
+  </Weapons>
+  <Weapons HashName="DAG-09" Name="Flash Knife" Desc="wp-dagger-09" Icon="icon-dagger-09" Type="dagger" Speed="20" Evasion="2" Critical="2" Price="7500" Tier="7" WeaponSprite="Hu-Ma-Fe-Sword@Dagger09">
+    <Stats Values="64 0 0 0" />
+  </Weapons>
+  <Weapons HashName="DAG-10" Name="Worm Tooth" Desc="wp-dagger-10" Icon="icon-dagger-10" Type="dagger" Speed="7" Evasion="2" Critical="2" Price="10000" Tier="8" WeaponSprite="Hu-Ma-Fe-Sword@Dagger10" NegativeEffectsGive="kfPoison" NegativeEffectsGiveChance="75">
+    <Stats Values="80 0 0 0" />
+  </Weapons>
+  <Weapons HashName="DAG-11" Name="Dendrite Knife" Desc="wp-dagger-11" Icon="icon-dagger-11" Type="dagger" Speed="7" Evasion="2" Critical="5" Price="15000" Tier="9" WeaponSprite="Hu-Ma-Fe-Sword@Dagger11" NegativeEffectsGive="kfBleed" NegativeEffectsGiveChance="75">
+    <Stats Values="88 0 0 0" />
+  </Weapons>
+  <Weapons HashName="DAG-12" Name="Dragon's Nail" Desc="wp-dagger-12" Icon="icon-dagger-12" Type="dagger" Speed="13" Evasion="5" Critical="5" Tier="999" WeaponSprite="Hu-Ma-Fe-Sword@Dagger12" NegativeEffectsGive="kfPoison kfBleed" NegativeEffectsGiveChance="62">
+    <Stats Values="102 0 0 0" />
+  </Weapons>
+  <Weapons HashName="AXE-00" Name="Axe" Desc="wp-axe-00" Icon="icon-axe-00" Type="axe" Price="300" Tier="1" WeaponSprite="Hu-Ma-Fe-Sword@Axe00" Height="2">
+    <Stats Values="54 -6 0 0" />
+  </Weapons>
+  <Weapons HashName="AXE-01" Name="Battleaxe" Desc="wp-axe-01" Icon="icon-axe-01" Type="axe" Price="850" Tier="2" WeaponSprite="Hu-Ma-Fe-Sword@Axe01" Height="2">
+    <Stats Values="62 -6 0 0" />
+  </Weapons>
+  <Weapons HashName="AXE-02" Name="Silver Axe" Desc="wp-axe-02" Icon="icon-axe-02" Type="axe" Price="1750" Tier="3" WeaponSprite="Hu-Ma-Fe-Sword@Axe02" Height="2">
+    <Stats Values="70 -9 0 0" />
+    <ElementalResist Values="0 0 0 0 0 50" />
+  </Weapons>
+  <Weapons HashName="AXE-03" Name="Chopper" Desc="wp-axe-03" Icon="icon-axe-03" Type="axe" Price="3500" Tier="4" WeaponSprite="Hu-Ma-Fe-Sword@Axe03" Height="2">
+    <Stats Values="78 -9 0 0" />
+  </Weapons>
+  <Weapons HashName="AXE-04" Name="Teorite Axe" Desc="wp-axe-04" Icon="icon-axe-04" Type="axe" Price="6000" Tier="5" WeaponSprite="Hu-Ma-Fe-Sword@Axe04" Height="2">
+    <Stats Values="86 -12 0 6" />
+  </Weapons>
+  <Weapons HashName="AXE-05" Name="Blood Axe" Desc="wp-axe-05" Icon="icon-axe-05" Type="axe" Price="9500" Tier="6" WeaponSprite="Hu-Ma-Fe-Sword@Axe05" Height="2" Special="kDrainHp">
+    <Stats Values="80 -21 0 0" />
+  </Weapons>
+  <Weapons HashName="AXE-06" Name="Marauder Axe" Desc="wp-axe-06" Icon="icon-axe-06" Type="axe" Price="9500" Tier="6" WeaponSprite="Hu-Ma-Fe-Sword@Axe06" Height="2">
+    <Stats Values="94 -15 0 0" />
+  </Weapons>
+  <Weapons HashName="AXE-07" Name="Ornate Axe" Desc="wp-axe-07" Icon="icon-axe-07" Type="axe" Price="15000" Tier="7" WeaponSprite="Hu-Ma-Fe-Sword@Axe07" Height="2">
+    <Stats Values="102 -15 0 0" />
+  </Weapons>
+  <Weapons HashName="AXE-08" Name="Dark Reign" Desc="wp-axe-08" Icon="icon-axe-08" Type="axe" Price="22000" Tier="8" WeaponSprite="Hu-Ma-Fe-Sword@Axe08" Height="2">
+    <Stats Values="110 -18 0 0" />
+    <ElementalResist Values="0 0 0 0 150 0" />
+  </Weapons>
+  <Weapons HashName="AXE-09" Name="Executioner" Desc="wp-axe-09" Icon="icon-axe-09" Type="axe" Price="30000" Tier="9" WeaponSprite="Hu-Ma-Fe-Sword@Axe09" Height="2">
+    <Stats Values="118 -21 0 0" />
+  </Weapons>
+  <Weapons HashName="AXE-10" Name="Cry Havoc" Desc="wp-axe-10" Icon="icon-axe-10" Type="axe" Evasion="1" Critical="3" Tier="999" WeaponSprite="Hu-Ma-Fe-Sword@Axe10" Height="2">
+    <Stats Values="142 -24 0 0" />
+  </Weapons>
+  <Weapons HashName="RAP-00" Name="Fleuret" Desc="wp-rapier-00" Icon="icon-rapier-00" Type="rapier" BonusAcc="2" NegativeEffectsProtect="kfRoot" Price="275" Tier="1" WeaponSprite="Hu-Ma-Fe-Spear@Rapier00" Height="1.5">
+    <Stats Values="40 0 8 0" />
+  </Weapons>
+  <Weapons HashName="RAP-01" Name="Rapier" Desc="wp-rapier-01" Icon="icon-rapier-01" Type="rapier" BonusAcc="2" Price="750" Tier="2" WeaponSprite="Hu-Ma-Fe-Spear@Rapier01" Height="1.5">
+    <Stats Values="46 0 10 0" />
+  </Weapons>
+  <Weapons HashName="RAP-02" Name="Silver Rapier" Desc="wp-rapier-02" Icon="icon-rapier-02" Type="rapier" BonusAcc="3" NegativeEffectsProtect="kfPoison" Price="1500" Tier="3" WeaponSprite="Hu-Ma-Fe-Spear@Rapier02" Height="1.5">
+    <Stats Values="52 0 16 0" />
+  </Weapons>
+  <Weapons HashName="RAP-03" Name="Shining Rapier" Desc="wp-rapier-03" Icon="icon-rapier-03" Type="rapier" BonusAcc="5" NegativeEffectsProtect="kfBlind" Price="3000" Tier="4" WeaponSprite="Hu-Ma-Fe-Spear@Rapier03" Height="1.5">
+    <Stats Values="58 0 14 0" />
+  </Weapons>
+  <Weapons HashName="RAP-04" Name="Teorite Rapier" Desc="wp-rapier-04" Icon="icon-rapier-04" Type="rapier" BonusAcc="4" NegativeEffectsProtect="kfMute" Price="5500" Tier="5" WeaponSprite="Hu-Ma-Fe-Spear@Rapier04" Height="1.5">
+    <Stats Values="66 0 16 4" />
+  </Weapons>
+  <Weapons HashName="RAP-05" Name="Poise" Desc="wp-rapier-05" Icon="icon-rapier-05" Type="rapier" BonusAcc="4" NegativeEffectsProtect="kfBerserk" Price="9000" Tier="6" WeaponSprite="Hu-Ma-Fe-Spear@Rapier05" Height="1.5">
+    <Stats Values="76 0 20 0" />
+  </Weapons>
+  <Weapons HashName="RAP-06" Name="Joyeuse" Desc="wp-rapier-06" Icon="icon-rapier-06" Type="rapier" Speed="7" Evasion="3" Critical="3" BonusAcc="5" NegativeEffectsProtect="kfSlow" Price="15000" Tier="7" WeaponSprite="Hu-Ma-Fe-Spear@Rapier06" Height="1.5">
+    <Stats Values="86 0 22 0" />
+  </Weapons>
+  <Weapons HashName="RAP-07" Name="Monarch" Desc="wp-rapier-07" Icon="icon-rapier-07" Type="rapier" BonusAcc="5" NegativeEffectsProtect="kfWeaken" Price="20000" Tier="8" WeaponSprite="Hu-Ma-Fe-Spear@Rapier07" Height="1.5">
+    <Stats Values="96 0 26 0" />
+  </Weapons>
+  <Weapons HashName="RAP-08" Name="Del Chliss" Desc="wp-rapier-08" Icon="icon-rapier-08" Type="rapier" BonusAcc="5" Tier="999" WeaponSprite="Hu-Ma-Fe-Spear@Rapier08" Height="1.5" NegativeEffectsGive="kfWeaken" NegativeEffectsGiveChance="75">
+    <Stats Values="120 0 38 0" />
+  </Weapons>
+  <Weapons HashName="SPR-00" Name="Spear" Desc="wp-spear-00" Icon="icon-spear-00" Type="spear" Price="400" Tier="1" WeaponSprite="Hu-Ma-Fe-Spear@Spear00" Range="2" Height="2.5">
+    <Stats Values="50 3 0 0" />
+  </Weapons>
+  <Weapons HashName="SPR-01" Name="Boar Spear" Desc="wp-spear-01" Icon="icon-spear-01" Type="spear" Price="1000" Tier="2" WeaponSprite="Hu-Ma-Fe-Spear@Spear01" Range="2" Height="2.5">
+    <Stats Values="56 3 0 0" />
+  </Weapons>
+  <Weapons HashName="SPR-02" Name="Silver Spear" Desc="wp-spear-02" Icon="icon-spear-02" Type="spear" Price="2000" Tier="3" WeaponSprite="Hu-Ma-Fe-Spear@Spear02" Range="2" Height="2.5">
+    <Stats Values="64 4 8 0" />
+  </Weapons>
+  <Weapons HashName="SPR-03" Name="Icespike" Desc="wp-spear-03" Icon="icon-spear-03" Type="spear" Price="3800" Tier="4" WeaponSprite="Hu-Ma-Fe-Spear@Spear03" Range="2" Height="2.5" Element="kWater">
+    <Stats Values="72 4 8 0" />
+  </Weapons>
+  <Weapons HashName="SPR-04" Name="Flamespike" Desc="wp-spear-04" Icon="icon-spear-06" Type="spear" Price="3800" Tier="4" WeaponSprite="Hu-Ma-Fe-Spear@Spear06" Range="2" Height="2.5" Element="kFire">
+    <Stats Values="72 4 8 0" />
+  </Weapons>
+  <Weapons HashName="SPR-05" Name="Stonespike" Desc="wp-spear-05" Icon="icon-spear-05" Type="spear" Price="3800" Tier="4" WeaponSprite="Hu-Ma-Fe-Spear@Spear05" Range="2" Height="2.5" Element="kEarth">
+    <Stats Values="72 4 8 0" />
+  </Weapons>
+  <Weapons HashName="SPR-06" Name="Boltspike" Desc="wp-spear-06" Icon="icon-spear-04" Type="spear" Price="3800" Tier="4" WeaponSprite="Hu-Ma-Fe-Spear@Spear04" Range="2" Height="2.5" Element="kThunder">
+    <Stats Values="72 4 8 0" />
+  </Weapons>
+  <Weapons HashName="SPR-07" Name="Teorite Spear" Desc="wp-spear-07" Icon="icon-spear-07" Type="spear" Price="6200" Tier="5" WeaponSprite="Hu-Ma-Fe-Spear@Spear07" Range="2" Height="2.5">
+    <Stats Values="78 6 0 7" />
+  </Weapons>
+  <Weapons HashName="SPR-08" Name="Lance" Desc="wp-spear-08" Icon="icon-spear-08" Type="spear" Critical="3" Price="10000" Tier="6" WeaponSprite="Hu-Ma-Fe-Spear@Spear08" Range="2" Height="2.5">
+    <Stats Values="86 6 0 0" />
+  </Weapons>
+  <Weapons HashName="SPR-09" Name="Partisan" Desc="wp-spear-09" Icon="icon-spear-09" Type="spear" Price="16000" Tier="7" WeaponSprite="Hu-Ma-Fe-Spear@Spear09" Range="2" Height="2.5">
+    <Stats Values="94 12 0 0" />
+  </Weapons>
+  <Weapons HashName="SPR-10" Name="Heavy Lance" Desc="wp-spear-10" Icon="icon-spear-10" Type="spear" Critical="3" Price="20000" Tier="8" WeaponSprite="Hu-Ma-Fe-Spear@Spear10" Range="2" Height="2.5">
+    <Stats Values="102 7 0 0" />
+  </Weapons>
+  <Weapons HashName="SPR-11" Name="Godray" Desc="wp-spear-11" Icon="icon-spear-11" Type="spear" Speed="7" NegativeEffectsProtect="kfMental" Tier="999" WeaponSprite="Hu-Ma-Fe-Spear@Spear11" Range="2" Height="2.5">
+    <Stats Values="114 15 10 7" />
+  </Weapons>
+  <Weapons HashName="SCY-00" Name="Plow" Desc="wp-scythe-00" Icon="icon-scythe-00" Type="scythe" Price="325" Tier="1" WeaponSprite="Hu-Ma-Fe-Sword@Scythe00" Height="2">
+    <Stats Values="72 0 0 0" />
+  </Weapons>
+  <Weapons HashName="SCY-01" Name="Scythe" Desc="wp-scythe-01" Icon="icon-scythe-01" Type="scythe" Price="800" Tier="2" WeaponSprite="Hu-Ma-Fe-Sword@Scythe01" Height="2">
+    <Stats Values="80 0 0 0" />
+  </Weapons>
+  <Weapons HashName="SCY-02" Name="Silver Scythe" Desc="wp-scythe-02" Icon="icon-scythe-02" Type="scythe" Price="1600" Tier="3" WeaponSprite="Hu-Ma-Fe-Sword@Scythe02" Height="2" Element="kHoly">
+    <Stats Values="88 0 8 0" />
+  </Weapons>
+  <Weapons HashName="SCY-03" Name="Crimson Scythe" Desc="wp-scythe-03" Icon="icon-scythe-03" Type="scythe" Price="3100" Tier="4" WeaponSprite="Hu-Ma-Fe-Sword@Scythe03" Height="2" Element="kDark">
+    <Stats Values="96 0 8 0" />
+  </Weapons>
+  <Weapons HashName="SCY-04" Name="Teorite Scythe" Desc="wp-scythe-04" Icon="icon-scythe-04" Type="scythe" Price="6600" Tier="5" WeaponSprite="Hu-Ma-Fe-Sword@Scythe04" Height="2">
+    <Stats Values="104 0 0 7" />
+  </Weapons>
+  <Weapons HashName="SCY-05" Name="Fauchard" Desc="wp-scythe-05" Icon="icon-scythe-05" Type="scythe" Price="12000" Tier="6" WeaponSprite="Hu-Ma-Fe-Sword@Scythe05" Height="2">
+    <Stats Values="114 0 0 0" />
+  </Weapons>
+  <Weapons HashName="SCY-06" Name="Energy Scythe" Desc="wp-scythe-06" Icon="icon-scythe-06" Type="scythe" Price="12000" Tier="6" WeaponSprite="Hu-Ma-Fe-Sword@Scythe06" Height="2">
+    <Stats Values="106 0 28 0" />
+  </Weapons>
+  <Weapons HashName="SCY-07" Name="Kamaitachi" Desc="wp-scythe-07" Icon="icon-scythe-07" Type="scythe" Critical="3" Price="18500" Tier="7" WeaponSprite="Hu-Ma-Fe-Sword@Scythe07" Height="2">
+    <Stats Values="124 0 0 0" />
+  </Weapons>
+  <Weapons HashName="SCY-08" Name="Day's Harvest" Desc="wp-scythe-08" Icon="icon-scythe-08" Type="scythe" Price="25000" Tier="8" WeaponSprite="Hu-Ma-Fe-Sword@Scythe08" Height="2" NegativeEffectsGive="kfBleed" NegativeEffectsGiveChance="62">
+    <Stats Values="134 0 0 0" />
+  </Weapons>
+  <Weapons HashName="SCY-09" Name="Reaper" Desc="wp-scythe-09" Icon="icon-scythe-09" Type="scythe" Critical="7" Tier="999" WeaponSprite="Hu-Ma-Fe-Sword@Scythe09" Height="2">
+    <Stats Values="162 0 16 0" />
+    <ElementalResist Values="0 0 0 0 100 0" />
+  </Weapons>
+  <Weapons HashName="MAC-00" Name="Mace" Desc="wp-mace-00" Icon="icon-mace-00" Type="mace" Critical="2" Price="200" Tier="1" WeaponSprite="Hu-Ma-Fe-Sword@Mace00">
+    <Health Values="0 5" />
+    <Stats Values="42 1 6 1" />
+  </Weapons>
+  <Weapons HashName="MAC-01" Name="Thumper" Desc="wp-mace-01" Icon="icon-mace-01" Type="mace" Critical="2" Price="500" Tier="2" WeaponSprite="Hu-Ma-Fe-Sword@Mace01">
+    <Health Values="0 6" />
+    <Stats Values="48 1 8 1" />
+  </Weapons>
+  <Weapons HashName="MAC-02" Name="Silver Mace" Desc="wp-mace-02" Icon="icon-mace-02" Type="mace" Critical="3" NegativeEffectsProtect="kfPoison" Price="1100" Tier="3" WeaponSprite="Hu-Ma-Fe-Sword@Mace02">
+    <Health Values="0 8" />
+    <Stats Values="56 3 16 3" />
+  </Weapons>
+  <Weapons HashName="MAC-03" Name="Battlemace" Desc="wp-mace-03" Icon="icon-mace-03" Type="mace" Critical="3" Price="2700" Tier="4" WeaponSprite="Hu-Ma-Fe-Sword@Mace03">
+    <Health Values="0 10" />
+    <Stats Values="62 3 12 3" />
+  </Weapons>
+  <Weapons HashName="MAC-04" Name="Energy Mace" Desc="wp-mace-04" Icon="icon-mace-04" Type="mace" Critical="4" Price="2700" Tier="4" WeaponSprite="Hu-Ma-Fe-Sword@Mace04">
+    <Health Values="0 13" />
+    <Stats Values="58 3 28 3" />
+  </Weapons>
+  <Weapons HashName="MAC-05" Name="Teorite Mace" Desc="wp-mace-05" Icon="icon-mace-05" Type="mace" Critical="5" Price="5200" Tier="5" WeaponSprite="Hu-Ma-Fe-Sword@Mace05">
+    <Health Values="0 16" />
+    <Stats Values="68 4 16 9" />
+  </Weapons>
+  <Weapons HashName="MAC-06" Name="Holy Mace" Desc="wp-mace-06" Icon="icon-mace-06" Type="mace" Critical="6" Price="8500" Tier="6" WeaponSprite="Hu-Ma-Fe-Sword@Mace06" Element="kHoly">
+    <Health Values="0 19" />
+    <Stats Values="76 4 18 4" />
+    <ElementalResist Values="0 0 0 0 100 0" />
+  </Weapons>
+  <Weapons HashName="MAC-07" Name="Goedendag" Desc="wp-mace-07" Icon="icon-mace-07" Type="mace" Critical="7" Price="13000" Tier="7" WeaponSprite="Hu-Ma-Fe-Sword@Mace07">
+    <Health Values="0 23" />
+    <Stats Values="84 6 22 6" />
+  </Weapons>
+  <Weapons HashName="MAC-08" Name="Pernach" Desc="wp-mace-08" Icon="icon-mace-08" Type="mace" Critical="8" Price="17000" Tier="8" WeaponSprite="Hu-Ma-Fe-Sword@Mace08">
+    <Health Values="0 27" />
+    <Stats Values="92 6 24 6" />
+  </Weapons>
+  <Weapons HashName="MAC-09" Name="Skullcrusher" Desc="wp-mace-09" Icon="icon-mace-09" Type="mace" Critical="8" Price="20000" Tier="9" WeaponSprite="Hu-Ma-Fe-Sword@Mace09">
+    <Health Values="0 31" />
+    <Stats Values="98 7 28 7" />
+  </Weapons>
+  <Weapons HashName="MAC-10" Name="God's Messenger" Desc="wp-mace-10" Icon="icon-mace-10" Type="mace" Critical="5" PositiveEffectsAdd="kfHaste" Tier="999" WeaponSprite="Hu-Ma-Fe-Sword@Mace10">
+    <Health Values="0 40" />
+    <Stats Values="106 15 32 15" />
+  </Weapons>
+  <Weapons HashName="MAU-00" Name="Maul" Desc="wp-maul-00" Icon="icon-maul-00" Type="maul" Price="325" Tier="1" WeaponSprite="Hu-Ma-Fe-Sword@Maul00" Height="2">
+    <Health Values="5 0" />
+    <Stats Values="70 0 0 0" />
+  </Weapons>
+  <Weapons HashName="MAU-01" Name="Sledge" Desc="wp-maul-01" Icon="icon-maul-01" Type="maul" Price="1000" Tier="2" WeaponSprite="Hu-Ma-Fe-Sword@Maul01" Height="2">
+    <Health Values="7 0" />
+    <Stats Values="78 0 0 0" />
+  </Weapons>
+  <Weapons HashName="MAU-02" Name="Silver Maul" Desc="wp-maul-02" Icon="icon-maul-02" Type="maul" Price="2000" Tier="3" WeaponSprite="Hu-Ma-Fe-Sword@Maul02" Height="2">
+    <Health Values="10 0" />
+    <Stats Values="88 0 8 0" />
+  </Weapons>
+  <Weapons HashName="MAU-03" Name="High Striker" Desc="wp-maul-03" Icon="icon-maul-03" Type="maul" Price="3800" Tier="4" WeaponSprite="Hu-Ma-Fe-Sword@Maul03" Height="3">
+    <Health Values="15 0" />
+    <Stats Values="96 0 0 0" />
+  </Weapons>
+  <Weapons HashName="MAU-04" Name="Teorite Maul" Desc="wp-maul-04" Icon="icon-maul-04" Type="maul" Price="6000" Tier="5" WeaponSprite="Hu-Ma-Fe-Sword@Maul04" Height="2">
+    <Health Values="22 0" />
+    <Stats Values="104 0 0 7" />
+  </Weapons>
+  <Weapons HashName="MAU-05" Name="Gada" Desc="wp-maul-05" Icon="icon-maul-05" Type="maul" Price="10500" Tier="6" WeaponSprite="Hu-Ma-Fe-Sword@Maul05" Height="2">
+    <Health Values="30 0" />
+    <Stats Values="112 0 0 0" />
+  </Weapons>
+  <Weapons HashName="MAU-06" Name="Pestilence" Desc="wp-maul-06" Icon="icon-maul-06" Type="maul" Tier="7" WeaponSprite="Hu-Ma-Fe-Sword@Maul06" Height="2" NegativeEffectsGive="kfPoison kfRoot kfCripple kfSlow" NegativeEffectsGiveChance="35">
+    <Health Values="10 0" />
+    <Stats Values="112 0 0 0" />
+  </Weapons>
+  <Weapons HashName="MAU-07" Name="Clockwork Hammer" Desc="wp-maul-07" Icon="icon-maul-07" Type="maul" Price="17500" Tier="7" WeaponSprite="Hu-Ma-Fe-Sword@Maul07" Height="2">
+    <Health Values="40 0" />
+    <Stats Values="122 0 0 0" />
+  </Weapons>
+  <Weapons HashName="MAU-08" Name="Flattener" Desc="wp-maul-08" Icon="icon-maul-08" Type="maul" Price="24000" Tier="8" WeaponSprite="Hu-Ma-Fe-Sword@Maul08" Height="2">
+    <Health Values="55 0" />
+    <Stats Values="132 0 0 0" />
+  </Weapons>
+  <Weapons HashName="MAU-09" Name="Bonecrusher" Desc="wp-maul-09" Icon="icon-maul-09" Type="maul" Price="32500" Tier="9" WeaponSprite="Hu-Ma-Fe-Sword@Maul09" Height="2">
+    <Health Values="70 0" />
+    <Stats Values="140 0 0 0" />
+  </Weapons>
+  <Weapons HashName="GUN-00" Name="Flintlock" Desc="wp-gun-00" Icon="icon-gun-00" Type="gun" Price="400" Tier="1" WeaponSprite="Hu-Ma-Fe-Gun@Gun00" Range="8" Height="15">
+    <Stats Values="34 0 0 0" />
+  </Weapons>
+  <Weapons HashName="GUN-01" Name="Boomstick" Desc="wp-gun-01" Icon="icon-gun-01" Type="gun" Price="1400" Tier="2" WeaponSprite="Hu-Ma-Fe-Gun@Gun01" Range="8" Height="15">
+    <Stats Values="40 0 0 0" />
+  </Weapons>
+  <Weapons HashName="GUN-02" Name="Silver Gun" Desc="wp-gun-02" Icon="icon-gun-02" Type="gun" Price="3200" Tier="3" WeaponSprite="Hu-Ma-Fe-Gun@Gun02" Range="8" Height="15">
+    <Stats Values="46 0 6 0" />
+  </Weapons>
+  <Weapons HashName="GUN-03" Name="Nail Gun" Desc="wp-gun-03" Icon="icon-gun-03" Type="gun" Tier="5" WeaponSprite="Hu-Ma-Fe-Gun@Gun03" Range="7" Height="15" NegativeEffectsGive="kfRoot" NegativeEffectsGiveChance="50">
+    <Stats Values="54 0 0 0" />
+  </Weapons>
+  <Weapons HashName="GUN-04" Name="Hand Cannon" Desc="wp-gun-04" Icon="icon-gun-04" Type="gun" Price="6500" Tier="4" WeaponSprite="Hu-Ma-Fe-Gun@Gun04" Range="8" Height="15">
+    <Stats Values="50 0 0 0" />
+  </Weapons>
+  <Weapons HashName="GUN-05" Name="Teorite Gun" Desc="wp-gun-05" Icon="icon-gun-05" Type="gun" Price="11000" Tier="5" WeaponSprite="Hu-Ma-Fe-Gun@Gun05" Range="8" Height="15">
+    <Stats Values="56 0 0 7" />
+  </Weapons>
+  <Weapons HashName="GUN-06" Name="Long Barrel" Desc="wp-gun-06" Icon="icon-gun-06" Type="gun" Price="16500" Tier="6" WeaponSprite="Hu-Ma-Fe-Gun@Gun06" Range="8" Height="15">
+    <Stats Values="62 0 0 0" />
+  </Weapons>
+  <Weapons HashName="GUN-07" Name="Banshee" Desc="wp-gun-07" Icon="icon-gun-07" Type="gun" Price="23000" Tier="7" WeaponSprite="Hu-Ma-Fe-Gun@Gun07" Range="8" Height="15">
+    <Stats Values="68 0 0 0" />
+  </Weapons>
+  <Weapons HashName="GUN-08" Name="Hell Muzzle" Desc="wp-gun-08" Icon="icon-gun-08" Type="gun" Price="30000" Tier="8" WeaponSprite="Hu-Ma-Fe-Gun@Gun08" Range="7" Height="15">
+    <Stats Values="74 0 10 0" />
+  </Weapons>
+  <Weapons HashName="GUN-09" Name="Infinity" Desc="wp-gun-09" Icon="icon-gun-09" Type="gun" Tier="999" WeaponSprite="Hu-Ma-Fe-Gun@Gun09" Range="10" Height="15">
+    <Stats Values="82 0 0 0" />
+  </Weapons>
+  <Weapons HashName="BOW-00" Name="Shortbow" Desc="wp-bow-00" Icon="icon-bow-00" Type="bow" Price="300" Tier="1" WeaponSprite="Hu-Ma-Fe-Bow@Bow00" Range="5" Height="10">
+    <Stats Values="44 0 0 0" />
+  </Weapons>
+  <Weapons HashName="BOW-01" Name="Longbow" Desc="wp-bow-01" Icon="icon-bow-01" Type="bow" Price="850" Tier="2" WeaponSprite="Hu-Ma-Fe-Bow@Bow01" Range="5" Height="10">
+    <Stats Values="52 0 0 0" />
+  </Weapons>
+  <Weapons HashName="BOW-02" Name="Silver Bow" Desc="wp-bow-02" Icon="icon-bow-02" Type="bow" Price="1750" Tier="3" WeaponSprite="Hu-Ma-Fe-Bow@Bow02" Range="5" Height="10">
+    <Stats Values="60 0 8 0" />
+  </Weapons>
+  <Weapons HashName="BOW-03" Name="Composite Bow" Desc="wp-bow-03" Icon="icon-bow-03" Type="bow" Price="3500" Tier="4" WeaponSprite="Hu-Ma-Fe-Bow@Bow03" Range="6" Height="10">
+    <Stats Values="68 0 0 0" />
+  </Weapons>
+  <Weapons HashName="BOW-04" Name="Teorite Bow" Desc="wp-bow-04" Icon="icon-bow-04" Type="bow" Price="5500" Tier="5" WeaponSprite="Hu-Ma-Fe-Bow@Bow04" Range="5" Height="10">
+    <Stats Values="76 0 0 6" />
+  </Weapons>
+  <Weapons HashName="BOW-05" Name="Mach Bow" Desc="wp-bow-05" Icon="icon-bow-05" Type="bow" Speed="10" Price="9000" Tier="6" WeaponSprite="Hu-Ma-Fe-Bow@Bow05" Range="5" Height="10">
+    <Stats Values="86 0 0 0" />
+  </Weapons>
+  <Weapons HashName="BOW-06" Name="True Flight" Desc="wp-bow-06" Icon="icon-bow-06" Type="bow" Price="10000" Tier="6" WeaponSprite="Hu-Ma-Fe-Bow@Bow06" Range="7" Height="10">
+    <Stats Values="80 0 0 0" />
+  </Weapons>
+  <Weapons HashName="BOW-07" Name="Warbow" Desc="wp-bow-07" Icon="icon-bow-07" Type="bow" Price="18000" Tier="7" WeaponSprite="Hu-Ma-Fe-Bow@Bow07" Range="5" Height="10">
+    <Stats Values="92 0 0 0" />
+  </Weapons>
+  <Weapons HashName="BOW-08" Name="Yoichi Bow" Desc="wp-bow-08" Icon="icon-bow-08" Type="bow" Critical="5" Price="25000" Tier="8" WeaponSprite="Hu-Ma-Fe-Bow@Bow08" Range="5" Height="10">
+    <Stats Values="100 0 0 0" />
+  </Weapons>
+  <Weapons HashName="BOW-09" Name="Dominance" Desc="wp-bow-09" Icon="icon-bow-09" Type="bow" Critical="15" Tier="999" WeaponSprite="Hu-Ma-Fe-Bow@Bow09" Range="6" Height="10">
+    <Stats Values="118 0 0 0" />
+  </Weapons>
+  <Weapons HashName="CBO-00" Name="Crossbow" Desc="wp-crossbow-00" Icon="icon-crossbow-00" Type="crossbow" BonusAcc="5" Price="250" Tier="1" WeaponSprite="Hu-Ma-Fe-Gun@Crossbow00" Range="4" Height="6">
+    <Stats Values="38 0 0 0" />
+  </Weapons>
+  <Weapons HashName="CBO-01" Name="Heavy Crossbow" Desc="wp-crossbow-01" Icon="icon-crossbow-01" Type="crossbow" BonusAcc="3" Price="700" Tier="2" WeaponSprite="Hu-Ma-Fe-Gun@Crossbow01" Range="5" Height="6">
+    <Stats Values="46 0 0 0" />
+  </Weapons>
+  <Weapons HashName="CBO-02" Name="Ice Crossbow" Desc="wp-crossbow-02" Icon="icon-crossbow-02" Type="crossbow" BonusAcc="3" Price="1400" Tier="3" WeaponSprite="Hu-Ma-Fe-Gun@Crossbow02" Range="5" Height="6" Element="kWater">
+    <Stats Values="54 0 8 0" />
+  </Weapons>
+  <Weapons HashName="CBO-03" Name="Silver Crossbow" Desc="wp-crossbow-03" Icon="icon-crossbow-03" Type="crossbow" BonusAcc="4" Price="1400" Tier="3" WeaponSprite="Hu-Ma-Fe-Gun@Crossbow03" Range="5" Height="6">
+    <Stats Values="54 0 12 0" />
+  </Weapons>
+  <Weapons HashName="CBO-04" Name="Fire Crossbow" Desc="wp-crossbow-04" Icon="icon-crossbow-04" Type="crossbow" BonusAcc="4" Price="2800" Tier="4" WeaponSprite="Hu-Ma-Fe-Gun@Crossbow04" Range="5" Height="6" Element="kFire">
+    <Stats Values="60 0 8 0" />
+  </Weapons>
+  <Weapons HashName="CBO-05" Name="Auto Crossbow" Desc="wp-crossbow-05" Icon="icon-crossbow-05" Type="crossbow" BonusAcc="1" Price="3600" Tier="4" WeaponSprite="Hu-Ma-Fe-Gun@Crossbow05" Range="3" Height="6" Shape="kCone" PosStyle="kLine">
+    <Stats Values="60 0 0 0" />
+  </Weapons>
+  <Weapons HashName="CBO-06" Name="Teorite Crossbow" Desc="wp-crossbow-06" Icon="icon-crossbow-06" Type="crossbow" BonusAcc="5" Price="4800" Tier="5" WeaponSprite="Hu-Ma-Fe-Gun@Crossbow06" Range="5" Height="6">
+    <Stats Values="68 0 0 6" />
+  </Weapons>
+  <Weapons HashName="CBO-07" Name="Earth Crossbow" Desc="wp-crossbow-07" Icon="icon-crossbow-07" Type="crossbow" BonusAcc="5" Price="4800" Tier="5" WeaponSprite="Hu-Ma-Fe-Gun@Crossbow07" Range="5" Height="6" Element="kEarth">
+    <Stats Values="68 0 8 0" />
+  </Weapons>
+  <Weapons HashName="CBO-08" Name="Thunder Crossbow" Desc="wp-crossbow-08" Icon="icon-crossbow-08" Type="crossbow" BonusAcc="5" Price="8000" Tier="6" WeaponSprite="Hu-Ma-Fe-Gun@Crossbow08" Range="5" Height="6" Element="kThunder">
+    <Stats Values="76 0 8 0" />
+  </Weapons>
+  <Weapons HashName="CBO-09" Name="Quarreller" Desc="wp-crossbow-09" Icon="icon-crossbow-09" Type="crossbow" BonusAcc="5" Price="14500" Tier="8" WeaponSprite="Hu-Ma-Fe-Gun@Crossbow09" Range="5" Height="6" Element="kDark" NegativeEffectsGive="kfBerserk" NegativeEffectsGiveChance="25">
+    <Stats Values="80 0 8 0" />
+    <ElementalResist Values="0 0 0 0 50 0" />
+  </Weapons>
+  <Weapons HashName="CBO-10" Name="Aerolus" Desc="wp-crossbow-10" Icon="icon-crossbow-10" Type="crossbow" BonusAcc="5" Price="21500" Tier="8" WeaponSprite="Hu-Ma-Fe-Gun@Crossbow10" Range="5" Height="6">
+    <Stats Values="90 0 20 0" />
+  </Weapons>
+  <Weapons HashName="CBO-11" Name="William's" Desc="wp-crossbow-11" Icon="icon-crossbow-11" Type="crossbow" Evasion="5" Critical="5" BonusAcc="10" Price="27500" Tier="9" WeaponSprite="Hu-Ma-Fe-Gun@Crossbow11" Range="5" Height="6">
+    <Stats Values="98 0 0 0" />
+  </Weapons>
+  <Weapons HashName="STF-00" Name="Wood Staff" Desc="wp-staff-00" Icon="icon-staff-00" Type="staff" Evasion="1" Price="150" Tier="1" WeaponSprite="Hu-Ma-Fe-Sword@Staff00" Height="1.5">
+    <Stats Values="38 0 4 7" />
+  </Weapons>
+  <Weapons HashName="STF-01" Name="White Staff" Desc="wp-staff-01" Icon="icon-staff-01" Type="staff" Evasion="1" SpellRange="1" NegativeEffectsProtect="kfMute" Price="450" Tier="2" WeaponSprite="Hu-Ma-Fe-Sword@Staff01" Height="1.5" Element="kHoly">
+    <Stats Values="42 0 8 7" />
+  </Weapons>
+  <Weapons HashName="STF-02" Name="Silver Staff" Desc="wp-staff-02" Icon="icon-staff-02" Type="staff" Evasion="1" SpellRange="1" Price="800" Tier="3" WeaponSprite="Hu-Ma-Fe-Sword@Staff02" Height="1.5">
+    <Stats Values="48 0 16 10" />
+    <ElementalResist Values="0 0 0 0 0 50" />
+  </Weapons>
+  <Weapons HashName="STF-03" Name="Healing Staff" Desc="wp-staff-03" Icon="icon-staff-03" Type="staff" Evasion="1" SpellRange="1" Price="1000" Tier="3" WeaponSprite="Hu-Ma-Fe-Sword@Staff03" Height="1.5" Special="kHealing">
+    <Stats Values="58 0 8 15" />
+  </Weapons>
+  <Weapons HashName="STF-04" Name="Heavy Staff" Desc="wp-staff-04" Icon="icon-staff-04" Type="staff" Speed="-3" Evasion="1" SpellRange="1" Price="1750" Tier="4" WeaponSprite="Hu-Ma-Fe-Sword@Staff04" Height="1.5">
+    <Stats Values="76 0 4 7" />
+  </Weapons>
+  <Weapons HashName="STF-05" Name="Teorite Staff" Desc="wp-staff-05" Icon="icon-staff-05" Type="staff" Evasion="1" SpellRange="1" Price="2750" Tier="5" WeaponSprite="Hu-Ma-Fe-Sword@Staff05" Height="1.5">
+    <Stats Values="60 0 20 15" />
+  </Weapons>
+  <Weapons HashName="STF-06" Name="Gold Staff" Desc="wp-staff-06" Icon="icon-staff-06" Type="staff" Evasion="1" SpellRange="1" Price="4000" Tier="6" WeaponSprite="Hu-Ma-Fe-Sword@Staff06" Height="1.5">
+    <Stats Values="66 0 26 15" />
+  </Weapons>
+  <Weapons HashName="STF-07" Name="Black Staff" Desc="wp-staff-07" Icon="icon-staff-07" Type="staff" Evasion="1" SpellRange="1" Price="5800" Tier="7" WeaponSprite="Hu-Ma-Fe-Sword@Staff07" Height="1.5" Element="kDark">
+    <Stats Values="72 0 30 18" />
+  </Weapons>
+  <Weapons HashName="STF-08" Name="Gatekeeper" Desc="wp-staff-08" Icon="icon-staff-08" Type="staff" Evasion="1" SpellRange="1" Price="8000" Tier="8" WeaponSprite="Hu-Ma-Fe-Sword@Staff08" Height="1.5">
+    <Stats Values="78 0 34 18" />
+  </Weapons>
+  <Weapons HashName="STF-09" Name="Maligenii" Desc="wp-staff-09" Icon="icon-staff-09" Type="staff" Evasion="1" SpellRange="1" Price="10000" Tier="9" WeaponSprite="Hu-Ma-Fe-Sword@Staff09" Height="1.5">
+    <Stats Values="84 0 38 22" />
+  </Weapons>
+  <Weapons HashName="STF-10" Name="Godsleg" Desc="wp-staff-10" Icon="icon-staff-10" Type="staff" Evasion="2" SpellRange="1" PositiveEffectsAdd="kfMAtkUp" Tier="999" WeaponSprite="Hu-Ma-Fe-Sword@Staff10" Height="1.5">
+    <Stats Values="90 0 30 22" />
+  </Weapons>
+  <Weapons HashName="ROD-00" Name="Rod" Desc="wp-rod-00" Icon="icon-rod-00" Type="rod" Price="175" Tier="1" WeaponSprite="Hu-Ma-Fe-Sword@Rod00">
+    <Stats Values="34 0 16 0" />
+  </Weapons>
+  <Weapons HashName="ROD-01" Name="Ancient Rod" Desc="wp-rod-01" Icon="icon-rod-01" Type="rod" Price="400" Tier="2" WeaponSprite="Hu-Ma-Fe-Sword@Rod01">
+    <Stats Values="40 0 22 0" />
+  </Weapons>
+  <Weapons HashName="ROD-02" Name="Silver Rod" Desc="wp-rod-02" Icon="icon-rod-02" Type="rod" Price="800" Tier="3" WeaponSprite="Hu-Ma-Fe-Sword@Rod02">
+    <Stats Values="46 0 32 0" />
+  </Weapons>
+  <Weapons HashName="ROD-03" Name="Water Rod" Desc="wp-rod-03" Icon="icon-rod-03" Type="rod" elementalBonus="kfWater" Price="2000" Tier="4" WeaponSprite="Hu-Ma-Fe-Sword@Rod03" Element="kWater">
+    <Stats Values="52 0 34 0" />
+  </Weapons>
+  <Weapons HashName="ROD-04" Name="Fire Rod" Desc="wp-rod-04" Icon="icon-rod-04" Type="rod" elementalBonus="kfFire" Price="2000" Tier="4" WeaponSprite="Hu-Ma-Fe-Sword@Rod04" Element="kFire">
+    <Stats Values="52 0 34 0" />
+  </Weapons>
+  <Weapons HashName="ROD-05" Name="Earth Rod" Desc="wp-rod-05" Icon="icon-rod-05" Type="rod" elementalBonus="kfEarth" Price="2000" Tier="4" WeaponSprite="Hu-Ma-Fe-Sword@Rod05" Element="kEarth">
+    <Stats Values="52 0 34 0" />
+  </Weapons>
+  <Weapons HashName="ROD-06" Name="Thunder Rod" Desc="wp-rod-06" Icon="icon-rod-06" Type="rod" elementalBonus="kfThunder" Price="2000" Tier="4" WeaponSprite="Hu-Ma-Fe-Sword@Rod06" Element="kThunder">
+    <Stats Values="52 0 34 0" />
+  </Weapons>
+  <Weapons HashName="ROD-07" Name="Teorite Rod" Desc="wp-rod-07" Icon="icon-rod-07" Type="rod" Price="3500" Tier="5" WeaponSprite="Hu-Ma-Fe-Sword@Rod07">
+    <Stats Values="58 0 40 0" />
+  </Weapons>
+  <Weapons HashName="ROD-08" Name="Ebony Rod" Desc="wp-rod-08" Icon="icon-rod-08" Type="rod" elementalBonus="kfDark" Price="6000" Tier="6" WeaponSprite="Hu-Ma-Fe-Sword@Rod08" Element="kDark">
+    <Stats Values="64 0 46 0" />
+    <ElementalResist Values="0 0 0 0 100 0" />
+  </Weapons>
+  <Weapons HashName="ROD-09" Name="Jeweled Rod" Desc="wp-rod-09" Icon="icon-rod-09" Type="rod" Price="7500" Tier="7" WeaponSprite="Hu-Ma-Fe-Sword@Rod09">
+    <Stats Values="70 0 52 0" />
+  </Weapons>
+  <Weapons HashName="ROD-10" Name="Heavy Rod" Desc="wp-rod-10" Icon="icon-rod-10" Type="rod" Price="8500" Tier="7" WeaponSprite="Hu-Ma-Fe-Sword@Rod10">
+    <Stats Values="92 0 42 0" />
+  </Weapons>
+  <Weapons HashName="ROD-11" Name="Glacier Rod" Desc="wp-rod-11" Icon="icon-rod-11" Type="rod" Price="11500" Tier="8" WeaponSprite="Hu-Ma-Fe-Sword@Rod11" Element="kWater">
+    <Stats Values="72 0 54 0" />
+    <ElementalResist Values="100 0 0 0 0 0" />
+  </Weapons>
+  <Weapons HashName="ROD-12" Name="Blazing Rod" Desc="wp-rod-12" Icon="icon-rod-12" Type="rod" Price="11500" Tier="8" WeaponSprite="Hu-Ma-Fe-Sword@Rod12" Element="kFire">
+    <Stats Values="72 0 54 0" />
+    <ElementalResist Values="0 100 0 0 0 0" />
+  </Weapons>
+  <Weapons HashName="ROD-13" Name="Quake Rod" Desc="wp-rod-13" Icon="icon-rod-13" Type="rod" Price="11500" Tier="8" WeaponSprite="Hu-Ma-Fe-Sword@Rod13" Element="kEarth">
+    <Stats Values="72 0 54 0" />
+    <ElementalResist Values="0 0 100 0 0 0" />
+  </Weapons>
+  <Weapons HashName="ROD-14" Name="Surge Rod" Desc="wp-rod-14" Icon="icon-rod-14" Type="rod" Price="11500" Tier="8" WeaponSprite="Hu-Ma-Fe-Sword@Rod14" Element="kThunder">
+    <Stats Values="72 0 54 0" />
+    <ElementalResist Values="0 0 0 100 0 0" />
+  </Weapons>
+  <Weapons HashName="ROD-15" Name="Void Rod" Desc="wp-rod-15" Icon="icon-rod-15" Type="rod" Price="12500" Tier="9" WeaponSprite="Hu-Ma-Fe-Sword@Rod15">
+    <Stats Values="80 0 64 0" />
+  </Weapons>
+  <Weapons HashName="ROD-16" Name="Prism Rod" Desc="wp-rod-16" Icon="icon-rod-16" Type="rod" Tier="999" WeaponSprite="Hu-Ma-Fe-Sword@Rod16">
+    <Stats Values="80 0 84 0" />
+    <ElementalResist Values="50 50 50 50 0 0" />
+  </Weapons>
+</XMLWeapons>

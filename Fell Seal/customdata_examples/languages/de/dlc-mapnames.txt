@@ -1,0 +1,12 @@
+mapname-arena02=„Battle Royale“-Arena
+mapname-arena02-desc=Besucher aus allen Regionen strömen herbei, um diesem Spektakel beizuwohnen.
+mapname-coastal02-desc=Der {mapname-coastal02}, eine gesetzlose Oase für Piraten und Banditen, ist nichtsdestotrotz ein wichtiger und geschäftiger Zufluchtsort vor den sturmgepeitschten Meeren.
+mapname-coastal01-desc=Ein kleines, altes Dorf in der tiefsten Provinz. Die hiesigen aufrichtigen Leute heißen einen {Arbiter} immer willkommen. Und die unredlichen? Nun, das ist eine andere Geschichte.
+mapname-graveyard02=Grabstätte
+mapname-graveyard02-desc=In diesem tief im Hinterland abgeschiedene Ort gibt es ein einsames Grab.
+mapname-lab01={name-kawa-evil}s Arbeitszimmer
+mapname-lab01-desc=Dieses heruntergekommene Museum wurde zum Arbeitszimmer eines Magiers umfunktioniert. Ein herabhängendes Tuch gottloser Magie ist Zeuge einstiger schändlicher Experimente.
+mapname-sewer01=Dumadi-Tiefen
+mapname-sewer01-desc=In diesen feuchten Abwasserkanälen lauern hungrige Augen, die in den Schatten funkeln.
+mapname-shop01=Handelsplatz von {name-kawamerchant}
+

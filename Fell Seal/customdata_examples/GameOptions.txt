@@ -1,0 +1,2763 @@
+#version 2
+; *********************************************************************
+; Core options for the game.
+; Obviously, we recommend you play with the default values since those have been tailored for what we think is the best experience,
+; but if something is bugging you, most game parameters can be changed.
+; We recommend you make the changes to the GameOptions.txt file that is generated for you in /My Documents/Fell Seal/ rather than in
+; this file, since this file will be updated by a new build, which would destroy your changes.
+; We also recommended only updating the /My Documents/Fell Seal/ version of this document with values you are actually changing,
+; to prevent stale values from persisting over our own updates.
+;
+; The way the game loads these files is it loads the game's builtin GameOptions.txt, then the /My Documents/Fell Seal/customdata/GameOptions.txt file is loaded on top.
+;
+; ***** NOTE: ****
+; Do NOT copy all the values from this file into your customdata/GameOptions.txt file!
+; You should only add/copy headers and entries that you're adding or modifying.
+; Copying all these values means that whenever the base values of the game change during an update,
+; your mod will keep overriding them (even for values your mod isn't actually using or caring about).
+; This will prevent balance updates from applying correctly to the game if you're using a mod.
+; *********************************************************************
+
+[Game]
+; Max amount of total troops you can have. Too high a number could have some textures not rendering in your main menu if you have too many "different sprites".
+; If that happens, you can increase your cachesize value in Gameconfig.txt to allow the game to load more textures, but it means it's going to use more ram/vram.
+; If you tried using more ram/vram than your system can handle, I'm not too sure what would happen. Probably nothing good ^^
+MaxTroops=60
+; The maximum amount of troops that can be fielded on a map by the player by default. Encounters can override this value for specific maps.
+MaxUnits=6
+; How powerful is the haste effect (your speed gets multiplied by this for calculations). Same deal for slow value.
+HasteEffect=1.33
+SlowEffect=0.66
+; Things that apply an ailment will have a 100% chance of ailment if they happen to crit.
+AilmentSuccessOnCrit=true
+; The amount of MP a unit recovers each turn.
+MPPerTurn=10
+; Can only perform gather/open/etc commands when the height between the object and the unit is <= to this value
+OpenCommandHeight=1.0
+; Allows status effects to have their duration refreshed by casting them anew. Otherwise if the target already has it, nothing happens.
+RecastStatusToRefresh=false
+; Base cost for recruiting. Cost * level = total
+BaseRecruitCost=500
+; Base cost for reseting. Cost * level = total
+BaseResetCost=1000
+; Max Save Slots
+SaveSlots=50
+; Auto save slots (not counted against SaveSlots) Max is 9.
+AutoSaveSlots=4
+; Starting money
+StartingGold=2000
+; Dot damage (poison, bleed, renew) as a % of max health
+PoisonPercentage=0.2
+BleedPercentage=0.125
+RenewPercentage=0.125
+; Bonus for damage when using the right affinity with affinity buff.
+AdaptiveAffinityBonus=0.35
+; Crit bonus from in-battle crit bonus buff
+CritBonusInCombat=25
+; Crit bonus passive
+CritBonusPassive=25
+; Base Crit damage bonus
+BaseCritBonus=0.5
+ScytheCritBonus=0.25
+; Chance for generated characters to not have a counter ability even if they are high enough level
+NpcSpawnNoCounter-less=20
+NpcSpawnNoCounter-default=0
+NpcSpawnNoCounter-more=0
+NpcSpawnNoPassive-less=20
+NpcSpawnNoPassive-default=0
+NpcSpawnNoPassive-more=0
+
+; Maximum amount of healers (including class and subclass) the game will allow when generating random class/subclass. Based on the [npc-healer-count] list (from this file). Only accounts for humans.
+NpcSpawnHealerMax=2.25
+; Use the average level of X number of highest level player units to find the average level for generated NPCs in a map. This is still capped by the min/max for that battle.
+NpcSpawnLevelAverageOfCount=6
+; Npcs that aren't at the level cap of an encounter can spawn with EXP. This is the max it could be.
+NpcSpawnExpMax=80
+; When earning a level in battle. There is a chance for + or - that amount on each stats gains
+OnLevelUpStatsGainRandom=0.1
+
+; Bonus to accuracy when the target is asleep. Evasion of the target is already ignored if it's asleep.
+SleepAccuracyBonus=25
+
+; If no action is taken that turn, the turn bar will start full by that much (0-1)
+NoActionTakenTimeBonus=0.25
+; Delay Strike malus
+DelayStrikeMalus=0.6
+DelayStrikeFacingMalus=0.6
+; Variance of level for npc when generating their abilities based on level (0-1)
+NpcAbilitiesLevelVariance=0.15
+; If a class has multiple skills on a skilltree tier, the NPC will have a chance of knowing all of them or only some if they meet the regular requirement.
+; If they have NpcSameTierGuaranteed levels over the regular requirement, they will always know all skills on the tier instead of "randomly some".
+NpcSameTierGuaranteed=4
+; Will favor 'jumping over' tiles that are lower than this half-size of both dest and source tiles are same height. float value
+JumpOverHeight=1
+; The maximum difference in half-height between the jump source and dest for it to be valid
+MaxJumpHeightDiff=0.5
+; Aegis Hide stuff
+AegisHideNoDirectionDamageMultiply=0.75
+AegisHideNotBackDamageMultiply=0.5
+CanUseSpecialCommandsInWater=false
+AllowTargetingBlockedTiles=true
+; Blood Magic % of HP used per 1MP
+BloodMagicPercentUse=2
+
+; double casting regular exp is reduced by this much (not killing exp) to compensate for 2x action
+DoubleCastExpReduction=0.5
+
+; Min and max values for elemental resistance calculations (will only affect internal calculations, not tooltips)
+ElementalResMin=-150
+ElementalResMax=200
+; When using Elemental Mastery, if target Resistance >=0, it will lose this amount
+ElementalMasteryAbove0=50
+; When using Elemental Mastery, if target Resistance < 0, it will lose this amount
+ElementalMasteryBelow0=25
+
+; Story related Kyrie bonus -> Kyrie gets a secret bonus to some stats after clearing a temple.
+KyrieTemple1Bonus=4
+KyrieTemple2Bonus=4
+KyrieTemple3Bonus=3
+
+; Exp gains stuff
+ExpBase=10
+ExpRandomMin=2
+ExpRandomMax=4
+ExpKillbonus=15
+ExpHealBonus=0.25
+BossBonusExp=100
+
+; Arena stuff
+ArenaPrice=5000
+ArenaPrice2=15000
+
+; AP Gains stuff.
+APGainMin=85
+APGainMax=140
+ApGainVicarious=0.15
+ApGainBonus=0.10
+ApGainStoryBonus=1.75
+ApGainMvp=0.35
+ApGainBenchedRatio=0.5
+ApGainBenchedVicariousRatio=0.8
+; Upon running a patrol, the AP gains will be lessened if the patrol max level is lower than the average level of the player deployed units.
+; The reduction will kick in if the player's average level is this much higher than the enemies.
+; Also affects GP gains.
+ApReductionDisparityRatio=0.2
+ApReductionPerDisparityChunk=0.2
+ApReductionMax=0.8
+ApReductionDisparityMinLevel=2
+; When running the easy maps for low levels, the AP will be reduced by this amount at all times if the user's average level is above the patrol max value.
+ApReductionForEasyMaps=0.33
+; If the map max level is that much lower than player's units (not just deployed, all of them), then the
+; AP/GP gains will be lowered by this much if we are not already reducing them with the above.
+ApReductionDisparityGlobalRatio=0.5
+ApReductionDisparityAmount=0.20
+GoldReductionDisparityAmount=0.4
+; Upon recruiting a new character, they will start with that much AP for each job.
+; Exact amount is: find 6 characters with most AP totals, average all their values. New recruit gets NewRecruitStartAP * value for each class.
+NewRecruitStartAP=0.4
+NewStoryCharacterStartAp=0.4
+; Scar tissue will increase the specific defense by this amount every time damage is sustained.
+ScarTissueBoost=0.1
+ScarTissueMax=0.4
+
+; Bzil special class
+BzilPointsNeeded=5
+BzilPointsTier1=1
+BzilPointsTier2=2
+BzilPointsTier3=3
+BzilApPerPoints=10
+
+; Anatomist stuff
+DarkRevive1=UND-01
+DarkRevive2=UND-02
+DarkRevive3=UND-03
+DarkRevive2-Level=50
+DarkRevive3-Level=80
+
+; Gold gains
+GoldGainMin=300
+GoldGainMax=18000
+GoldGainSpecialbonus=40000
+GoldGainStoryBonus=1.5
+GoldGainVariance=0.1
+
+; Special Gear Stuff
+CursedShield-WinNeeded=15
+BloodArmor-KillsNeeded=1
+SoulEater-KillsNeeded=1
+BloodArmor-Cap=60
+SoulEater-Cap=60
+
+; Difficulty Level Scaling -> if using that setting, the max level will scale up by that much
+ScalingMaxUp=0.33
+ScalingMaxDown=0.25
+ScalingMinDown=0.1
+
+; Mvp Calc
+MvpMin=120
+MvpMinStory=100
+MvpKill=25
+MvpKillDifference=4
+MvpDamage=7
+MvpDamageDifference=1
+MvpHeal=15
+MvpGaming=34
+MvpGamingMax=100
+MvpMaxLevelDiffMin=-1
+MvpMaxLevelDiffMax=3
+MvpRatioCheck=0.55
+MvpRatioMin=65
+MvpRatioMinStory=55
+;Injuries
+InjuriesMax=5
+InjuriesPerBattle=3
+InjuryDeathNeeded=1
+InjuryDeathExtraNeeded=1
+InjuryPenalty=0.1
+InjuryPenaltyPermanent=0.05
+; This is the amount of AP loss per injury in "ap injury mode" (so, 1 injury by default means the player will only earn 80% of the AP for that battle.)
+InjuryPenaltyAp=0.2
+; This is the miminum AP the injured unit can get (eg. even with 10 injuries, they'll still earn 40% of the AP).
+InjuryPenaltyApMin=0.4
+;Stores
+SellRatio=0.5
+
+; Various skills/passives
+DamageHpLowBonus=0.8
+DamageHpFullBonus=0.32
+HallowedDmgBonusMelee=0.45
+HallowedDmgBonusRange=0.35
+MpToDamageBonus=0.025
+ExecuteThreshold=0.5
+ExecuteBonus=0.45
+CritDmgPassiveBonus=0.5
+DamageToSpDamageRatio=0.25
+LeechHpRatio=0.33
+LeechMpRatio=0.1
+LeechMpMax=15
+SiphonMpMax=25
+LegendaryHealerBonus=0.45
+OneForAllMelee=1
+OneforAllRanged=0.75
+; ThornDamage is % of damage done that gets reflected by thorns (0 to 1)
+ThornDamage=0.3
+ThornReflectsOnlyMeleeRange=false
+;you deal that much less damage when submerged and receive that much more
+SubmergedBonus=0.1
+WallSlamPercentage=0.2
+WallSlamPercentageMin=0.1
+FallDamagePerHeight=0.2
+FallDamageMin=0.1
+; When falling from a punt, the target won't take fall damage if the height is less than their jump value * the nerf value
+FallDamageHeightNerf=0.75
+DefendingDamage=0.5
+QuarterSelfDamage=0.25
+OnCritLeechHp=0.15
+OnCritLeechMp=0.05
+OnCritLeechMpMin=5
+OnCritLeechMpMax=15
+OnKillLeechHp=0.2
+OnKillLeechMp=0.1
+;Pounce does reduced damage and ignores direction. This is amount of damage it does of a regular attack.
+PounceMultiplier=0.8
+FocusBonus=1.0
+BlessedOneRatio=0.5
+AccuracyBonus=20
+IntoTheFrayBonus=0.125
+IntoTheFrayBonus2=0.32
+IntoTheFrayBonus3=0.55
+IntoTheFrayBonus4=0.85
+ReraiseHpRatio=0.2
+StatusEffectUpBonus=10
+HallowedMindMalus=10
+ImmortalMindReduction=0.50
+WeakenAccuracyBonus=15
+; The level difference between the caster and the target confers a small bonus/penalty to the accuracy of status effects, up to that value.
+DebuffAccuracyBonusMax=5
+; Character is considered in 'weak' state (critical hp) when their current hp is <= maxHP * this value
+WeakHpRatio=0.2
+CounterMagicUsesMp=false
+SturdyBodyDmgReduction=0.5
+OpportunistBonusPerDebuff=0.2
+; Reveal trap size must be an odd number. It's the diameter of the circle.
+RevealTrapsSize=13
+; Duration is currently not used.
+;FleetOfFootDuration=1
+;FleetOfFootMagnitude=2
+LifeFontAmountPerStep=4
+LifeFontLevelDivider=4
+ManaFontAmountPerStep=1
+; Bonus damage for Height Advantage passive (does more damage per height point above the target)
+DamageBonusForHeightAdvantage=0.05
+DamageBonusForHeightAdvantageMax=0.4
+; Avenger passive bonuses
+AvengerDamageReduction=0.125
+AvengerDamageBonus=0.2
+AvengerMaxStacks=3
+; When using reanimate, switcheroo or summoning an enemy, their timebar will start filled in a random amount between 0 and this (0 being not filled, 1 being fully filled).
+DarkReviveBarFilled=0.4
+; Impetus increases speed by X at the end of the each turn, up to max.
+ImpetusGainPerTurn=0.05
+ImpetusGainMax=0.30
+
+ShiftingTargetGainPerTurn=3
+ShiftingTargetGainMax=18
+
+; Gain per tile moved for passive "dmg up per movement"
+DmgUpPerMovementGain=0.1
+DmgUpPerMovementGainMax=0.6
+AdaptAegisBonus=75
+DarkBarrierBonus=25
+; Bonus from "stats up" spells, as a % of current stat. Atk -> ATK/MIND. Def -> DEF/RES
+BattleStatBonusAtk=0.2
+BattleStatBonusDef=0.25
+AtkMndUpPerDebuffAmount = 0.1
+LashOutBonus=0.5
+HarrierAccUp=2.5
+HarrierAccUpMax=25
+HarrierCritUp=4.5
+HarrierCritUpMax=50
+HarrierDebuffUp=2.5
+HarriecDebuffUpMax=25
+SkirmishPassiveBonusMovement=1
+DevourHp=0.2
+ChallengerReduction=0.5
+
+;PermanentStatBonus=0.15
+; Bonus for Expert passives: Base + PerLevel * CharacterLever
+ExpertATKBase=24
+ExpertATKPerLevel=1
+ExpertMNDBase=14
+ExpertMNDPerLevel=1
+ExpertDEFBase=32
+ExpertDEFPerLevel=1.5
+ExpertRESBase=32
+ExpertRESPerLevel=1.5
+
+HallowedBody=0.2
+HallowedBulwark=0.25
+DoubleHandAtkBonus=0.2
+; Evasion passive flat bonus
+BonusEvasion=13
+; Lucky passive flat bonuses
+LuckyEvasion=5
+LuckyCritical=5
+LuckyHit=5
+LuckySteal=5
+LuckyTame=5
+; Base crit chance
+BaseCritChance=1
+; Arcane Engine HP to Mp ratio
+ArcaneEngineHpToMp=10
+; Autotomize bonuses
+AutotomizeJump=1
+AutotomizeMove=1
+AutotomizeHpLoss=0.25
+; Deathfeeder bonuses
+DeathFeederBonusPerDead=0.05
+DeathFeederBonusMax=0.3
+; Blood Mark bonuses
+BloodMarkBonus=0.2
+BloodMarkBonusMax=0.8
+; Sunder
+SunderChance=75
+; Chance for chilling touch passive to proc.
+ChillingTouchChance=75
+DeepWoundsChance=75
+VenomTouchChance=75
+; Eruptor bonus
+EruptorPerTurn=0.18
+EruptorMax=0.72
+; Manaburn damage ratio
+ManaburnAmount=0.1
+; Steal items count per steal
+StealItemCount=1
+; Economy will remove cost divided by this amount.
+EconomyRemoval=3
+FarSightBonus=1
+RetaliationDmgBonus=0.5
+RetaliationDurationBonus=1
+EtherialTouch=1.2
+
+; Amount of damage dealt / healing done for passives that deal dmg/healing for casting buffs/debuffs.
+; This amount is a 'damage ratio' like that of abilities in general.
+BuffsToHeal=0.3
+DebuffsToDmg=0.25
+
+; Elemental bonus
+ElementalBonus=0.25
+
+; BroodMaster Bonus
+BroodMasterReductionPerLiveAlly=0.1
+BroodMasterReductionPerLiveAllyMax=0.75
+
+; Regenesis delay before respawn
+RegenesisDelay=3
+
+; Wildcard related odds
+WildCardDebuff3x=11
+WildCardDebuff2x=22
+WildCardDebuffBad=11
+WildCardLuckBonus=5
+WildCardDmgHeal50=5
+WildCardDmgHeal100=5
+WildCardDmg500=1
+WildCardDmg200=4
+WildCardDmg100=20 
+WildCardDmg25=20
+
+; Potent and special formula values. Might not want to mess with those.
+StatsScaling=0.5
+GlobalScaling=1.25
+SpellBasicDamage=15
+SpellBasicHealing=30
+HealingScaling=0.8
+MixedRatio=0.6
+MagicScaling=0.9
+; Sides
+SideSide=1.25
+SideBack=1.5
+SideFront=1
+SideBase=0.55
+SideIgnore=0.625
+
+; Default status effect duration (only used for missing values)
+status-duration-default=3
+
+; Status effects duration
+[Status-negative-duration]
+poison=3
+bleed=5
+blind=2
+root=2
+mute=3
+cripple=3
+sleep=3
+berserk=2
+charm=2
+slow=3
+atkdn=3
+mnddn=3
+defdn=3
+resdn=3
+weaken=3
+exhaust=2
+
+[Status-positive-duration]
+ATKUp=3
+MNDUp=3
+DEFUp=3
+RESUp=3
+CRITUp=3
+Thorns=4
+Haste=3
+Renew=3
+Rebirth=100
+Mirage=3
+Barrier=100
+Water=3
+Fire=3
+Earth=3
+Thunder=3
+Dark=3
+Holy=3
+AdaptAegis=4
+FleetOfFoot=3
+DarkBarrier=3
+Focus=2
+Boon=2
+AdaptEvade=3
+HallowedDmg=2
+
+
+[Stats-Caps]
+; These caps only apply to a character's base stats. Their gear values will be added on top regardless of the cap.
+; Certain enemies ignore the Health/MP cap
+HealthMax=999
+MpMax=999
+StatMax=600
+SpeedMax=250
+; Changing the max level will break most of the Level ranges for encounters and isn't recommended.
+LevelMax=99
+; this cap is for monsters. Since they don't have gear, it's higher to compensate.
+StatMaxMst=750
+
+EvasionMax=50
+
+[NpcSpawn]
+; When generating enemies. Some of these values can be overriden on a per map basis.
+; When generating enemies, level difference knobs
+LevelDisparityUp=0.1
+LevelDisparityDown=0.15
+LevelDisparityUpMax=6
+LevelDisparityDownMax=5
+; Chance of a generated character having nothing in one of his equipment slots
+AccMissingChance=25
+; Chance of a generated character having nothing in an empty slot for other slots than the regular 2 acc slots.
+AccMissingChanceExtra-default=75
+AccMissingChanceExtra-more=50
+; Pieces of gear an NPC has a chance to be spawned with. Per Chapter. This can be overriden per encounter. Difficulty settings can override this.
+MinGearCount1=2
+MinGearCount2=2
+MinGearCount3=2
+MinGearCount4=3
+MinGearCount5=3
+MinGearCount6=3
+; If a slot is to filled with a piece of gear, the chance that it will be the best possible available at that point in the story. Otherwise it's the previous best available.
+BestGearChance=80 
+
+[UI]
+; Speed Characters move at on the worldmap, pixels/sec
+WorldmapCharacterSpeed=400
+; Speed cursor moves at on the worldmap with gamepad, pixels/sec
+WorldmapGamepadSpeed=650
+; Combine damage values when dual wielding into the predicted damage box (the result is accurate, but won't show the element of the 2nd attack properly)
+; Turning this to off will make the AI calculate its damage wrongly when planning for DW attacks.
+CombineDualWieldPredictedDamage=true
+; Minimum delay before the AI makes its move. This lets the player see the AI info panel a bit before things happens
+AIMinimumDelay=0
+; List all jobs or just those that the player can soon learn
+ListAllJobs=false
+; Time to wait when showing the map name in battle. In seconds. Float.
+MapNameDelay=1.5
+; Force show all resolutions possible in res screen.
+ForceShowAllResolutions=false
+; Show monster sprites for Bzil class wheel rather than Bzil images
+BzilClassChangeShowsMonsters=false
+; To how much the music volume gets lowered during spell casting (from 'current' which is 1 to this value)
+MusicCastVolume=0.5
+
+[Colors]
+DmgColorHP=255, 255, 255
+DmgColorHPHeal=123, 223, 219
+DmgColorMP=193, 42, 237
+DmgColorMPHeal=100, 130, 255
+DmgColorHpCrit=59, 100, 100
+DmgColorExp=240, 255, 0
+DmgColorStatusAddPos=100, 130, 255
+DmgColorStatusAddNeg=193, 42, 237
+
+TextHexColorName=FFF423
+TextHexColorItem=96FF4C
+TextHexColorPlace=65CAFE
+TextHexColorBase=FFFFFF
+TextHexColorSelf=C0C0C0
+TextHexColorTerm=FF9B05
+TextHexColorStory=FF37FA
+TextHexColorHint=96FF4C
+
+[AI]
+; When tallying 'best damage' if the attack also has a status effect, boost the damage value by this much for internal AI decision making.
+BestDamageStatusEffectWorth=0.65
+BestDamageStatusEffectWorthPoach=1
+
+; Buffs
+BestDamageBuffWorth=0.75
+
+; The more buff a target already has, the less interested a caster is to give yet more buffs.
+; Each existing buff on the target reduces the value of adding another buff by this amount. Default: 10%
+BuffValueReductionPer=0.1
+
+; Favor a target with mystic shield if their MP is 0
+MysticShieldAt0Enthusiasm=0.25
+
+; Summons - AI will factor damage to summons as being 20% lower when looking for the best action, so they are targeted a little less than regular characters.
+SummonsAsTargetDampening=0.25
+
+; Helper to try to get the AI not to use the same CC everyturn
+CCRepeatDiminishingReturn=0.25
+
+; When "not moving" due to the special nomove flag, this is the chance of not self buffing
+NoMoveSelfBuffChanceIgnoreChance=75
+
+; One For All
+; An ally is considered to be "going to proc our One for All" if they are not a healer and within (OFAAssistRange + move range) of the target. This is a little optimistic.
+OFAAssistRange=3
+; We tally the dmg we would do from all possible allies that could help us and multiply it by the enthusiasm when comparing it to other possible damage we could do instead
+OFAEnthusiasm=0.75
+
+; Those have the target's movement added to them internally.
+MaxDistanceToFeelSafe=2
+MinDistanceToEnemyToFeelUnsafe=4
+; this one doesn't add the movement of the target internally, so it should account for it. Assume 4
+MinDistanceToEnemyToFeelUnsafeForRaise=9
+; this number is used when we can't get the target's movement (because it's not been summoned yet, etc)
+DefaultSummonMovementRange=3
+
+; Odds of wanting to removing status effects per status
+StatusEffectChanceEachSelf=33
+StatusEffectChanceEachOther=66
+StatusEffectChanceEachSelfNoAction=100
+; This is the only one used by the current AI. Others are only used in special scripts.
+StatusEffectChanceWorthEach=0.85
+
+StatusCareFull=1
+StatusCareHigh=0.75
+StatusCareMed=0.5
+StatusCareLow=0.25
+
+; If the enemy will trigger a counter that will hurt it, the value of the action will be reduced by that much
+HurtfulCounterEnthusiasmReduction=0.15
+
+; MP cost of an ability to be considered a 'big one'. Used by AI that restores MP.
+BigAbilityMpCost=21
+; Amount of bonus enthusiasm for giving MP to big spell allies
+BigAbilityBonus=0.33
+; Amount of bonus enthusiasm for removing MP to big spell enemies.
+BigAbilityMalus=0.25
+;10 MP grant is worth the same as a regular attack by default. This is the max amount of a regular attack adding MP can be worth (so roughly a little less than 20MP)
+MPGrantingWorthMax=1.7
+MpGrantingWorthMult=0.70
+
+; MP leech conversion for AI calculations - Not used anymore.
+MpLeechMultRatio=0.5
+; If the character has at least this much, then they don't care about MP leech at all
+MpLeechMaxCurrent=30
+
+; Delay strike worth to the AI
+BestDamageDelayStrikeWorth=0.5
+
+; When calculating outcomes, values within this range are considered "as good" as one another. The higher this is, the more randomness happens rather than always picking the absolute best outcome.
+BestOutcomeDifferenceForOptimal=0.10
+BestOutcomeDifferenceForDefault=0.20
+BestOutcomeDifferenceForRemoveHigherMp=0.15
+
+AddedPainWhenAttackingAllies=0.25
+AddedJoyWhenKillingEnemyKiller=0.75
+AddedJoyWhenKillingEnemyDefault=0.5
+
+AddedPainWhenBerserkCaster=0.25
+AddedPainWhenCrippleCaster=-0.75
+AddedPainWhenMuteNonCaster=-0.75
+
+; AI won't try to place traps unless someone is that close to them.
+MinEnemyDistanceForTraps=8
+; Chance of AI to favor moving next to a trap as a 'wasted movement'.
+MoveNextToTrapChance=50
+; Chance of someone to move to his new trap after placing it.
+MoveNextToTrapAfterPlacingChance=50
+; Chance of trapper to try to place trap near a target instead of randomly
+PlaceTrapCloseToTarget=50
+PlaceTrapCloseToAlly=25
+; How long the AI keeps its current target as its focus when it can't reach anyone
+TargetFocusTurns=2
+; Chance to target the closest
+TargetFocusClosest=0.25
+; AI melee moves to a random location after attacking with no movement
+MeleeRandomMove=0.75
+; Basic chance for an enemy to favor a regular attack over using a skill
+SkillsIgnoreChance=33
+; Chance to not focus on healing self if last man standing
+IgnoreSelfHealOnLastMan=75
+; Chance of healer to go for a melee attack if they can't heal
+ChanceOfHealerGoingMelee=33
+; Chance of mage to got for a melee if they can't casting
+ChanceOfMageGoingMelee=66
+; Healers prioritize heals, status removals, buffs and dispels. This make it so they might change that order to a random order.
+ChanceOfHealerGoingRandom=40
+; Mages try to nuke or CC. This is the chance they random change that order.
+ChanceOfMageGoingRandom=50
+; When DPSers get their turn, they try to maximize their damage. Every time they try another combination, this is the chance they'll keep "the current best" rather than keep checking for better.
+ChanceOfNotOptimalChoice=7
+; Number of people around him needed for guardian to use defense and chance of doing so.
+GuardianSurroundRange=3
+GuardianSurroundCount=3
+GuardianDefendChance=75
+
+; This mainly applies to Rest Up. It's the chance of using a buff with a negative effect (otherwise we'll ignore it for this turn). Main use is to lessen the chance of Bulldrakes all doing Rest Up on the same turn.
+ChanceOfBuffingWithANegative=75
+
+; For each trap the player puts, the AI will have this % chance of trying to discover it if they have Scout
+TrapDiscoveryInterest=33
+TrapDiscoveryInterestPerTrap=0.45
+
+; Threshold for a target to be considered 'low health' and trigger a heal from an allied healer
+LowHealthThreshold=0.50
+; Threshold for a target to be considered 'very low health' and trigger a heal from an allied non-healer that happens to have healing
+VeryLowHealthThreshold=0.25
+; Threshold for a healer to be considered 'low health' and trigger a heal to himself (this has higher priority than healing other targets)
+SelfLowHealthThreshold=0.35
+SelfHealerLowHealthThreshold=0.55
+; Threshold for a healing spell efficiency: If a healing spell would be at least that effective on the target w/r to what it could do, then we'll heal, even if the target is above the lowhealththreshold
+HealEfficiencyThreshold=0.75
+DoingNothingHealthThreshold=0.85
+
+; Guardian style AI
+; Chance of guardian AI to protect an ally
+GuardianProtectChance=0.10
+; Max chance of guardian AI to protect an ally
+GuardianProtectMaxChance=0.9
+; Health threshold for max chance of protect
+GuardianProtectMaxChanceHealth=0.3
+; Chance to protect an ally if we couldn't do anything
+GuardianProtectIdleChance = 0.5
+
+; Special fights AI Behaviors
+NobleDemonMeleeChance=20
+NobleDemonMeleeChanceWithDebuff=50
+; Phoenix effective damage/healing needs to be at least as good as current health * this
+PhoenixMinDamageToCurHealth=1.65
+; if phoenix "heal all" total heal * PhoenixFavorHealing is >= than "damage all", use healing.
+PhoenixFavorHealing=1.1
+PhoenixRebirthPainReduction=1
+
+; Chance for the regular AI to reduce the worth of drowning someone (doesn't apply to bosses, they have their own chances)
+DrowningReductionChance=33
+DrowningValueWhenReduced=0.20
+
+; DLC1
+; Pet spells will get that much added to their worth to value the pet effect they will spawn.
+PetSpellBonusValueRange=0.3
+PetSpellBonusValueMelee=0.5
+DismissMultValue1=0.8
+DismissMultValue2=0.9
+DismissMultValue3=1
+
+[AI-StrongAbilities]
+RANG-A7=30
+ASSA-A1=30
+BLAD-A5=24
+DRUI-P2=20
+; DLC1
+SAMU-A3=24
+
+[AI-Monsters-Upgrade]
+Tier2=20
+Tier3=35
+
+[AI-WeightPreset-Default]
+; Default values for AI presets.
+weight-dmg    	=1
+weight-heal   	=1
+weight-buff   	=1
+weight-debuff 	=1
+weight-panacea	=1
+weight-protect	=1
+weight-traps  	=1
+weight-raise  	=1
+weight-healself =1
+
+[AI-WeightPreset-Difficulty]
+; Difficulty related item tweaks
+
+; Items are less valued than regular actions by the AI by this amount. This is basically a weight applied on top
+; of all other weights, by difficulty.
+item-healing-less   =0.7
+item-healing-default=0.75
+item-healing-more   =0.8
+
+; Every time a specific AI character uses a healing item, it's less likely to use one again in the future.
+item-healingoddsreduction-less   =0.4
+item-healingoddsreduction-default=0.4
+item-healingoddsreduction-more   =0.2
+
+; Over time, the above reduction can start wearing off. That's the amount of "odds from above" restored by round where an item is not used.
+item-healingoddsreduction-reset-less	=0
+item-healingoddsreduction-reset-default =0.25
+item-healingoddsreduction-reset-more	=0.5
+
+; Revive weight tweaks
+; Global revive value reduction. Reviving an ally is worth: (HP restored + "base action value") * reduction
+Revive-weight=0.1
+Revive-weight-player=0.6
+; With half their team dead, the AI will value revive a little more
+Revive-weight-halfdead=0.9
+
+; Each time a target is raised, there is that much less value to raising them again in the future.
+revive-oddsreduction-none	=1
+revive-oddsreduction-low	=0.55
+revive-oddsreduction-default=0.5
+revive-oddsreduction-more	=0.35
+
+revive-maximum-none		=0
+revive-maximum-low		=1
+revive-maximum-default	=2
+revive-maximum-more		=5
+
+; Enemies that "are waiting to do stuff until x turns, etc" will be worth this much as a buff target.
+weight-waiting-enemy=0.7
+
+
+[AI-WeightPreset]
+; Base weight for different AI
+; If some values are missing, the default will be used.
+
+; How to read these lines:
+;weight-<styleName>-<ActionType>
+; You can use a styleName when spawning a character in Encounters.txt with weightstyle:<name> eg: weightstyle:viciousdps
+; It will use these base weights for its actions. Those can be further tuned by individual weighs per action on the character as well.
+
+; These are the weights for the "dps" style
+; This line sets the weight for the "dps" weightstyle, for "dmg" abilities.
+weight-dps-dmg    =1.1
+; This line sets the weight for the "dps" weightstyle, for "healing" abilities.
+weight-dps-heal   =0.8
+; This line sets the weight for the "dps" weightstyle, for "buffing" abilities.
+weight-dps-buff   =0.9
+; This line sets the weight for the "dps" weightstyle, for "debuffing" abilities.
+weight-dps-debuff =1
+; etc.
+weight-dps-panacea=0.9
+weight-dps-protect=0.7
+weight-dps-traps  =0.95
+weight-dps-raise  =0.75
+
+weight-viciousdps-dmg    =1.1
+weight-viciousdps-heal   =0.5
+weight-viciousdps-buff   =0.6
+weight-viciousdps-debuff =1
+weight-viciousdps-panacea=0.5
+weight-viciousdps-protect=0.1
+weight-viciousdps-traps  =0.5
+weight-viciousdps-raise  =0.2
+
+weight-magicdps-dmg    =1.1
+weight-magicdps-heal   =1
+weight-magicdps-buff   =0.85
+weight-magicdps-debuff =1
+weight-magicdps-panacea=0.9
+weight-magicdps-protect=0.5
+weight-magicdps-traps  =1
+weight-magicdps-raise  =0.95
+
+weight-rangeddps-dmg    =1.1
+weight-rangeddps-heal   =0.85
+weight-rangeddps-buff   =0.95
+weight-rangeddps-debuff =1.1
+weight-rangeddps-panacea=1
+weight-rangeddps-protect=0.5
+weight-rangeddps-traps  =0.95
+weight-rangeddps-raise  =0.95
+
+weight-dpsdebuffer-dmg    =1.1
+weight-dpsdebuffer-heal   =0.8
+weight-dpsdebuffer-buff   =0.9
+weight-dpsdebuffer-debuff =1.1
+weight-dpsdebuffer-panacea=0.9
+weight-dpsdebuffer-protect=0.7
+weight-dpsdebuffer-traps  =1
+weight-dpsdebuffer-raise  =0.85
+
+weight-trapper-dmg    =1
+weight-trapper-heal   =0.9
+weight-trapper-buff   =0.9
+weight-trapper-debuff =1
+weight-trapper-panacea=0.9
+weight-trapper-protect=0.6
+weight-trapper-traps  =1.15
+weight-trapper-raise  =0.95
+
+weight-item-dmg    =0.9
+weight-item-heal   =1
+weight-item-buff   =0.8
+weight-item-debuff =0.95
+weight-item-panacea=1
+weight-item-protect=0.6
+weight-item-traps  =1
+weight-item-raise  =1
+
+weight-protector-dmg    =0.9
+weight-protector-heal   =1
+weight-protector-buff   =1
+weight-protector-debuff =1
+weight-protector-panacea=1
+weight-protector-protect=1.15
+weight-protector-traps  =1
+weight-protector-raise  =0.85
+
+weight-healer-dmg    =0.8
+weight-healer-heal   =1.2
+weight-healer-buff   =1.1
+weight-healer-debuff =0.95
+weight-healer-panacea=1.05
+weight-healer-protect=0.6
+weight-healer-traps  =0.95
+weight-healer-raise  =1
+weight-healer-healself=1.25
+
+weight-raiser-dmg    =0.85
+weight-raiser-heal   =1.1
+weight-raiser-buff   =1
+weight-raiser-debuff =0.95
+weight-raiser-panacea=1
+weight-raiser-protect=0.6
+weight-raiser-traps  =0.9
+weight-raiser-raise  =1.25
+weight-raiser-healself=1.15
+
+weight-buffer-dmg    =0.9
+weight-buffer-heal   =1
+weight-buffer-buff   =1.2
+weight-buffer-debuff =1
+weight-buffer-panacea=1.15
+weight-buffer-protect=0.6
+weight-buffer-traps  =0.95
+weight-buffer-raise  =1
+weight-buffer-healself=1.05
+
+weight-debuffer-dmg    =1
+weight-debuffer-heal   =0.9
+weight-debuffer-buff   =0.95
+weight-debuffer-debuff =1.1
+weight-debuffer-panacea=0.95
+weight-debuffer-protect=0.6
+weight-debuffer-traps  =1
+weight-debuffer-raise  =0.9
+
+[AI-WeigthPresetPerClass]
+; base
+MERC=dpsdebuffer,dps,debuffer,protector,viciousdps
+KNIG=dpsdebuffer,protector,protector
+BLAD=dps,magicdps,protector
+TEMP=dps,dpsdebuffer,viciousdps
+REAV=dps,dpsdebuffer,dps,viciousdps
+ASSA=dps,dpsdebuffer,debuffer,viciousdps
+RANG=dps,dpsdebuffer,rangeddps
+ROGU=dps,dpsdebuffer,rangeddps
+GUNN=dps,dpsdebuffer,rangeddps,debuffer
+PEDD=item,trapper,rangeddps
+HEAL=healer,raiser
+ALCH=buffer
+SORC=magicdps
+UTIL=dpsdebuffer,healer,none,none
+WIZA=magicdps,none
+DRUI=none,none,healer,magicdps
+FELL=dps,dpsdebuffer,debuffer
+WARM=dps,magicdps
+GAMB=magicdps,rangeddps,buffer,debuffer,none
+GADG=none
+; special
+WERE=dps,dpsdebuffer,viciousdps
+VAMP=dps,dpsdebuffer,debuffer,rangeddps
+LICH=magicdps
+SMED=magicdps,healer,magicdps
+LORD=protector,dps,dpsdebuffer,buffer
+PRIN=healer,buffer,magicdps,raiser
+; story
+MARK=dps
+DEMK=dps
+ANAT=raiser,healer,magicdps
+BHUN=dps,rangeddps,dpsdebuffer
+IMM7=magicdps
+IMM5=dps
+IMM3=healer
+IMM2=dps
+EXIL=dps
+REIN=dps
+;DLC1
+SAMU=dps, viciousdps, debuffer
+BEAS=dps, healer, raiser, viciousdps, rangeddps
+WRAN=dps, debuffer, buffer
+
+[AI-WeigthPresetPerStyle]
+melee=dpsdebuffer,dps,debuffer,protector
+range=dps,dpsdebuffer,rangeddps
+magic=magicdps,none
+healer=healer,buffer,raiser
+trapper=trapper
+hybrid=dps,magicdps,none,dpsdebuffer
+
+
+; Selecting a style randomly for generated enemies
+[AI-Style]
+#comments
+; odds of being selected. Based on 100 odds. Unallocated go to default.
+Killer=20 ; Will favor finishing off units if possible.
+AlwaysOptimal=15 ; Will always use highest damage/heal option.
+FocusFire= 15; Will favor low hp units.
+Guardian=6 ; Will protect caster allies
+GuardianAll=4 ; Will protect allies
+
+
+[Abilities]
+HPUpAmount=0.25
+ManaUpAmount=15
+
+
+[Outfits]
+; Chance of having a random outfit accessory when randomizing
+Acc-Chance=50
+; Color for enemies. Default is red
+; options are: red, blue, cream, white, pink, brown, yellow, orange, green, grass, purple, black
+Enemy-Color=red
+Faction-Bandit-Color=black
+Faction-Rebel-Color=green
+Faction-Guest-Color=yellow
+Faction-AncientPath-Color=orange
+Enemy-Color-Leader=black
+ClassSelect-Color=blue
+; Use default hat/outfits for enemies. Otherwise it'll be randomized
+Enemy-Hat=true
+Enemy-Outfit=true
+; Restrictions when generating randomized cutscene sprites
+generated-restrictions-hat=lich, vampire, werewolf, elvenears, halloween, Elvensearshorns, horns, batwings, jil
+generated-restrictions-outfit=defaultundies,succubus, imperator, twinreiner, twinkyrie, twinanadine
+generated-restrictions-hair-colors=red,green,cyan,blue,purple
+generated-restrictions-acc=orctusks
+generated-restrictions-skin-color=orc,drow
+
+[outfits-special]
+; lists: name1, name2
+unlock-outfit1=imperator
+unlock-outfit2=succubus
+unlock-hat1=batwings 
+unlock-hat2=halloween
+unlock-portrait1=pumpkinhead
+
+[outfits-missions-unlocked]
+; DLC feature
+; You can create new entries here and add any outfit you want. These outfits will become restricted (ie, can't be used by player) until
+; they are given to the player via a mission reward. The mission reward should use the entry name you created.
+; Just look "unlock-heroes" in the mission data to see an example.
+unlock-heroes=twinreiner, twinkyrie, twinanadine
+
+
+[Vicarious-extensions]
+; You can put a class code in here and when someone of that class gains AP, the listed classes next to it will
+; gain AP as if they were the "same class". eg: MERC=UTIL, GAMB  -> when a MERC unit gains AP, anyone that's
+; a UTIL or GAMB will gain AP to these classes, as if those classes counted as a "MERC" class.
+DRE=DRF, DRT, DRW
+DRF=DRE, DRT, DRW
+DRT=DRE, DRF, DRW
+DRW=DRE, DRF, DRT
+EXIL=MARK
+
+; *************** Npc Generation values ******************************
+; classes are:
+; MERC: mercenary
+; KNIG: Knight
+; BLAD: Templar
+; TEMP: Duelist
+; REAV: Reaver
+; ASSA: Assassin
+; RANG: Ranger
+; ROGU: Scoundrel
+; GUNN: Gunner
+; PEDD: Peddler
+; HEAL: Mender
+; ALCH: Alchemystic
+; SORC: Sorcerer
+; UTIL: Plague Doctor
+; WIZA: Wizard
+; DRUI: Druid
+; FELL: Fellblade
+; WARM: Warmage
+; GAMB: Gambler
+; GADG: Gadgeteer
+; ********************************************************************
+; This says at which level a generated npc can know a given tier of abilities for their mainjob
+[npc-class-abilities-tier-known]
+Tier0=1
+Tier1=4
+Tier2=7
+Tier3=10
+Tier4=13
+Tier5=15
+Tier6=17
+Tier7=19
+Tier8=22
+
+[npc-subclass-abilities-tier-known]
+Tier0=1
+Tier1=9
+Tier2=12
+Tier3=15
+Tier4=19
+Tier5=22
+Tier6=25
+Tier7=27
+Tier8=30
+
+; Odds of having no subclass for character level when getting a random subclass.
+[npc-subclass-none-default]
+Level1=100
+Level5=50
+Level10=25
+Level15=10
+Level20=5
+Level30=0
+
+[npc-subclass-none-less]
+Level1=100
+Level5=75
+Level10=50
+Level15=25
+Level20=5
+
+
+; Generated Character counters. The given counter can be randomly obtained if they are high enough level
+[npc-counters]
+#comments
+MERC-C1=6  ; counterattack
+KNIG-C1=8  ; thorns
+HEAL-C1=9  ; Regen
+GAMB-C1=10 ; fleet of foot
+GADG-C1=11 ; Absorb MP
+RANG-C1=12 ; countershot
+SORC-C1=12 ; roots
+WIZA-C1=13 ; Adaptive Affinity
+UTIL-C1=14 ; barrier
+DRUI-C1=14 ; magic
+BLAD-C1=14 ; dodge attacks
+REAV-C1=15 ; critical reraise
+WARM-C1=16 ; Haste
+TEMP-C1=16 ; dodge skills
+GUNN-C1=16 ; teleport others
+ALCH-C1=17 ; MP Shield
+FELL-C1=13 ; Dodge Magic
+ASSA-C1=18 ; mirage
+PEDD-C1=20 ; Critical Quick
+LICH-C1=22 ; Poison
+WERE-C1=25 ; Cripple
+VAMP-C1=25 ; Mute
+LORD-C1=29 ; def/mdef up
+PRIN-C1=29 ; def/mdef up
+; DLC1
+BEAS-C1=18
+SAMU-C1=20
+WRAN-C1=14
+
+; Generated Character Passives. The given passive can be randomly obtained if they are high enough level
+[npc-passives-melee]
+#comments
+MERC-P1=4  ; sturdy grip
+GUNN-P1=7  ; Acc Up
+KNIG-P1=9  ; No Flank
+KNIG-P2=10 ; Hp on walk
+UTIL-P2=10 ; Fortitude
+REAV-P1=11 ; Dmg Up Low Hp
+BLAD-P2=11 ; Resilience
+ROGU-P2=12 ; Exploit Weakness
+BLAD-P1=12 ; Def Up
+TEMP-P1=13 ; Life Leech
+ROGU-P1=13 ; Atk Up
+WARM-P2=13 ; Mana Leech
+MERC-P2=14 ; Health Expert
+ALCH-P1=14 ; M Def Up
+GAMB-P2=14 ; Lucky
+REAV-P2=15 ; into the fray
+TEMP-P2=15 ; Blood Mark
+RANG-P1=15 ; CritUp
+GAMB-P1=15 ; Initiative
+HEAL-P2=16 ; MP on walk
+GUNN-P2=16 ; Height Advantage
+WERE-P2=16 ; Mp To Dmg
+SORC-P2=17 ; Eruptor
+FELL-P2=16 ; Versatile
+GADG-P1=17 ; Perfect Body
+GADG-P2=17 ; Mana Expert
+ASSA-P1=17 ; Immune Trap
+RANG-P2=18 ; Evasion Up
+ASSA-P2=19 ; Dual Wield
+WIZA-P2=19 ; boon
+SORC-P1=20 ; Half Cost  
+WERE-P1=20 ; Crit Up2
+SMED-P1=20 ; Hallowed Mind
+VAMP-P2=22 ; Execute
+SMED-P2=23 : Hallowed Body
+VAMP-P1=25 ; Teleport
+FELL-P1=26 ; Status Eff % Up
+LICH-P1=39 ; Blood Magic
+; DLC1
+BEAS-P1=19
+BEAS-P2=21
+SAMU-P1=24
+SAMU-P2=18
+;WRAN-P1=
+;WRAN-P2=
+
+[npc-passives-range]
+#comments
+HEAL-P2=5  ; MP on walk
+KNIG-P2=8  ; Hp on walk
+GUNN-P1=9  ; Acc Up
+ROGU-P1=10 ; Atk Up
+TEMP-P1=11 ; Life Leech
+ALCH-P1=12 ; M Def Up
+WARM-P2=13 ; Mana Leech
+GAMB-P2=13 ; Lucky
+REAV-P1=14 ; Dmg Up with Low HP
+SORC-P2=14 ; Eruptor
+ROGU-P2=15 ; Exploit Weakness
+UTIL-P2=15 ; Fortitude
+ALCH-P2=15 ; Side Effects
+WIZA-P2=16 ; Boon
+MERC-P2=16 ; Health Expert
+UTIL-P1=16 ; Permanence
+WERE-P2=17 ; Mp To Dmg
+FELL-P1=17 ; Status Eff % Up
+GUNN-P2=18 ; Height Advantage
+RANG-P1=18 ; CritUp
+TEMP-P2=18 ; Blood Mark
+WERE-P1=18 ; Crit Up2
+FELL-P2=19 ; Versatile
+GADG-P1=19 ; Perfect Body
+GADG-P2=19 ; Mana Expert
+GAMB-P1=20 ; Initiative
+ASSA-P1=20 ; Immune Trap
+BLAD-P2=20 ; Resilience
+VAMP-P2=21 ; Execute
+SMED-P2=21 : Hallowed Body
+ASSA-P2=22 ; Dual Wield
+RANG-P2=22 ; Evasion Up
+VAMP-P1=23 ; Teleport
+SMED-P1=24 ; Hallowed Mind
+SORC-P1=25 ; Half Cost
+LICH-P1=35 ; Blood Magic
+; DLC1
+BEAS-P1=22
+BEAS-P2=19
+;SAMU-P1=24
+SAMU-P2=18
+;WRAN-P1=
+;WRAN-P2=
+
+[npc-passives-magic]
+#comments
+HEAL-P2=5  ; MP on walk
+GUNN-P1=8  ; Acc Up
+KNIG-P2=10 ; Hp Stroll
+SORC-P2=12 ; Eruptor
+DRUI-P1=13 ; M Atk Up
+MERC-P2=13 ; Health Expert
+UTIL-P2=13 ; Fortitude
+WIZA-P1=14 ; No FF
+ASSA-P1=15 ; Immune Trap
+GADG-P1=15 ; Perfect Body
+FELL-P2=16 ; Versatile
+GAMB-P1=16 ; Initiative
+HEAL-P1=16 ; Blessed One
+UTIL-P1=17 ; Permanence
+REAV-P1=17 ; Dmg Up with Low HP
+ALCH-P2=17 ; Side Effects
+FELL-P1=18 ; Status Eff % Up
+GADG-P2=18 ; Mana Expert
+SMED-P2=18 : Hallowed Body
+REAV-P2=18 ; Into the Fray
+WIZA-P2=19 ; Boon
+ALCH-P1=19 ; M Def Up
+SORC-P1=19 ; Half Cost
+ASSA-P2=20 ; Dual Wield
+DRUI-P2=20 ; Double cast
+RANG-P2=20 ; Evasion Up
+BLAD-P2=21 ; Resilience
+WARM-P1=22 ; elem mastery
+VAMP-P2=23 ; Execute
+VAMP-P1=23 ; Teleport
+LICH-P1=31 ; Blood Magic
+; DLC1
+BEAS-P1=24
+BEAS-P2=20
+;SAMU-P1=24
+;SAMU-P2=18
+;WRAN-P1=
+;WRAN-P2=
+
+[npc-passives-healer]
+#comments
+BLAD-P1=7  ; Def Up
+HEAL-P1=9  ; Blessed One
+FELL-P2=10 ; Versatile
+HEAL-P2=10 ; MP on walk
+GADG-P2=11 ; Mana Expert
+ALCH-P1=12 ; M Def Up
+SORC-P2=12 ; Eruptor
+MERC-P2=13 ; Health Expert
+UTIL-P1=13 ; Permanence
+KNIG-P2=14 ; Hp on walk
+ALCH-P2=14 ; Side Effects
+BLAD-P2=15 ; Resilience
+SORC-P1=15 ; Half Cost
+FELL-P1=15 ; Status Eff % Up
+ASSA-P1=16 ; Immune Trap
+REAV-P2=16 ; Into the Fray
+RANG-P2=17 ; Evasion Up
+WIZA-P2=17 ; Boon
+GADG-P1=17 ; Perfect Body
+SMED-P1=18 ; Hallowed Mind
+DRUI-P1=19 ; M Atk Up
+WARM-P1=20 ; elem mastery
+SMED-P2=21 : Hallowed Body
+DRUI-P2=22 ; Double cast
+VAMP-P1=25 ; Teleport
+ASSA-P2=26 ; Dual Wield 
+LICH-P1=34 ; Blood Magic
+; DLC1
+BEAS-P1=23
+BEAS-P2=19
+SAMU-P1=22
+SAMU-P2=23
+;WRAN-P1=
+;WRAN-P2=
+
+
+; Type of characters that will be generated when trying to generate a specific type. Value is min level needed for that entry to be active.
+; So, when the player party level is 1 and a random encounter tries to generate a "melee", it could be a merc or rogue.
+; Knights will be added at level 5 to the possibilities, etc.
+[npc-class-melee]
+#comments
+MERC=1 
+ROGU=1 
+KNIG=5 
+RANG=7
+BLAD=8 
+TEMP=10
+ASSA=13
+REAV=16
+FELL=20
+PEDD=23
+WERE=28
+VAMP=32
+LORD=41
+DEMK=101
+MARK=101
+BHUN=101
+; DLC1
+BEAS=15
+SAMU=19
+WRAN=12
+
+[npc-class-range]
+#comments
+ROGU=1
+RANG=5
+GUNN=12
+PEDD=16
+ASSA=20
+VAMP=30
+BHUN=101
+; DLC1
+BEAS=18
+SAMU=23
+
+[npc-class-magic]
+#comments
+WIZA=1
+DRUI=6
+WARM=14
+SORC=18
+VAMP=35
+LICH=38
+SMED=37
+PRIN=41
+ANAT=101
+
+[npc-class-healer]
+#comments
+HEAL=1
+ALCH=7
+UTIL=15
+DRUI=21
+PRIN=39
+; DLC1
+BEAS=20
+
+[npc-class-hybrid]
+DRUI=1
+GAMB=7
+GADG=10
+FELL=17
+WARM=21
+VAMP=29
+LORD=39
+; DLC1
+BEAS=28
+
+[npc-class-trapper]
+#comments
+PEDD=1
+
+; Used to create a count of healers and then restrict the max amount of healers on a map for randomly generated job/sub.
+; This is the "amount of healers" added by having this job/sub
+[npc-healer-count]
+HEAL=1
+ALCH=0.5
+UTIL=0.75
+DRUI=0.75
+PRIN=1
+LORD=0.33
+ANAT=1
+BLAD=0.5
+SMED=0.25
+GADG=0.25
+;DLC1
+BEAS=0.5
+
+; When selecting a subclass, it will select from this list, using the levels to decide at which level the class is available
+[npc-subclass-all]
+MERC=1
+KNIG=5
+BLAD=8
+TEMP=10
+REAV=13
+ASSA=16
+RANG=7
+ROGU=1
+GUNN=8
+PEDD=14
+HEAL=7
+ALCH=6
+SORC=16
+UTIL=6
+WIZA=6
+DRUI=7
+FELL=12
+WARM=12
+GAMB=13
+GADG=14
+LICH=45
+WERE=28
+SMED=44
+PRIN=48
+LORD=48
+VAMP=33
+;DLC1
+BEAS=30
+SAMU=25
+WRAN=17
+
+[Gadgets-Odds]
+; % chance that a specific gadget is known to the enemy if their level is met.
+KnownChance=50
+; The chance increases up to 100% for each level with 100% being at <level of the gadget>+KnownChance100ForLevel
+KnownChance100ForLevel=5
+
+[Gadgets]
+; Level at which a gadget has a chance to be available to enemies.
+GADG-A1=1
+GADG-A2=17
+GADG-A3=5
+GADG-A4=22
+GADG-A5=16
+GADG-A6=18
+GADG-A7=28
+GADG-A8=14
+GADG-A9=13
+GADG-A10=4
+GADG-A11=3
+GADG-A12=9
+GADG-A13=18
+GADG-A14=6
+GADG-A15=10
+
+[Pets-Odds]
+; % chance that a specific pet is known to the enemy if their level is met.
+KnownChance=50
+; The chance increases up to 100% for each level with 100% being at <level of the pet>+KnownChance100ForLevel
+KnownChance100ForLevel=5
+
+[Pets]
+; Level at which a pet has a chance to be available to enemies.
+BEAS-A1=10
+BEAS-A2=17
+BEAS-A3=22
+BEAS-A4=15
+BEAS-A5=6
+BEAS-A6=20
+BEAS-A7=28
+BEAS-A8=16
+BEAS-A9=12
+BEAS-A10=13
+BEAS-A11=19
+BEAS-A12=16
+BEAS-A13=1
+BEAS-A14=14
+
+[Items-Odds]
+; % chance that a specific gadget is known to the enemy if their level is met.
+KnownChance=33
+; The chance increases up to 100% for each level with 100% being at <level of the gadget>+KnownChance100ForLevel
+KnownChance100ForLevel=6
+; Enemies will have their items count multiplied by this number so they have less. Min 1 if they had at least 1.
+ItemsCountMultiplier=0.6
+
+[Items]
+; Level at which items tier 1, 2 and 3 become available to enemies. Some tier 1 have 0 uses.
+potion     =4,11,19
+heavypotion=4,23,29
+fullpotion =4,34,40
+raisepotion=9,19,25
+acidbomb   =4,10,16
+mindnumber =4,10,16
+manastone  =4,25,33
+rock       =6,12,19
+remedy     =5,13,18
+
+
+[ap-zotzit]
+;disabled=true
+spawn-base=0
+spawn-per-story=10
+spawn-per-patrol=10
+fail-reduction=0.20
+
+spawn-dist-min=10
+spawn-dist-max=13
+
+multi-odds-1=40
+multi-odds-1-per=25
+multi-odds-2=30
+multi-odds2-per=20
+
+[ap-zotzit-tier1]
+ap-bonus=100
+story=21
+
+[ap-zotzit-tier2]
+ap-bonus=200
+story=32
+
+[ap-zotzit-tier3]
+ap-bonus=350
+story=44
+
+[loot-bandit]
+;disabled=true
+spawn-base=5
+spawn-per-story=10
+spawn-per-patrol=10
+fail-reduction=0.20
+
+spawn-dist-min=7
+spawn-dist-max=9
+; Only 1 tier for those.
+story=16
+fragment-story=17
+fragment-odds=50
+steal-rare=50
+; Turn 0, 1, 2 -> escape
+escape-at-turn=3
+loot-count-min=2
+loot-count-max=4
+loot-count-rare=1
+
+[loot-bandit-table]
+; Plains01
+story-16  =ING-01, ING-05, ING-06, ING-07
+storyspec-16=SWD-08
+
+; After
+story-17  	=ING-02, ING-05, ING-06, ING-08, ING-09
+storyspec-17=ING-07, ING-08, ING-09, ABO-02
+
+; Desert02
+story-21  	=ING-06, ING-08, ING-08, ING-11, ING-11, ING-10
+storyspec-21=AGL-10, ING-07, ING-10, ING-11, ING-18, SWD-04, DAG-05, AXE-04, RAP-04, SPR-05, SCY-05, MAC-05, MAU-04, GUN-05, BOW-04, CBO-05, STA-05, ROD-07
+
+; Desert01
+story-25  	=ING-02, ING-06, ING-07, ING-10, ING-11, ING-11
+storyspec-25=AGL-10, ING-07, ING-12, ING-13, ING-16, DAG-07, AXE-06, RAP-05, SPR-08, SCY-05, MAC-06, MAU-05, GUN-05, BOW-05, CBO-08, STA-06, ROD-08
+
+; Swamp01
+story-31  	=ING-03, ING-07, ING-10, ING-11, ING-13
+storyspec-31=AGL-10, ING-12, ING-13, ING-16, ING-16, SWD-09, DAG-07, AXE-06, RAP-06, SPR-08, SCY-06, MAC-07, MAU-05, GUN-06, BOW-06, CBO-08, STA-07, ROD-09
+
+; Mountain01
+story-39  	=ING-06, ING-07, ING-11, ING-12, ING-13, ING-16
+storyspec-39=AGL-10, ING-14, ING-18, ING-24, ING-25, SWD-12, DAG-10, AXE-08, RAP-07, SPR-10, SCY-08, MAC-08, MAU-08, GUN-08, BOW-08, CBO-10, STA-08
+
+; Grandhall01
+story-43  	=ING-12, ING-12, ING-13, ING-16, ING-18
+storyspec-43=AGL-10, ING-14, ING-14, ING-17, ING-18, ING-21, ING-23, ING-24, ING-25, SWD-13, DAG-11, AXE-09, MAC-09, MAU-09, CBO-11, STA-09, ROD-15
+
+; Mountain03
+story-47  	=ING-23, ING-24, ING-12, ING-14, ING-16, ING-20, ING-06, SWD-13, DAG-11, AXE-09, MAC-09, MAU-09, CBO-11, STA-09, ROD-15
+storyspec-47=AGL-10, ING-15, ING-17, ING-20, ING-21, ING-23, ING-24, ING-25
+
+; *************** Loot Drops entries ******************************
+; Each table contains an 'empty' value, which is the chance of getting 'nothing'
+; then each drops are listed 1 by 1, with the format:
+; dropX=itemName, chanceOfDropping
+; eg; drop0=ING-00, 25
+; all chances for drops are tallied together then scaled to fit the space of (100-empty)
+; eg: empty=65 (65% chance of getting nothing), that leaves 35% of getting 'something'.
+; drop0=ing-00, 25
+; drop1=ing-01, 50
+; this will give final odds -> nothing: 65%, drop0: 35% * 25/(25+50), drop1: 35% * 50/(25+50)
+;
+; fixeddrop0=ing-00, 1
+; same as above, but 'fixeddrop' means the % chance is fixed and will not be normalized as the above. Mainly used for special drops to make sure they don't get normalized to a high value by mistake.
+;
+; [LootTableY-X] the X is the story index, the Y is the number of the loot table (you can assign a specific tabzzle to maps).
+; This table will be used when the story has reached that index. The highest storyindex possible table is the one used.
+;
+; Each encounter sets its lootable in encounters.txt and enemies can have custom loot info as well.
+
+
+; Default values
+[LootTableDefault]
+#comments
+; These values are used for every LootTable by default. The loot table can override them.
+empty=70 		; chance of no loot
+ambient=true 	; by default, we add ambient drops to the loot table
+lootcount=2 	; this is the default value used for each map unless they specify it (in encounters.txt). It's the amount of drops that will be generated upon winning.
+
+; ** Table 0: City01 Intro (empty)
+[LootTable0-0]
+ambient=false
+
+; ******** Start of Game ****************
+; ** Table 1: Crossroads01
+[LootTable1-0]
+ambient=false
+drop0=ing-00, 15
+drop1=ing-01, 15
+drop2=ing-02, 4
+; After Temple 1
+; After Temple 2
+[LootTable1-11]
+drop0=ing-00, 5
+drop1=ing-01, 5
+drop2=ing-02, 5
+drop3=ing-05, 5
+; After Temple 3
+; After Temple 4
+[LootTable1-31]
+drop0=ing-00, 5
+drop1=ing-01, 5
+drop2=ing-02, 5
+drop3=ing-03, 5
+drop4=ing-04, 5
+
+; ** Table 2: Forest04
+[LootTable2-0]
+drop0=ing-00, 5
+drop1=ing-01, 5
+drop2=ing-02, 5
+; After Temple 1
+; After Temple 2
+[LootTable2-11]
+drop0=ing-00, 5
+drop1=ing-01, 5
+drop2=ing-02, 5
+drop3=ing-05, 5
+; After Temple 3
+; After Temple 4
+[LootTable2-31]
+drop0=ing-05, 5
+drop1=ing-01, 5
+drop2=ing-02, 5
+drop3=ing-03, 5
+drop4=ing-04, 5
+
+; ** Table 3: City01 Patrol
+[LootTable3-0]
+drop0=ing-00, 5
+drop1=ing-01, 5
+drop2=ing-02, 5
+drop3=ing-03, 5
+; After Temple 1
+[LootTable3-11]
+drop0=ing-00, 5
+drop1=ing-01, 5
+drop2=ing-02, 5
+drop3=ing-05, 5
+; After Temple 2
+[LootTable3-20]
+drop0=ing-00, 5
+drop1=ing-01, 5
+drop2=ing-05, 5
+drop3=ing-06, 5
+drop4=ing-08, 5
+; After Temple 3
+[LootTable3-31]
+drop0=ing-00, 5
+drop1=ing-08, 5
+drop2=ing-10, 5
+drop3=ing-11, 5
+; After Temple 4
+[LootTable3-40]
+drop0=ing-00, 2
+drop1=ing-05, 2
+drop2=ing-02, 2
+drop3=ing-03, 2
+drop4=ing-04, 2
+drop5=ing-13, 2
+drop6=ing-07, 2
+drop7=ing-16, 2
+
+; ** Table 4: Forest03
+[LootTable4-0]
+drop0=ing-00, 10
+drop1=ing-01, 10
+drop2=ing-02, 10
+drop3=ing-03, 4
+; After Temple 1
+; After Temple 2
+[LootTable4-11]
+drop0=ing-00, 5
+drop1=ing-01, 5
+drop2=ing-02, 5
+drop3=ing-05, 5
+; After Temple 3
+; After Temple 4
+[LootTable4-31]
+drop0=ing-00, 5
+drop1=ing-01, 5
+drop2=ing-02, 5
+drop3=ing-03, 5
+drop4=ing-04, 5
+[LootTable4-40]
+drop3=ing-03, 5
+drop4=ing-04, 5
+drop5=ing-13, 3
+drop6=ing-07, 3
+drop7=ing-16, 3
+
+; ** Table 5: Crossroads02
+[LootTable5-0]
+drop0=ing-01, 10
+drop1=ing-02, 10
+drop2=ing-03, 10
+
+; ** Table 6: Crossroads02 Patrol
+[LootTable6-0]
+drop0=ing-02, 10
+drop1=ing-03, 10
+; After Temple 1
+; After Temple 2
+[LootTable6-11]
+drop0=ing-03, 5
+drop1=ing-04, 5
+drop2=ing-05, 5
+drop3=ing-06, 5
+; After Temple 3
+; After Temple 4
+[LootTable6-31]
+drop0=ing-00, 5
+drop1=ing-01, 5
+drop2=ing-05, 5
+drop3=ing-03, 5
+drop4=ing-04, 5
+
+; ** Table 7: Highlands01
+[LootTable7-0]
+drop0=ing-00, 7.5
+drop1=ing-01, 7.5
+drop2=ing-02, 10
+drop3=ing-03, 10
+; After Temple 1
+[LootTable7-11]
+drop0=ing-03, 5
+drop1=ing-04, 5
+drop2=ing-05, 5
+drop3=ing-06, 5
+; After Temple 2
+[LootTable7-20]
+drop1=ing-04, 8
+drop2=ing-05, 8
+drop3=ing-06, 6
+drop4=ing-08, 5
+; After Temple 3
+[LootTable7-31]
+drop0=ing-01, 5
+drop1=ing-04, 5
+drop2=ing-08, 5
+drop3=ing-10, 5
+[LootTable7-40]
+drop5=ing-13, 4
+drop6=ing-07, 4
+drop7=ing-16, 4
+drop0=ing-01, 5
+drop1=ing-04, 5
+drop2=ing-08, 5
+drop3=ing-10, 5
+
+
+; ** Table 8: Templeoutside01
+[LootTable8-0]
+drop0=ing-02, 15
+drop1=ing-03, 15
+drop2=ing-04, 4
+; After Temple 1
+[LootTable8-11]
+drop0=ing-03, 5
+drop1=ing-04, 5
+drop2=ing-05, 5
+drop3=ing-06, 5
+; After Temple 2
+[LootTable8-20]
+drop1=ing-04, 7.5
+drop2=ing-05, 7.5
+drop3=ing-06, 7.5
+drop4=ing-08, 5
+; After Temple 3
+[LootTable8-31]
+drop0=ing-02, 5
+drop1=ing-04, 5
+drop2=ing-08, 5
+drop3=ing-10, 5
+[LootTable8-40]
+drop5=ing-13, 4
+drop6=ing-07, 4
+drop7=ing-16, 4
+drop0=ing-02, 5
+drop1=ing-04, 5
+drop2=ing-08, 5
+drop3=ing-10, 5
+
+
+; ******** After Temple 1 ****************
+; ** Table 9: Cabin01
+[LootTable9-0]
+; Story
+drop0=ing-00, 10
+drop1=ing-01, 10
+drop2=ing-04, 10
+drop3=ing-06, 4
+
+; ** Table 10: Canyon01
+; Story
+[LootTable10-0]
+drop0=ing-03, 11
+drop1=ing-04, 11
+drop2=ing-05, 8
+drop3=ing-09, 4
+
+; ** Table 11: Canyon01 Patrol/Cabin01 2nd
+[LootTable11-0]
+drop0=ing-03, 10
+drop1=ing-04, 10
+drop2=ing-05, 10
+; After Temple 2
+[LootTable11-20]
+drop0=ing-04, 7.5
+drop1=ing-05, 7.5
+drop2=ing-06, 7.5
+drop3=ing-08, 5
+; After Temple 3
+[LootTable11-31]
+drop0=ing-05, 5
+drop1=ing-06, 5
+drop2=ing-08, 5
+drop3=ing-10, 5
+[LootTable11-40]
+drop5=ing-13, 4
+drop6=ing-07, 4
+drop7=ing-16, 4
+drop0=ing-05, 5
+drop1=ing-06, 5
+drop2=ing-08, 5
+drop3=ing-10, 5
+
+; ** Table 12: Plains01
+[LootTable12-0]
+drop0=ing-04, 11
+drop1=ing-05, 11
+drop2=ing-06, 8
+drop3=ing-09, 8
+; After Temple 2
+[LootTable12-20]
+drop0=ing-06, 5
+drop1=ing-08, 5
+drop2=ing-09, 5
+; After Temple 3
+[LootTable12-31]
+drop0=ing-08, 5
+drop1=ing-09, 5
+drop2=ing-10, 5
+; After Temple 4
+[LootTable12-40]
+drop5=ing-13, 4
+drop6=ing-07, 4
+drop7=ing-16, 4
+drop0=ing-08, 5
+drop1=ing-09, 5
+drop2=ing-10, 5
+
+; ** Table 13: Forest01
+[LootTable13-0]
+drop0=ing-02, 10
+drop1=ing-05, 10
+drop2=ing-06, 10
+; After Temple 2
+[LootTable13-20]
+drop0=ing-02, 10
+drop1=ing-05, 10
+drop2=ing-06, 10
+drop3=ing-08, 10
+; After Temple 3
+[LootTable13-31]
+drop0=ing-06, 10
+drop1=ing-08, 10
+drop2=ing-11, 10
+; After Temple 4
+[LootTable13-40]
+drop5=ing-13, 4
+drop6=ing-07, 4
+drop7=ing-16, 4
+drop0=ing-06, 5
+drop1=ing-08, 5
+drop2=ing-11, 5
+
+; ** Table 14: Templeoutside02 / Temple02
+[LootTable14-0]
+drop0=ing-00, 8
+drop1=ing-01, 8
+drop2=ing-05, 10
+drop3=ing-06, 10
+; After Temple 3
+[LootTable14-31]
+drop0=ing-03, 10
+drop1=ing-08, 10
+drop2=ing-10, 10
+drop3=ing-11, 10
+; After Temple 4
+[LootTable14-40]
+drop5=ing-13, 4
+drop6=ing-07, 4
+drop7=ing-16, 4
+drop0=ing-03, 4
+drop1=ing-08, 4
+drop2=ing-10, 4
+drop3=ing-11, 4
+
+
+; ******** After Temple 2 ****************
+; ** Table 15: Templeoutside02 Patrol
+; After Temple 2
+[LootTable15-0]
+drop0=ing-00, 10
+drop1=ing-01, 10
+empty=50
+
+; ** Table 16: City02
+[LootTable16-0]
+drop0=ing-04, 10
+drop1=ing-05, 10
+drop2=ing-06, 10
+drop3=ing-09, 10
+
+; ** Table 17: Desert02, Oasis01
+[LootTable17-0]
+drop0=ing-02, 8
+drop1=ing-06, 12
+drop2=ing-08, 6
+; After Temple 3
+[LootTable17-31]
+drop0=ing-04, 5
+drop1=ing-08, 5
+drop2=ing-10, 5
+drop3=ing-11, 5
+; After Temple 4
+[LootTable17-40]
+drop5=ing-13, 4
+drop6=ing-07, 4
+drop7=ing-16, 4
+drop0=ing-04, 5
+drop1=ing-08, 5
+drop2=ing-10, 5
+drop3=ing-11, 5
+
+; ** Table 18: Graveyard01
+[LootTable18-0]
+drop0=ing-04, 6
+drop1=ing-08, 10
+drop2=ing-09, 10
+drop3=ing-10, 8
+; After Temple 3
+[LootTable18-31]
+drop0=ing-09, 5
+drop1=ing-08, 5
+drop2=ing-10, 5
+drop3=ing-11, 5
+; After Temple 4
+[LootTable18-40]
+drop5=ing-13, 4
+drop6=ing-07, 4
+drop7=ing-16, 4
+drop0=ing-09, 5
+drop1=ing-08, 5
+drop2=ing-10, 5
+drop3=ing-11, 5
+
+; ** Table 19: Canyon02, Desert01
+[LootTable19-0]
+drop0=ing-06, 12
+drop1=ing-08, 12
+drop2=ing-11, 8
+; After Temple 3
+[LootTable19-31]
+drop0=ing-06, 5
+drop1=ing-08, 5
+drop2=ing-10, 5
+drop3=ing-11, 5
+; After Temple 4
+[LootTable19-40]
+drop5=ing-13, 4
+drop6=ing-07, 4
+drop7=ing-16, 4
+drop0=ing-06, 3
+drop1=ing-08, 3
+drop2=ing-10, 3
+drop3=ing-11, 3
+
+; ** Table 20: Cave01
+[LootTable20-0]
+drop0=ing-09, 10
+drop1=ing-08, 10
+drop2=ing-11, 10
+drop3=ing-16, 4
+
+; ** Table 21: Templeoutside03
+; After Temple 3
+[LootTable21-0]
+drop0=ing-09, 10
+drop1=ing-08, 10
+drop2=ing-11, 10
+; After Temple 4
+[LootTable21-40]
+drop5=ing-13, 4
+drop6=ing-05, 4
+drop7=ing-16, 4
+drop0=ing-09, 4
+drop1=ing-08, 4
+drop2=ing-11, 4
+
+; ** Table 22: Temple03
+[LootTable22-0]
+drop0=ing-08, 15
+drop1=ing-11, 15
+drop2=ing-12, 4
+
+; ******** After Temple 3 ****************
+; ** Table 23: Swamp01
+[LootTable23-0]
+drop0=ing-11, 12
+drop1=ing-10, 12
+drop2=ing-12, 8
+; After Temple 4
+[LootTable23-40]
+drop5=ing-13, 4
+drop6=ing-07, 4
+drop7=ing-16, 4
+drop0=ing-11, 6
+drop1=ing-10, 6
+drop2=ing-12, 4
+
+; ** Table 24: Beach01, Ship01
+[LootTable24-0]
+drop0=ing-11, 10
+drop1=ing-10, 10
+drop2=ing-12, 10
+; After Temple 4
+[LootTable24-40]
+drop5=ing-13, 4
+drop6=ing-07, 4
+drop7=ing-16, 4
+drop0=ing-11, 4
+drop1=ing-10, 4
+drop2=ing-12, 4
+
+; ** Table 25: Aqueduct01
+[LootTable25-0]
+drop0=ing-12, 12
+drop1=ing-13, 10
+drop2=ing-16, 10
+; After Temple 4
+[LootTable25-40]
+drop5=ing-13, 4
+drop6=ing-07, 4
+drop7=ing-16, 4
+drop0=ing-12, 4
+
+; ** Table 26: Forest02
+[LootTable26-0]
+drop0=ing-12, 10
+drop1=ing-13, 10
+drop2=ing-07, 10
+; After Temple 4
+[LootTable26-40]
+drop5=ing-13, 4
+drop6=ing-07, 4
+drop7=ing-16, 4
+drop0=ing-12, 4
+drop1=ing-13, 4
+
+; ** Table 27: Plains01
+; After Temple 3
+; After Temple 4
+[LootTable27-0]
+drop0=ing-13, 10
+drop1=ing-07, 10
+drop2=ing-16, 10
+
+; ** Table 28: Mountain01, Illuster battles
+; After Temple 3
+; After Temple 4
+[LootTable28-0]
+drop0=ing-13, 10
+drop1=ing-07, 10
+drop2=ing-16, 10
+drop3=ing-12, 10
+
+; ** Kawa Desert02 Extra Battle
+[LootTable29-0]
+drop0=ing-20, 2
+drop1=ing-10, 10
+drop2=ing-11, 10
+drop3=ing-12, 5
+
+; ** City03
+[LootTable30-0]
+drop0=ING-07, 10
+drop1=ING-16, 7.5
+drop2=ING-21, 3.5
+
+; ** Kairu Battle
+[LootTable31-0]
+drop0=ING-16, 5
+drop1=ING-18, 5
+drop2=ING-13, 10
+drop3=ING-07, 10
+drop4=ING-12, 5
+
+; ** Anquine Battle
+[LootTable32-0]
+drop0=ING-06, 10
+drop1=ING-08, 10
+drop2=ING-11, 7.5
+drop3=ING-07, 7.5
+
+; ** Mountain02, Mountain03, Forest05
+[LootTable33-0]
+; T
+drop0=ING-16, 10
+; AB
+drop1=ING-21, 7.5
+; AD
+drop2=ING-23, 5
+; B
+drop3=ING-01, 10
+; L
+drop4=ING-10, 7.5
+
+; *** Ancient Path
+; Swamp02, Cave03
+[LootTable40-0]
+; AB
+drop0=ING-21,10
+; AD
+drop1=ING-23,7.5
+; AF
+drop2=ING-25,5
+; B
+drop3=ING-01,7
+; AE
+drop4=ING-24,5
+; S
+drop5=ING-15,8
+; U
+drop6=ING-17,10
+
+[LootTable41-0]
+; Cave04, Cave05
+; AB
+drop0=ING-21,10
+; AD
+drop1=ING-23,7.5
+; AF
+drop2=ING-25,5
+; A
+drop3=ING-00,3
+; B
+drop4=ING-01,3
+; C
+drop5=ING-02,3
+; AE
+drop6=ING-24,5
+; S
+drop7=ING-15,8
+; U
+drop8=ING-17,10
+
+[LootTable42-0]
+; Cave06, Tomb01
+; AB
+drop0=ING-21,10
+; AD
+drop1=ING-23,7.5
+; AF
+drop2=ING-25,7.5
+; AC
+drop3=ING-22,3
+; S
+drop4=ING-15,6
+; U
+drop5=ING-17,6
+
+; ** Void01
+[LootTable34-0]
+drop0=ING-07, 10
+drop1=ING-16, 7.5
+drop2=ING-21, 5
+drop3=ING-23, 4
+drop4=ING-25, 3.5
+
+; ** Void03
+[LootTable35-0]
+drop0=ING-10, 10
+drop1=ING-16, 7.5
+drop2=ING-21, 5
+drop3=ING-25, 5
+drop4=ING-26, 2
+drop5=ING-19, 2
+drop6=ING-23, 4
+drop7=ING-18, 7.5
+
+; ******** Special ****************
+; Arena - Not used currently
+; After Temple2
+[LootTable50-0]
+drop0=ing-00, 5
+drop1=ing-01, 5
+drop2=ing-02, 5
+drop3=ing-03, 5
+drop4=ing-04, 10
+drop5=ing-05, 10
+drop6=ing-06, 10
+drop7=ing-07, 1.5
+drop8=ing-08, 1
+drop9=ing-09, 1
+drop10=ing-11, 0.5
+
+; After Temple3
+[LootTable50-31]
+drop0=ing-00, 5
+drop1=ing-01, 5
+drop2=ing-02, 5
+drop3=ing-03, 5
+drop4=ing-04, 5
+drop5=ing-05, 5
+drop6=ing-06, 5
+drop7=ing-07, 4
+drop8=ing-08, 3
+drop9=ing-09, 3
+drop10=ing-10, 3
+drop11=ing-11, 3
+drop12=ing-12, 2
+drop13=ing-13, 2
+drop14=ing-16, 1.5
+
+
+; The latest ambientloottable (based on storyindex) will be added to all loottables automatically, unless they have ambient=false
+; After Forest04
+[AmbientLootTable-4]
+fixeddrop0=BADG-03, 0.05
+fixeddrop1=ING-09, 2
+
+; After Temple1
+[AmbientLootTable-11]
+fixeddrop0=BADG-03, 0.1
+fixeddrop1=BADG-04, 0.05
+fixeddrop2=ING-09, 3
+
+; After 2nd Cabin01
+[AmbientLootTable-15]
+fixeddrop0=BADG-03, 0.1
+fixeddrop1=BADG-04, 0.05
+fixeddrop2=ING-09, 5
+fixeddrop3=ING-07, 2
+
+; After Temple2
+[AmbientLootTable-20]
+fixeddrop0=BADG-03, 0.25
+fixeddrop1=BADG-04, 0.1
+fixeddrop2=BADG-05, 0.05
+fixeddrop3=BADG-00, 0.05
+fixeddrop4=ING-09, 4
+fixeddrop5=ING-07, 2
+
+; After Oasis01
+[AmbientLootTable-23]
+fixeddrop0=BADG-03, 0.25
+fixeddrop1=BADG-04, 0.1
+fixeddrop2=BADG-05, 0.05
+fixeddrop3=BADG-00, 0.05
+fixeddrop4=ING-09, 4
+fixeddrop5=ING-07, 3
+fixeddrop6=ING-20, 2
+
+; After Temple3
+[AmbientLootTable-30]
+fixeddrop0=BADG-03, 0.5
+fixeddrop1=BADG-04, 0.25
+fixeddrop2=BADG-05, 0.1
+fixeddrop3=BADG-00, 0.1
+fixeddrop4=BADG-02, 0.05
+fixeddrop5=BADG-01, 0.05
+fixeddrop6=ING-07, 4
+fixeddrop7=ING-20, 3
+fixeddrop8=ING-18, 1
+fixeddrop9=ING-17, 0.5
+fixeddrop10=ING-16, 0.5
+
+; After Aqueduct01
+[AmbientLootTable-35]
+fixeddrop0=BADG-03, 0.5
+fixeddrop1=BADG-04, 0.25
+fixeddrop2=BADG-05, 0.1
+fixeddrop3=BADG-00, 0.1
+fixeddrop4=BADG-02, 0.05
+fixeddrop5=BADG-01, 0.05
+fixeddrop6=ING-20, 2
+fixeddrop7=ING-18, 2
+fixeddrop8=ING-16, 2
+fixeddrop9=ING-17, 0.5
+fixeddrop10=ING-15, 0.25
+
+; After Temple4
+[AmbientLootTable-40]
+fixeddrop0=BADG-04, 0.5
+fixeddrop1=BADG-05, 0.25
+fixeddrop2=BADG-00, 0.25
+fixeddrop3=BADG-02, 0.1
+fixeddrop4=BADG-01, 0.1
+fixeddrop5=ING-20, 2
+fixeddrop6=ING-18, 3
+fixeddrop7=ING-16, 3
+fixeddrop8=ING-21, 1
+fixeddrop9=ING-24, 1
+fixeddrop10=ING-15, 0.5
+fixeddrop11=ING-17, 0.75
+
+; After Mountain02
+[AmbientLootTable-46]
+fixeddrop0=BADG-04, 0.5
+fixeddrop1=BADG-05, 0.5
+fixeddrop2=BADG-00, 0.5
+fixeddrop3=BADG-02, 0.25
+fixeddrop4=BADG-01, 0.25
+fixeddrop5=ING-20, 2
+fixeddrop6=ING-18, 3.5
+fixeddrop7=ING-16, 2.5
+fixeddrop8=ING-21, 1.5
+fixeddrop9=ING-24, 1.5
+fixeddrop10=ING-15, 1
+fixeddrop11=ING-17, 1.5
+fixeddrop12=ING-19, 0.5
+fixeddrop13=ING-22, 1.5
+fixeddrop14=ING-26, 0.5
+
+
+[StealGroups]
+; Groups can contain a human class name, a monster class family (eg: PEK) or an exact monster class (PEK-01).
+Fighter =MERC, KNIG, BLAD, TEMP, REAV, FELL, BOL, BLA, BUL, VAN, UND
+Rogue   =ASSA, RANG, ROGU, GUNN, PEDD, GAMB, GADG, KAW, RAK, DEM
+Caster  =HEAL, ALCH, SORC, UTIL, WIZA, DRUI, WARM, HAR, DAO, THE, PEK, PHO
+
+; HighOdds is the odds for the first item in a list of items (list: ITEM-0|ITEM-1|ITEM-2|etc). The rest of the items share the remaining odds evenly.
+; Every entry in a StealTable can have multiple lists:
+; eg. Fighter=ING-00, ING-00|ING-02
+; Where this has 2 lists (first list has 1 possibility, 2nd list has 2 possibilities). One of the list is picked at random (even odds), and then 1 item is selected from that list (as described above).
+; Items can be any item code as well as code GLD for gold (money).
+; GoldMult: if stealing money and the amount is GLD-0 (automated), it'll steal GoldMult * "normal steal amount for the unit".
+
+; You can decide the StealTable used on a per encounter basis in Encounters.txt with StealTable=<number>. You can also override a specific enemy's stealtable by setting it on his spawn information. (stealtable=<num>)
+[StealTableDefault]
+HighOdds=80
+GoldMult=2
+
+; StealTable<number>-<storyIndex>
+; You can create an entry for each 'stealgroup' or an individual class (MERC, PEK-01) or a monster family (PEK).
+; System favors more precise entries first (eg PEK-01 before PEK before Caster).
+; basic 'empty' table
+[StealTable0-0]
+Default=ING-00
+
+; Crossroads
+; All Chapters
+[StealTable1-0]
+Default=ING-00|ING-01, ING-00|ING-02
+Fighter=ING-00|ING-01
+Caster =ING-00|ING-02
+
+; Forest03, Forest04
+; All Chapters
+[StealTable2-0]
+Default=ING-01|ING-02, ING-01|ING-03
+Fighter=ING-01|ING-03
+Caster =ING-01|ING-02
+
+; City01 Patrol
+; Start of game
+[StealTable3-0]
+Default=ING-02|ING-03|ING-03|ING-03|ING-09
+Caster =ING-03|ING-04
+KAW    =ING-00|ING-09
+; After Temple 1
+[StealTable3-11]
+Default=ING-02|ING-03|ING-09
+Caster =ING-03|ING-04|ING-09
+KAW    =ING-00|ING-09
+; After Temple 2
+[StealTable3-20]
+Default=ING-06|ING-08|ING-11
+Rogue  =ING-06|ING-08, ING-06|ING-11|ING-18
+KAW    =ING-08|ING-11|ING-18
+; After Temple 3
+[StealTable3-31]
+Default=ING-10|ING-11|ING-07|ING-12
+KAW    =ING-10|ING-18|ING-16
+; After Temple 4
+[StealTable3-40]
+Default=ING-10|ING-11|ING-07|ING-12
+KAW    =ING-10|ING-18|ING-16
+
+; Crossroads02, Highlands01, Templeoutside01
+; Start of game
+; After Temple 1
+[StealTable4-0]
+Default=ING-01|ING-04, ING-03|ING-04, ING-03|ING-04|ING-09
+; After Temple 2
+[StealTable4-20]
+Default=ING-06|ING-08|ING-11
+Fighter=ING-06|ING-08|ING-11
+Rogue  =ING-06|ING-08, ING-06|ING-11|ING-18
+Caster =ING-05|ING-06|ING-18
+; After Temple 3
+[StealTable4-31]
+Default=ING-10|ING-11|ING-07
+; After Temple 4
+[StealTable4-40]
+Default=ING-10|ING-11|ING-07|ING-12
+
+; Temple01, Cabin01
+[StealTable5-0]
+Default=ING-02|ING-04, ING-03|ING-04, ING-04|ING-09|ING-05
+
+; ** After Temple 1
+; Canyon01, Cabin01 2nd, Plains01
+[StealTable6-0]
+Default=ING-04|ING-05|ING-06|ING-09, ING-04|ING-05|ING-06|ING-09|ING-07
+THE    =ING-04|ING-07
+; After Temple 2
+[StealTable6-20]
+Default=ING-06|ING-09, ING-04|ING-09|ING-07
+THE    =ING-04|ING-07
+; After Temple 3
+[StealTable6-31]
+Default=ING-10|ING-11|ING-07|ING-12|ING-04
+; After Temple 4
+[StealTable6-40]
+Default=ING-11|ING-07|ING-12|ING-14, ING-10|ING-13
+
+; Forest01, Templeoutside02, Temple02, City02
+; After Temple 1
+; After Temple 2
+[StealTable8-0]
+Default=ING-05|ING-06|ING-09, INF-04|ING-06|ING-09|ING-07
+Fighter=INF-04|ING-06|ING-09|ING-07
+; After Temple 3
+[StealTable8-31]
+Default=ING-08|ING-10|ING-11
+Fighter=ING-08|ING-10|ING-11|ING-07
+Caster =ING-06|ING-10|ING-18
+Rogue  =ING-06|ING-10|ING-11
+; After Temple 4
+[StealTable8-40]
+Default=ING-11|ING-18|ING-12|ING-14, ING-10|ING-13
+
+; Desert02, Oasis01
+; After Temple 2
+[StealTable9-0]
+Default=ING-06|ING-08|ING-11
+Fighter=ING-06|ING-08|ING-11
+Rogue  =ING-06|ING-08, ING-06|ING-11|ING-18
+Caster =ING-05|ING-06|ING-18
+; After Temple 3
+[StealTable9-31]
+Default=ING-10|ING-11|ING-07|ING-12
+; After Temple 4
+[StealTable9-40]
+Default=ING-11|ING-07|ING-12|ING-14, ING-10|ING-13
+
+; Graveyard01, Canyon02, Desert01, Anquine Battle
+; After Temple 2
+[StealTable10-0]
+Default=ING-08|ING-10|ING-11
+Fighter=ING-08|ING-10|ING-11
+Caster =ING-06|ING-10|ING-18
+Rogue  =ING-06|ING-10|ING-11|ING-07
+GHO	   =ING-25
+; After Temple 3
+[StealTable10-31]
+Default=ING-10|ING-11|ING-18|ING-12
+Fighter=ING-10|ING-11|ING-12
+Caster =ING-12|ING-10|ING-18
+Rogue  =ING-07|ING-10|ING-11
+GHO	   =ING-25
+; After Temple 4
+[StealTable10-40]
+Default=ING-11|ING-07|ING-12|ING-14, ING-10|ING-13
+GHO	   =ING-25
+
+; Cave01, Cave02, Cave01 again
+; After Temple 2
+[StealTable11-0]
+Default=ING-08|ING-11|ING-07, ING-08|ING-10|ING-07|ING-16
+
+; TempleOutside03, Temple03
+; After Temple 2
+; After Temple 3
+[StealTable12-0]
+Default=ING-10|ING-11|ING-07|ING-12
+; After Temple 4
+[StealTable12-40]
+Default=ING-11|ING-12|ING-14|ING-16, ING-10|ING-13
+
+; Swamp01, Beach01
+; After Temple 3
+[StealTable13-0]
+Default=ING-10|ING-07|ING-12
+Fighter=ING-10|ING-07|ING-12|ING-16
+Rogue  =ING-10|ING-07|ING-12
+Caster =ING-10|ING-07|ING-12|ING-13
+; After Temple 4
+[StealTable13-40]
+Default=ING-11|ING-16|ING-12|ING-14, ING-10|ING-13
+
+; Ship01, Aqueduct01, Forest02, City01 Story2
+; After Temple 3
+[StealTable14-0]
+Default=ING-11|ING-10|ING-12
+Fighter=ING-11|ING-12|ING-16
+Rogue  =ING-07|ING-11|ING-13|ING-16
+Caster =ING-12|ING-11|ING-13
+IMM7   =ING-24|ING-14|ING-16
+; After Temple 4
+[StealTable14-40]
+Default=ING-11|ING-16|ING-12|ING-14, ING-10|ING-13
+
+; Plains02, Temple04
+; After Temple 3
+[StealTable16-0]
+Default=ING-12|ING-16|ING-07, ING-13|ING-16|ING-07
+Fighter=ING-13|ING-16|ING-07
+Rogue  =ING-12|ING-16|ING-07
+Caster =ING-12|ING-16|ING-07
+; After Temple 4
+[StealTable16-40]
+Default=ING-16|ING-12|ING-14, ING-10|ING-13
+
+; Crossroads01-2, Templeoutside04, 
+; After Temple3
+[StealTable17-0]
+Default=ING-12|ING-16|ING-07, ING-13|ING-16|ING-07
+Fighter=ING-13|ING-16|ING-07
+Rogue  =ING-12|ING-16|ING-07
+Caster =ING-12|ING-16|ING-07
+; After Temple4
+[StealTable17-40]
+Default=ING-13|ING-14|ING-21|ING-01, ING-13|ING-12|ING-24|ING-00
+DAA=ING-14|ING-17|ING-16|ING-13
+IMM5=ING-17|ING-23
+IMM7=ING-17|ING-21
+
+; After Temple4
+[StealTable18-0]
+Default=ING-13|ING-21|ING-02|ING-21|ING-23, ING-13|ING-21|ING-01|ING-24|ING-23
+DEM=ING-23|ING-17|ING-16
+IMM2=ING-15
+
+; City03, Mountain02, Mountain03
+[StealTable19-0]
+Default=ING-16|ING-21|ING|23, ING-16|ING-21|ING|23|ING-24
+DEM=ING-23|ING-17|ING-16
+
+; Kairu Battle
+[StealTable20-0]
+Default=ING-13|ING-14|ING-21|ING-24, ING-13|ING-12|ING-24|ING-24
+DAA=ING-14|ING-17|ING-16|ING-13
+
+; Void01
+[StealTable21-0]
+Default=ING-16|ING-21|ING|23, ING-16|ING-21|ING|23|ING-24
+DEM=ING-23|ING-17|ING-16
+MAW=ING-21|ING-22|ING-23|ING-24|ING-25|ING-15
+
+; Morgaine Battle
+[StealTable22-0]
+; R, S, U
+Default=ING-14|ING-15|ING-17, ING-15|ING-17
+
+; Arena01
+; After Temple2
+[StealTable50-0]
+Default=ING-04|ING-06|ING-08, ING-11|ING-18|ING-10|ING-08|ING-06
+; After Temple3
+[StealTable50-31]
+Default=ING-10|ING-11|ING-07|ING-12
+; After Temple4
+[StealTable50-40]
+Default=ING-16|ING-12|ING-14, ING-10|ING-13
+
+; Ancient Paths
+[StealTable23-0]
+; Forest05, Swamp02
+Default=ING-16|ING-18|ING-17|ING-21|ING-23|ING-24|ING-25
+Fighter=ING-16|ING-21|ING-25|ING-24|ING-23
+Rogue=ING-18|ING-21|ING-25|ING-24|ING-23
+Caster=ING-17|ING-21|ING-25|ING-24|ING-20
+DEM=ING-23|ING-17
+PHO=ING-23|ING-25
+
+[StealTable24-0]
+; Cave03, Cave04, Cave05
+Default	=ING-18|ING-17|ING-21|ING-23|ING-24|ING-25, ING-18|ING-17|ING-21|ING-23|ING-24|ING-19|ING-26
+Fighter	=ING-21|ING-25|ING-24|ING-23|ING-15, ING-21|ING-25|ING-24|ING-23|ING-19
+Rogue	=ING-21|ING-25|ING-24|ING-23|ING-15, ING-21|ING-25|ING-24|ING-23|ING-19|ING-26
+Caster	=ING-21|ING-25|ING-24|ING-17, ING-21|ING-25|ING-24|ING-17|ING-26
+DEM=ING-23|ING-17
+PHO=ING-23|ING-25
+BLA=ING-21
+
+[StealTable25-0]
+; Cave06, tomb01
+Default	=ING-18|ING-17|ING-21|ING-23|ING-24|ING-25|ING-26, ING-18|ING-17|ING-21|ING-23|ING-24|ING-25|ING-26|ING-22
+Fighter	=ING-21|ING-25|ING-24|ING-23|ING-22, ING-21|ING-25|ING-24|ING-23|ING-19
+Rogue	=ING-21|ING-25|ING-24|ING-23|ING-22, ING-21|ING-25|ING-24|ING-23|ING-26|ING-19
+Caster	=ING-21|ING-25|ING-24|ING-17|ING-22, ING-21|ING-25|ING-24|ING-17|ING-26
+DEM=ING-23|ING-17
+PHO=ING-23|ING-25
+VAN=ING-15
+
+; PoachTable-<storyIndex>
+; You can create an entry for each regular class (eg: MERC, PEK-01) or for a group from the [StealGroups] section or for a monster family (PEK).
+; System favors more precise entries first (eg PEK-01 before PEK before Caster).
+; Start of the game
+[PoachTable-0]
+Default=ING-00
+Fighter=ING-01
+Rogue  =ING-02
+Caster =ING-03
+HAR    =ING-04
+UTIL   =ING-09
+
+; After Temple 1
+[PoachTable-11]
+Default=ING-03
+Fighter=ING-03
+Rogue  =ING-04
+Caster =ING-05
+UND    =ING-04
+THE    =ING-06
+HAR    =ING-09
+
+; After Temple 2
+[PoachTable-20]
+Default=ING-08
+Fighter=ING-08
+Rogue  =ING-09
+Caster =ING-06
+PEK    =ING-10
+BLA    =ING-20
+TAN    =ING-09
+SORC   =ING-11
+MAL    =ING-12
+
+; After Temple 3
+[PoachTable-31]
+Default=ING-13
+Fighter=ING-12
+Rogue  =ING-12
+Caster =ING-13
+UND    =ING-07
+PEK    =ING-10
+BLA    =ING-20
+TAN    =ING-09
+BUL    =ING-16
+HHU    =ING-14
+LICH   =ING-24
+VAMP   =ING-14
+MAL    =ING-18
+DAA	   =ING-12
+HRV    =ING-17
+
+; After Temple 4
+[PoachTable-40]
+Default=ING-12
+Fighter=ING-21
+Rogue  =ING-23
+Caster =ING-24
+UND    =ING-07
+UND-03 =ING-17
+PEK    =ING-10
+PEK-03 =ING-19
+PEK-13 =ING-19
+PEK-23 =ING-26
+PEK-33 =ING-26
+BLA    =ING-20
+TAN    =ING-09
+TAN-03 =ING-16
+BUL    =ING-16
+HHU    =ING-14
+LICH   =ING-24
+VAMP   =ING-14
+WERE   =ING-12
+MAL    =ING-18
+DAA	   =ING-12
+DAA-03 =ING-21
+ZOT    =ING-15
+HRV    =ING-17
+
+
+; Ancient Paths
+[PoachTable-90]
+Default=ING-14
+Fighter=ING-21
+Rogue  =ING-23
+Caster =ING-24
+UND    =ING-17
+PEK    =ING-19
+BLA    =ING-20
+TAN    =ING-25
+BUL    =ING-18
+HHU    =ING-14
+LICH   =ING-24
+VAMP   =ING-14
+WERE   =ING-12
+MAL    =ING-21
+DAA	   =ING-21
+ZOT    =ING-15
+HRV    =ING-17
+APB-99 =ING-15
+
+
+; *************** Story related entries ******************************
+[Tiers]
+#comments
+; Generated enemies item quality w/r to where the player is within the story.
+; Tier is 1 to 9 and represents item quality
+; value is 0 to X and is the story index (as shown in the save file as "Scene"). Roughly every story battle/event increases that number by 1.
+Tier-Tier1=0 ; Tier1 gear is used from story index 0 to 4 by default
+Tier-Tier2=4
+Tier-Tier3=11
+Tier-Tier4=17
+Tier-Tier5=23
+Tier-Tier6=31
+Tier-Tier7=36
+Tier-Tier8=41
+Tier-Tier9=48
+
+[Chapters]
+#comments
+; The story is internally split into chapters. Patrols use the chapter number as a gating system when generating enemies (max levels, etc)
+; Roughly speaking, each sealed temple visited unlocks the next chapter.
+Chapter0=11 ; Chapter 0 will last until story index 11, inclusively
+Chapter1=20
+Chapter2=31
+Chapter3=40
+Chapter4=44
+Chapter5=47
+Chapter6=999 ; After ending information is revealed and rebel leader taken care of, forever.
+
+[Chapters-LevelRange]
+; Default level range for when nothing is specified
+LevelRange0=1,12
+LevelRange1=8,19
+LevelRange2=15,25
+LevelRange3=21,37
+LevelRange4=32,40
+LevelRange5=37,50
+LevelRange6=42,99

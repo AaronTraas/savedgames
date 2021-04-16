@@ -1,0 +1,380 @@
+#version 1
+
+
+; ******** City04 : *************************************
+[City04-Patrol]
+LevelRange3=22,40
+LevelRange4=29,49
+LevelRange5=33,55
+LevelRange6=35,65
+Lootcount=4
+Loottable=24
+StealTable=14
+APBonusPercent=30
+GoldBonusPercent=25
+
+;1st Patrol
+[City04-Patrol0]
+zone0=16,15,2,2
+zone1=14,16,2,1
+zone2=10,14,2,2
+facing=rd
+center=5,9
+MaxUnits=9
+
+human0=x:17, y:4, dir:ld, class:RANG, subclass:FELL, passive0:ROGU-P1, passive1:ROGU-P2, counter:FELL-C1, wptype:axe
+human1=x:19, y:4, dir:lu, class:SMED, subclass:UTIL, passive0:WARM-P2, passive1:KNIG-P2, counter:UTIL-C1, wptype:crossbow
+human2=x:13, y:2, dir:lu, class:SAMU, subclass:REAV, counter:WARM-C1
+human3=x:10, y:4, dir:lu, class:ROGU, subclass:null, passive0:null, passive1:null, counter: ROGU-C1, noitems:true, wptype:crossbow
+human4=x:12, y:4, dir:lu, class:ROGU, subclass:null, passive0:null, passive1:null, counter: ROGU-C1, noitems:true, wptype:crossbow
+human5=x:11, y:4, dir:lu, class:ALCH, subclass:SAMU, passive0:SAMU-P2, wptype:crossbow
+human6=x:3, y:3, dir:ru, class:WRAN, wptype:crossbow
+
+monster0=x:7, y:5, dir:ru, class:PEK-23, variant:MYS, variant:VEN, counter:PEK-01-C1
+monster1=x:3, y:5, dir:ru, class:TAN-03, variant:SCO, variant:FER, counter:TAN-01-C1
+monster2=x:1, y:7, dir:ru, class:DAO-03, variant:AER, variant:CEL, counter:VAR-AER-C1, difficulty:1
+
+bzil0=x:13, y:0, dir:ru, class:ZOT-99, subclass:RAK-99, passive0:RAK-99-P2, passive1:HAR-99-P2, counter:ZOT-99-C1, difficulty:2
+bzil1=x:14, y:0, dir:ld, class:THE-99, subclass:UND-99, passive0:UND-99-P1, passive1:UND-99-P2, counter:THE-99-C1
+
+
+;2nd Patrol
+[City04-Patrol1]
+zone0=1,14,2,2
+zone1=2,5,2,1
+zone2=3,3,2,1
+zone3=0,7,4,1
+facing=ru
+center=13,5
+MaxUnits=9
+
+human0=x:17, y:4, dir:ld, class:GUNN, subclass:SAMU
+human1=x:16, y:8, dir:ld, class:WERE, subclass:MERC, passive0:MERC-P2, passive1:ROGU-P1, counter:WERE-C1, wptype:dagger
+human2=x:13, y:10, dir:ld, class:MERC, subclass:REAV, counter:MERC-C1, acc0:ABO-03, behavior:killer
+human3=x:11, y:5, dir:ld, class:MERC, subclass:FELL, counter:FELL-C1, acc0:ABO-03, behavior:killer
+human4=x:15, y:3, dir:ld, class:WRAN, subclass:UTIL, wptype:crossbow
+
+monster0=x:16, y:3, dir:ld, class:KAW-02, variant:DFT
+monster1=x:16, y:5, dir:ld, class:KAW-02, variant:SYL
+monster2=x:14, y:3, dir:ru, class:BOL-02, variant:SCO, variant:DRE, counter:VAR-DFT-C1
+monster3=x:15, y:4, dir:rd, class:THE-03, variant:AER, variant:HRN, counter:VAR-DFT-C1, difficulty:1
+monster4=x:17, y:15, dir:ld, class:TAN-02, variant:SCO, variant:GUA, counter:VAR-SCO-C1
+monster5=x:16, y:9, dir:ld, class:THE-02, variant:CEL, variant:MYS, counter:VAR-CEL-C1
+monster6=x:18, y:7, dir:ld, class:PHO-02, variant:WRD, variant:AER, counter:VAR-AER-C1
+
+bzil0=x:14, y:14, dir:ld, class:HAR-99, subclass:TAN-99, passive0:TAN-99-P2, passive1:TAN-99-P1, counter:TAN-99-C1, difficulty:2
+
+
+; ******** City05 : *************************************
+[City05-Patrol]
+LevelRange3=22,40
+LevelRange4=29,49
+LevelRange5=33,55
+LevelRange6=35,65
+Lootcount=3
+Loottable=24
+StealTable=14
+
+;1st Patrol
+[City05-Patrol0]
+zone0=14,4,1,7
+facing=ld
+center=5,7
+
+human0=x:4, y:13, dir:rd, class:GUNN, subclass:WARM, passive0:TEMP-P1, weapon:GUN-35
+human1=x:4, y:8, dir:ru, class:GAMB, subclass:WARM, passive0:WARM-P1, weapon:SPR-36, counter:REAV-C1
+human2=x:5, y:3, dir:ru, class:UTIL, subclass:SAMU, passive0:ALCH-P2, passive1:WIZA-P1, counter:KNIG-C1, weapon:MAC-36, weapon2:true, weight:SAMU-A6|35
+human3=x:0, y:8, dir:ru, class:DRUI, subclass:null, passive0:null, passive1:null, counter:DRUI-C1, noitems:true, wptype:staff
+human4=x:6, y:10, dir:ru, class:BLAD, subclass:null, passive0:null, passive1:null, counter:BLAD-C1, noitems:true, wptype:mace, weapon2:true, abilities:1|3|3|3|1
+human5=x:8, y:13, dir:rd, class:BEAS, wptype:mace, difficulty:1
+
+monster0=x:5, y:2, dir:lu, class:RAK-02, variant:VEN
+monster1=x:2, y:5, dir:ru, class:KAW-02, variant:VEN
+
+bzil0=x:2, y:4, dir:ru, class:BOL-99, subclass:VAN-99, passive0:MAL-99-P2, passive1:KAW-99-P2, counter:BOL-99-C1, acc0:ABO-07, difficulty:2
+
+
+;2nd Patrol
+[City05-Patrol1]
+zone0=5,2,1,2
+zone1=7,2,1,2
+zone2=9,1,2,2
+facing=lu
+center=8,10
+
+human0=x:7, y:11, dir:rd, class:UTIL, subclass:SAMU, passive0:FELL-P1, passive1:LICH-P2, counter:MERC-C1, weapon:STF-36, acc0:ARI-37, weapon2:true, weight:SAMU-A8|30
+human1=x:2, y:13, dir:rd, class:RANG, subclass:KNIG, passive0:HEAL-P2, counter:RANG-C1, weapon:CBO-35, weight:RANG-A2|45, weight:KNIG-A7|40, weight:RANG-A7|-20
+human2=x:12, y:9, dir:rd, ai:range
+human3=x:0, y:12, dir:ru, class:HEAL
+human4=x:10, y:12, dir:rd, class:ALCH, wptype:staff, difficulty:1
+human5=x:9, y:12, dir:rd, class:DRUI, subclass:GAMB, passive0:UTIL-P1, passive1:FELL-P1, weapon:RAP-35, weight:GAMB-A7|20, difficulty:2
+
+monster0=x:3, y:12, dir:rd, class:BLA-02, variant:GUA
+monster1=x:4, y:10, dir:rd, class:VAN-03, variant:MYS
+
+
+
+; ******** Arena02 : *************************************
+[Arena02-Patrol]
+LevelRange1=9,14
+LevelRange2=12,18
+LevelRange3=19,26
+LevelRange4=24,34
+LevelRange5=26,38
+LevelRange6=30,55
+Lootcount=4
+Loottable=12
+StealTable=6
+APBonusPercent=30
+GoldBonusPercent=25
+
+;1st Patrol (large-scale)
+[Arena02-Patrol0]
+zone0=14,2,3,3
+zone1=15,5,2,2
+facing=ld
+center=7,9
+MaxUnits=9
+
+human0=x:4, y:14, dir:rd, ai:healer
+human1=x:2, y:11, dir:ru, ai:healer
+human2=x:6, y:13, dir:rd, ai:magic
+human3=x:5, y:9, dir:ru, ai:magic
+human4=x:2, y:5, dir:ru, ai:range, subclass:MERC, acc0:ABO-02
+human5=x:4, y:2, dir:ru, ai:range
+human6=x:7, y:8, dir:ru, ai:melee
+human7=x:9, y:10, dir:rd, ai:melee
+human8=x:10, y:15, dir:rd, ai:melee, difficulty:1
+human9=x:7, y:15, dir:rd, ai:magic, difficulty:2
+
+human10=x:14, y:0, dir:lu, ai:healer, faction:player, apbonus:25
+
+monster0=x:5, y:15, dir:rd, class:VAN-02
+monster1=x:3, y:9, dir:ru, class:BOL-01, variant:AER
+monster3=x:8, y:8, dir:ru, class:DAO-01
+
+
+;2nd Patrol (large-scale)
+[Arena02-Patrol1]
+zone0=13,12,4,4
+facing=ld
+center=7,9
+MaxUnits=9
+
+human0=x:4, y:2, dir:ru, ai:healer
+human1=x:9, y:1, dir:lu, ai:healer
+human2=x:10, y:0, dir:lu, ai:magic
+human3=x:5, y:7, dir:ru, ai:magic
+human4=x:1, y:10, dir:ru, ai:range, acc0:ABO-02
+human5=x:13, y:1, dir:lu, ai:range
+human6=x:12, y:1, dir:lu, ai:melee, customai:unlockcages
+human7=x:6, y:5, dir:lu, ai:melee
+human8=x:7, y:4, dir:ru, ai:melee
+human9=x:2, y:14, dir:rd, ai:range, difficulty:1
+human10=x:3, y:12, dir:rd, ai:magic, difficulty:2
+
+human11=x:12, y:14, dir:rd, ai:range, faction:player, apbonus:25
+
+monster0=x:9, y:0, dir:lu, class:RAK-01
+monster1=x:6, y:2, dir:lu, class:HAR-01
+monster3=x:1, y:13, dir:ru, class:NIW-01
+
+cage-monster0=x:0, y:9, dir:ru, class:VAN-02, variant:ALP, variant:GUA, counter:VAR-THO-C1
+cage-monster1=x:0, y:8, dir:ru, class:VAN-02, variant:CLO, variant:THO, counter:VAR-THO-C1
+
+
+;3rd Patrol (large-scale)
+[Arena02-Patrol2]
+zone0=1,0,2,5
+zone1=3,0,3,2
+facing=ru
+center=12,6
+MaxUnits=9
+
+human0=x:13, y:12, dir:ld, ai:healer
+human1=x:16, y:6, dir:ld, ai:healer
+human2=x:14, y:3, dir:ld, ai:magic
+human3=x:10, y:15, dir:ld, ai:magic
+human4=x:14, y:2, dir:ld, ai:range
+human5=x:14, y:4, dir:ld, ai:range
+human6=x:15, y:1, dir:ld, ai:melee
+human7=x:11, y:13, dir:rd, ai:melee
+human8=x:7, y:15, dir:rd, ai:melee, customai:unlockcages
+human9=x:10, y:15, dir:ld, ai:range, difficulty:1
+human10=x:14, y:11, dir:ld, ai:magic, difficulty:2
+
+human11=x:4, y:2, dir:ru, ai:magic, faction:player, apbonus:25
+
+monster0=x:14, y:15, dir:rd, class:THE-01
+monster1=x:16, y:10, dir:ld, class:PHO-01
+monster3=x:9, y:12, dir:ld, class:PEK-01
+
+cage-monster0=x:0, y:9, dir:ru, class:VAN-02, variant:ALP, variant:GUA, counter:VAR-THO-C1
+cage-monster1=x:0, y:8, dir:ru, class:VAN-02, variant:CLO, variant:THO, counter:VAR-THO-C1
+
+
+; ******** Sewer01  *************************************
+[Sewer01-Patrol]
+Lootcount=4
+Loottable=24
+StealTable=13
+LevelRange3=24,30
+LevelRange4=28,36
+LevelRange5=32,40
+LevelRange6=35,65
+APBonusPercent=30
+GoldBonusPercent=25
+
+;1st Patrol
+[Sewer01-Patrol0]
+zone0=0,5,2,3
+zone1=5,0,3,2
+facing=lu
+center=12,12
+MaxUnits=9
+
+human0=x:9, y:15, dir:rd, class:WRAN, subclass:ALCH, passive0:WIZA-P1, passive1:KNIG-P2, counter:BEAS-C1
+human1=x:15, y:8, dir:ld, class:WRAN, subclass:UTIL, passive0:BEAS-P2, passive1:BLAD-P2, counter:SORC-C1
+human2=x:14, y:11, dir:rd, class:HEAL, passive0:SORC-P1, passive1:BEAS-P1
+human3=x:11, y:15, dir:rd, class:DRUI, subclass:WIZA, ai:magic, passive0:GUNN-P2, counter:GADG-C1, wptype:staff
+
+monster0=x:14, y:12, dir:ld, class:BOL-02, acc0:ABO-03
+monster1=x:10, y:14, dir:rd, class:TAN-02
+monster2=x:7, y:14, dir:rd, class:HAR-02
+monster3=x:11, y:12, dir:rd, class:THE-02
+monster5=x:17, y:10, dir:ld, class:RAK-02
+monster6=x:7, y:16, dir:rd, class:RAK-02
+monster7=x:6, y:15, dir:rd, class:BLA-02, difficulty:1
+monster8=x:15, y:9, dir:ld, class:TAN-03, variant:GUA, variant:ALP, behavior:killer, difficulty:2
+
+;2nd Patrol
+[Sewer01-Patrol1]
+zone0=6,14,6,2
+facing=rd
+center=10,10
+MaxUnits=9
+
+human0=x:12, y:3, dir:lu, class:WRAN, weight:WRAN-A4|30, wptype:dagger
+human1=x:6, y:1, dir:lu, class:GAMB, subclass:WRAN, passive0:WRAN-P1, weight:WRAN-A8|30, wptype:dagger
+human2=x:4, y:5, dir:lu, class:RANG, subclass:null, passive0:null, passive1:null, counter: RANG-C1, abilities:1|3|1|3|2|1, wptype:bow, noitems:true
+
+monster0=x:8, y:4, dir:lu, class:NIW-02, variant:SPE
+monster1=x:10, y:5, dir:lu, class:KAW-02, variant:CEL
+monster2=x:1, y:7, dir:ru, class:KAW-02, variant:AER
+monster3=x:4, y:4, dir:lu, class:THE-02, variant:DRT
+monster5=x:8, y:5, dir:lu, class:PEK-02, variant:SYL, variant:MYS, ai:healer
+monster6=x:17, y:7, dir:ld, class:DAO-02, variant:GUA
+monster7=x:9, y:6, dir:lu, class:PEK-22, variant:SCO
+monster8=x:13, y:4, dir:lu, class:THE-02, variant:THO, difficulty:1
+monster9=x:2, y:7, dir:ru, class:PHO-02, variant:SHA, variant:DRW, difficulty:2
+
+
+; ******** Graveyard02  *************************************
+[Graveyard02-Patrol]
+Lootcount=3
+StealTable=19
+LootTable=33
+LevelRange5=38,75
+LevelRange6=38,85
+
+;1st Patrol
+[Graveyard02-Patrol0]
+zone0=0,7,2,2
+zone1=3,10,2,2
+facing=ru
+center=8,5
+
+human0=x:9, y:1, dir:lu, class:VAMP, wptype:rapier
+human1=x:8, y:0, dir:lu, class:SMED, subclass:WARM, passive0:SORC-P1, passive1:PRIN-P1, counter:DRUI-C1, weapon:RAP-36, weapon2:SHI-35
+;Double Bolt Vessel
+human2=x:10, y:5, dir:ld, class:REAV, subclass:SAMU, passive0:TEMP-P1, passive1:LICH-P1, counter:ALCH-C1, acc0:ARI-37
+;That Boss From Every Souls-Like Game Ever, cut blood axe and razor wind for a milder variation
+human3=x:10, y:1, dir:ld, class:HEAL
+human4=x:6, y:0, dir:lu, ai:magic, difficulty:1
+human5=x:8, y:4, dir:ld, class:TEMP, subclass:BEAS, passive0:FELL-P1, passive1:BEAS-P1, weapon:RAP-07, weight:BEAS-A1|35, weight:BEAS-A10|35
+;Malicious Pets
+
+monster0=x:10, y:2, dir:lu, class:MAL-03, variant:SHA, variant:DRF, counter:VAR-DRF-C1
+monster1=x:7, y:0, dir:lu, class:DAA-03, variant:COR, variant:SPE, counter:VAR-SPE-C1, gearfill:noberserk, difficulty:2
+
+
+;2nd Patrol
+[Graveyard02-Patrol1]
+zone0=6,0,4,1
+zone1=8,1,2,1
+zone2=9,2,2,1
+facing=lu
+center=6,9
+
+human0=x:5, y:11, dir:rd, class:RANG, subclass:SAMU, passive0:SMED-P1, passive1:WARM-P2, wptype:bow
+human1=x:8, y:9, dir:rd, class:FELL
+human2=x:9, y:11, dir:rd, class:UTIL, subclass:ALCH, passive0:ALCH-P2, passive1:SORC-P1, counter:LICH-C1
+human3=x:10, y:10, dir:rd, class:DRUI, subclass:SAMU, counter:GADG-C1, wptype:staff
+human4=x:1, y:11, dir:ru, class:PRIN, subclass:HEAL, passive0:BEAS-P2, counter:PRIN-C1, difficulty:2
+
+monster0=x:5, y:9, dir:rd, class:PEK-33, variant:WRD
+monster1=x:8, y:11, dir:rd, class:HAR-03, variant:AER, variant:MYC, counter:VAR-MYC-C1
+monster2=x:2, y:8, dir:ru, class:HHU-03, variant:THO, variant:ALP, counter:VAR-SPE-C1, difficulty:2
+
+
+; ******** Lab01  *************************************
+[Lab01-Patrol]
+Lootcount=4
+Loottable=40
+StealTable=24
+Poachtable=90
+LevelRange5=43,70
+LevelRange6=43,70
+APBonusPercent=30
+GoldBonusPercent=25
+
+;1st Patrol
+[Lab01-Patrol0]
+zone0=4,16,3,2
+zone1=13,16,3,2
+facing=rd
+center=9,6
+MaxUnits=9
+
+human0=x:1, y:6, dir:lu, class:KNIG, passive0:TEMP-P1, passive1:ASSA-P2, counter:FELL-C1, weapon:SPR-37, weapon2:SPR-37
+human1=x:17, y:1, dir:ld, class:LICH
+human2=x:0, y:2, dir:lu, class:REAV, subclass:BLAD, wptype:maul
+human3=x:2, y:3, dir:lu, class:DRUI, subclass:HEAL, passive0:SORC-P1, passive1:HEAL-P1, counter:WARM-C1, wptype:staff, difficulty:1
+human4=x:14, y:1, dir:lu, class:WERE, acc0:ABO-05, acc1:ABO-05, difficulty:1
+human5=x:11, y:5, dir:lu, class:REAV, subclass:BEAS, passive0:FELL-P2, passive1:RANG-P1, counter:BEAS-C1, wptype:maul, weight:BEAS-A18|25, behavior:killer, difficulty:2
+
+monster0=x:6, y:6, dir:lu, class:TAN-03, variant:WRD, variant:HRN, counter:VAR-GUA-C1, behavior:killer
+monster1=x:5, y:6, dir:ld, class:HRV-03, variant:THO
+monster2=x:10, y:3, dir:lu, class:MAL-03, variant:MYS
+monster3=x:12, y:6, dir:lu, class:DAA-03, variant:DFT, variant:SCO
+monster4=x:11, y:1, dir:lu, class:KAW-03, variant:DFT, variant:GUA, gearfill:noboots, customai:unlockcages
+
+cage-monster0=x:16, y:9, dir:lu, class:DAO-03, variant:WRD, variant:GUA, ai:healer
+
+bzil0=x:3, y:1, dir:lu, class:HHU-99, subclass:BUL-99, passive0:PEK-99-P2, passive1:BUL-99-P2, counter:PEK-99-C1
+
+
+;2nd Patrol
+[Lab01-Patrol1]
+zone0=0,0,2,3
+zone1=13,0,3,3
+facing=lu
+center=9,11
+MaxUnits=9
+
+human0=x:14, y:17, dir:rd, class:SORC, subclass:GAMB, passive0:ALCH-P1, passive1:DRUI-P1, counter:WIZA-C1
+human1=x:15, y:17, dir:rd, class:WRAN, subclass:PEDD, counter:WIZA-C1, weapon2:false, acc0:ABO-04, gearfill:noboots, waitturns:1
+human2=x:4, y:16, dir:rd, class:HEAL, subclass:WIZA, passive0:LICH-P1, passive1:KNIG-P2, counter:ALCH-C1
+human3=x:0, y:17, dir:rd, class:WRAN, difficulty:1
+
+monster0=x:7, y:17, dir:rd, class:KAW-03, variant:HRN, variant:SPE, behavior:killer
+monster1=x:8, y:14, dir:rd, class:BOL-03, variant:COR, variant:VEN, counter:VAR-GUA-C1, acc0:ABO-02, gearfill:noboots, gearfill:noberserk
+monster2=x:1, y:16, dir:rd, class:NIW-03, variant:FER, variant:SPE
+monster3=x:16, y:17, dir:rd, class:HRV-03, variant:SHA, variant:COR
+monster4=x:17, y:14, dir:ld, class:MAL-03, variant:DFT, variant:SKE, gearfill:noboots, weight:VAR-SKE-A1|-99, customai:unlockcages
+monster5=x:17, y:16, dir:rd, class:DAO-03, variant:CEL, variant:VEN, acc0:ABO-04, acc1:ARI-15, gearfill:noboots, waitturns:1, difficulty:1
+monster6=x:5, y:13, dir:rd, class:TAN-03, variant:TYR, variant:COR, counter:VAR-TYR-C1, gearfill:noberserk
+
+cage-monster0=x:9, y:11, dir:ld, class:BUL-13, variant:AER, variant:TYR, gearfill:nosleep, acc0:ABO-06
+
+bzil0=x:4, y:14, dir:rd, class:PHO-99, subclass:DAO-99, passive0:DAO-99-P2, passive1:RAK-99-P2, counter:HAR-99-C1, difficulty:2

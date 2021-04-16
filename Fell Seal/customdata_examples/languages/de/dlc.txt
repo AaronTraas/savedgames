@@ -1,0 +1,1001 @@
+menu-monster-ability-help={Monster}-Einheiten können zusätzlich zu ihrer Haupt-{jobterm} 2 {subjobterms} haben. {subjobterms} für {monsters} funktionieren anders als bei {humans}, da Monster eine spezielle Liste an {subjobterms} haben, die sich grundlegend von ihrer Haupt-{jobterm} unterscheiden. Während ihre Haupt-{jobterm} immer unverändert bleiben, können ihre 2 {subjobterms} nach Belieben geändert werden, gleich wie bei den {humans}.
+dlc-midgame-message-malespeaker=Ich habe gehört, dass die {arbiter}-Gilden im ganzen Land neue Anlagen besitzen.<page>Ich würde sagen, wir sehen uns diese Neuerungen genauer an, bevor wir unsere Reise fortsetzen.
+hiremenu-upgrades=Gilden-Verbesserungen
+hiremenu-active-missions=Aktive {missions}
+hiremenu-hint-details={Mission}sdetails
+hiremenu-hint-remove=Letzte entfernen
+hiremenu-hint-options=Optionen
+hiremenu-hint-add=Einheit hinzufügen
+hiremenu-hint-cancel-mission={mission} abbrechen
+hiremenu-hint-claim-reward=Belohnung nehmen
+missions-leader=Anführer
+missions-units-assigned=zugewiesene Einheiten
+missions-minmax-units=(Min. {0} / Max. {1})
+missions-ready-to-go=Bereit!
+missions-completed=Fertig!
+missions-result-fail=Versagt!
+missions-result-success=Erfolgreich!
+missions-result-great-success=Außergewöhnlich!
+missions-banner={Mission}sergebnisse
+command-large-patrol=Große {wm-command-training}
+hiremenu-menu-0=Ablegen
+hiremenu-menu-1=Klasse
+upgrades-built=Gebaut!
+hiremenu-usetiercolor=Verwende Stufenfarbe:
+hiremenu-option-auto=Automatisch
+hiremenu-option-manual=Manuell
+hiremenu-option-tiernumber=Stufe {0}
+hiremenu-usevariantvisuals={variant}-Aussehen verwenden:
+hiremenu-shadowy=Schattig:
+hiremenu-useportrait=Verwende Stufenporträt:
+classmenu-class-unlocked=freigeschaltet
+ability-menu-extra-info=Dadurch erhältst du Zugriff auf alle dir bekannten aktiven {abilities}.
+ability-menu-column-primary=(Primär)
+abilities-variant-opener={Abilities} der {0}-{variant}.
+abilities-desc-slot-mst=Sobald du die {passive} {0} dieses {monster}s lernst, wird sie automatisch eingesetzt.
+abilities-desc-slot-var=Sobald du die {passive} {0} dieser {variant} lernst, wird sie automatisch eingesetzt.
+abilities-desc-slot-mst-subjob=Du kannst die Haupt-{variant} für dieses {monster} im Menü „{mainmenu-option-classchange}„ wechseln. {ability-menu-extra-info}{newline}{Monsters} erhalten {AP} für ihre Haupt-{variant} sowie für ihre {monster}-{jobterm}. Die Haupt-{variant} überträgt auch diverse Boni, wie im Menü „{mainmenu-option-classchange}„ ersichtlich ist.
+abilities-desc-slot-mst-variant=Du kannst für diesen Slot eine {variant} wählen. {ability-menu-extra-info}
+hiremenu-mission-not-enough-people=Du musst mindestens {0} Einheiten auf diese {mission} schicken.
+hiremenu-mission-not-enough-people2=Für diese {mission} stehen dir nicht genug Einheiten zur Verfügung!
+hiremenu-mission-ready=Die ausgewählten Einheiten auf diese {mission} schicken?
+hiremenu-mission-in-progress-already=Diese {Mission} ist aktuell im Gange. Möchtest du die {mission} abbrechen? Dadurch werden die Teilnehmer sofort zurückgerufen und die Belohnungen bleiben aus.
+hiremenu-mission-time-required=Nötige Zeit
+hiremenu-mission-time-left=Übrige Zeit
+hiremenu-mission-units=Einheiten
+hiremenu-mission-repeatable=Wiederholbar
+hiremenu-mission-upgrades-title=Missionsverbesserungen
+hiremenu-mission-upgrades-title2=Regionsverbesserungen
+hiremenu-mission-discovered-title=Entdeckt ({0}/{1})
+hiremenu-mission-area-influence=Einflussbereich
+hiremenu-mission-points=Punkte
+hiremenu-upgrade-reset=Alle Verbesserungen zurücksetzen
+hiremenu-upgrade-confirm-reset=Dadurch werden alle aktuell gebauten Verbesserungen in der Region „{0}“ entfernt und {1} {company-points} rückerstattet. Fortfahren?
+hiremenu-upgrade-confirm-build=Der Bau dieser Verbesserung kostet {0} {company-points}. Fortfahren?
+missionmenu-random-mats-reward=Zufällige Auswahl aus:
+missionmenu-reward-recruit=Neuer {0}-Rekrut!
+missionmenu-reward-unlock-map=Schalte einen großen Kampf frei!
+missionmenu-reward-unlock-hunt=Schalte eine neue Einheit frei!
+missionmenu-reward-class=Schalte die {0}-{jobterm} frei!
+missionmenu-reward-variant=Schalte die {0}-{variant} frei!
+missionmenu-reward-unlock-outfits=Neue Outfits!
+wm-command-hunt=Jage das Zeichen!
+wm-command-large-battle=Großer Kampf
+tame-tutorial=Du hast „{WRAN-tame}“ erfolgreich angewendet, um eine neue Einheit zu rekrutieren! Die Einheit wird dir im nächsten Kampf zur Verfügung stehen.
+tame-error-full=Dein Team ist voll, weshalb du keine weiteren Einheiten rekrutieren kannst. Entferne ein paar Einheiten über das {hint-wm-menu}, um mehr Platz zu schaffen.
+mission-tutorial0=Du hast jetzt Zugriff auf {missions}!{newline}Du kannst ab jetzt Einheiten, die nicht Teil der Geschichte sind, auf eine {mission} schicken. Dadurch verdienen sie {ap} und {exp} für sich sowie {company-points}, {currency}, Gegenstände und Spezialbelohnungen für die ganze Crew.{newline}{Missions} sind auf mehrere Regionen aufgeteilt. Wenn du alle {missions} in einer Region abschließt, wartet eine Spezialbelohnung auf dich.
+mission-tutorial1=Das Abschließen von {Mission}en dauert eine gewisse Zeit. Diese Zeit läuft immer weiter, auch wenn du nicht aktiv spielst. Versuche also, Einheiten auf {missions} zu schicken, bevor du eine Pause einlegst, um leicht an Belohnungen zu kommen.
+mission-tutorial2=Bei den meisten {Missions} gibt es drei unterschiedliche Ergebnisse. Diese lauten „Erfolgreich!“, „Versagt!“ und „Außergewöhnlich!“.{newline}Bei „Erfolgreich!“ erhältst du die zu erwartenden Belohnungen, bei „Versagt!“ nur einen Teil der Belohnungen und bei „Außergewöhnlich!“ erhältst du für gewöhnlich die doppelte Anzahl an Belohnungen.
+mission-tutorial-onscreen0=Wenn du Einheiten für eine {mission} auswählst, dann solltest du auf die erste Einheit achten, da sie die Rolle des {mission}sanführers übernehmen wird.{newline}Bei vielen {missions} ist die Chance auf „Erfolgreich!“ und „Außergewöhnlich!“ basierend auf der {class} des Anführers höher. Die Beschreibungen der Missionen weisen dich darauf hin, welche {class} am besten für sie geeignet ist.{newline}Die anderen Einheiten der {mission} tragen keinen Spezialbonus basierend auf ihrer Klasse bei und stellen nur einen kleinen Bonus zum Erfolg der Mission bereit.
+mission-tutorial-onscreen1=Einheiten, die du auf eine {mission} schickst, können {color=term}NICHT an Kämpfen teilnehmen{color=base}, bis sie ihre {mission} abschließen oder du die {mission} abbrichst.
+upgrades-tutorial0=Dir stehen jetzt Gilden-{upgrades} zur Verfügung!{newline}Die Welt von {teora} ist in mehrere Regionen aufgeteilt, in denen du {upgrades} bauen kannst.{newline}Gilden-{Upgrades} gewähren deinem Team diverse Spezialboni.
+upgrades-tutorial1=Es gibt drei verschiedene Bonuskategorien von {upgrades}: {mission}sboni, {color=term}{patrol}{color=base}-Boni und {color=term}globale{color=base} Boni.{newline}{Mission}sboni zählen für alle {missions}, die sich in einer Region befinden.{newline}{color=term}{patrol}{color=base}-Boni zählen für alle {color=term}{patrols}{color=base}, die auf einer Karte stattfinden, die wiederum Teil der Region ist.{newline}{color=term}Globale{color=base} Boni zählen immer, unabhängig von der Region, in der du dich gerade befindest. Diese Boni sind seltener und meistens auch teurer.
+upgrades-tutorial-onscreen0=Jede Region besitzt ein eigenes Rasterfeld, auf dem {Upgrades} gebaut werden können. Achte beim Bau einer {upgrade} auf das Feld {color=term}„{upgrade-gain-bonus-from}“{color=base} in der Beschreibung. Wenn bestimmte {upgrades} aneinander angrenzen, erhältst du Bonuseffekte. Wenn du diese „Grenzboni“ zu deinem Vorteil nutzen kannst, erhältst du noch bessere Belohnungen!
+hunt-tutorial=Du hast deine erste {color=term}Jagd{color=base} freigeschaltet!{newline}{color=term}Jagden{color=base} sind spezielle Kämpfe. Gehe zu einem Punkt auf der Weltkarte mit einem Monstersymbol und aktiviere die {color=term}Jagd{color=base} im Menü des Punkts.{newline}{color=term}Jagden{color=base} sind schwierige Kämpfe, die nur einmal abgeschlossen werden können, dafür aber Spezialbelohnungen enthalten!
+mission-100-tutorial=Du hast einen großen Kampf freigeschaltet, weil du alle {Missions} in einer Region abgeschlossen hast!
+mission-openmap-tutorial-mini=Du hast einen großen Kampf freigeschaltet!
+mission-openmap-tutorial=So können einige deiner Charaktere im Hintergrund ins Rampenlicht treten!{newline}Triff die nötigen Vorbereitungen vor einem großen Kampf, da mindestens {color=term}neun Einheiten{color=base} empfohlen werden!
+zone-00-name=Centina-Hinterländer
+zone-01-name=Thespeiros-Seitenwege
+zone-03-name=Industrieküste
+zone-04-name=Kawaländer
+upgrade-gain-bonus-from=Erhält Grenzboni von:
+upgrade-grants-bonus-to=Verleiht Grenzboni:
+bonus-ap-to-all=Bonus-{AP} für alle!
+upgr-00-name=Ställe
+upgr-01-name=Kantine
+upgr-02-name=Gärten
+upgr-03-name=Konvoi
+upgr-04-name=Bibliothek
+upgr-05-name=Übungsgelände
+upgr-06-name=Kopfgeldtafel
+upgr-07-name=Wahrsager
+upgr-08-name=Archivar
+upgr-09-name=Wachturm
+upgr-10-name=Bienenhaus
+upgr-11-name=Waffenschmied
+upgr-12-name=Urquell
+upgr-13-name=Rüstungsschmied
+upgr-14-name=Schamanenhütte
+upgr-15-name=Jägerhäuschen
+upgr-16-name=Jachthafen
+upgr-17-name=Schießplatz
+upgr-18-name=Messerschmied
+upgr-19-name=Zwinger
+upgr-20-name=Apotheke
+upgr-21-name=Marktplatz
+upgr-22-name=Außenposten
+upgr-23-name=Kaserne
+ub-type-worldwide=Weltweit
+upgrade-mission-opener={Missions} in dieser Region
+upgrade-mission-patrol-opener=Beim Patrouillieren dieser Region
+ub-m-time=+{0} % Abschlusstempo
+ub-m-time-long={upgrade-mission-opener} werden {0} % schneller abgeschlossen.
+ub-m-cp=+{0} % {Company-points}
+ub-m-cp-long={upgrade-mission-opener} gewähren {0} % mehr {company-points}.
+ub-m-ap=+{0} % {ap}
+ub-m-ap-long={upgrade-mission-opener} gewähren {0} % mehr {ap}.
+ub-m-gp=+{0} % {currency}
+ub-m-gp-long={upgrade-mission-opener} gewähren {0} % mehr {gp}.
+ub-m-exp=+{0} % {exp}
+ub-m-exp-long={upgrade-mission-opener} gewähren {0} % mehr {exp}.
+ub-m-repeat=Wiederholte Belohnungen {term-arrow-up}
+ub-m-repeat-long=Wiederholte {missions} in dieser Region gewähren die vollen Belohnungen.
+ub-m-components-long={upgrade-mission-opener} gewähren 2x so viele {components} wie gewöhnlich.
+ub-m-unit=Zusätzliche Einheit
+ub-m-unit-long=In dieser Region kann eine zusätzliche Einheit auf jede {mission} geschickt werden.
+ub-m-success=+{0} % Erfolgschance
+ub-m-success-long={upgrade-mission-opener} haben eine erhöhte Erfolgschance von {0} %.
+ub-p-kawa=+{0} % {KAW-11-Title}-Rate
+ub-p-kawa-long=Die Chance, auf einen streunenden {KAW-11-Title} zu treffen, ist auf {upgrade-mission-patrol-opener} um {0} % erhöht.
+ub-p-zotzit=+{0} % {ZOT-01-Title}-Rate
+ub-p-zotzit-long=Die Chance, auf einen streunenden {ZOT-01-Title} zu treffen, ist auf {upgrade-mission-patrol-opener} um {0} % erhöht.
+ub-p-dmg=+{0} % Schaden
+ub-p-dmg-long=Schaden/Heilung von Spielern ist auf {upgrade-mission-patrol-opener} um {0} % erhöht.
+ub-p-buff=Erhalte {0}
+ub-p-buff-long=Auf {upgrade-mission-patrol-opener} starten alle vom Spieler entsendeten Einheiten mit {0}.
+ub-p-loot=+{0} % Drop-Rate
+ub-p-loot-long=Die Chance auf {components} von gefallenen Feinden ist auf {upgrade-mission-patrol-opener} um {0} % erhöht.
+ub-p-swim=Erhalte Schwimmen
+ub-p-swim-long=Auf {upgrade-mission-patrol-opener} können alle Spielereinheiten schwimmen.
+ub-p-hit=+{0} % Treffer-Rate
+ub-p-hit-long=Auf {upgrade-mission-patrol-opener} erhalten alle Aktionen des Spielers eine erhöhte Trefferchance von {0} %.
+ub-p-crit=+{0} % kritische Treffer-Rate
+ub-p-crit-long=Auf {upgrade-mission-patrol-opener} haben alle Spielereinheiten eine erhöhte kritische Trefferchance von {0} %.
+ub-p-tame=+{0} % Zähmen-Rate
+ub-p-tame-long=Die Chance, ein Monster auf {upgrade-mission-patrol-opener} zu zähmen, ist um {0} % erhöht.
+ub-p-protect=Erhalte „{0}“-Immunität
+ub-p-protect-long=Auf {upgrade-mission-patrol-opener} sind alle Spielereinheiten immun gegen {0}.
+ub-p-gather=2x Sammeln
+ub-p-gather-long=Sammelpunkte auf {upgrade-mission-patrol-opener} gewähren 2x so viele {components} wie gewöhnlich.
+ub-w-store=-{0} % Laden-{GP}-Kosten
+ub-w-store-long=Einkäufe in einem Laden sind um {0} % günstiger.
+ub-w-guild=-{0} % Gilden-{GP}-Kosten
+ub-w-guild-long=Beim Ausgeben von {gp} in einer Gilde gibt es einen Rabatt von {0} %.
+ub-w-mission=Zusätzlicher {mission}sslot
+ub-w-mission-long=Gewährt einen zusätzlichen {mission}sslot, wodurch mehr {missions} gleichzeitig aktiv sein können.
+mission-success-chance-short=Erfolg %
+mission-success-chance-base=Basis
+mission-success-chance=Basiserfolg
+miss-00-name=Reisende in Gefahr
+miss-01-name=Das Heilmittel gegen Weißes Fieber
+miss-02-name=Ein Bruder in Not
+miss-03-name=Erpressung in {illuster}
+miss-04-name=Sichere Durchfahrt
+miss-05-name=Da ist etwas im Wald ...
+miss-06-name=Großwildjagd
+miss-07-name=Tod von oben
+miss-08-name=Hier kommt Sergeant {Greely}
+miss-09-name=Die Ungeziefer von {Sigil}
+miss-10-name=Geschickübungen
+miss-11-name=Frühjahrsputz
+miss-12-name=Hungrige Bestie!
+miss-13-name=Führungstraining
+miss-14-name=Und die Toten wandeln wieder ...
+miss-15-name=Was sucht diesen Wald heim?
+miss-16-name=Die Überwachung der Ernte
+miss-17-name=Die Monstermine
+miss-18-name=Monsterstreit
+miss-19-name=Ein entspannter Spaziergang im Wald
+miss-20-name=Chaos auf der Brücke
+miss-21-name=Mysteriöse Lichter
+miss-22-name=Routinepatrouille
+miss-23-name=Eine reichhaltige Ernte
+miss-24-name=Eine Bande Halsabschneider
+miss-25-name=Wilde Kreaturen
+miss-26-name=Eine furchterregende Bedrohung
+miss-27-name={Sigil}-Räuber
+miss-28-name=Das verschollene Küchenmädchen
+miss-29-name=Ausgelöscht
+miss-30-name=Ein hastiger Rückzug
+miss-31-name=Karawaneneskorte
+miss-32-name=Rächende Engel
+miss-33-name=Gesindel und Nichtsnutze
+miss-34-name=Die Hexe und der Turm
+miss-35-name=Eine kürzere Leine
+miss-36-name=Assassine!
+miss-37-name=Die fliegende Bedrohung
+miss-38-name=Und die Toten ruhen wieder ...
+miss-39-name=Erdrutsch
+miss-40-name=Noch eine Patrouille
+miss-41-name=Kämpfe in der Luft
+miss-42-name=Eine seltsame Höhle
+miss-43-name=Spezialausbildung
+miss-44-name=Die schwarze Fahne
+miss-45-name=Reliktuntersuchung
+miss-46-name=Drei Schwestern
+miss-47-name=Tierkontrolle
+miss-48-name=Ein neuer Pfad durch die Sümpfe
+miss-49-name=Das Ding im Sumpf
+miss-50-name=Potz Blitz!
+miss-51-name=Die Folter geht weiter
+miss-52-name=Eine Schar Niwots
+miss-53-name=Die Leiden eines Fischers
+miss-54-name=Schuppige Stalker
+miss-55-name=Der Sturmgeist
+miss-57-name=Ein Schwarm {MAL-01-Titles}
+miss-58-name=Das Grauen aus der Tiefe
+miss-59-name=Goldrausch
+miss-60-name=Die Geisel
+miss-61-name=Lückenfüller
+miss-62-name=Eine noch speziellere Mission
+miss-63-name=Die Bändigung der Wüste
+miss-64-name=Auf der Spur
+miss-65-name=Wüstentraining
+miss-66-name=Kawa-Zank
+miss-67-name=Vergessene Krypten
+miss-68-name=Die Stimme aus dem Jenseits!
+miss-69-name=Der hohe Gebirgspass
+miss-70-name=Hilfe im Notfall
+miss-71-name={Vangal}-Probleme
+miss-72-name=Wechselbalg
+miss-73-name=Eine edle Unstimmigkeit
+miss-74-name=Hexerei!
+miss-75-name=Unruhestifter
+miss-76-name=Zu viele Monster!
+miss-77-name=Entführte Kinder
+miss-78-name={name-RebelLeader}s Tagebuch
+miss-79-name=Unheilvoller Wächter
+miss-80-name=Violette Verderbnis
+miss-81-name=Die Strandmeisterin
+miss-82-name=Ein legendäres Dessert
+miss-83-name=Hochstapler!
+miss-84-name=Die Kinder des Vulkans
+miss-85-name=Dämon gegen Dämon?
+miss-86-name=Insektenplage!
+miss-87-name=Gibt es hier Drachen?
+miss-88-name=Ein Stich in der Dunkelheit
+miss-00-desc=Es gibt Meldungen über wilde Bestien, die entlang der Straße in dieser Gegend kleine Gruppen von Reisenden angreifen. Die lokalen Jäger begaben sich schon mehrmals auf die Suche, hatten jedoch nie Glück. Für eine {arbiter}in sollte das jedoch kein Problem darstellen.
+miss-01-desc=In dieser Region bricht regelmäßig das Weiße Fieber aus. Die Krankheit ist zwar nicht tödlich, aber mit einem speziellen Kraut lässt sie sich einfacher behandeln. Die Herzsaftwurzel ist nicht einfach zu finden, aber für eine Gruppe sollte das kein Problem sein.
+miss-02-desc={Arbiter} {color=name}{Lancaster}{color=base} steckt in der Klemme. Er und seine Crew wollten ein paar gefährliche Schwertkämpfer verhaften, die zwei Männer bei einer Schlägerei in der Taverne getötet hatten, doch seine gesamte Gefolgschaft wurde krank. Verdorbenes Fleisch, möglicherweise. Wie dem auch sei, hier scheint eine {color=hint}starke{color=base} Hand nötig zu sein, vielleicht hast du ja eine.
+miss-03-desc=Die {Centina}-Händlergilde bittet um die Hilfe eines {Arbiter}s. Ein paar Schlägertypen belästigen die Leute beim {Illuster}-Tor. Sie sagen den Reisenden, sie müssten eine Abgabe für den Eintritt in die Stadt erheben, und alle, die nicht zahlen wollen, bekommen die Fäuste dieser Typen zu spüren.
+miss-04-desc=Die Handelsrouten in dieser Gegend werden oft von nichtsnutzigen Banditen und Schurken heimgesucht. Es macht sich bezahlt, diese Leute gelegentlich daran zu erinnern, dass hier Gesetz und Ordnung immer noch gelten. Begleite diese Karawane sicher zu ihrem Ziel und kümmere dich um jegliche Gefahren, die deinen Weg kreuzen.
+miss-05-desc=Eine junge Frau wurde in der Nähe eines entlegenen Dorfs zerstückelt vorgefunden. Die Dorfbewohner planen eine Jagd, um die Frau zu rächen, doch das wird zweifellos zu noch mehr Chaos und Blutvergießen führen. Bei der Jagd auf ein Monster ist es manchmal vielleicht ratsam, selbst ein {color=hint}Monster{color=base} dabeizuhaben.
+miss-06-desc=Die {Vangals} und größere Kreaturen im Hochland in der Nähe von {Centina} werden immer kühner. Wenn wir nicht bald ein paar von ihnen erlegen, werden ihnen die lokalen Farmen zum Opfer fallen. Ich brauche jemanden, der sich in die {color=hint}Wildnis{color=base} wagt, diese Bestien {color=hint}aufspürt{color=base} und einige von ihnen erlegt.
+miss-07-desc=Fliegende Monster und andere schreckliche Bestien machen wieder Probleme. Sie schnappen sich Schafe, Hunde und sogar Farmausrüstung, wobei sie Letzteres aus reiner Gehässigkeit zu zerstören scheinen. Dämme diese Bedrohung ein, {Arbiter-female}, bevor noch ein Kind von diesen Monstern entführt wird.
+miss-08-desc=Ich konnte einen hartgesottenen Veteranen dazu überreden, zurückzukommen und einige deiner Rekruten auszubilden. {Greely} ist aber ein verschrobener, alter Bastard, also bleibt das vermutlich ein einmaliges Angebot. Wähle alle aus, die am meisten von seiner jahrzehntelangen Erfahrung profitieren können, dann legen wir los.
+miss-09-desc=Berichten zufolge sollen {Sigil}.Mitglieder einen alten Tempel vorübergehend als Treffpunkt für ihre verräterischen Machenschaften verwenden. Wir konnten sie noch nicht auf frischer Tat ertappen, aber vielleicht hast du mehr {color=hint}Glück{color=base} als deine Vorgänger.
+miss-10-desc=Wie oft triffst du einen schnellen Feind aus der Ferne? Wie sieht es mit fliegenden Feinden aus? Mit diesen Übungen kannst du deine physischen Reflexe und Fernkampffähigkeit verbessern und sie sind vor allem für {color=hint}Monster{color=base}-Einheiten nützlich. Ein Profi-{color=hint}Scharfschütze{color=base} wäre auch eine gute Wahl. Bereite dich auf eine Herausforderung vor.
+miss-11-desc=Laut einem Informanten hat sich eine kleine Gruppe Verbrecher hier in einem Tempel verschanzt. Das werden wohl die üblichen Wegelagerer und Verbrecher sein, für eine {Arbiter}in und ihre Crew also reine Routinearbeit. Ich würde eine {color=hint}verstohlene{color=base} Herangehensweise vorschlagen, damit dir diese Typen nicht durch die Lappen gehen.
+miss-12-desc=Vor Kurzem wurde ein Schlachthof von einem Ding ... mit einem gewaltigen Appetit geplündert. Niemand konnte einen genauen Blick auf das Monster erhaschen, außer vielleicht der Lehrling, der davon verschlungen wurde. Doch der wirklich seltsame Teil kommt erst: Ein Mann soll kurz nach dem Vorfall eine geflügelte Bestie vom Ort des Geschehens weggeführt. Versuche {color=hint}verstohlen{color=base} herauszufinden, was dieser Mann weiß.
+miss-13-desc=Ein Hirte auf dem Hügel berichtete von Gesängen und regem Treiben bei diesem alten Tempel. Anscheinend hat sich dort eine kleine Gruppe von Kultisten niedergelassen. Ruf deine Leute zusammen und schaff diese Kultisten von dort weg. Das sollte ein angemessenes Training für deine Führungsfertigkeiten sein.
+miss-14-desc=Verstörende Gerüchte erzählen von Toten, die nachts über die Hügel wandeln. Ich habe die Sache anfangs als Gefasel gelangweilter Farmer abgetan, bis jüngst einige leere Gräber gefunden wurden. Sollte es sich hier wirklich um Untote handeln, dann schlage ich den Einsatz {color=hint}heiliger Magie{color=base} oder {color=hint}arkaner{color=base} Kräfte vor, um dieser Nekromantie entgegenzuwirken.
+miss-15-desc=In der tiefen {color=hint}Wildnis{color=base} erzählt man sich jüngst von ungewöhnlichen Phänomenen: Beschwingte Stimmen in einer unbekannten Sprache sind in den Bäumen zu hören, und verschollene Bewohner, die nach Tagen ohne Erinnerungen über das Geschehene zurückkehren. {color=hint}Heilige Magie{color=base} sollte sich gegen diesen Frevel, der den Wald befallen hat, bezahlt machen.
+miss-16-desc=Ich habe einen Auftrag für dich. Er ist zwar weder besonders aufregend noch romantisch, aber irgendjemand muss ihn erledigen. Einige unserer Farmer brauchen jemanden, der die letzte Erntelieferung vor den Kreaturen der Felder und des Waldes beschützt. Angesichts der fliegenden Monster, die da draußen lauern, wäre ein guter {color=hint}Scharfschütze{color=base} bestimmt nicht verkehrt.
+miss-17-desc=Eine kleine Gruppe von Minenarbeitern wurde von ziemlich hartnäckigen Monstern aus ihrem Lager vertrieben. Warum versammeln sich so viele von ihnen und warum belästigten sie ein paar harmlose Minenarbeiter? Wenn man den Beweggrund eines Monsters deuten möchte, dann sollte man am besten selbst ein {color=hint}Monster{color=base} mitbringen.
+miss-18-desc=Ein Waldläufer braucht Hilfe bei einem seiner Projekte. Die Monster in der Nähe seines Dorfes müssen zurückgeschlagen werden. Den Jungen der Monster darf dabei aber nichts passieren, da er sie mit nach Hause nehmen möchte, um herauszufinden, welche Monster man zähmen kann.
+miss-19-desc=Eine alte Kräuterkundige möchte, dass jemand ihre Route kontrolliert, bevor sie und ihre Lehrlinge sich ans Sammeln machen.
+miss-20-desc={Arbiter} {lancaster} braucht wieder deiner Hilfe. Ein schreckliches Unheil macht den Waldläufern, Reisenden und selbst den Pilzsammlern in der Nähe der Brücke zu schaffen. Zum Glück ist es noch zu keinen Todesfällen gekommen, aber es gibt viele Verletzte. Hört sich nach einer Arbeit für ein genauso grausames {color=hint}Monster{color=base} an, das noch dazu der {color=hint}Heilung{color=base} kundig ist.
+miss-21-desc=Es scheint, als höre jemand nach Einbruch der Dunkelheit Stimmen und seltsame Lichter zwischen den Steinen. Die Bewohner haben Angst und die Farmer drohen zu streiken, bis die {Guild} weiß, was da vor sich geht. Ich habe schon mehrere Gruppen hingeschickt, doch niemand konnte bis jetzt etwas finden. Also, viel {color=hint}Glück{color=base}!
+miss-22-desc=Hast du jemals von einer Karawane gehört, die alle Waren pünktlich abliefert, ohne unterwegs auf schlechtes Wetter, Wegelagerer oder sonstige Probleme zu stoßen? Ich auch nicht. Du musst diese Route patrouillieren, damit den Händlern und Reisenden nichts passiert.
+miss-23-desc=Unsere Farmer können endlich wieder von einer reichhaltigen Ernte sprechen! Aus diesem Grund brauchen sie aber Hilfe bei der Warenlieferung zum Markt, damit ihnen weder Monster noch Räuber auflauern.
+miss-24-desc=Diese Halsabschneider sind motivierter als die meisten ihrer Sorte. Irgendein Neureicher soll allen, die sich ihm anschließen, viel Geld versprechen. Wie es aussieht, blieb es dieses Mal aber nicht bloß bei Versprechungen. Im Moment befindet sich eine Gruppe von diesen Typen in der {color=hint}Stadt{color=base}. Gehe zu ihnen und mische sie auf.
+miss-25-desc=Eine Gruppe wilder Kreaturen terrorisiert die Leute in dieser Region. Ich glaube, dass sie sich tagsüber in einer Höhle bei den Wasserfällen befinden. Wenn ich du wäre, würde ich sie mit einem {color=hint}Monster{color=base} aufspüren.
+miss-26-desc=Es gibt wieder Probleme bei den Wasserfällen. Es wurden bereits einige Leute getötet und laut den Einwohnern sollen sich dort Dämonen herumtreiben. Diesmal scheint es sich nicht um gewöhnliche Monster zu handeln, weshalb du eine starke Gruppe zusammenstellen solltest. Ich schlage vor, deine {color=hint}stärkste{color=base} Einheit zum Anführer zu machen.
+miss-27-desc=Neulich ist es in diesem Gebiet zu mehreren gut organisierten Raubüberfällen gekommen. Diese Gruppe ist aber nicht auf Schmuck oder andere Wertsachen aus, sie haben es vielmehr auf Getreidespeicher und Molkereien abgesehen. Ich glaube, dass {Sigil} dahintersteckt. In der Nähe dieses Tempels wurden ungewöhnliche Aktivitäten festgestellt, doch von den Verbrechern fehlt bisher jede Spur. Wenn du sie nicht verscheuchen willst, wäre ein {color=hint}menschlicher{color=base} Anführer eine gute Wahl.
+miss-28-desc=Ich habe eine Anfrage direkt von deinem alten Freund {name-goodarbiter} erhalten. „Ich suche das Küchenmädchen eines Adeligen. Ich wollte mit der Herrin des Mädchens sprechen, doch sie scheint verreist zu sein. Ein Zeuge soll aber gesehen haben, wie das verschollene Küchenmädchen von einer mit Kapuze bekleideten Gestalt vom Anwesen weggeführt wurde. Meiner Meinung nach sind {color=hint}Offensivzauber{color=base} genau das Richtige gegen unheilvolle Gestalten mit Kapuze.“
+miss-29-desc=Eine kleine Karawane hat hier einen Umweg gemacht, um einen schlecht befahrbaren Pfad auszuweichen. Leider war genau das ihr Ende. Der einzige Überlebende ist zu erschüttert, um etwas zu sagen, aber irgendetwas Schreckliches - ein {Harvester} oder ein anderer Dämon - scheint grausame Wunden zu verursachen. Gegen solch unflätige Kreaturen wäre ein {color=hint}Monster{color=base} und ein {color=hint}Heiler{color=base} äußerst nützlich, sollte etwas nicht nach Plan verlaufen.
+miss-30-desc=Nachdem wir die Banditen in der Stadt angegriffen haben, hat sich der Rest von ihnen in die Wildnis zurückgezogen. Ich empfehle einen {color=hint}Fährtenleser{color=base} an deiner Seite. Ich bin zuversichtlich, dass wir ihnen überlegen sind, aber diese Banditen scheinen klüger zu sein als andere.
+miss-31-desc=Unsere Karawanen wurden schon des Öfteren in diesem Gebiet angegriffen, sei es von Bestien, Banditen, {Sigil} oder Zauberern. Alle wollen ein Stück vom Kuchen haben. Ich will für diese besonders wertvolle Lieferung die höchstmöglichen Sicherheitsvorkehrungen treffen, denn ein Angriff ist so sicher wie das Amen im Gebet. Da wir nicht genau wissen, womit wir es zu tun bekommen, wärst du mit einem {color=hint}vielseitigen{color=base} Anführer auf der sicheren Seite.
+miss-32-desc=Ich konnte es zuerst kaum glauben, aber zwei seltsame Kreaturen, ein {Vangal-colored} und ein {Therva}, beide schwarz wie die Nacht, haben in der Nähe von {Centina} Zauberern aufgelauert. Noch wurde niemand ernsthaft verletzt, aber alle Augenzeugen sind kurz nach dem Aufeinandertreffen krank geworden. {color=hint}Dunkle Magie{color=base} sollte man am besten mit dunkler Magie bekämpfen. Wenn das nicht klappt, könnten vielleicht {color=hint}arkane{color=base} Mächte das Problem lösen.
+miss-33-desc=In den Städten tummeln sich immer Landstreicher und Taschendiebe, doch am {Oldebzar}-Markt ist es besonders schlimm. Die Verantwortlichen in der Stadt scheinen das Problem nicht in den Griff zu bekommen und wissen auch nicht, wo sie herkommen. Ich denke mal, dass ein {color=hint}Krämer{color=base} die richtige Person wäre, um sie aufzuspüren.
+miss-34-desc=Detektiv {name-goodarbiter} hat Neuigkeiten über seinen jüngsten Fall: „Irgendetwas erschien mir von Anfang an seltsam und jetzt weiß ich, was es ist. Der Adelige hatte eine Affäre mit dem Küchenmädchen und seine Frau, die sich in dunkler Magie versucht, hat das Mädchen entführt! Ein verdächtiger Brief der Frau hat ihren Aufenthaltsort preisgegeben: einen verborgenen Turm. Ich habe mich ein wenig umgesehen und war von den magischen Schutzvorrichtungen wortwörtlich geschockt! Vielleicht könnte uns hierbei ein {color=hint}arkaner{color=base} Experte behilflich sein.“
+miss-35-desc=Mein Verdacht hat sich bestätigt. Der von dir aufgespürte Mann ist tatsächlich ein {Marked} namens {miss-marked-male-name} und sein blutrünstiges Haustier ist ein {arpia}. Sprich mit ihm und bitte ihn darum, sein {monster} an eine kürzere Leine zu nehmen. Nimm jemanden mit, der sich mit {color=hint}heiliger Magie{color=base} auskennt, sollte diese Kreatur plötzlich Appetit bekommen.
+miss-36-desc=Eine {samurai}-Schule bittet um die Hilfe eines {arbiter}s. Eine ehemalige Schülerin scheint abtrünnig geworden zu sein und ist versessen darauf, den Meister zu ermorden. Sie droht, die Schule anzugreifen und alle zu töten, wenn sie ihrer Forderung nicht nachkommen. Die Schule bittet ausdrücklich um einen {color=hint}menschlichen{color=base} Anführer für diese Mission und ich würde jemanden vorschlagen, der sich mit den {color=hint}höfischen Gepflogenheiten{color=base} auskennt, wie zum Beispiel ein {knight}, eine {princess} oder dergleichen.
+miss-37-desc=Eine widerliche {Arpias}-Plage hat sich am Viehbestand zu schaffen gemacht und belästigt das gemeine Volk in dieser Region. Aus irgendeinem Grund haben sie einen besonderen Hass gegen Männer entwickelt. Wenn du diese Bestien hervorlocken möchtest, solltest du einen {color=hint}Mann{color=base} als Anführer für diese Mission wählen.
+miss-38-desc=Die Nekromantie zeigt wieder ihre verweste Fratze! Ich weiß nicht, wer für die wandelnden Toten verantwortlich ist, aber hier wir dringend ein {arbiter} benötigt, um die Untoten schnell wieder ihrer letzten Ruhe zuzuführen.
+miss-39-desc=Diese Straße wird von einem Erdrutsch blockiert, der viele helfende Hände benötigt, um entfernt zu werden. Diese Tätigkeit mag für einen {arbiter} unpassend erscheinen, aber für die Einheimischen ist sie von größter Wichtigkeit. {color=hint}Rohe Kraft{color=base} wäre auf dieser Mission nicht verkehrt.
+miss-40-desc=Für die Patrouille in dieser abgelegenen Region wäre wohl kein {arbiter} vonnöten, aber die {Guild} muss allen Bürgern dienen.
+miss-41-desc=Ein paar Bauern bitten im Kampf gegen geflügelte Feinde wie {Ercinees}, {Arpias} und dergleichen um die Hilfe eines {arbiter}s. Die Kreaturen sind darüber hinaus beim Schloss eines Herzogs gesehen worden, also solltest du jemanden mit {color=hint}höfischem{color=base} Wissen, etwa einen {lord} oder {templar}, dorthin entsenden. Angesichts der Art des Feindes wäre es auch kein Fehler einen Anführer zu wählen, der die Fähigkeit hat zu {color=hint}fliegen{color=base}.
+miss-42-desc=Dieses Gebiet wurde kürzlich von einem für diese Berge ungewöhnlich schweren Erdbeben überrascht. Die Dorfbewohner in der Nähe berichten von einer großen Höhle, die sich nach den Erschütterungen geöffnet haben soll, und möchten sichergehen, dass nichts Unheilvolles aus ihr dringt. In diesem Gebiet sollen sich stark gepanzerte {Tangrel}s herumtreiben, also empfehle ich einen äußerst {color=hint}starken{color=base} Anführer für diese Mission.
+miss-43-desc=Ich habe hier eine einzigartige Gelegenheit für dich. Einer unserer besten {arbiters}, {Moray}, wurde beauftragt, ein Netzwerk aus kleinen Höhlen zu säubern. Dort soll angeblich eine spezielle Pilzart wachsen, mit der man Krankheiten behandeln kann, doch da drinnen wimmelt es nur so von gefährlichen Monstern und anderen Teufeleien. Er hat angeboten, ein paar deiner Leute mitzunehmen. Für wen auch immer du dich entscheidest, wird davon stark profitieren.
+miss-44-desc=Jüngste Sichtungen eines Schiffs mit schwarzer Fahne kann nur eines bedeuten: Piraten sind wieder einmal in einen abgelegenen Naturhafen der Insel angelaufen. Finde diese Hochseeschurken und bereite ihren salzverkrusteten Machenschaften ein Ende!
+miss-45-desc=In diesem Tempel befindet sich ein Relikt von höchster Wichtigkeit, weshalb sich wohl eine Gruppe skrupelloser, verdorbener Zauberer daran vergreifen wollte. Die Gefolgsleute des Tempels sind glücklicherweise unversehrt davongekommen. Du benötigst jemanden mit {color=hint}dunkler Magie{color=base}, um diese Zauberer zu besiegen.
+miss-46-desc=Drei schreckliche Kreaturen, ein {Arpia}, ein {Ercinee} und ein {Niwot} haben ihre süßen Gesänge vereint, um ein Dutzend Einwohner in ihren Tod zu locken. Bis jetzt konnte niemand diesen übernatürlichen Rufen widerstehen. Fliegende Feinde setzen einen {color=hint}fliegenden{color=base} Anführer voraus, wobei jemand mit mächtiger {color=hint}Offensivmagie{color=base} natürlich auch nicht schaden würde. Lass bei dieser Mission größte Vorsicht walten, {Arbiter-female}.
+miss-47-desc=Dieser Mann lässt sich einfach nichts sagen. Da er durch seinen Status als {Marked} geschützt ist, kann {miss-marked-male-name} die Gilde ignorieren und seine Bestie frei herumlaufen lassen. Aber angenommen, ein anderer {Marked}, der vielleicht auf den Namen {name-hero} hört, könnte sich der Sache annehmen. Sollte diese Person das Problem dauerhaft aus der Welt schaffen, dann hätte ich eine kleine Aufmerksamkeit für sie. Eine Hand wäscht die andere, sozusagen.
+miss-48-desc=Die {Guild} ist immer daran interessiert, neue Handelsrouten zu öffnen, und genau jetzt können wir genau das tun. Diese Region muss besser kartografiert werden. Doch sei vorsichtig, denn es sind bereits, ähm, unerfahrenere Kartografen spurlos verschwunden.
+miss-49-desc=Tanzende Lichter tief im Sumpf versetzen die Torfstecher in helle Aufregung! Doch jedes Mal, wenn sich jemand zu den Lichtern wagt, geschieht nichts Ungewöhnliches. Anscheinend ist hier {color=hint}Verstohlenheit{color=base} gefragt, um näher heranzukommen und mehr über das Phänomen zu erfahren.
+miss-50-desc=Ja, die Gerüchte stimmen. Die Piraten treiben entlang der Küste wieder ihr Unwesen. Ich habe Späher an drei strategischen Positionen platziert und ich brauche ein Team, wenn diese Kerle das nächste Mal an Land kommen. Diese Piraten müssen wissen, dass sie nicht ungeschoren davonkommen.
+miss-51-desc=Gute Neuigkeiten! Du kennst den ehemaligen Sergeant {Greely}, richtig? Er macht hier ein wenig Urlaub - er liebt die {Rakkerjaks}-Jagd und sammelt ihre Bälge - und wir sind ihm zufällig über den Weg gelaufen. Er hat die letzte Folterung, ich meine, Ausbildung deiner Rekruten sehr genossen, also möchte er es wieder tun! Was meinst du? Hast du noch ein paar Neulinge für diese „Ausbildung“?
+miss-52-desc=Eine Horde {Niwots} hat dieses kleine Dorf im Norden überrannt. Niemand weiß, warum sie dieses Gebiet so stark anzieht. Ist es die hiesige Flora? Sind sie vielleicht Pflanzenfresser? Jedenfalls zerstören diese Monster Töpferwaren und dergleichen und sorgen mit ihrem seltsamen Gesang für schreckliche Kopfschmerzen bei den Bewohnern. Ich brauche einen {arbiter} und seine Leute, die sie verscheuchen. Nimm jemanden mit, der {color=hint}heilen{color=base} kann, wenn du keine lauten Geräusche magst.
+miss-53-desc=Ich habe gute und schlechte Neuigkeiten. Die Fischer in der Nähe des Fjords haben in dieser Saison sehr viele Fische gefangen. Leider tauchen immer wieder Monster im Hafen auf, wenn sie mit ihrem Fang anlegen. Ihre Arbeit ist ohne dieses Problem schon gefährlich genug. Kannst du dort jemanden hinschicken, der ihnen hilft?
+miss-54-desc=Das ist eine merkwürdige Geschichte. Die Frauen beim Hafen beschweren sich über eine Kreatur oder Kreaturen, die nachts vom Meer herkommen und ihnen nachstellen. Ich bräuchte ein {color=hint}weibliches{color=base} Mitglied deiner Crew, das dort eine Zeit lang verweilt und, ähm, diese Kreaturen zurechtweist.
+miss-55-desc=In dieser Region geht etwas Seltsames vor sich. Bei jedem Sturm wird ein zufälliger Einwohner auf der Straße von einem kleinen Wirbelsturm mitgerissen und irgendwo völlig durchnässt und unterkühlt abgesetzt. Ich glaube, es handelt sich hierbei um einen boshaften Geist. Um ihn zu fangen, wirst du ein wenig {color=hint}Glück{color=base} benötigen.
+miss-56-desc=Diese Banditen sind noch cleverer und widerstandsfähiger, als ich dachte. Während du sie durch die Wildnis gejagt hast, hat sich eine andere Gruppe in der {color=hint}Stadt{color=base} zusammengeschlossen. Zumindest wissen wir jetzt, wer sie anführt: {Lucky-Lebrice}. Wenn du ihn zur Rechenschaft ziehen willst, dann solltest du dafür sorgen, dass das {color=hint}Glück{color=base} auf deiner Seite ist.
+miss-57-desc={name-goodarbiter} scheint der Sache schon fast auf die Spur gekommen zu sein. „Die Hexe scheint einen Pakt mit einem Schwarm {MAL-01-Titles} geschlossen zu haben, die sowohl den Turm als auch den einzigen Zugang zur Spitze bewachen. Selbst wenn wir die Hexe besiegen können, müssen wir immer noch die magischen Schutzvorrichtungen umgehen. Ich glaube, ich habe dafür schon eine nüchterne Lösung gefunden: Wir {color=hint}reparieren{color=base} die Gondel, die früher einmal zum Eingang der Spitze führte. Und jetzt lasst uns das Mädchen befreien ihre Entführer in die Flucht schlagen!“
+miss-58-desc=Wir haben ein ernstzunehmendes Problem. Ein paar Kanalarbeiter wurden direkt unter den Straßen der {color=hint}Stadt{color=base} von einer riesigen, blutrünstigen {bzzerk} verjagt! Normalerweise kümmert sich eine Wache um einzelne Monster, aber bei diesem ist das anders. Ein {Bzil}-Farmer hat vor Jahrzehnten eine überdimensionale {bzzerk} großgezogen, die er {Zzarina} nannte. {Zzarina} soll auf einem von Piraten versenkten Schiff im Meer verschwunden sein. Doch jetzt ...
+miss-59-desc=Das Gerücht über einen gefundenen Goldklumpen hat viele arbeitslose Hilfsarbeiter in eine große Höhle gelockt, wodurch die Bewohner der Höhle ebenfalls aufgescheucht wurden. Du wirst dich {Tangrels} und möglicherweise auch {Bzzerks} stellen müssen. Nimm auf jeden Fall ein {color=hint}Monster{color=base} mit auf diese Mission. Wenn das nicht möglich ist, dann jemanden mit roher {color=hint}Kraft{color=base}, um diese Art Kampf zu überstehen.
+miss-60-desc=Eine Mitglied unserer Gruppe wurde von einer gefährlichen Gruppe {Kawa} entführt. Wenn wir sie wiedersehen wollen, müssen wir ihnen magische Artefakte geben. Da die {Guild} das Lösegeld auf keinen Fall zahlen wird, weißt du bestimmt, was als Nächstes passiert. Ein eigener {color=hint}Kawa{color=base} ist definitiv von Vorteil, oder eben ein anderes {color=hint}Monster{color=base}.
+miss-61-desc=Ich brauche jemanden, der dieses Gebiet für mich erkundet, damit ich die Lücken auf meinen Karten füllen kann. Wenn ich etwas nicht ausstehen kann, dann einen leeren Fleck auf einer Karte.
+miss-62-desc=Das wirst du nicht glauben, aber {Moray} ist zurück. Einer seiner Gefolgsleute wurde von einer mysteriösen Gruppe entführt, die sich im tiefen Dschungel aufhält. {Moray} hat wieder das großzügige Angebot gemacht, dass ihn ein paar Leute begleiten dürfen. Es ist unklar, wie gefährlich die Mission ist, aber sie wird zweifellos eine wahre Herausforderung und großartige Erfahrung für all jene, die an ihr teilnehmen.
+miss-63-desc=Wir benötigen eine Eskorte für eine Wüstenexpedition, die aus Archäologen, Kartografen und dergleichen besteht. Wenn wir diese gefährliche Gegend jemals zähmen wollen, müssen wir sie zuerst gründlich auskundschaften. Die Gruppe wäre mit einem {color=hint}menschlichen{color=base} Anführer sehr zufrieden, und angesichts der Umgebung wäre wohl jemand mit {color=hint}vielseitigen Fertigkeiten{color=base} vonnöten.
+miss-64-desc=Es ist fast unmöglich, diese Banditen aufzuspüren, aber wir sind ihren Anführern schon auf der Spur. Sie sind zahlreich und gefährlich, weshalb ein {color=hint}arkaner{color=base} Magier eine gute Wahl wäre, um ihnen entgegenzuwirken. Langsam habe ich das Gefühl, dass {Lucky-Lebrice}s Glück ein Ende nimmt.
+miss-65-desc=Kannst du dich noch an Sergeant {Greely} erinnern? Natürlich kannst du das! Wenn nicht, dann frag einfach deine verletzten und angeschlagenen Rekruten. Wie dem auch sei, {Greely} ist vor Kurzem aus der Wüste zurückgekehrt, in der er nach Dämonen gesucht hat. Er behauptet, während seiner Mission einen wunderbar leblosen und unwirtlichen Ort gefunden zu haben, der sich ideal für ein weiteres Training eignen würde. Das ist die perfekte Gelegenheit für die alle Weicheier in deinem Team.
+miss-66-desc=Es ist schrecklich! Ein Lehrer an der Schule für junge {Kawas} in der Stadt hat sich wieder volllaufen lassen und ist daraufhin davonspaziert. Die Kinder sind in alle Ecken der Stadt ausgerissen, auf Gebäude geklettert, haben Apfelkarren umgestoßen und anderen Schabernack getrieben. Es werden einige Leute nötig sein, um sie wieder einzufangen, ehe sie noch mehr Schaden anrichten.
+miss-67-desc=In letzter Zeit sind mehrere {Kawa}-Magier verschollen, und das immer mitten in der Nacht. Jeder weiß, dass sie sich von Zeit zu Zeit verirren, doch irgendetwas stimmt hier nicht. Gerüchten zufolge soll es unter der Stadt versteckte Orte geben - tiefe Krypten, noch aus der Zeit vor den {Kawa}. Dort sollen um Mitternacht widerliche Kreaturen ihr Unwesen treiben. Es wäre schlau, das jemanden erledigen zu lassen, der geschickt im Umgang mit {color=hint}dunkler Magie{color=base} ist.
+miss-68-desc=Ein {Kawa}-Auszubildende ist ohnmächtig geworden, als sie ein uraltes Zauberbuch durchblätterte. Wir wissen nicht, wo sie diesen modrigen Folianten gefunden hat, und die im Buch geschriebenen Hieroglyphen sind unentzifferbar. Wir wissen nur, dass die Stimme eines uralten Wesens durch sie spricht und verlangt, das Buch irgendwo außerhalb der Stadt zu einem Schrein zu bringen. Wie du die Sache auch immer angehst, du solltest jemand mitnehmen, der {color=hint}heilen{color=base} kann, um bei der Genesung der Auszubildenden zu helfen.
+miss-69-desc=Reisende und Händler haben wieder davon berichtet, dass dieser Pfad im hohen Gebirge blockiert ist. Einigen Berichten zufolge soll es sich hierbei um einen Erdrutsch, wilde Tiere oder Kreaturen auf zwei Beinen handeln. Da die Einwohner vor Monstern Angst haben, solltest du einen {color=hint}menschlichen{color=base} Anführer mitbringen. Ich würde dir für dieses Vorhaben auch noch {color=hint}Offensivmagie{color=base} nahelegen.
+miss-70-desc=Ein Dorf, das hoch oben in den Bergen an steinigen Hängen gelegen ist, wurde unter Felsen begraben. Die Verhältnisse dort oben sind nicht gerade berauschend. Sie brauchen Medizin, Vorräte und Hilfe, um vorübergehende Schutzräume zu graben.
+miss-71-desc=Ein atemloser {Kawa} hat uns vorhin erzählt, dass eine Gruppe seiner Freunde, die auf den Hängen Pilze sammeln wollten, von einem Rudel {Vangals} angegriffen wurde. Sie konnten sich zum Glück auf ein paar hohen Felsen in Sicherheit bringen. Töte alle Bestien in diesem Gebiet und bring einen {color=hint}Heiler{color=base} mit, um die Verwundeten zu behandeln.
+miss-72-desc=Hast du schon mal von einem Wechselbalg gehört? Feen geben einem neugeborenen Menschenkind, das sie mit einer alten Fee tauschen, diesen Namen. Das soll sich zumindest in diesem Dorf zugetragen haben. Ich weiß, dass die Feen nicht wirklich gefährlich sind, aber man braucht eine Menge {color=hint}Glück{color=base}, um sie zu finden.
+miss-73-desc=Zwei Adelige, Daindridge und Morrowgloom, haben einen Disput wegen einer noch unbedeutenderen Adeligen. Beide behaupten, sie sei ihre Geliebte. Da die Herrschaftsgebiete der zwei Adeligen von strategischer Wichtigkeit sind, braucht es einen kühlen Kopf, um sie davon abzuhalten, ein Duell auszufechten. Du benötigst jemanden mit {color=hint}höfischer Intrige{color=base}, um diesem Schlamassel Herr zu werden.
+miss-74-desc=Eine junge Frau, die in einem lokalen Herzogtum dient, wurde der Hexerei bezichtigt, als ein Adeliger unter ihrer Aufsicht an einem Fieber starb. Das gemeine Volk hält sie für eine talentierte Heilerin, doch die Familie des Adeligen will ihr Blut sehen. Mir wurde gesagt, dass die junge Frau aufgrund der Anschuldigen völlig am Boden zerstört ist, also wäre eine {color=hint}Anführerin{color=base} am besten geeignet, um sie zu beruhigen und der Sache auf den Grund zu gehen.
+miss-75-desc=Ein paar Nichtsnutze stiften das gemeine Volk dazu an, gegen die Behörden vorzugehen. Das stinkt förmlich nach {Sigil}-Mitgliedern. Wir haben eine Wache entsendet, um einige von ihnen zu verhaften, doch sie wurde von Zaubern zurückgeschlagen. Nimm jemanden mit {color=hint}Offensivmagie{color=base} mit und bring diese Schurken hierher, damit wir sie verhören können.
+miss-76-desc=Eine sich ständig vermehrende Brut Monster verbreitet in diesem Gebiet Chaos. Sie zertrampeln die Feldfrüchte, verschlingen Nutztiere und terrorisieren die Milchmädchen. Ihre gewaltige Zahl deutet darauf hin, dass sie sich gerade in Paarungszeit befinden. {color=hint}Rohe Kraft{color=base} ist das Einzige, was diese Art von Feind versteht.
+miss-77-desc={Arbiter-female}, diese Mission ist von äußerster Dringlichkeit. Ein gefährlicher {Blardger}, der noch dazu unglaublich groß sein soll, hat Kinder aus {Gelligh} entführt. Er scheint Frauen aufzulauern und manchmal sogar die Kinder direkt den Armen der Mütter zu entreißen. Hier wäre ein {color=hint}Fährtenleser{color=base} gut, um diesen Scharlatan zu vernichten, oder eine {color=hint}Frau{color=base}, um ihn herauszulocken.
+miss-78-desc={Raife} scheint ein Tagebuch in seinem Besitz gehabt zu haben, das jedoch von einem kniffligen Schutzmechanismus geschützt wird. Die Informationen darin sind bestimmt unbezahlbar, wenn er sich die Mühe gemacht hat, sie so gut zu verbergen! Laut einem Informanten bewahrt {Raife} die Lösung des Problems in einem {Sigil}-Lager in der Nähe auf. Zu unserem Glück wissen nur die wenigsten, dass ihr Anführer nicht mehr hier ist. Ein {color=hint}Anführer{color=base} mit {Raife}s Umhang lässt dich bestimmt unbemerkt am Buch {color=hint}herumhantieren{color=base}.
+miss-79-desc=Ein gewisser Naturkult hat in diesem Gebiet, anstatt die Lehren des Waldlebens zu predigen, {mapname-Temple01-city} und {mapname-City01} in Brand gesetzt. Sie behaupten, dass der „gehörnte Gott“ sie dazu aufgefordert habe. Du brauchst jemanden, der genauso viel über diese {color=hint}Wildnis{color=base} weiß wie diese Kultisten, und da sie auch noch gekonnte Bogenschützen sind, wäre dein eigener {color=hint}Scharfschütze{color=base} auch von Vorteil.
+miss-80-desc=Ein winziges Dorf von Reisbauern außerhalb von {mapname-town2} kann aufgrund eines pulsierenden violetten Verderbnis keinen Reis mehr ernten. Diese Krankheit stellt selbst die Experten vor ein Rätsel, auch wenn sie sich alle einig sind, dass es sich dabei um {color=hint}dunkle Magie{color=base} handeln muss. Der einzige Hinweis sind die Schwanzspuren eines riesigen {RAK-01-Title}s. {Rakkerjaks} fressen weder Getreide noch sind sie dafür bekannt, Feldfrüchte zu zerstören. Also, was es auch immer ist, {color=hint}spüre es auf{color=base} und kümmere dich darum!
+miss-81-desc=Eine große Gruppe {Bulldrakes} hat auf der Verbindungsstraße zwischen {mapname-Desert01} und {mapname-coastal01} eine Kolonie errichtet. Da sie sich nun niedergelassen haben, blockieren endlose Elementarstürme die Straße. Schalte zuerst den dominanten {Bulldrake}n aus, damit die anderen Angst bekommen. Ich schlage für dieses heikle Problem einen Anführer mit {color=hint}mehreren Fertigkeiten{color=base} sowie einen {color=hint}Heiler{color=base} für etwaige Verletzungen vor.
+miss-82-desc=Hiesiger Folklore zufolge erscheinen irgendwo im Land während jeder {Marked}-Pilgerreise vier mythische {Pektites}, und diesmal wurden sie in der Nähe von {mapname-coastal01} gesehen! Das hat {name-Partner} auf die Idee eines bekannten Konfitürerezepts gebracht, das genau diese Kreaturen als Zutat benötigt. Er will sie jagen und ein legendäres Dessert für die Feier zaubern. Mit einer {color=hint}verstohlenen{color=base} Herangehensweise und {color=hint}Offensivmagie{color=base} solltest du den Kampf gegen diese schmackhaften Bestien gewinnen.
+miss-83-desc=Ein betrügerischer {Kawa}-Händler namens {hunt-monster-kawa} - selbst sein Name klingt betrügerisch - hat in der {color=hint}Stadt{color=base} im Namen von {name-kawamerchant} minderwertige Waren verkauft. Diese Waren sind so minderwertig, dass sich einige Kunden sogar an ihnen verletzt haben! {name-kawamerchant} kann sich natürlich immer neue Kunden holen, aber sein Ruf ist dadurch für immer geschädigt. Wähle einen {color=hint}menschlichen{color=base} Anführer, um {hunt-monster-kawa} zuvorzukommen.
+miss-84-desc=Einer {Kawa}-Legende zufolge gibt es einen Helden, der das Land vor ein paar wütenden {monsters}n gerettet haben soll, indem er sie in einem Vulkan versiegelt hat. Jahrhunderte später scheint diese Geschichte wahr geworden zu sein. Die Kreaturen haben sich zu Beginn der {Marked}-Pilgerreise von ihren Fesseln befreit. Versammle deine {color=hint}stärksten{color=base} Kämpfer und halte sie auf, ehe sie ihre volle Stärke wiedererlangen und alles in Schutt und Asche legen!
+miss-85-desc=Das Erwachen des {ancient-beast}s hat wilde Magie freigesetzt und viele seltsame Ereignisse ausgelöst, vor allem in der Nähe von Tempeln. {Bzil}-Späher sollen nach einer gewaltigen und unerklärlichen Energieexplosion in {mapname-Templeoutside03} einen Kampf zwischen Dämonen beobachtet haben. {color=hint}Heilige Magie{color=base} und das {color=hint}arkane{color=base} Mächte sind ein guter Schutz gegen interdimensionale Feinde. Schau dir die Sache genauer an und finde heraus, was hinter diesem bizarren Konflikt steckt.
+miss-86-desc=Eine Horde {Zotzits} hat einen Schwarm gebildet! Das ist kein gewöhnliches Verhalten für diese Kreaturen, doch seit dem Erwachen des {ancient-beast}s geschehen tagtäglich solche Dinge. Sie scheinen von einer Art „Bienenkönigin“ kontrolliert zu werden, die bisher immer entkommen und mit weiteren Untergebenen zurückgekehrt ist. Lass uns {color=hint}fliegende Monster{color=base} mit fliegenden Monstern bekämpfen und wenn wir {color=hint}Glück{color=base} haben, besiegen wir die Königin vielleicht ein für alle Mal!
+miss-87-desc={mapname-coastal02} wurde ständig von Drachen heimgesucht, ehe die Menschen Jagd auf sie machten. Man erzählt sich, dass die Kreaturen zurückgekehrt sind. Einige Bewohner behaupten, Drachen hoch über den Schiffen im Hafen gesehen zu haben. Ich möchte, dass deine Leute dorthin {color=hint}fliegen{color=base} und der Sache nachgehen. Vielleicht hatten die Bewohner ja auch nur ein bisschen zu viel Rum.
+miss-88-desc=Die Kanalarbeiter der {mapname-sewer01} wurden von ein paar besonders aggressiven {KNI-01-Titles}n vertrieben. {KNI-01-Titles} sind, wie der Name schon vermuten lässt, kleine, zustechende Biester. Gehe in die {color=hint}Stadt{color=base} und versuche, dich an sie {color=hint}heranzuschleichen{color=base}. Nimm einen {color=hint}Heiler{color=base} mit, um etwaige Wunden heilen zu können.
+work-tierup=Neue Stufe
+work-tierup-desc=Erhöhe die Basisstufe der Monsterklasse für höhere Basis- und Widerstandswerte.
+work-variantbase={Variant}-Körper
+work-variantbase-desc=Gewährt diverse Boni, wenn diese {variant} als Haupt-{variant} eingesetzt wird.
+heals-all-allies-scaling=Stellt je nach Entfernung {powerratio} bis {power3ratio} {hp} des Elements {elem} ({dmgsource}) bei allen Gegnern auf der Karte wieder her.
+pet-header=Tiere
+badg-allows-mst-access=Gibt einem {monster} Zugang zur
+badg-06-name=Giftserum
+badg-06-desc={badg-allows-mst-access} „{var-ven-title}“-{variant}.
+badg-07-name=Pelzkäferserum
+badg-07-desc={badg-allows-mst-access} „{var-ske-title}“-{variant}.
+badg-08-name=Klauenserum
+badg-08-desc={badg-allows-mst-access} „{var-fer-title}“-{variant}.
+badg-09-name=Dornenserum
+badg-09-desc={badg-allows-mst-access} „{var-tho-title}“-{variant}.
+badg-10-name=Flügelserum
+badg-10-desc={badg-allows-mst-access} „{var-aer-title}“-{variant}.
+badg-11-name=Tyrannenserum
+badg-11-desc={badg-allows-mst-access} „{var-tyr-title}“-{variant}.
+badg-12-name=Strahlendes Serum
+badg-12-desc={badg-allows-mst-access} „{var-wrd-title}“-{variant}.
+badg-13-name=Grausames Serum
+badg-13-desc={badg-allows-mst-access} „{var-fel-title}“-{variant}.
+badg-14-name=Drachenserum
+badg-14-desc={badg-allows-mst-access} „{var-drake-title}“-{variant}.
+variant-req-no-drake=Kein anderer {0} als Einheit
+variant-req-special=Spezial
+end-of-turn-lowhp-buffs={hp}-{buffs} ({critical-hp}) von der Ausrüstung
+var-aer-title=Luftgebunden
+var-aer-ability=Luftbombe
+var-aer-desc=Diese Mutation gewährt einem {monster} die Kraft des Fliegens und dadurch zusätzliche Beweglichkeit auf dem Schlachtfeld.
+var-aer-acc=Flügel
+for-every-tile-moved-append=für jedes Feld, über das sich der Charakter in dieser Runde bewegt hat
+var-aer-a1=Sturzflug
+var-aer-a1-desc=Der Charakter springt an den Zielort ({note-cannot-be-water-tile}) und verursacht {powerratio} Schaden des Elements {elem} ({dmgsource}) bei Zielen in einem Bereich von {size} um sich herum. {cannot-be-used-if-notargets}
+var-aer-a2=Wirbelwind
+var-aer-a2-desc={damage-around-caster-opener} und setzt alle Ziele auf zufällige Positionen. (Setzt die Ziele nie auf ein Wasserfeld)
+var-aer-p2=Greifvogel
+var-aer-p2-desc=Die Genauigkeit erhöht sich um {percent} (max. {harrieraccmax}), die Chance auf einen kritischen Treffer um {percent2} (max. {harriercritmax}) und die {debuffs}-Chance um {percent3} (max. {harrierdebuffmax}) {for-every-tile-moved-append}.
+var-alp-title=Rudelführer
+var-alp-ability=Anführer des Rudels
+var-alp-desc=Diese {monsters} haben sich auf dem Schlachtfeld bewiesen und sind innerhalb ihrer Art weit aufgestiegen.
+var-alp-acc=Nasenring
+var-alp-p1=Siegestanz
+var-alp-p1-desc=Wenn er einen Gegner niederstreckt, erhalten der Charakter und alle angrenzenden Verbündeten einen zufälligen {buff} (1-2), während angrenzende Feinde einen zufälligen {debuff} (1-2) erhalten.
+var-alp-p2=Herausforderer
+var-alp-p2-desc=Der Charakter erleidet {percent} weniger Schaden von einem Einzelzielangriff.
+var-cel-title=Göttlich
+var-cel-ability=Göttliche Inspiration
+var-cel-desc=Diese {monsters} sind Champions des Lichts und verfügen über heilige Kraft.
+var-cel-acc=Heiligenschein
+var-cel-p2-desc={SMED-P2-Desc} (Zusätzlich zu {SMED-P2}.)
+var-cel-a2=Weiße Klinge
+var-clo-title=Uhrwerk
+var-clo-ability=Vollmetallbestie
+var-clo-desc=Diese {monsters} aus Fleisch und Metall sind wahrlich zähe Widersacher.
+var-clo-acc=Metallgliedmaßen
+var-clo-a1=Reparaturen
+var-clo-a1-desc=Stellt beim Ziel {percent} {hp} wieder her.
+var-clo-p2=Koloss
+var-clo-p2-desc=Der erlittene Schaden bis zur nächsten Runde des Charakters wird {for-every-tile-moved-append}, um {powerratio} (max. {power2ratio}) verringert.
+var-cor-title=Korrumpiert
+var-cor-ability=Rasende Wut
+var-cor-desc=Der Verstand des {monster}s wird von einer dunklen Macht eingenommen, die es rasend vor Wut macht.
+var-cor-acc=Rote Augen
+var-cor-a2=Wilde Hiebe
+var-cor-p1=Schlaghagel
+var-cor-p1-desc=Wenn der Charakter von {status-berserk-icon}{negative-berserk} betroffen ist, greift er keine Verbündeten an und der ausgeteilte Schaden wird um {powerratio} erhöht.
+var-cor-p2=Ausgeglichenheit
+var-cor-p2-desc=Stellt {percent} der max. {hp} wieder her, wenn die meisten {buffs}/{debuffs} gebannt wurden oder abgeklungen sind.
+var-dft-title=Geschickt
+var-dft-ability=Geschick
+var-dft-desc=Diese {monsters} wurden trainiert, um Gegenstände zu manipulieren.
+var-dft-acc=Armbandagen
+var-dft-p1=Werkzeugnutzer
+char-can-use-items=Charakter kann {items} verwenden.
+var-dft-p1-desc={char-can-use-items} {PEDD-P1-desc}
+var-dft-c1=Wegstoßen
+var-dft-c1-desc=Kontert jede Angriffsaktion gegen den Charakter durch eine benachbarte Einheit mit „wegstoßender {regular-attack}“.
+var-drake-title=Drache
+var-dre-title=Erddrache
+var-dre-ability=Drachen-<sprite name="icon-element-earth">
+var-dre-desc=Diese {monsters} haben die Kraft uralter {spell-element-earth}-Drachen geerbt.
+var-dre-acc=Gegabelte Zunge (<sprite name="icon-element-earth">)
+var-dre-a1-desc=Verursacht „{regular-attack}“ auf das Ziel, gefolgt von einem {power2ratio} Zauber des Elements {elem} ({dmgsource}).
+var-dre-p1=Atemwaffe
+var-dre-p1-desc=Die Waffe des Charakters trifft jetzt einen kleinen kegelförmigen Bereich anstatt eines einzelnen Ziels.
+var-dre-c1=Durchstechen
+var-drf-title=Feuerdrache
+var-drf-ability=Drachen-<sprite name="icon-element-fire">
+var-drf-desc=Diese {monsters} haben die Kraft uralter {spell-element-fire}-Drachen geerbt.
+var-drf-acc=Gegabelte Zunge (<sprite name="icon-element-fire">)
+var-drt-title=Donnerdrache
+var-drt-ability=Drachen-<sprite name="icon-element-electric">
+var-drt-desc=Diese {monsters} haben die Kraft uralter {spell-element-thunder}-Drachen geerbt.
+var-drt-acc=Gegabelte Zunge (<sprite name="icon-element-electric">)
+var-drw-title=Wasserdrache
+var-drw-ability=Drachen-<sprite name="icon-element-water">
+var-drw-desc=Diese {monsters} haben die Kraft uralter {spell-element-water}-Drachen geerbt.
+var-drw-acc=Gegabelte Zunge (<sprite name="icon-element-water">)
+var-fel-title=Niederstrecken
+var-fel-ability=Kraft des Niederstreckens
+var-fel-desc=Der Einfluss des {ancient-beast}s hat diese {monsters} befallen.
+var-fel-acc=Tentakel
+var-fel-p1=Häuten
+var-fel-p1-desc=Wenn ein {debuff} abklingt, wird er auf alle angrenzenden Feinde übertragen. Wenn ein {buff} abklingt, wird er auf alle angrenzenden Verbündeten übertragen.
+var-fer-title=Wild
+var-fer-ability=Ungezähmt
+var-fer-desc=Diese {monsters} waren einst vielleicht zahm, doch jetzt haben sie sich ihrer wilden Seite völlig hingegeben. Ihre brutalen Klauen können verheerenden Schaden anrichten.
+var-fer-acc=Klauen
+var-fer-p1=Brutale kritische Treffer
+var-fer-p1-desc=Kritische Treffer wenden {addnegative} an. Die {skills} und {spells} des Charakters können dadurch kritische Treffer landen (falls der Charakter dies bereits kann, erhält er stattdessen einen Bonus von {ability-crit2x-bonus} % auf kritische Treffer).
+var-gua-title=Wache
+var-gua-ability=Schutzherrschaft
+var-gua-desc=Diese {monsters} konzentrieren sich auf den Schutz ihrer Verbündeten und auf die Bewegungseinschränkung ihrer Feinde.
+var-gua-acc=Weste
+var-gua-p2=Schutzwall
+var-gua-p2-desc=Die Bewegung der Feinde wird auf angrenzenden Feldern dieses Charakters gestoppt, es sei denn, sie befinden sich bereits auf diesen Feldern.
+var-gua-c1=Vorhut
+var-gua-c1-desc=Jeder Verbündete, der mit diesem Charakter von einem Angriff anvisiert wird, erleidet {percent} weniger Schaden. Die Menge an Schaden, die dadurch geblockt wird, zählt als Heilung des Charakters.
+var-hrn-title=Gehörnt
+var-hrn-ability=Wilde Wut
+var-hrn-desc=Die wilde Natur des Monsters hat sich weiterentwickelt und zeigt sich in Form von beeindruckenden Hörnern mit dem dazu passenden Gemüt.
+var-hrn-acc=Hörner
+var-hrn-a1=Bullenansturm
+var-hrn-a1-desc={damage-single-opener} und stößt es 1 Feld weg. Der Charakter wird sich direkt zum Ziel bewegen. {ignore-cover}
+var-hrn-p2=Zerreißer
+var-hrn-p2-desc=Jedes Ziel, das von diesem Charakter besiegt wurde, kann für die Dauer des Kampfes nicht wiederbelebt werden. {no-trigger-on-rebirth}
+var-myc-title=Mykonid
+var-myc-ability=Sporen
+var-myc-desc=Pilzsporen haben dem {monster} seltsame Kräfte verliehen.
+var-myc-acc=Pilz
+var-myc-a1=Streuspore
+var-myc-a2=Schlummerspore
+var-myc-p1-desc={HAR-02-P1-Desc} (Zusätzlich zu {HAR-02-P1}.)
+var-mys-title=Mystisch
+var-mys-ability=Mystik
+var-mys-desc=Diese {monsters} haben die magischen Wurzeln des Landes angezapft und sind zu starken Zauberern geworden.
+var-mys-acc=Drittes Auge
+var-mys-p1=Weitsicht
+var-mys-p1-desc={wp-staff-extra}
+var-sco-title=Späher
+var-sco-ability=Spähen
+var-sco-desc=Diese {monsters} sind schnell und wendig und warnen andere vor Gefahren.
+var-sco-acc=Zielfernrohr
+var-sco-a1=Behindernder Treffer
+var-sha-title=Schatten
+var-sha-ability=Schatten
+var-sha-desc=Diese {monsters} waren schwer verwundet und wurden von einem rätselhaften Anhänger gerettet. Seither wandeln sie in der Zwischenwelt der Lebenden und Toten.
+var-sha-acc=Schatten
+var-sha-p1=Ätherische Berührung
+var-sha-p1-desc=Beim Einsatz von „{regular-attack}“ verwendet der Charakter {mnd}*{powerratio} statt {atk}, wenn der resultierende Schaden höher ausfallen würde.
+var-sha-p2=Telekinese
+var-sha-p2-desc=Ausgerüstete Waffen erhalten +1 Reichweite.
+var-ske-title=Skelettartig
+var-ske-ability=Grabschleicher
+var-ske-desc=Diese knochigen Kreaturen haben einen magischen Trank aufgesogen, der ihnen einige untote Eigenschaften verleiht.
+var-ske-acc=Schädel
+var-ske-p1=Kraftentzug
+var-ske-p1-desc={regular-attacks} bannen alle {buffs} des Ziels.
+var-ske-p2=Verschlingen
+var-ske-p2-desc=Wenn der Charakter eine Einheit besiegt, stellt er {percent} seiner max. {HP} wieder her.
+var-spe-title=Flink
+var-spe-ability=Kinetische Kraft
+var-spe-desc=Diese {monsters} lassen aufgrund ihrer bloßen Geschwindigkeit alle anderen hinter sich.
+var-spe-acc=Staub aufwirbeln
+var-spe-a1=Schwung
+var-spe-p2=Autom. {haste-spell}
+var-syl-title=Bewaldet
+var-syl-ability=Heilung der Natur
+var-syl-desc=Natürliche Extrakte haben diese Wald-{monsters} zu mächtigen Heilern gemacht.
+var-syl-acc=Grüne Feinheiten
+var-syl-a2=Salbenkeim
+var-syl-p1=Heilende Berührung
+var-syl-p1-desc=Wird bei einem Verbündeten „{regular-attack}“ eingesetzt, wird er geheilt anstatt Schaden zu erleiden. Außerdem erhält er {addpositive}.
+var-tho-title=Dornig
+var-tho-ability=Stacheln
+var-tho-desc=Diese {monsters} haben für ihre Art ein relativ mildes Gemüt. Sie können jedoch hart zurückschlagen, wenn sie angegriffen werden.
+var-tho-acc=Stachelhalskette
+var-tho-a1=Dornenangriff
+var-tho-p1=Gegenschlag
+var-tho-p1-desc=Die {counters} des Charakters (inklusive Schaden von {status-thorns-icon}{positive-thorns}) verursachen {powerratio} zusätzlichen Schaden und {counters} mit einer um {power2} Runde/Runden längeren Dauer.
+var-tho-p2=Geheiligtes Bollwerk
+var-tho-p2-desc=Erhöht {def} um {percent} der {res} und erhöht {res} um {percent} der {def}.
+var-tyr-title=Tyrann
+var-tyr-ability=Gewaltherrschaft
+var-tyr-desc={var-TYR-Title}en-{monsters} beherrschen die Kunst der Dominanz und lieben es, andere zu kontrollieren.
+var-tyr-acc=Kopfschmuck & Wundmal
+var-tyr-a1=Einschüchtern
+var-tyr-a1-desc=„{status-chance-neg-opener}“: Kann bei allen Kämpfern außer dem Charakter ausgelöst werden. {bypass-counters}
+var-tyr-a2=Dominieren
+var-tyr-p1=Stark & Standfest
+var-tyr-p2=Anwesenheit
+var-tyr-p2-desc=Der Charakter erhält {powerratio} Bonus-Schaden/-Heilung für jede Einheit, die von einem mentalen Effekt betroffen ist ({status-sleep-icon}{negative-sleep}, {status-berserk-icon}{negative-berserk} oder {status-charm-icon}{negative-charm}).
+var-wrd-title=Hüter
+var-wrd-ability=Waldgeflüster
+var-wrd-desc=Diese eindrucksvollen Wächter und Champions der Natur verkörpern das Wachstum und die Wiederherstellung.
+var-wrd-acc=Geweih
+var-wrd-a1=Lebenshauch
+var-wrd-a2=Heilungssturm
+var-wrd-p1-desc={HEAL-P2-desc} (Zusätzlich zu {HEAL-P2}.)
+var-wrd-c1=Aufgeben
+var-wrd-c1-desc={counter-offensive-action}, indem die {mp} des Angreifers auf 0 verringert werden.
+var-ven-title=Giftig
+var-ven-ability=Hohle Reißzähne
+var-ven-desc=Eine Mutation hat die Reißzähne dieser {monsters} mit einem starken Gift versehen.
+var-ven-acc=Reißzähne
+var-ven-a1=Dunkler Atem
+var-ven-a2=Schlangenaugen
+var-ven-a2-desc={damage-cone-opener}. Außerdem wird die Zeit bis zur nächsten Runde jedes Ziels, das dem Charakter zugewandt ist, um {locterm} % des aktuellen Werts erhöht.
+var-ven-p1=Gift
+dra-ability=Himmelsmonarch
+dra-01-desc=Urzeitliche Bestien, von denen man geglaubt hat, sie seien seit Jahrhunderten ausgestorben.
+dra-01-a1=Abwurf
+dra-01-a2=Luftbomber
+dra-01-a3=Funkenatem
+dra-01-a4=Hydralanze
+dra-01-a5=Metallschilde
+dra-01-c1=Einatmen
+dra-01-c1-desc=Kontert jegliche Schaden verursachende Offensivaktion, indem die Flächenwirkung der Waffe des Charakters für seine nächste Aktion erweitert wird. Kann sich stapeln.
+kni-ability=Draufgängerklinge
+kni-01-title=Messerstecher
+kni-01-titles=Messerstecher
+kni-01-desc=Diese Spezies {monsters} lebt tief unter der Erde. Sie nutzt ein seltsames Schwertfischmesser, um sich in der Dunkelheit voranzutasten. Leider neigen sie aufgrund ihrer Neugier dazu, auf alles Mögliche einzustechen, woher sich auch ihr Name ableitet.
+kni-02-title=Stilett
+kni-03-title=Zwergklinge
+kni-01-a1=Einölen
+kni-01-a1-desc=Verleihe der Waffe des Charakters die Fähigkeit, einen zufälligen {debuff} zu verursachen. Die nächste Aktion des Charakters hat eine Genauigkeit von 100 %.
+kni-01-a2=Manabrecher
+kni-01-a2-desc=Verursacht mehr Schaden für jeden {MP} des Ziels und entfernt danach die Hälfte der {MP} des Ziels.
+kni-01-a3=Stechender Kumpan
+kni-01-a4=Wasserklotz
+kni-01-a5=Erbarmungslos
+kni-01-a5-desc=Die Werte des Charakters steigen, wenn die {hp} sinken.
+kni-01-a6=Groll
+kni-01-a6-desc=Kontert jegliche Schaden verursachende Offensivfähigkeit, indem die gleiche Menge an Schaden auf alle Feinde aufgeteilt wird.
+inflicts-caster-with=Verursacht darüber hinaus „{self-negative}“ beim Charakter.
+sets-evasion-to-zero=Setzt außerdem {eva} bis zur nächsten Runde des Charakters auf 0 %.
+force-target-single-tolook=Zwingt das Ziel dazu, die Richtung zu ändern und sich dem Charakter zuzuwenden
+force-target-aoe-tolook=Zwingt das Ziel in einem Bereich ({size}) dazu, die Richtung zu ändern und sich dem Charakter zuzuwenden
+turn-comes-faster=Die nächste Runde des Charakters beginnt um {percent3} früher.
+ability-razorwind=Rasiermesserwind
+ability-razorwind-desc=Für zusätzliche {mp}-Kosten von {razor-wind-cost} kann der Charakter jede Einzelziel-{skill} mit einer Reichweite von mindestens 1 verwenden, als hätte sie eine Reichweite von {razor-wind-range}.
+samu-ability=Kriegerischer Geist
+samu-desc=Diese Krieger sind ständig auf der Suche nach ehrenwerten Kämpfen und beziehen ihre Stärke aus ihrer Schwäche, um weiter an ihre Grenzen zu gehen.
+samu-a1=Übertreiben
+samu-a2=Meditieren
+samu-a2-desc=Entfernt {removenegative} von jedem Charakter und stellt {power2ratio} ({dmgsource}) {hp} für jeden entfernten {debuff} wieder her. {sets-evasion-to-zero}
+samu-a3=Vollender
+samu-a4=Geisterbogen
+samu-a5=Geisterschwert
+samu-a6=Windgeist
+samu-a7=Unruhiger Geist
+samu-a8=Adrenalin
+samu-p2=Unverwüstlicher Geist
+samu-p2-desc=Jeder {debuff} des Charakters erhöht seinen {atk} und seine {mnd} um {percent}.
+samu-c1-desc={status-pos-critical-counter} Der Charakter verwendet auch {KNIG-A1} und erleidet bis zu seiner nächsten Runde von allen Angriffen nur den halben Schaden.
+beas-title=Bestienmeister
+beas-title-plural=Bestienmeister
+beas-desc=Die {BEAS-Title-plural} rufen eine Schar ihrer Tiere herbei, die sie im Kampf unterstützen.
+status-delayed=Verzögert!
+status-chance-neg-opener-pet=Hat eine Chance von {negative-chance-pet}, {addnegative-pet} zu verursachen.
+damage-basic-pet=Verursacht {powerratio-pet} Schaden des Elements {elem-pet} ({dmgsource-pet}) bei angrenzenden Feinden.
+heal-basic-pet=Stellt {powerratio-pet} ({dmgsource-pet}) {hp} bei angrenzenden Verbündeten wieder her.
+help-pet-effect=Wenn ein Tier von einem Charakter herbeigerufen wird, bleibt es mit dem Charakter auf dem Feld. Es können maximal drei Tiere auf diese Weise herbeigerufen werden. Wird ein viertes Tier herbeigerufen, wird das älteste Tier ersetzt. Am Ende der Runde eines Charakters wenden alle Tiere rund um den Charakter automatisch ihren {pet-effect} an.
+beas-a1={har-01-title}-Gassenkind
+beas-a1-desc={Deals-OneOverXDamage} (zählt als verschiebende {ability}.) {BEAS-A1-Pet-Desc}
+beas-a1-pet-desc={pet-effect-opener} {status-chance-neg-opener-pet} bei angrenzenden Feinden und wirkt {addnegative-pet} erneut bei allen angrenzenden Feinden, die bereits davon betroffen sind.
+beas-a2={bla-01-title}-Junges
+beas-a3={bul-99-title}-Welpe
+beas-a3-pet-desc={pet-effect-opener} Alle {pet-effects} wirken jetzt in einem Quadrat rund um den Charakter anstatt bei angrenzenden Einheiten.
+beas-a4={bol-01-title}-Larve
+beas-a4-desc={damage-single-opener} und gewährt dem Charakter {status-defup-icon}{positive-defup}. {help-posstatus-defup-desc} {BEAS-A4-Pet-Desc}
+beas-a5={dao-01-title}-Kätzchen
+beas-a5-desc={heal-aoe-opener} rund um den Charakter. {BEAS-A5-Pet-Desc}
+beas-a6={pho-01-title}-Wurf
+beas-a6-desc={damage-single-opener} und gewährt dem Charakter {status-renew-icon}{positive-renew}. {help-posstatus-renew-desc} {BEAS-A6-Pet-Desc}
+beas-a7={hhu-01-title}-Teufelsbraten
+beas-a7-desc={damage-single-opener} und zieht es um 1 Feld zum Charakter. {BEAS-A7-Pet-Desc}
+beas-a8={niw-01-title}-Piccolo
+beas-a8-desc={heal-small-opener} und gewährt {addpositive} in einem Bereich ({size}) rund um den Charakter. {BEAS-A8-Pet-Desc}
+beas-a8-pet-desc={pet-effect-opener} Hat der Charakter weniger als drei Tiere auf dem Feld, kommt ein zufälliges Tier hinzu.
+beas-a9={pek-99-title}-Klecks
+beas-a10={rak-01-title}-Kaulquappe
+beas-a10-desc={damage-single-opener} und gewährt dem Charakter {status-critup-icon}{positive-critup}. {help-posstatus-critup-desc} {BEAS-A10-Pet-Desc}
+beas-a10-pet-desc={pet-effect-opener} {status-chance-neg-opener-pet}, und angrenzende Feinde mit {addnegative-pet} erleiden zusätzlich {pet-bleed-bonus} % Schaden der max. {hp}.
+beas-a11={tan-01-title}-Nachkomme
+beas-a12={the-01-title}-Welpe
+beas-a12-desc={damage-basic-opener} bei Feinden und stellt {powerratio} ({dmgsource}) {hp} bei allen Verbündeten in einer Linie wieder her. {BEAS-A12-Pet-Desc}
+beas-a12-pet-desc={pet-effect-opener} Verursacht {power-pet} {mp} Schaden bei angrenzenden Feinden.
+beas-a13={van-01-title}-Junges
+beas-a14={zot-01-title}-Jungtier
+dismiss-opener=Lässt alle aktiven Tiere des Charakters frei
+dismiss-heal=stellt pro freigelassenem Tier {power2ratio} ({dmgsource}) {hp} wieder her
+dismiss-dmg=verursacht pro freigelassenem Tier {power2ratio} Schaden des Elements {elem} ({dmgsource})
+beas-a15=Freilassen - Heilen
+beas-a15-desc={dismiss-opener} und {dismiss-heal} (beim Ziel).
+beas-a16=Freilassen - Umarmen
+beas-a16-desc={dismiss-opener} und {dismiss-heal} (bei allen Verbündeten).
+beas-a17=Freilassen - Angreifen
+beas-a17-desc={dismiss-opener} und {dismiss-dmg} (beim Ziel).
+beas-a18=Freilassen - Ausschwärmen
+beas-a18-desc={dismiss-opener} und {dismiss-dmg} (bei allen Feinden).
+beas-a19=Freilassen - Wiederbeleben
+beas-a19-desc={dismiss-opener} und belebt einen Verbündeten auf dem angegebenen Feld wieder und stellt {hp} ({percent2} pro entlassenem Tier) wieder her.
+beas-a20=Freilassen - Bestärken
+beas-a20-desc={dismiss-opener} und gewährt dem Ziel 1 zufälligen {buff} pro entlassenem Tier.
+beas-a21=Freilassen - Wühlen
+beas-a21-desc={dismiss-opener}. Der Charakter springt an den Zielort (kann kein Wasserfeld sein) und verursacht bei Zielen in einem Bereich ({size}) um ihn herum pro entlassenem Tier {power2ratio} Schaden des Elements {elem} ({dmgsource}). Kann nicht verwendet werden, wenn sich im Bereich keine Ziele befinden. Die Reichweite wird für jedes entlassene Tier um 1 erhöht.
+beas-p2=Gelassenheit
+beas-p2-desc=Der Charakter erhält {power} {mp}, wenn ein Tier freigelassen wird oder die meisten {buffs}/{debuffs} gebannt wurden oder abgeklungen sind.
+beas-c1=Treue Freunde
+beas-c1-desc={counter-offensive-action}, indem ein bekanntes Tier herbeigerufen und sein {pet-effect} sofort eingesetzt wird, wenn der Charakter weniger als drei Tiere bei sich hat.
+wran-tamed=Gezähmt
+wran-tame=Zähmen
+wran-teleport=Teleportieren
+wran-title=Zänker
+wran-ability=Zanken
+wran-desc={Monster}-Trainer, die eine verblüffende Verbindung zu den wilden Tieren dieser Welt haben.
+wran-a1-desc={damage-single-opener}, tötet das Ziel aber nicht. Das Ziel hat basierend auf den {HP} eine Chance, rekrutiert zu werden. {bypass-counters} {ignores-cover-evasion} Funktioniert nur bei gewissen {monsters}n.
+battle-exchange=Tauschen
+wran-a2=Tag-Team
+wran-a2-desc=Der Charakter entfernt ein aktuell entsendetes {monster} {note-cannot-be-water-tile} und ersetzt es durch ein nicht entsendetes {monster}. Das neue Monster behält die {hp} und {mp} der entfernten Einheit.
+wran-a3=Raserei!
+wran-a3-desc={status-pos-opener} und entfernt {removepositive} bei allen verbündeten {monster}-Einheiten.
+wran-a4=Ruhig ...
+wran-a5=Angriff!
+wran-a5-desc=Alle verbündeten {monster}-Einheiten führen „{regular-attack}“ aus, der die Konter in ihre aktuelle Richtung umgeht, wenn es ein gültiges Ziel gibt.
+wran-a6=Bei Fuß!
+wran-a6-desc=Teleportiert das Ziel-{monster} auf ein angrenzendes Feld {note-cannot-be-water-tile}.
+wran-a7=Bestienflüsterer
+wran-a7-desc={status-chance-negative} Bei Erfolg ist das Ziel 1 Runde fremdgesteuert {mind-controlled-desc}. Funktioniert nur bei {monsters}n.
+wran-a8-desc={GAMB-A6-desc} Kann nur bei {monster}-Einheiten verwendet werden.
+wran-a9=Jagen
+wran-a9-desc={damage-basic-opener} an {monster}-Einheiten sowie verringerten Schaden an Nicht-{monsters}. {counts-as-regular}
+wran-p1=Besitzerstolz
+wran-p1-desc=Jedes Mal, wenn ein verbündetes {monster} im Kampf stirbt oder einen Feind besiegt, erhält der Charakter einen {spd}-Bonus von {percent} für die Dauer des Kampfes (bis zu {percent2}).
+wran-p2=Scharmützel
+wran-p2-desc=Der Charakter kann nach einer Aktion eine weitere Bewegung ({power}) durchführen.
+wran-c1=Macht
+wp-delay-turn=({regular-attacks} verzögern die Runde des Ziels um {percent2})
+wp-on-critical=(gewährt {addpositive}, wenn die {hp} zu Beginn der Runde {critical-hp} betragen)
+wp-randombuff-on-kill=(gewährt {power3} zufällige/n {buff}/Boni, wenn ein Ziel mit „{regular-attack}“ besiegt wird)
+wp-buff-on-side=(gewährt {addpositive}, wenn „{regular-attack}“ von der Seite oder von hinten ausgeführt wird)
+wp-buff-on-attacks=(gewährt {addpositive}, wenn „{regular-attack}“ eingesetzt wird)
+wp-full-hp-dmg=(verursacht {percent} mehr Schaden durch {regular-attacks} bei Zielen mit vollen {hp})
+wp-acc-monster=(kann nur von {monsters}n verwendet werden)
+wp-mp-per-turn=(gewährt +{mpperturn}{MP} pro Runde)
+wp-inflict-user-debuffs=({regular-attacks} haben eine Chance, die {debuffs} des Charakters auf das Ziel zu wirken)
+wp-bow-35=Haken
+wp-sword-35=Klingenbrecher
+wp-maul-35=Erschütterung
+wp-scythe-35=Todesschuld
+wp-staff-35=Blutstab
+wp-mace-35=Lobotomisierer
+wp-spear-35=Turnierlanze
+wp-rod-35=Duellierstab
+wp-rapier-35=Verdorbenes Florett
+wp-crossbow-35=Diebesende
+wp-sword-36=Hoffnungslosigkeit
+wp-spear-36=Gleichstrom
+wp-gun-35=Werfer
+wp-staff-36=Schlummerstab
+wp-bow-36=Durchdringungsbogen
+wp-gun-36=Splitterwerfer
+wp-rapier-36=Raffinesse
+wp-mace-36=Ansteckung
+wp-dagger-35=Anstifter
+wp-scythe-36=Flaches Grab
+wp-maul-36=Betäubungshammer
+wp-dagger-36=Neutralisierer
+wp-bow-37=Vernichtender Langbogen
+wp-crossbow-36=Volltreffer
+wp-gun-37=Pfahlgewehr
+wp-rod-36=Hocheiliges Zepter
+wp-axe-35=Halbhellebarde
+wp-mace-37={BOL-01-Title}-Keule
+wp-rapier-37=Prächtiges Florett
+wp-bow-35-desc=Ein raffinierter Bogen für Flankenangriffe {wp-buff-on-side}.
+wp-sword-35-desc=Eine Waffe, mit der sich andere Waffen zerstören lassen.
+wp-maul-35-desc=Dieser Hammer wird deinen Gegnern unvergessliche Kopfschmerzen bescheren.
+wp-scythe-35-desc=Eine Sense zum Ernten der Früchte eines erfolgreichen Kampfes {wp-randombuff-on-kill}. {scythe-bonus-desc}
+wp-staff-35-desc=Ein Stab, der dir hilft, während er deinen Gegnern schadet {wp-axe-drains-hp}. {wp-staff-extra}
+wp-mace-35-desc=Eine schwere Keule, um für faire Verhältnisse zu sorgen.
+wp-spear-35-desc=Eine fein gearbeitete Lanze für echte Soldaten.
+wp-rod-35-desc=Ein fein gearbeiteter Stab, der sowohl im Gerichtssaal als auch im Kampf gut aussieht.
+wp-rapier-35-desc=Ein finsterer Degen für finstere Taten (erhöht die Genauigkeit um +{accbonus} und die {debuff}-Chance um +{debuffbonus}).
+wp-crossbow-35-desc=Eine Waffe, die sich hervorragend dazu eignet, mit entfernten Feinden Kontakt aufzunehmen {wp-crossbow-extra}.
+wp-sword-36-desc=Dieses schartige, graue Schwert umgibt eine Aura der Trostlosigkeit.
+wp-spear-36-desc=Ein schockierend grausamer Speer, mit dem zwei Gegner auf einmal aufgespießt werden können.
+wp-gun-35-desc=Ein großes Gewehr zur Lösung großer Probleme.
+wp-staff-36-desc=Psst, Schlafenszeit. {wp-staff-extra}
+wp-bow-36-desc=Ein fein gearbeiteter Hornbogen.
+wp-gun-36-desc=Eine verzauberte Wasserpistole zum Spielen.
+wp-rapier-36-desc=Die erste Wahl eines gebildeten Zauberers {wp-crossbow-extra}. {wp-staff-extra}
+wp-mace-36-desc=Eine gefährliche Keulte, der das Unheil angeblich auf dem Fuße folgen soll {wp-inflict-user-debuffs}.
+wp-dagger-35-desc=Ein Dolch, mit dem man dem Schwung jedes Gegners ein Ende bereiten kann {wp-full-hp-dmg}.
+wp-scythe-36-desc=Eine Sense für jemanden, dessen Beruf es ist, Seelen zu ernten {wp-on-critical}. {scythe-bonus-desc}
+wp-maul-36-desc=Es ist wirklich erstaunlich, wie sehr eine Keule dieser Größe einen Schädel zurichten kann {wp-delay-turn}.
+wp-dagger-36-desc=Ein Hieb mit diesem Dolch wird sogar deine unerbittlichsten Gegner dazu zwingen, einen Gang zurückzuschalten.
+wp-bow-37-desc=Ein Bogen, der aus dem Ast eines sterbenden Baums gefertigt wurde.
+wp-crossbow-36-desc=Eine grausame Armbrust für die Jagd auf gnadenlose Gegner {wp-crossbow-extra} {wp-buff-on-attacks}.
+wp-gun-37-desc=Du solltest diese Pistole vor deinen Vampirfreunden verstecken.
+wp-rod-36-desc=Ein Stab für die Läuterung des Bösen.
+wp-axe-35-desc=Eine kleine Hellebarde, die man bedenkenlos zu Abendessen oder ins Theater mitnehmen kann.
+wp-mace-37-desc=Eine Keule, die mit der Kraft des Wüstenwinds erfüllt ist.
+wp-axe-36-desc=Eine blutige Axt für blutige Angelegenheiten {wp-axe-drains-hp}.
+wp-rapier-37-desc=Ein legendärer glänzender Degen, der von einem Hohepriester gesegnet wurde {wp-crossbow-extra}, der die Affinität zu {element-holy-icon}{element-holy} erhöhen soll.
+ar-helm-35=Helm des Sergeants
+ar-light-35=Spähergewand
+ar-heavy-35=Heilige Rüstung
+ar-shield-35=Zauberbuchschild
+ar-hat-35=Gehärtetes Diadem
+ar-cap-35=Wüstenkapuze
+ar-shield-36=Stachelschild
+ar-helm-36=Räuberhelm
+ar-cap-36=Königliches Barett
+ar-light-36=Zweite Luft
+ar-cloth-35=Abtkutte
+ar-hat-36=Hornkrone
+ar-heavy-36=Vangaldornen-Kettenhemd
+ar-helm-35-desc=Eine seriöse Kopfbedeckung für ernsthafte Arbeiten.
+ar-light-35-desc=Ein leichtes Gewand für besonders flinke Personen.
+ar-heavy-35-desc=Eine Rüstung, die sowohl vom Licht als auch der Dunkelheit gesegnet wurde.
+ar-shield-35-desc=Ein Schild für Zauberer. {wp-staff-extra}
+ar-hat-35-desc=Ein Diadem für Personen mit zierlichem Körperbau.
+ar-cap-35-desc=Eine Kapuze zum Schutz vor schlechtem Wetter und anderen Unannehmlichkeiten.
+ar-shield-36-desc=Achte darauf, dass die richtige Seite nach außen zeigt {wp-on-critical}.
+ar-helm-36-desc=Ein Helm mit Hörnern, der deine Gegner das Fürchten lehren wird!
+ar-cap-36-desc=Ein modisches Barett für modebewusste Personen.
+ar-light-36-desc=Eine Qualitätsrüstung für brenzlige Situationen {wp-on-critical}.
+ar-cloth-35-desc=Ein Gewand, das dich in Frieden ziehen lässt, mein Freund.
+ar-hat-36-desc=Eine schicke Krone mit scharfen Hörnern.
+ar-heavy-36-desc=Eine Rüstung, die aus der Haut einer gefährlichen Bestie gefertigt wurde.
+acc-ring-35=Tyrannenring
+acc-ring-35-desc=Ein magischer Ring, der im Feuer eines Drachen geschmiedet wurde. (Jede {ability}, die normalerweise nur auf {monsters} angewendet werden kann, kann auch auf {humans} angewendet werden [mit Ausnahme von {wran-tame} und {RANG-A3}]).
+acc-ring-36=Fokuskristall
+acc-boot-35=Stachelschuhe
+acc-ring-37=Ewige Blüte
+acc-ring-38=Ewiger Frühling
+acc-glove-35=Multihandschuhe
+acc-ring-39=Drachenrubin
+acc-ring-40=Korrumpierter Rubin
+acc-ring-41=Drachenamethyst
+acc-ring-42=Korrumpierter Amethyst
+acc-collar-00=Blaue Halskette
+acc-collar-01=Rote Halskette
+acc-collar-02=Orange Halskette
+acc-collar-03=Gelbe Halskette
+acc-collar-04=Schwarze Halskette
+acc-collar-05=Weiße Halskette
+acc-collar-06=Prismatische Halskette
+acc-ring-36-desc=Ein wunderschöner Kristallanhänger (erhöht die Genauigkeit um +{accbonus}).
+acc-boot-35-desc=Eine bessere Bodenhaftung erhöht die Geschwindigkeit.
+acc-ring-37-desc=Ein Ring, der mit der Magie des Lebens verzaubert wurde.
+acc-ring-38-desc=Ein Ring, der Erschöpften wieder Kraft spendet {wp-mp-per-turn}.
+acc-boot-36-desc=Schuhe, dank denen du reisen kannst, ohne gehen zu müssen.
+acc-glove-35-desc=Sehr nützliche Handschuhe (erhöhen die Gegenstandreichweite um +1, verdoppeln die {gp} durch {ROGU-A1} und erhöhen die Genauigkeit um +{accbonus}).
+acc-ring-39-desc=Ein schöner Rubinanhänger, mit dem die Magie der Gegner gekontert werden kann.
+acc-ring-40-desc=Ein beschädigter Rubinanhänger, mit dem die Magie der Gegner gekontert werden kann.
+acc-ring-41-desc=Ein schöner Amethystanhänger, mit dem der Magie der Gegner widerstanden werden kann.
+acc-ring-42-desc=Ein beschädigter Amethystanhänger, mit dem der Magie der Gegner widerstanden werden kann.
+acc-collar-00-desc=Eine magische Halskette, die aus der Essenz eines tobenden Flusses hergestellt wurde. {wp-acc-monster}
+acc-collar-01-desc=Eine magische Halskette, die aus der Essenz der Flammen eines Vulkans hergestellt wurde. {wp-acc-monster}
+acc-collar-02-desc=Eine magische Halskette, die aus der Essenz eines uralten Obelisken hergestellt wurde. {wp-acc-monster}
+acc-collar-03-desc=Eine magische Halskette, die aus der Essenz eines Donnerschlags hergestellt wurde. {wp-acc-monster}
+acc-collar-04-desc=Eine magische Halskette, die aus den Überresten eines korrumpierten Zauberers hergestellt wurde. {wp-acc-monster}
+acc-collar-05-desc=Eine magische Halskette, die aus Sonnenstrahlen und dem warmen Westwind hergestellt wurde. {wp-acc-monster}
+acc-collar-06-desc=Eine magische Halskette, die aus einem geheimnisvollen Edelstein hergestellt wurde. {wp-acc-monster}
+mission-result-great-malespeaker=Ich freue mich, berichten zu können, dass die {mission} ein voller Erfolg war!
+mission-result-great-femalespeaker=Ich freue mich, berichten zu können, dass die {mission} ein voller Erfolg war!
+mission-result-good-malespeaker-single=Ich bin zurück. Die {mission} war ein Erfolg!
+mission-result-good-femalespeaker-single=Ich bin zurück. Die {mission} war ein Erfolg!
+mission-result-good-malespeaker-group=Wir sind zurück. Die {mission} war ein Erfolg!
+mission-result-good-femalespeaker-group=Wir sind zurück. Die {mission} war ein Erfolg!
+mission-result-bad-malespeaker=Hmm, das hätte besser laufen können.
+mission-result-bad-femalespeaker=Hmm, das hätte besser laufen können.
+hunt-demons1-femalespeaker=Laut dem Gildenmeister ist es hier unter den Dämonen zu einem Kampf gekommen …
+hunt-demons2-femalespeaker=… für mich wirken sie jedoch nicht zerstritten! Wir sollten uns bereitmachen!
+hunt-blardger1-femalespeaker=Verflucht, du bist aber ein harter Brocken, was? Wenigstens stimmt das Kopfgeld.
+hunt-blardger-boyspeaker-name=Kind im Sack
+hunt-blardger2-boyspeaker=Ist da jemand? Ich brauche Hilfe!
+hunt-blardger3-femalespeaker=Die entführten Kinder! Sie sind noch wohlauf! Wir müssen ihnen helfen!
+hunt-blardger4-femalespeaker=Wir kommen, Kinder!
+hunt-mal1-femalespeaker=Hmm, hier endet die Karte im Tagebuch von {rebelleader}.
+hunt-mal2-femalespeaker=Hier gibt es wirklich nichts. Ich hatte mit einer geheimen Basis oder etwas Ähnlichem gerechnet … Aber nicht mit Sand und Gestrüpp.
+hunt-mal3-femalespeaker=Das sehe ich ähnlich, bleib aber dennoch wachsam. Diese Karte war ihm wichtig, also muss es hier irgendetwas geben.
+hunt-mal4-femalespeaker=Was ist das für ein Leuchten?
+hunt-mal5-femalespeaker=Das sieht nach einem … Grab aus.
+hunt-mal7-femalespeaker={Apprentice}! Das ist das Schwert von {Mentor} … deiner Mutter. Da bin ich mir sicher.
+hunt-mal9-femalespeaker=Dann … ist das hier ihre letzte Ruhestätte?
+hunt-mal10-femalespeaker=Ich dachte, sie sei nie gefunden worden … Aber sieht ganz so aus, als hätte sich jemand um ihr Grab gekümmert …
+hunt-mal12-femalespeaker=Es war auch immer allen ein Rätsel, wie ihre Rüstung zur Türschwelle deiner Großeltern gelangt ist. Damit hätten wir wohl zwei Geheimnisse auf einmal gelüftet.
+hunt-mal13-femalespeaker=Glaubst du etwa, dass er ihre Rüstung zu meinen Großeltern gebracht hat?
+hunt-mal14-femalespeaker=Ich glaube … dass er irgendwann ein gutes Herz hatte …
+hunt-mal15-femalespeaker=Hmm, es ist dennoch erstaunlich, wie schnell Liebe zu etwas Zerstörerischem werden kann. Es braucht nicht viel mehr als einen kleinen Schubs.
+hunt-mal16-femalespeaker=Ich habe mir doch gleich gedacht, den herrlichen Geruch von Erinnerungen wahrzunehmen.
+hunt-mal17-femalespeaker=Ein Dämon! Du wirst es bereuen, diesen Ort entweiht zu haben!
+hunt-mal18-femalespeaker=Ah, siehst du? Deine Liebe für {Mentor} lässt dich schnell wütend werden. Genau wie {rebelleader}.
+hunt-mal19-femalespeaker={rebelleader} hat vor langer Zeit einen Teil von sich selbst hier zurückgelassen. Aber dieser Teil wird langsam schal. Ihr zwei habt doch nichts dagegen, mir ein Stückchen von euch zu überlassen, oder?
+hunt-zot1-femalespeaker=Der Gildenmeister hat uns gewarnt, dass der Große mit Verstärkung zurückkommen würde, wenn wir ihn entkommen lassen. Wir müssen wachsam bleiben.
+hunt-zot2-malespeaker=Vielleicht würde es sich jedoch bezahlt machen, einige von ihnen aus ihren Verstecken zu locken. Sie sind für gewöhnlich schwer zu fassen.
+hunt-blardger-objective=Besiege alle Gegner und sorge dafür, dass die Kinder nicht verletzt werden!
+hunt-pektite-reward=Das Meisterwerk von {name-Partner} (Alle)!
+mission-result-great-daa=So eine einfache Aufgabe … Natürlich war sie ein voller Erfolg.
+mission-result-good-daa=Ich bin zurück. Diese simple {mission} war ein Erfolg.
+mission-result-bad-daa=Hmpf, diese Aufgabe war meiner nicht würdig.
+mission-ancientbone-daa=Ich kann sie spüren … die Energie, die im {ancient-bone} schlummert. Wird sie {apprentice} stärker machen?<page>Wir sollten zurückgehen und es herausfinden.
+mission-locket1-daa=Was hat diese {und-01-title} da in ihrer schmutzigen Hand? Ist das ein modriger, alter Brief?
+mission-locket2-daa=Diese dreckige {und-01-title} ist also wieder zurückgekehrt, um meine Augen aufs Neue zu beleidigen, was? Es muss doch eine Möglichkeit geben, ihr ein für alle Mal den Garaus zu machen.
+mission-locket3-daa=Ein {human}endiener könnte mir dieses Ungeheuer sicher ein für alle Mal vom Hals schaffen. Ein {rang-title} vielleicht?
+mission-join-daa=Hmpf, ich werde eure armselige Gruppe mit meinen überragenden Fertigkeiten beehren. Seid dankbar.
+mission-result-great-har=Hehe! Was für ein Erfolg! Wir haben uns das Gold redlich verdient!
+mission-result-good-har=Hoho, ein Erfolg! Wo ist das Gold? Her damit!
+mission-result-bad-har=Argh! Das war nicht gut! Ich habe aber dennoch ein wenig Gold verdient …
+mission-ancientbone-har=Hahaha, der {ancient-bone} gehört mir, mir allein!<page>Moment, {apprentice}? Die habe ich ganz vergessen! Ich schätze, ich kann mit ihr teilen. Ich sollte zurückgehen.
+mission-locket1-har=Diese {und-01-title} hält etwas in der Hand. Ich will es haben! Oh, das ist nur ein alter Brief … Ich will ihn aber trotzdem haben!
+mission-locket2-har=Diese {und-01-title} ist wieder da und verhöhnt mich mit ihrem hübschen Brief! Was die sich erlaubt! Ich sollte sicherstellen, dass sie nicht wiederbelebt wird!
+mission-locket3-har=Hoho, ich wette, ein {rang-title} mit den richtigen Fertigkeiten könnte sich darum kümmern!
+mission-join-har=Hehe, ich wette, diese Typen geben mir Gold, wenn ich sie begleite! Idioten! … Moment, habe ich das gerade laut gesagt?
+mission-result-great-bla=Raaahaha! Was für ein glorreicher Erfolg!
+mission-result-good-bla={name} kümmert sich darum.
+mission-result-bad-bla=Graaaah! Was passiert?! Nicht gut!
+mission-ancientbone-bla={name} hat {ancient-bone} besorgt, um netter Dame zu helfen!<page>Wir kommen, nette Dame!
+mission-locket1-bla=Was hast du da, stinkende {und-01-title}? Oh, nur Lesezeugs. Wie langweilig.
+mission-locket2-bla=Stinkende {und-01-title} mit Lesezeugs schon wieder?! Pah, ich mag dich nicht! Ich dich ZERSCHMETTERN!
+mission-locket3-bla=Vielleicht hilft Super-Schmetterschlag von meinem {rang-title}-Freund …
+mission-join-bla=Neue Freunde? {name} ist glücklich! {name} zerschmettert Dinge für neue Freunde!
+mission-result-great-bul=Ahuuuuu! {color=self}(Hurra! Super-Erfolg!){color=base}
+mission-result-good-bul=*gähn* {color=self}(Ich habe meine {mission} abgeschlossen. Kann ich jetzt schlafen gehen?){color=base}
+mission-result-bad-bul=*winsel* {color=self}(Ich habe dich enttäuscht … Wirst du mir jemals verzeihen?){color=base}
+mission-ancientbone-bul=Wuff! {color=self}(Ich habe den {ancient-bone} erschnüffelt! Genau wie du mir befohlen hast! Er ist gleich hier!){color=base}<page>*hechel, hechel, hechel* {color=self}(Gehen wir zu {apprentice}!){color=base}
+mission-locket1-bul=*schnüffel, schnüffel* Grrr … {color=self}(Irgendetwas stimmt mit dieser {und-01-title} und dem zerknitterten Papierfetzen in ihrer Hand nicht.){color=base}
+mission-locket2-bul=Grrr … {color=self}(Diese {und-01-title} mit dem zerknitterten Papierfetzen ist zurückgekehrt. Können wir nicht verhindern, dass sie zurückkehrt?){color=base}
+mission-locket3-bul=*hechel, hechel, hechel* {color=self}(Ein {human}en-{rang-title} kann helfen!){color=base}
+mission-join-bul=*leck, leck* *gähn* {color=self}(In Ordnung, ich begleite dich, {human}. Gibt es auch ein bequemes Bett?){color=base}
+mission-result-great-bol=Bussah! Bussah! {color=self}(Diese {mission} war ein Kinderspiel! Was für ein Erfolg!){color=base}
+mission-result-good-bol=Bsssr! {color=self}(Das war ein Erfolg!){color=base}
+mission-result-bad-bol=Bsrgrgr … {mission-result-bad-DAO}
+mission-ancientbone-bol=Bsrk! {mission-ancientbone-PEK}
+mission-locket1-bol=Bsss? {color=self}(Diese {und-01-title} hat etwas bei sich. Ein Stück Papier?){color=base}
+mission-locket2-bol=Bsssr … {color=self}(Das ist wieder diese {und-01-title} mit dem Stück Papier. Können wir irgendwie verhindern, dass sie wiederbelebt wird?){color=base}
+mission-locket3-bol=*zwitscher, zwitscher* {mission-locket3-PEK}
+mission-join-bol=*zwitscher, zwitscher* Bsssr! {color=self}(Ich stehe dir zur Seite, {human}! Lass uns gemeinsam durch dieses Land trampeln!){color=base}
+mission-result-great-dao={color=self}(Die Mission war ein voller Erfolg!){color=base}
+mission-result-good-dao={color=self}(Ich bin zurück. Die {mission} war ein Erfolg.){color=base}
+mission-result-bad-dao={color=self}(Es ist nicht so gut gelaufen …){color=base}
+mission-ancientbone-dao={color=self}(Ich kann sie spüren … die Energie, die im {ancient-bone} schlummert. Wird sie {apprentice} stärker machen?){color=base}<page>{color=self}(Wir sollten zurückgehen und es herausfinden.){color=base}
+mission-locket2-dao=Krrr … {color=self}(Es ist nicht natürlich, dass diese {und-01-title} immer wieder zurückkehrt. Wir sollten eine Möglichkeit suchen, das Gleichgewicht wiederherzustellen und zu verhindern, dass sie wiederbelebt wird.){color=base}
+mission-locket3-dao={color=self}(Ich habe schon einmal gesehen, wie ein {rang-title} einer sturen {und-01-title} wie dieser den Garaus gemacht hat.){color=base}
+mission-join-dao={color=self}(Zusammen werden wir das Land vor jenen beschützen, die es beschmutzen wollen.){color=base}
+mission-result-bad-pho=Gagahhh … {mission-result-bad-DAO}
+mission-ancientbone-pho=Skreee … {mission-ancientbone-dao}
+mission-locket1-pho=Gah? {color=self}({mission-locket1-DAA}){color=base}
+mission-locket3-pho=Skreee … {mission-locket3-DAO}
+mission-join-pho=Skreee! {color=self}(Ich schätze, das wird mich für eine Weile ablenken.){color=base}
+mission-result-great-hrv=Das nenne ich eine Jagd! Was für ein Erfolg!
+mission-result-good-hrv=Eine erfolgreiche Jagd! Ich will mehr!
+mission-result-bad-hrv=Tss! Meine Schwerter haben versagt!
+mission-locket2-hrv=GRAAH! Wir haben die {und-01-title} aufgeschlitzt und aufgespießt, aber sie kehrt immer wieder zurück! Wo bleibt da der Spaß? Mach diesem Ding ein für alle Mal den Garaus!
+mission-locket3-hrv=Mit meinen Schwertern komme ich gegen dieses Ding nicht an, aber ein andere Jäger … ein {rang-title} …
+mission-join-hrv=BLUT! GEMETZEL! Zeig mir mein nächstes Ziel, {human}!
+mission-result-bad-hhu=Hsss … {color=self}(Nun, das ist nach hinten losgegangen …){color=base}
+mission-ancientbone-hhu=Hssa? Hssa! {color=self}(Wir brauchen diesen {ancient-bone}, um {apprentice} zu helfen, oder?){color=base}<page>{color=self}(Dann mal los!){color=base}
+mission-join-hhu=Hssss! {color=self}(Ich will endlich etwas niederbrennen!){color=base}
+mission-result-great-kaw=Ich verkünde stolz, dass Mission erfolgreich war! Bekomme ich jetzt Beförderung?
+mission-result-good-kaw=Soldat {name} meldet sich zurück! Ich bin zurück! Gute {mission}!
+mission-result-bad-kaw=Diese {mission} zu schwierig für mich …
+mission-ancientbone-kaw=Ich habe {ancient-bone} besorgt, um Freundin {apprentice} zu helfen!<page>Schnell, zurück zum Haus von Nekromanten {necro}!
+mission-locket1-kaw=Seltsame {und-01-title} hat alten Brief? Scheint ihn schon lange zu haben. Vielleicht wichtig!
+mission-locket2-kaw=Oh nein, {und-01-title} mit dem Brief ist zurück? Wissen Freunde, wie man Leiche endgültig töten kann?
+mission-locket3-kaw={rang-title}-Freund weiß vielleicht mehr!
+mission-join-kaw=Ich jetzt {arbiter}? Ja! Soldat {name} meldet sich zum Dienst!
+mission-join-mal=Unsere Feinde werden vor uns auf die Knie fallen.
+mission-result-great-niw=HUP, HUP! {mission-result-great-DAO}
+mission-result-good-niw=Tüt, tüt. {mission-result-good-DAO}
+mission-result-bad-niw=Wau, wau … {mission-result-bad-PEK}
+mission-ancientbone-niw=Tüt, tüt! {mission-ancientbone-PEK}
+mission-locket1-niw=Hup? {mission-locket1-PEK}
+mission-locket2-niw=Hup?! {mission-locket2-PEK}
+mission-locket3-niw=Hup. {mission-locket3-PEK}
+mission-join-niw=Tüt, tüt? HUP! {color=self}(Du hilfst mir dabei, überall meine Lieder zum Besten zu geben? Ich bin dabei!){color=base}
+mission-result-great-pek={color=self}(Hurra! Der größtmögliche Erfolg!){color=base}
+mission-result-good-pek={color=self}(Hey, das hat Spaß gemacht!){color=base}
+mission-result-bad-pek={color=self}(Ohh, es hat nicht funktioniert …){color=base}
+mission-ancientbone-pek={color=self}(Wir haben den {ancient-bone}! Lass uns {apprentice} helfen!){color=base}<page>{color=self}Los, los!{color=base}
+mission-locket1-pek={color=self}(Warum hat diese {und-01-title} ein altes Stück Papier bei sich?){color=base}
+mission-locket2-pek={color=self}(Das ist dieselbe {und-01-title} wie zuvor mit demselben Stück Papier! Können wir nicht verhindern, dass sie zurückkommt?){color=base}
+mission-locket3-pek={color=self}(Ein {human}en-{rang-title} wird wissen, was zu tun ist.){color=base}
+mission-join-pek={color=self}(Ooh, neue Freunde! Lasst uns gemeinsam jede Menge Abenteuer erleben!){color=base}
+mission-result-bad-rak=Hsss … {mission-result-bad-DAO}
+mission-join-rak=Hssss … {color=self}(In Ordnung, du hast gewonnen. Ich schließe mich dir an.){color=base}
+mission-result-great-tan=*schnüffel, schnüffel, schnüffel*! {mission-result-great-DAO}
+mission-result-good-tan=*schnüffel, schnüffel* {mission-result-good-DAO}
+mission-result-bad-tan=*schnüffel* {mission-result-bad-DAO}
+mission-ancientbone-tan=*schnüffel, schnüffel, schnüffel*! {mission-ancientbone-PEK}
+mission-locket3-tan=*schnüffel* {mission-locket3-PEK}
+mission-join-tan=*schnüffel, schnüffel*{color=self}(Du hast gewonnen, darum hast du jetzt das Sagen. Wer ist mein nächster Gegner?){color=base}
+mission-ancientbone-the=Hssss … {mission-ancientbone-DAO}
+mission-join-the=Hss! Hsss? {color=self}(Gefangen genommen? Was für eine Schmach! … Moment, du brauchst meine Hilfe? Aber gerne doch!){color=base}
+mission-result-good-van=Gawupp wupp! {color=self}(Ich bin wieder da! Ich habe gute Arbeit geleistet!){color=base}
+mission-join-van=Gawuppppp! {color=self}(Ich werde dich beschützen!){color=base}
+mission-result-great-zot=Bussah! {mission-result-great-PEK}
+mission-locket3-zot=Bss. {mission-locket3-PEK}
+mission-join-zot=Bsss! {color=self}(Okay, okay, du hast mich erwischt!){color=base}
+mission-join-dra=Hsss! {color=self}(Du glaubst also, dass du mir Befehle erteilen kannst? Wir werden sehen.){color=base}
+mission-result-great-kni=Glrglr! Riesensieg!
+mission-result-good-kni=Glurp. Verstanden.
+mission-result-bad-kni=Glub, glub, glub … Versagt …
+mission-ancientbone-kni={mission-result-good-KNI}<page>Schlendern, schlendern.
+mission-locket1-kni=Glurp? Verrückte {und-01-title}. Sie hat Brief bei sich.
+mission-locket2-kni=Glurp? Verrückte {und-01-title} ist wieder da. Sie ein für alle Mal töten, glurp?
+mission-locket3-kni={rang-title}, {rang-title} kann es tun. Glub.
+mission-dialogue-available-malespeaker=Da die Pilgerreise in vollem Gange ist, sind die {arbiter}-Gilden im gesamten Land geschäftiger denn je.<page>Jede Gilde hat eine {mission}stafelt aufgestellt, die wir benutzen können, um unsere Begleiter auf unterschiedliche {missions} zu schicken. Diese Erfahrung wird sie stärker machen und wir erhalten {gp} und {company-points} ({company-points-long}) für die jeweilige Gilde. Du solltest dir diese Sache genau ansehen, wenn du die Gelegenheit dazu hast.<page>Schließlich können wir die einzelnen Gilden mit genug {company-points} verbessern, wodurch wir zahlreiche Vorteile erhalten sollten.
+mission-recruit-female=Wir sollten uns alle vertragen.
+mission-recruit-male=Freut mich, mit von der Partie zu sein. Legen wir los.
+dlc1-name=Missionen und Monster
+dlc1-installed=INSTALLIERT
+dlc1-not-installed=Jetzt kaufen
+savemenu-load-error-dlc=Diese Speicherdatei kann nicht gelesen werden, da sie mit einer Spielversion erstellt wurde, die Zugriff auf einen DLC ({dlc1-name}) hatte, der nicht in dieser Version des Spiels enthalten ist.
+turn-ready=Runde:
+unequip-all=Alles ablegen
+unequip-all-confirm=Hiermit entfernst du die Ausrüstung aller Einheiten in deinem Team. Bist du sicher?
+reward-new-portraits=Neue {0}-Porträts in der Gilde verfügbar!
+reward-new-colors=Neue {0}-Farbe in der Gilde verfügbar!
+injury-prevent=(Charakter kann keine {injuries} erleiden).
+patrols-tutorial0=Du kannst den Befehl {color=term}{wm-command-training}{color=base} verwenden, um in dem Gebiet, in dem du dich gerade befindest, einen Kampf zu beginnen. Dadurch erhältst du zusätzlich {exp} und {ap}, um deine Einheiten zu stärken.{newline}Bitte beachte, dass dies gänzlich optional ist und du keine {wm-command-trainings} haben musst, um das Spiel durchspielen zu können. Abhängig vom Schwierigkeitsgrad könnte es auf diese Weise jedoch schwieriger sein.
+patrols-tutorial1=Bei jedem Punkt auf der Weltkarte gibt es mehrere unterschiedliche Kämpfe. Beachte bitte die {color=term}Level der Gegner{color=base} auf dem Bildschirm, wenn du eine {wm-command-training} auswählst.{newline}Dieser Bereich zeigt die minimalen und maximalen Level der Gegner dieser Zone an. Sollten dir diese Level zu hoch sein, wäre es vielleicht klüger, einen Kampf in einem anderen Gebiet zu versuchen.
+patrols-tutorial2=Der Levelbereich jeder Zone passt sich mit dem Fortschreiten der Geschichte an, weshalb du immer auf Bereiche sowohl oberhalb als auch unterhalb der Einheitenlevel stoßen wirst. Die ersten fünf Zonen haben einen relativ niedrigen Levelbereich, damit es immer ein Gebiet gibt, auf das du zurückgreifen kannst.
+penumbral-mastery=Halbschattenbeherrschung
+dialogue-kyrie-passive={Hero} hat die „{Penumbral-Mastery}“-{Ability} freigeschaltet!
+dialogue-yates-passive=Während {necro} mehr über die Mysterien des Alten Anhängers erfährt, lernt er, seine mächtigen Zauber noch wirksamer einzusetzen.<page>{necro} hat die passive Fähigkeit „{Penumbral-Mastery}“ erlernt!
+
+systemmenu-option6=Spielereinheiten-KI
+ai-menu-selection=KI ändern
+ai-menu-selection-desc=Ändert die vom Charakter verwendete KI. {AI-menu-option0} ist der empfohlene Standardwert, mit dem du die Einheit steuerst. Bei anderen Werten wird die KI die Einheit automatisch steuern.
+ai-menu-option0=Manuell
+ai-menu-option0-desc=Du hast die Kontrolle über die Einheit.
+ai-menu-option1=Schaden verursachen
+ai-menu-option1-desc=Die Einheit konzentriert sich auf das Verursachen von Schaden.
+ai-menu-option2=Heilen
+ai-menu-option2-desc=Die Einheit konzentriert sich auf das Heilen von Verbündeten und Verleihen von Boni.
+ai-menu-option3=Bewachen
+ai-menu-option3-desc=Die Einheit versucht vorrangig, schwächere Einheiten zu beschützen. Ansonsten tut sie alles, um effektiv zu sein.
+ai-menu-option4=Inaktiv
+ai-menu-option4-desc=Die Einheit bleibt stehen und ist inaktiv.
+difficulty-drowning-title=Gegner verwenden Ertränken
+difficulty-drowning-0=Standard
+difficulty-drowning-0-desc=Die Gegner versuchen, die Einheiten des Spielers zu ertränken, sollte dies möglich sein (eine Einheit, die nicht schwimmen kann und ins Wasser gestoßen oder teleportiert wird, erleidet Schaden in Höhe ihrer {hp}). Bitte beachte, dass das Ertränken von Einheiten eine Grundtaktik ist und in vielerlei Hinsicht gekontert werden kann.
+difficulty-drowning-1=Nur Bosse
+difficulty-drowning-1-desc=Nur Bosse mit Fähigkeiten, die sich auf das Ertränken konzentrieren, werden versuchen, die Einheiten des Spielers zu ertränken. Gewöhnliche Gegner werden nie gezielt versuchen, die Einheiten des Spielers zu ertränken (es könnte zwar unabsichtlich passieren, allerdings nur äußerst selten).
+difficulty-drowning-2=Immer
+difficulty-drowning-2-desc=Wenn ein Gegner die Einheit des Spielers ertränken kann, wird er es immer versuchen, solange diese Aktion für die KI als die Beste erscheint.
+gear-collar=Halsketten
+ai-controlled=KI
+no-effect=Keine Wirkung
+mission-reward-skill-one={0} erhält „{1}“!
+dialogue-anadine-passive={name-apprentice} erhält „{bonu-p3}“!
+dialogue-reiner-passive={name-partner} erhält „{bonu-p5}“!
+
+decreasing-odds=(Die {debuff}-Chance wird auf alle Ziele des Angriffs aufgeteilt.)
+new-portraits-guild=Neue „{0}“-Porträts in der Gilde!
+new-colors-guild=Neue „{0}“-Farbe in der Gilde!
+
+ignores-rampart=Ignoriert den Status {VAR-GUA-P2}.

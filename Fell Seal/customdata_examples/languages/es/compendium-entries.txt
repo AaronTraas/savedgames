@@ -1,0 +1,459 @@
+[entry 0-0]
+[h1]Fase de despliegue[/h1]
+
+Antes de comenzar una batalla, deberás colocar los personajes que quieras desplegar en el combate en las casillas iluminadas de color turquesa y escoger en qué dirección miran. El número máximo de tropas que puedes desplegar aparece en la esquina superior izquierda de la pantalla, y los controles para examinar tus tropas aparecen en la esquina inferior derecha. Cuando estés satisfecho con los personajes que has desplegado, pulsa el botón {button-battlestart} para iniciar el combate.
+
+Algunos consejos para el despliegue:
+[list]
+[*]En general, se recomienda colocar a los luchadores a corta distancia, que son más corpulentos, delante de las unidades más frágiles: las lanzadoras de hechizos y las de tipo arquero. 
+[*]Durante la fase de despliegue, dedica algo de tiempo a estudiar el campo de batalla y a tus enemigos. Esto te ayudará a decidir qué tropas desplegar. En esta misma fase, también puedes adaptar la equipación de tus personajes en el menú de tropas y así prepararte para los singulares desafíos que presenta cada batalla.
+[*]Si un personaje ha sufrido una herida en una batalla anterior, solo podrá recuperarse si se queda fuera de la batalla. Si despliegas una unidad herida, no se recuperará y correrá el riesgo de sufrir aún más heridas. No obstante, si te ves obligado a desplegar a un personaje herido, aún podrá recuperarse de su herida más adelante si descansa en una futura batalla (a no ser que hayas activado las opciones de herida o muerte permanente).
+[/list]
+
+
+[entry 0-1]
+[h1]Orden de turnos[/h1]
+
+Durante una batalla, podrás ver cuándo le llega el turno a cada unidad en la fila que aparece en la parte superior de la pantalla. Además, siempre que desplaces el cursor sobre un personaje en el campo de batalla, se ampliará su retrato en la fila para destacar cuándo le va a llegar el turno. Los retratos con los bordes azules (que suelen mirar hacia la derecha) son aliados y los retratos con los bordes rojos (que suelen mirar hacia la izquierda) son enemigos.
+
+El orden de turnos queda determinado por la estadística de velocidad (VEL) de cada personaje. A los personajes con VEL alta les llegará el turno antes, e incluso actuarán con más frecuencia que los personajes más lentos.
+
+
+[entry 0-2]
+[h1]Movimiento y elevación[/h1]
+
+Durante el turno de un personaje, este podrá moverse solo una vez, sea antes o después de realizar una acción. La distancia que se puede desplazar un personaje durante el combate está determinada principalmente por su estadística de movimiento (<sprite name="icon-stats-move">), visible en la parte inferior de su panel de información. No obstante, la topografía del terreno podría limitar el movimiento del personaje. Si hay una gran diferencia de elevación entre casillas, entonces será el valor de salto (<sprite name="icon-stats-jump">) de la unidad el que determine si es capaz de superar el obstáculo. Se puede visualizar la elevación de cualquier casilla en la esquina superior izquierda de la pantalla durante las batallas. Los valores de movimiento y salto están determinados por la clase del personaje y se pueden aumentar con determinados accesorios del tipo botas.
+
+Algunas unidades tienen otros rasgos especiales que les permiten entrar en zonas que para otras son inaccesibles. Si una unidad cuenta con uno de estos rasgos, un icono lo indicará en la parte inferior de su panel de información.
+[list]
+[*]Nadar (<sprite name="icon-stats-swim">) es un rasgo que solo está disponible para determinadas clases y monstruos. El personaje sabe nadar, lo que le permite moverse a través de casillas con agua y agua venenosa. Mientras nada, un personaje hará menos daño y recibirá más. Asimismo, no podrá abrir tesoros ni recoger componentes. Los personajes que no saben nadar deberán aproximarse al agua con cuidado, ¡no sea que les empujen y acaben ahogados!
+[*]Las unidades capaces de volar, excavar y teletransportarse están señaladas con el icono (<sprite name="icon-stats-fly">). El personaje puede desplazarse al instante a su destino sin necesidad de recorrer ninguna casilla. Esto le permite ignorar la altura de las casillas, y tampoco activará las trampas que estén en la casilla de destino. Este rasgo está circunscrito mayoritariamente a los monstruos, pero existen ciertos accesorios raros y habilidades pasivas capaces de concedérselo a un humano.
+[*]Las unidades capaces de flotar están señaladas con el icono (<sprite name="icon-stats-levitate">). El personaje flota sobre el terreno, lo que le permite sobrevolar cualquier superficie líquida e ignorar cualquier trampa terrestre. Este rasgo está circunscrito mayoritariamente a los monstruos, pero existen ciertos accesorios raros capaces de concedérselo a un humano. Si una unidad puede tanto flotar como nadar, el primer rasgo sustituirá al segundo.
+[/list]
+
+
+[entry 0-3]
+[h1]Objetivo[/h1]
+
+Cada personaje tiene permitida una acción durante su turno, sea antes o después de moverse. Una acción suele consistir en un ataque normal con el arma que tenga equipada el personaje, o bien en una habilidad activa que este haya aprendido. Una vez seleccionada la acción, el siguiente paso es escoger un objetivo.
+[list]
+[*]¡La posición es importante al escoger el objetivo! Los ataques normales, así como muchas habilidades, causarán daño adicional desde los flancos del objetivo y aún más desde atrás (el daño de los hechizos generalmente no recibe esta bonificación de flanqueo).
+[*]Los objetivos que puedes escoger están limitados por el alcance del arma o habilidad. El alcance se compone de dos propiedades: la distancia a la que puedes apuntar la habilidad (alcance) y la altura (o valor “vertical”) que tiene. Las casillas que puede alcanzar una acción se destacarán cuando la hayas seleccionado.
+[*]Después de seleccionar un objetivo, y antes de confirmar la acción, se mostrará una previsión de su resultado en cuanto a daño y precisión. Si una habilidad tiene como objetivo varios personajes, podrás examinarlos uno a uno para comprobar cómo les afecta. Si la previsión no resulta favorable, plantéate cambiar de acción o de objetivo. Ten en cuenta que la cantidad de daño prevista es estática y no tiene ningún elemento de azar, excepto en el caso de los golpes críticos y determinadas habilidades raras. Cuando se indica que una habilidad causará una cantidad determinada de daño, dicha indicación refleja con exactitud la cantidad de daño que causará si alcanza el objetivo.
+[*]Algunas habilidades pueden golpear varias casillas adyacentes. Con este tipo de acciones, el fuego amigo es una posibilidad real, así que ¡examina el resultado previsto con atención para asegurarte de no dañar a tus aliados ni curar a tus enemigos!
+[*]Ten en cuenta que los ataques a distancia en {fell-seal} no se ven afectados por la “línea de visión”. Si el objetivo entra dentro del alcance de la acción, podrá ser alcanzado incluso aunque haya obstáculos u otros personajes en medio.
+[/list]
+
+
+[entry 0-4]
+[h1]Objetos[/h1]
+
+Los objetos en {fell-seal} funcionan de forma un poco distinta a la de muchos otros juegos. Aunque el número de usos de los objetos en cada batalla está limitado, al final de la misma se reabastecen automáticamente, así que podrás permitirte usarlos con frecuencia sin miedo a que se agoten. Aunque no puedes comprar objetos, sí que puedes aumentar el número de usos por batalla, la potencia y la cantidad de tipos disponibles mediante la función de creación.
+
+Tu inventario de objetos al completo está disponible para todos tus personajes.
+
+Consejos generales de uso de objetos:
+[list]
+[*]Los objetos son particularmente útiles al principio del juego, antes de que los sanadores hayan tenido la oportunidad de hacerse más fuertes, así que ¡no los desestimes si te ves en problemas!
+[*]Objetos como las pociones y los remedios se pueden usar en personajes adyacentes, así que son realmente capaces de salvarle la vida a alguien si tu sanador dedicado no puede ayudarle a tiempo.
+[*]Las rocas y otros objetos arrojadizos son ideales para aquellos luchadores a corta distancia que todavía no sean capaces de acercarse al enemigo. Además, estos objetos nunca fallan, lo que los hace extremadamente eficaces contra objetivos que tengan la evasión (EVA) alta. Asimismo, ignoran la estadística de defensa (DEF) de las unidades, lo que los hace ideales contra objetivos que tengan un valor alto de defensa, como los monstruos Pektite.
+[/list]
+
+
+[entry 0-5]
+[h1]Heridas/caer en combate[/h1]
+
+Cuando los PS de un personaje se reducen a 0, este se retira de la batalla y, si se mantienen las opciones predeterminadas, recibe una herida.
+
+Cada una de las heridas que tenga actualmente un personaje reducirá sus estadísticas y su eficacia en el combate. Para recuperarse de una herida, el personaje deberá abstenerse de combatir. Descansar durante una batalla cura una herida. Ten en cuenta que Kyrie es inmune a las heridas, pero si no cae en una batalla, todo el equipo recibirá una bonificación de PH.
+
+Un personaje cuyos PS se hayan reducido a 0 podrá ser revivido durante la batalla usando determinados objetos y habilidades. Independientemente del lugar del campo de batalla donde haya caído un personaje, se le puede revivir en cualquier casilla que esté dentro del alcance del objeto o habilidad en cuestión. Con todo, te advertimos que cuando un personaje revivido cae de nuevo, recibe una herida adicional.
+
+
+[entry 0-6]
+[h1]Objetos interactivos[/h1]
+
+Algunos campos de batalla tienen objetos con los que se puede interactuar usando una acción especial. Estos objetos suelen estar señalados con casillas amarillas iluminadas durante la fase de despliegue y se pueden volver a destacar pulsando el botón {button-details}. A veces los objetos interactivos están ocultos, así que ¡presta atención y no te pierdas los secretos!
+
+Tipos de objetos interactivos:
+[list]
+[*][b]Tesoros[/b]: Para abrir un cofre del tesoro, pon un personaje junto a él y selecciona la acción Abrir que aparecerá en su lista de órdenes. Los tesoros solo se pueden obtener una vez. Los personajes no pueden abrir cofres del tesoro mientras nadan.
+[*][b]Puntos de recolección[/b]: Para recoger un componente de creación, pon un personaje junto a un punto de recolección y selecciona la acción Recoger que aparecerá en su lista de órdenes. Los puntos de recolección se reabastecen después de cada batalla. Los personajes no pueden recoger componentes mientras nadan.
+[*][b]Escalerillas/escaleras/cuerdas[/b]: Algunas casillas pueden transportar a un personaje a otra zona del campo de batalla. Las coordenadas del destino aparecen especificadas cuando se desplaza el cursor sobre la casilla amarilla iluminada en la pantalla de detalles o durante la fase de despliegue. Para usar una de estas casillas, pon un personaje en ella y selecciona la acción Subir que aparecerá en su lista de órdenes. La acción Subir solo está disponible si el personaje puede situarse en la casilla de destino.
+[*][b]Madrigueras/conductos de agua[/b]: Estas casillas transportan a un personaje a otra zona del campo de batalla sin consumir su acción. Las coordenadas del destino aparecen especificadas cuando se desplaza el cursor sobre la casilla amarilla iluminada en la pantalla de detalles o durante la fase de despliegue. Para usar una de estas casillas, basta con ponerse en ella cuando la casilla de destino esté desocupada.
+[*][b]Interruptores[/b]: Para activar un interruptor, pon un personaje junto a él y selecciona la acción Activar que aparecerá en su lista de órdenes. Los interruptores tienen efectos diversos en el campo de batalla, como revelar nuevas zonas.
+[/list]
+
+
+[entry 0-7]
+[h1]Botín[/h1]
+
+Se puede obtener botín de varias maneras. El tipo de botín que obtengas dependerá del campo de batalla en cuestión, no del tipo de enemigos a los que te enfrentes. Por lo tanto, según vaya progresando la historia, el botín obtenido en los mapas de batalla generalmente será más avanzado.
+[list]
+[*]A veces, los enemigos sueltan botín al caer derrotados.
+[*]Después de las batallas, se puede obtener botín en la pantalla de victoria. Ten en cuenta que las batallas de la historia a veces proporcionan recompensas especiales exclusivas.
+[*]Hay habilidades que te permiten robar botín a los enemigos. El botín robado tiene posibilidades de ser más avanzado que el normal. 
+[*]Hay habilidades que te permiten quitarle un trofeo a un objetivo y, si consigues derrotarlo de esta manera, tendrás garantizado recibir botín. El botín obtenido de esta forma tiene posibilidades de ser más avanzado que el normal.
+[/list]
+
+
+[entry 0-8]
+[h1]Obtención de PH[/h1]
+
+Los PH, o puntos de habilidad, sirven como moneda de cambio para aprender habilidades. Se conceden a todos los personajes después de cada batalla, y los que hayan participado reciben muchos más que los que no. Los PH se conceden de las siguientes formas:
+[list]
+[*]Los personajes que hayan participado en una batalla ganarán un montón de PH para su clase principal.
+[*]Se concede una pequeña bonificación de PH a cada participante si los PS de Kyrie nunca se reducen a 0 (esto solo está disponible durante las batallas de la historia).
+[*]Todos los personajes, incluidos aquellos que no hayan participado en la batalla, recibirán una pequeña bonificación indirecta por “observar” a sus aliados en combate y aprender de ellos. Los PH indirectos se obtienen incluso para aquellas clases que un personaje aún no haya desbloqueado.
+[*]Hay un único personaje monstruo que no se beneficia de los PH indirectos como los demás. En lugar de ello, en cuanto ha desbloqueado una clase, obtiene una bonificación de PH al participar en batallas contra monstruos que estén asociados a esa clase. 
+[*]A veces, un personaje se granjea el título de “MVP” gracias a su actuación. Este personaje recibirá una sustancial bonificación de PH por la batalla.
+[*]Algunas zonas tienen personajes “invitados” que se unirán al grupo del jugador durante una única patrulla. Se concederá una pequeña bonificación de PH si estos personajes sobreviven al combate.
+[*]Las batallas de la historia conceden muchísimos más PH que las patrullas. 
+[*]La cantidad de PH concedidos se ve afectada por el nivel de tu grupo en relación con el del enemigo. Si el nivel de tu grupo es considerablemente superior al de los enemigos a los que se enfrente, se reducirá la cantidad de PH obtenidos después de la batalla.
+[/list]
+
+
+[entry 1-0]
+[h1]Panel de información del personaje[/h1]
+
+El panel de información de un personaje muestra abundante información sobre sus capacidades de combate y te comunica todo lo que necesitas saber sobre él. Suele aparecer en la esquina inferior izquierda de la pantalla cuando se coloca el cursor sobre un personaje.
+
+El panel de información tiene hasta cinco páginas de contenido. Se puede usar {patchstring1-term} para pasar las páginas. Esta es una breve descripción de cada página:
+[list]
+[*]La página 1 es la más importante y muestra las estadísticas vitales y resistencias elementales del personaje. Se puede consultar una explicación de las mismas con el botón {button-help}.
+[*]La página 2 muestra el equipamiento del personaje y sus inmunidades a efectos negativos. Si usas el {patchstring2-term}, podrás ver descripciones de cada componente del equipo y, lo que es más importante, el alcance de cada arma.
+[*]La página 3 muestra las {Abilities} activas de la {Class} principal del personaje. Al igual que en la página 2, puedes usar el {patchstring2-term} para examinar las {Abilities} y obtener más información sobre ellas.
+[*]La página 4 es igual que la página 3, solo que en este caso las habilidades activas que muestra son las de la subclase del personaje (esta página solo aparece cuando el personaje tiene equipada una subclase).
+[*]La página 5 muestra las {passive-traits} y la {Ability} de {counter} del personaje. Al igual que en las páginas 3 y 4, puedes usar el {patchstring2-term} para consultar más información sobre estas {Abilities}.
+[/list]
+
+
+[entry 1-1]
+[h1]Clase y subclase[/h1]
+
+La clase y la subclase de un personaje se muestran bajo su nombre en la página 1 del panel de información. Permiten hacerse una idea aproximada con un vistazo de los tipos de habilidades activas y equipamiento que puede utilizar. No obstante, para obtener información más precisa sobre habilidades y equipamiento, siempre es mejor consultar las páginas 2 a 5 del panel de información del personaje. 
+
+Puedes asignar clases y subclases a tus personajes y consultar más información sobre las habilidades correspondientes a cada clase en el menú de tropas.
+
+
+[entry 1-2]
+[h1]Experiencia y subida de nivel[/h1]
+
+Se concede experiencia, o EXP, a un personaje cada vez que realiza una acción con un efecto perceptible. Cuando un personaje alcanza 100 de EXP, sube un nivel y recibe un aumento de estadísticas en función de su clase principal. Al subir de nivel, el medidor de EXP revierte a 0.
+
+Estos son algunos ejemplos de acciones que conceden EXP:
+[list]
+[*]Causar daño a un enemigo
+[*]Vencer a un enemigo 
+[*]Lanzar correctamente efectos positivos o negativos
+[*]Curar a un personaje
+[*]Eliminar un efecto negativo
+[/list]
+
+No se concede EXP por interactuar con objetos, fallar un ataque, realizar acciones inútiles sin efectos perceptibles ni por desplazarse.
+
+Notas especiales sobre la EXP:
+[list]
+[*]Dar el golpe de gracia a un enemigo concede considerablemente más EXP de la normal.
+[*]Para compensar lo anterior, las habilidades de curación conceden más EXP que las acciones ofensivas, ya que los sanadores a menudo no pueden dar golpes de gracia. 
+[*]El nivel de un personaje en relación con el de su objetivo influye en la cantidad de EXP concedida. Cuando un personaje de nivel inferior ataque a otro de nivel superior, recibirá más EXP en relación con la brecha entre niveles. Lo contrario también corresponde: al atacar a un enemigo de nivel inferior con un personaje de nivel superior se cosechará menos EXP.
+[/list]
+
+
+[entry 1-3]
+[h1]Estadísticas[/h1]
+Las estadísticas reflejan el poder general de un personaje en distintos ámbitos.
+[list]
+[*]{hp}: Los puntos de salud representan la salud general del personaje. En la mayoría de las opciones de dificultad, cuando los PS se reducen a 0 el personaje queda derribado y sufre una herida al final del combate.
+[*]{mp}: Los puntos de maná son un recurso que necesitan los personajes para usar determinadas habilidades durante el combate. Los personajes empezarán las batallas con 0 PM y ganarán 10 PM al comienzo de cada turno. Normalmente los PM son necesarios para usar las habilidades más potentes del juego.
+[*]{ATk}: El ataque representa el talento físico de un personaje en términos de la magnitud de sus ataques y habilidades. Los ataques normales y la mayoría de las habilidades marciales basan su daño (o curación) en sus puntos de ATQ. Cuando una habilidad use ATQ para causar daño, esto se mostrará en su descripción.
+[*]{mnd}: El intelecto representa el talento mágico de un personaje en términos de la magnitud de sus ataques y habilidades. La mayoría de las habilidades mágicas basan su daño (o curación) en sus puntos de INT. Cuando una habilidad use INT para causar daño, esto se mostrará en su descripción.
+[*]{DEF}: La defensa representa el aguante del personaje al daño físico. Cuanto mayor sea la DEF, menos daño recibirá de cualquier ataque cuyo objetivo sean los puntos de DEF, como la mayoría de los ataques físicos.
+[*]{RES}: La resistencia representa el aguante del personaje al daño mágico. Cuanto mayor sea la RES, menos daño recibirá de cualquier ataque cuyo objetivo sean los puntos de RES, como la mayoría de los ataques mágicos.
+[*]{spd}: Representa la velocidad del personaje en combate. Cuanto mayor sea su valor, más rápido volverá el personaje a tener un turno en el combate. Una velocidad lo suficientemente alta otorga más turnos durante la batalla que los que tendría un personaje con velocidad baja.
+[*]{EVA}: La evasión representa la habilidad del personaje para esquivar completamente cualquier acción ofensiva (incluidas habilidades y ataques normales). Tus puntos de EVA se basan en tu clase actual y tu equipo. En general, todos los personajes tienen un (100 - EVA del objetivo) % de probabilidad de golpear al objetivo. Esto significa que a menos que un objetivo acumule EVA, tu probabilidad de golpear debería ser alta (normalmente entre el 95 y el 99 %), pero también que acumular EVA puede ser otra opción viable de evitar daño.
+[*]<sprite name="icon-stats-crit">: La probabilidad de crítico representa la probabilidad del personaje de asestar un golpe crítico al objetivo. Los golpes críticos por defecto hacen un 50 % más de daño y aplicarán automáticamente cualquier efecto negativo que pueda tener el ataque. Tu probabilidad de asestar un golpe crítico se basa en tu clase actual y tu equipo. Normalmente, solo los ataques normales causan golpes críticos, pero con una habilidad pasiva especial, las habilidades también pueden causar un golpe crítico.
+[/list]
+
+
+[entry 1-4]
+[h1]Condición del personaje[/h1]
+
+Hay equipamiento y {Abilities} capaces de modificar la condición de un personaje. Puedes consultar los efectos positivos y negativos de un personaje en la esquina superior derecha de su panel de información. Durante una batalla, también puedes mantener pulsado el botón {button-details} para consultar rápidamente la condición de todos los combatientes. Si un icono de efecto positivo/negativo tiene un número, este indica los turnos que quedan para el fin de la condición correspondiente. Los iconos sin número son permanentes y normalmente se obtienen del equipamiento o de las {Abilities} pasivas.
+
+Las condiciones del estado afectan al objetivo de las siguientes maneras:
+[b]Efectos positivos:[/b]
+[list]
+[*]<sprite name="icon-buff-atkup">{positive-ATKUp}: Aumenta los puntos de ataque de la unidad.
+[*]<sprite name="icon-buff-matkup">{positive-MNDUp}: Aumenta los puntos de intelecto de la unidad.
+[*]<sprite name="icon-buff-defup">{positive-DEFUp}: Aumenta los puntos de defensa de la unidad.
+[*]<sprite name="icon-buff-mdefup">{positive-RESUp}: Aumenta los puntos de resistencia de la unidad.
+[*]<sprite name="icon-buff-critup">{positive-CRITUp}: Aumenta las probabilidades de la unidad de asestar un golpe crítico.
+[*]<sprite name="icon-buff-thorns">{positive-Thorns}: Una unidad con Espinas reflejará automáticamente parte del daño al recibir daño (de cualquier fuente).
+[*]<sprite name="icon-buff-haste">{positive-Haste}: Una unidad con Celeridad conseguirá su turno más rápido.
+[*]<sprite name="icon-buff-regen">{positive-Renew}: Una unidad con Renovar recuperará algo de PS cada turno.
+[*]<sprite name="icon-buff-reraise">{positive-Rebirth}: Una unidad con Renacer volverá automáticamente a la vida tras caer en combate.
+[*]<sprite name="icon-buff-mirage">{positive-Mirage}: Una unidad con Espejismo esquivará automáticamente la próxima acción ofensiva que cause daño contra ella.
+[*]<sprite name="icon-buff-barrier">{positive-Barrier}: Una unidad con Barrera esquivará automáticamente el próximo efecto de estado ofensivo aplicado a ella.
+[*]<sprite name="icon-buff-aegiswater"><sprite name="icon-buff-aegisfire"><sprite name="icon-buff-aegisearth"><sprite name="icon-buff-aegiselectric"><sprite name="icon-buff-aegisdark"><sprite name="icon-buff-aegisholy">{positive-AdaptAegis}: Una unidad con Égida elemental tendrá resistencia aumentada al último elemento con el que haya sido atacada.
+[*]<sprite name="icon-buff-fleetoffoot">{positive-fleetoffoot}: Una unidad con Raudo y veloz aumentará su movimiento en +1.
+[*]<sprite name="icon-buff-affinitywater"><sprite name="icon-buff-affinityfire"><sprite name="icon-buff-affinityearth"><sprite name="icon-buff-affinityelectric"><sprite name="icon-buff-affinitydark"><sprite name="icon-buff-affinityholy">[b]{DRUI-C1}[/b]: Una unidad con Afinidad flexible causará daño aumentado con el último elemento con el que haya recibido daño.
+[*]<sprite name="icon-buff-boon">{positive-boon}: La próxima acción de la unidad tiene garantizado asestar un golpe crítico.
+[*]<sprite name="icon-buff-focus">{positive-focus}: La próxima acción de la unidad causará el doble de daño o curación (no se aplica a los objetos).
+[/list]
+
+[b]Efectos negativos:[/b]
+[list]
+[*]<sprite name="icon-debuff-poison">{help-status-0-0}: Causa daño en función de los PS máximos cada turno. La unidad no caerá por debajo de 1 PS por este efecto.
+[*]<sprite name="icon-debuff-bleed">{help-status-0-1}: Causa daño en función de los PS máximos cada turno. La unidad no caerá por debajo de 1 PS por este efecto.
+[*]<sprite name="icon-debuff-blind">{help-status-0-2}: Reduce drásticamente la precisión de la unidad.
+[*]<sprite name="icon-debuff-root">{help-status-0-3}: Impide que la unidad use la orden Mover.
+[*]<sprite name="icon-debuff-silence">{help-status-0-4}: Impide que la unidad use hechizos (cada habilidad indicará su tipo en su cuadro de descripción).
+[*]<sprite name="icon-debuff-cripple">{help-status-1-0}: Impide que la unidad use talentos (cada habilidad indicará su tipo en su cuadro de descripción).
+[*]<sprite name="icon-debuff-sleep">{help-status-1-1}: La unidad está dormida y omitirá su turno hasta despertarse. Si el personaje recibe daño, este efecto negativo se eliminará (una unidad solo puede tener uno de estos estados: Frenético, Sueño o Encanto).
+[*]<sprite name="icon-debuff-berserk">{help-status-1-2}: La unidad atacará sin control al objetivo más cercano, ya sea amigo o enemigo (una unidad solo puede tener uno de estos estados: Frenético, Sueño o Encanto).
+[*]<sprite name="icon-debuff-charm">{help-status-1-3}: La unidad realizará acciones que benefician al grupo del encantador. Si el personaje recibe daño, este efecto negativo se eliminará (una unidad solo puede tener uno de estos estados: Frenético, Sueño o Encanto).
+[*]<sprite name="icon-debuff-slow">{help-status-1-4}: El turno de la unidad llegará más tarde de lo normal.
+[*]<sprite name="icon-debuff-atkdown">{help-status-2-0}: Reduce los puntos de ataque de la unidad afectada.
+[*]<sprite name="icon-debuff-matkdown">{help-status-2-1}: Reduce los puntos de intelecto de la unidad afectada.
+[*]<sprite name="icon-debuff-defdown">{help-status-2-2}: Reduce los puntos de defensa de la unidad afectada.
+[*]<sprite name="icon-debuff-mdefdown">{help-status-2-3}: Reduce los puntos de resistencia de la unidad afectada.
+[*]<sprite name="icon-debuff-weaken">{help-status-2-4}: Cualquier curación normal aplicada a la unidad afectada se verá reducida a 0.
+[*]<sprite name="icon-debuff-noquicken">{negative-exhaust}: {help-status-exhaust-desc}
+[/list]
+
+
+[entry 1-5]
+[h1]Resistencias[/h1]
+
+Cada personaje tiene dos tipos de resistencias: resistencias elementales y resistencias a efectos negativos.
+[list]
+[*]Las resistencias elementales se muestran en la página 1 del panel de información del personaje. Los elementos son {element-water-icon}{element-Water}, {element-fire-icon}{element-fire}, {element-earth-icon}{element-earth}, {element-thunder-icon}{element-thunder}, {element-dark-icon}{element-dark} y {element-holy-icon}{element-holy}. Los números que aparecen junto a cada icono son porcentajes: un personaje con 50 de resistencia recibirá un 50 % menos de daño del elemento, mientras que uno con -50 de resistencia recibirá un 50 % más de daño. Cuando un personaje tiene resistencias por encima de 100, ¡los elementos correspondientes de hecho lo curan!
+[*]Las inmunidades a efectos negativos se muestran en la página 2 del panel de información del personaje. Funcionan a todo o nada: si un icono está destacado, el personaje será totalmente inmune a él y, si no lo está, el personaje se verá afectado por el efecto negativo de forma normal. 
+[/list]
+
+
+[entry 2-0]
+[h1]¿Qué es el menú de tropas?[/h1]
+
+El menú de tropas es la herramienta más importante con la que cuentas para hacer más fuertes a tus personajes. En esta interfaz, puedes cambiar la clase de tus personajes, aprender nuevas habilidades, pertrecharte de poderoso equipo, crear nuevos objetos y ajustar el nivel de dificultad del juego. Se puede acceder al menú de tropas tanto desde el mapa del mundo como durante la fase de despliegue anterior a cada batalla. Selecciona un personaje para mostrar una lista de opciones.
+
+
+[entry 2-1]
+[h1]Equipamiento[/h1]
+
+Esta sección del menú de tropas te permite pertrechar a tus personajes con hasta 6 objetos, como armas, partes de armadura y accesorios.
+[list]
+[*]Recuerda que equipar el arma con el poder de ataque más alto o la armadura con el mayor nivel de defensa no siempre es la mejor opción: el equipamiento puede tener varias cualidades especiales que hacen que se adapte bien a situaciones diversas. Por ejempo, las armas con alcance aumentado pueden ser especialmente efectivas a pesar de tener en general un poder de ataque más bajo.
+[*]Los tipos de armas y armadura que puede usar un personaje están limitados por su clase.
+[*]Cada personaje puede llevar un casco y un juego de armadura corporal. Puede optar por llevar un arma de una mano (junto con un escudo, si su clase lo permite) o un arma de dos manos. Algunas habilidades pasivas ofrecen aún más posibilidades, como la habilidad de llevar un arma de dos manos en una sola mano o la habilidad de llevar dos armas. Ten en cuenta que para llevar arcos y ballestas se necesitan ambas manos en todas las circunstancias.
+[*]Los accesorios se equipan de forma libre y pueden ocupar cualquiera de los 6 espacios de equipamiento que le quedan libres al personaje, sin limitaciones en cuanto al tipo o la clase. Esto conlleva, por ejemplo, que un personaje podrá equiparse con tantos accesorios de tipo bota o guante como quiera.
+[/list]
+
+
+[entry 2-2]
+[h1]Habilidades[/h1]
+
+Las decisiones que tomas respecto a qué habilidades aprende cada personaje son el factor más importante para convertirlo en único. Se pueden aprender habilidades con los PH recibidos en las batallas. Cuando un personaje haya ganado suficientes PH para aprender una habilidad, verás una pequeña flecha (<sprite name="icon-ability-ready">) junto a él en el menú de tropas. Si la flecha se mueve, quiere decir que el personaje se puede permitir una nueva habilidad desde la última vez que lo comprobaste.
+
+[b]Aprender habilidades:[/b] Para aprender una habilidad, selecciona un personaje, luego “Habilidades” y, por último, “Aprender habilidades”. Aparecerá una lista de todas las clases a las que puede acceder el personaje junto con la cantidad de PH que tiene disponibles para cada una de ellas. Si seleccionas una clase de la lista, podrás ver todas las habilidades del árbol de habilidades exclusivo de esa clase. El árbol se divide en “categorías”, y cada categoría solo será accesible cuando el personaje haya aprendido una habilidad de la categoría anterior. 
+
+Hay tres tipos de habilidades que puede aprender cada clase:
+[list]
+[*]Las [b]habilidades activas[/b] (<sprite name="icon-ability-active">) son órdenes que se pueden seleccionar durante las batallas. Se dividen en talentos, hechizos y especiales. Los talentos generalmente adquieren poder del valor de ATQ, atacan al valor de DEF y se pueden desactivar con el efecto negativo Parálisis. Los hechizos generalmente adquieren poder del valor de INT, atacan al valor de RES y se pueden desactivar con el efecto negativo Silencio. Solo unas pocas habilidades activas son especiales, es decir, se salen de las categorías habituales de talentos y hechizos.
+[*]Las [b]habilidades pasivas[/b] (<sprite name="icon-ability-passive">), cuando están equipadas, pueden potenciar al personaje automáticamente de varias maneras. 
+[*]Las [b]habilidades de contra[/b] (<sprite name="icon-ability-counter">), cuando están equipadas, se activan automáticamente en respuesta a diversas situaciones durante las batallas.
+[/list]
+
+[b]Equipar habilidades:[/b] Una vez que tus personajes hayan aprendido algunas habilidades de distintas clases, deberás equipárselas antes de poder sacarles provecho. En el menú de habilidades de un personaje, selecciona “Establecer habilidades”.
+[list]
+[*][/b]Habilidades activas[/b]: Los personajes tienen equipadas automáticamente todas las habilidades activas de su clase principal que hayan aprendido y, adicionalmente, pueden equiparse con todas las habilidades activas de otra clase que hayan aprendido como habilidades de subclase.
+[*][/b]Habilidades pasivas[/b]: Los personajes tienen equipadas automáticamente todas las habilidades pasivas de su clase principal que hayan aprendido y, adicionalmente, pueden equiparse con otras dos habilidades pasivas de cualquier otra clase que hayan aprendido.
+[*][/b]Habilidades de contra[/b]: Cada personaje puede equiparse con una única habilidad de contra que haya aprendido.
+[/list]
+
+
+[entry 2-3]
+[h1]Cambio de clase[/h1]
+
+La clase de un personaje influye en las habilidades que posee, el tipo de equipamiento que puede usar, el uso que puede dar a los PH que gane y la forma de aumentar sus estadísticas al subir de nivel. Puedes cambiar la clase principal de un personaje y consultar información sobre cada clase si seleccionas un personaje en el menú de tropas y luego seleccionas “Cambio de clase”.
+
+[b]Desbloquear nuevas clases:[/b]
+Cada vez que un personaje emplea PH para aprender una habilidad, su clase asciende 1 nivel. Al subir el nivel de distintas clases, se desbloquearán nuevas clases para el personaje. Estos requisitos se pueden consultar en la pantalla de cambio de clase. Según vaya desbloqueando clases tu grupo, se irán desvelando aún más clases en la pantalla de cambio de clase.
+
+Después de cambiar la clase de un personaje, te conviene verificar sus habilidades y equipamiento, ya que se ven influenciados por la clase.
+
+
+[entry 2-4]
+[h1]Clasificar unidades[/h1]
+
+Usa esta opción para cambiar el orden en el que se organizan tus personajes en el menú de tropas. Tienes disponibles muchos métodos de clasificación distintos para elegir.
+
+
+[entry 2-5]
+[h1]Descartar unidades[/h1]
+
+Si por cualquier motivo deseas retirar a un personaje de tu ejército, puedes descartarlo en el menú de tropas. Una vez descartado el personaje, lo habrás perdido para siempre y no podrás recuperarlo, así que usa esta orden con precaución. Los personajes de la historia no se pueden descartar.
+
+
+[entry 2-6]
+[h1]Creación[/h1]
+
+Si cuentas con los componentes adecuados, puedes crear nuevos objetos, equipamiento, artefactos o insignias, así como mejorar la eficacia de los objetos que ya tengas. Si tienes todo lo necesario para crear algo, se verá un signo de verificación verde junto a la receta. 
+
+Cuando obtengas un nuevo componente, puede que aparezcan nuevas recetas en el menú de creación. Conviene comprobar este menú después de recibir un nuevo componente, por si has descubierto algo nuevo que crear.
+
+
+[entry 2-7]
+[h1]Opciones de dificultad[/h1]
+
+Si quieres ajustar las opciones de dificultad que seleccionaste al iniciar una nueva partida, podrás hacerlo en el menú de tropas. Pulsa el botón {ps4-button-size-on}{button-difficulty}{ps4-button-size-off} para mostrar las opciones de dificultad. No podrás cambiar las opciones de dificultad durante las batallas.
+
+
+[entry 3-0]
+[h1]Resumen[/h1]
+
+Desde el mapa del mundo, puedes acceder al menú de tropas, así como viajar a distintas zonas indicadas por nodos de distintos colores. El menú de tropas se describe en su propia sección, así que esta se centrará en el resto de las funciones del mapa del mundo. 
+
+Según va avanzando la historia, podrás acceder a nuevos nodos del mapa del mundo.
+[list]
+[*]Un nodo rojo indica el próximo destino de la historia. 
+[*]Un nodo verde corresponde a un campo de batalla. Puedes patrullar estos nodos para iniciar batallas opcionales.
+[*]Un nodo azul grande indica una ciudad, donde podrás contratar tropas y visitar la tienda. En una pequeña selección de ciudades, también se puede patrullar para iniciar batallas opcionales.
+[*]Los nodos azules pequeños son nodos “neutrales”. Normalmente no se puede interactuar con ellos.
+[/list]
+
+Los nodos también pueden indicarse con el símbolo <sprite name="speechbubble">.
+[list]
+[*]El símbolo <sprite name="speechbubble"> indica que en el nodo correspondiente se puede iniciar un diálogo opcional que arroja luz sobre el pasado y la personalidad de los personajes.
+[/list]
+
+
+[entry 3-1]
+[h1]Contratar compañeros en el gremio[/h1]
+
+Puedes contratar a nuevos compañeros en el gremio, al que podrás acceder en los nodos azules grandes de las ciudades.
+[list]
+[*]Puedes gastarte más oro para contratar a un personaje de nivel superior. El nivel máximo que puedes contratar está directamente vinculado al nivel que tenga Kyrie.
+[*]Puedes contratar a personajes de cualquier clase que tengas desbloqueada actualmente (excepto unas pocas clases especiales limitadas). La selección influye en sus estadísticas, ya que se considerará que han estado subiendo de nivel según su clase desde el nivel 1. Ten en cuenta también que un personaje contratado como de clase avanzada podría perder el acceso a ella si más adelante cambia de clase. Estaría obligado a cumplir los requisitos normales antes de poder volver a cambiar, así que ten precaución cuando cambies a un personaje de clase.
+[*]Los personajes recién contratados comienzan con PH adicionales para las clases que haya estado usando tu grupo.
+[*]Al contratar a un nuevo personaje, podrás seleccionar su aspecto, su retrato y su nombre. {patchstring3-term}
+[/list]
+
+Desde el gremio, también podrás personalizar el aspecto de los personajes que ya tengas (excepto los personajes de la historia).
+
+
+[entry 3-2]
+[h1]Tiendas[/h1]
+
+En los nodos azules de las ciudades, puedes comprar equipamiento. El equipamiento disponible es el mismo en todas las ciudades, pero todas las tiendas reciben mejoras en momentos específicos de la historia, así que te conviene consultar el inventario de cada nueva ciudad que te encuentres.
+[list]
+[*][b]Comprar:[/b] Emplea oro para realizar una compra. Primero escoges una categoría, luego un componente del equipo y por último la cantidad que vas a comprar.
+[*][b]Vender:[/b] Puedes vender el equipamiento que ya no necesites a cambio de oro. Al igual que en las compras, escoges la categoría deseada, luego el componente del equipo y por último la cantidad que vas a vender.
+[*][b]Probar y comprar:[/b] Esta es la forma más eficiente de comprar equipamiento para tus personajes, ya que te permite comparar directamente el equipo nuevo con el actual. Las mejoras se muestran en azul en el panel de información del personaje, mientras que los efectos negativos se muestran en rojo. Según vas probando más productos en la tienda, puedes controlar tu gasto en la esquina superior derecha de la pantalla. Cuando selecciones Cancelar en la pantalla de probar y comprar, se te pedirá que confirmes tu compra.
+[/list]
+
+
+[entry 3-3]
+[h1]Patrulla para iniciar batallas opcionales[/h1]
+
+En los nodos verdes de campos de batalla, así como en una pequeña selección de nodos azules de cuidades, tendrás la opción de “patrullar” la zona, con lo que activarás una batalla opcional. Cada nodo tiene un nivel mínimo y máximo diferente para los enemigos que te encontrarás durante la patrulla. El rango de niveles se muestra en el mapa del mundo, y los enemigos se adaptarán dentro de este rango para estar a la altura de tus seis personajes más fuertes. 
+
+Usar esto para volver a visitar un campo de batalla tiene varias finalidades:
+[list]
+[*]Si te parece que necesitas entrenar a tus personajes antes de la próxima batalla de la historia, patrullar te permite hacerlo. 
+[*]Muchos cofres del tesoro son inalcanzables la primera vez que visitas un campo de batalla. Más adelante, cuando hayas desbloqueado el equipamiento o las habilidades necesarias para alcanzar esos tesoros, tendrás que volver a visitar la zona para obtenerlos. En el mapa del mundo se puede ver qué nodos tienen aún tesoros sin abrir.
+[*]En determinado momento de la partida, podrías tener un motivo para buscar tipos de monstruos específicos, y patrullar suele ser la mejor manera de encontrarlos.
+[/list]
+
+
+[entry 4-0]
+[h1]Composición del grupo[/h1]
+
+Es buena idea contar con un grupo variado: un conjunto diverso de personajes que puedan compensarse sus debilidades entre sí.
+[list]
+[*]Reúne una combinación de luchadores a corto alcance/a distancia, lanzadores de hechizos y sanadores. En la mayoría de las batallas, puedes desplegar 6 personajes, con lo que aún tendrás abundante espacio para experimentar con algunos de los tipos de unidades más raros.
+[*]Es buena idea contratar a algunos compañeros de reserva por si alguien necesita descansar después de sufrir una herida, un personaje de la historia se ausenta temporalmente por causa de la trama, o bien hay una batalla en la que se pueden desplegar más tropas de las habituales.
+[/list]
+
+
+[entry 4-1]
+[h1]Visita el menú de tropas tras cada batalla[/h1]
+
+Después de cada batalla, tus personajes ganan PH y puede que tengan acceso a nuevos objetos, así que es importante mantenerse al día en el menú de tropas.
+[list]
+[*]Gasta los nuevos PH que ganes. Aprender la habilidad adecuada puede aportar un gran impulso de poder a un personaje. 
+[*]Si un personaje domina su clase principal (aprende todas las habilidades de esa clase), puede que convenga cambiarlo de clase inmediatamente. La mayoría de los PH que gane mientras está en una clase dominada se desperdiciarán. 
+[*]Si un personaje cambia de clase, verifica sus habilidades y equipamiento. Intenta que siempre tenga seleccionadas una subclase, habilidades pasivas y una habilidad de contra, si las ha aprendido. Y aunque el equipamiento se “optimiza” automáticamente al cambiar de clase, puede que el resultado no sea exactamente el deseado. Por ejemplo, si un personaje pasa a la clase Rufián, puede pertrecharse con una daga o una ballesta como arma. Las dagas suelen ser más fuertes que las ballestas, así que la optimización automática las favorecerá. Pero quizá prefieras el alcance adicional de una ballesta.
+[*]Actualiza el equipamiento de tus personajes. Puede que hayas encontrado un componente de equipo en un cofre del tesoro, después de una batalla o en un nodo de tienda recién accesible en el mapa.
+[*]Comprueba el menú de creación. A menudo encontrarás nuevos componentes de creación durante las batallas de la historia, así que compruébalo para ver si puedes crear algo nuevo o realizar alguna mejora.
+[/list]
+
+
+[entry 4-2]
+[h1]Esperar: conseguir tu turno más rápido[/h1]
+
+Si un personaje no actúa durante su turno (aparte de moverse), el siguiente turno le llegará un poco antes. Esta puede ser una técnica útil en las batallas cuando el personaje aún no puede alcanzar a ningún enemigo. No obstante, al no realizar ninguna acción, tampoco obtendrás EXP, así que debes decidirte: ¿es mejor obtener una ventaja en el orden de turnos o realizar una acción que no es óptima solo para ganar EXP? Dependerá de la situación y de si prefieres tener una ventaja a corto plazo o a largo plazo.
+
+
+[entry 4-3]
+[h1]No subestimes los efectos positivos y negativos[/h1]
+
+Aunque seas más débil que tu rival, utilizar efectos positivos y negativos puede cambiar las tornas a tu favor. Por ejemplo, puedes usar Silencio o Frenético en un lanzador para neutralizarlo completamente. Puedes usar Parálisis en un luchador físico para mitigar su amenaza y, si solo tiene armas y habilidades de corta distancia, obtendrás el mismo resultado usando Enraizado. Además, los enemigos con muchos PS son especiamente vulnerables a daño por Veneno y Sangrado, ya que este es de naturaleza porcentual.
+Los enemigos también pueden usar las mismas estrategias contra ti, por supuesto. Para mantener bajo control los efectos negativos, usa Barrera, Panacea o equipo de protección, y mejora tus remedios mediante la creación siempre que puedas.
+
+
+[entry 4-4]
+[h1]Empujar y ahogar oponentes[/h1]
+
+Es extremadamente útil tener al menos un personaje con habilidades que empujan al objetivo, como el ataque salvaje del mercenario. Causan daño adicional al empujar al objetivo contra paredes u otras unidades, o al despeñarlo. ¡Puedes incluso ahogar a aquellos oponentes que sean incapaces de nadar si los empujas al agua! Ten en cuenta que el daño causado al despeñar a alguien varía no solo en función de la longitud de la caída, sino también del valor de salto del objetivo y de su capacidad o incapacidad de volar.
+
+
+[entry 4-5]
+[h1]¿Se te hace difícil?[/h1]
+
+Aquí tienes algunas estrategias sencillas que pueden influir considerablemente en el resultado de cualquier batalla:
+[list]
+[*]¡Despliega el máximo número de tropas en cada batalla! En la mayoría de las batallas, podrás desplegar 6, pero en algunas puedes desplegar hasta 7.
+[*]¡Usa objetos! Como se reabastecen después de cada batalla, no tienes ningún motivo para aferrarte a ellos. 
+[*]¡Concéntrate en eliminar a los enemigos uno a uno! Si reduces sus huestes rápidamente, puede que obtengas la ventaja que necesitas para ganar.
+[*]¡Explota las debilidades elementales de los monstruos! Ten a mano los hechizos y las armas elementales para sacarles partido. 
+[*]¡Estudia a tus enemigos antes de la batalla! Las tácticas que puedes aplicar podrían ser distintas en función de sus armas y habilidades pasivas y de contra. Puedes poner a punto a tus personajes en el menú de tropas durante el despliegue para granjearte la mejor oportunidad de lograr el éxito ante distintos desafíos.
+[/list]
+
+
+[entry 4-6]
+[h1]Botón de ayuda[/h1]
+
+En la mayoría de las pantallas, puedes {patchstring-click1-term} el {button-help} para consultar explicaciones de iconos y otros elementos de la interfaz. El botón de ayuda se indica en la esquina inferior derecha de la pantalla cuando está disponible.
+
+
+[entry 5-0]
+[h1]Reiniciar a nivel 1[/h1]
+
+[b]Resumen[/b]
+En el gremio, tienes la opción de restablecer el nivel 1 a un personaje. Esta función te permite optimizar sus estadísticas según tus preferencias, si es lo que deseas. Pero no es necesario en absoluto hacerlo para completar el juego, ni en general se recomienda. ¡Sé prudente al usar esta función!
+
+[b¿Por qué reiniciar a nivel 1?[/b]
+Reiniciar a nivel 1 te permite eliminar toda la evolución de estadísticas que ha ido acumulando el personaje al subir de nivel hasta el momento, a la vez que conservas intactos sus PH, habilidades y clases desbloqueadas. 
+
+Cuando un personaje sube de nivel, adquiere determinadas estadísticas basadas en la clase principal que tenga en ese momento. Esta evolución de estadísticas se puede consultar en la pantalla de cambio de clase. Si tienes una idea muy específica de las estadísticas que quieres que tenga un personaje y te parece que “has metido la pata”, o bien deseas usar el desarrollo de estadísticas correspondiente a una clase que el personaje haya desbloqueado en un momento posterior de su trayectoria, entonces reiniciar a nivel 1 es una opción que te permitirá crear tu personaje perfecto.
+
+[b]Motivos para NO reiniciar a nivel 1[/b]
+[list]
+[*]Volver a subir el nivel de un personaje puede llevar mucho tiempo. Si reinicias a nivel 1, puede que tengas que detener tu progreso en el juego mientras el personaje vuelve a ponerse en forma para luchar.
+[*]Cuesta mucho oro. La alternativa de gastar ese oro en equipamiento podría aportarte el impulso de estadísticas que estás buscando.
+[*]Puede que sea más sencillo reclutar a otro personaje en el gremio. Reclutar cuesta la mitad que reiniciar, y te ahorras el tiempo dedicado a recuperar los niveles para que el personaje esté a la altura del resto del grupo. Con todo, la contrapartida es que el nuevo recluta normalmente tendrá menos PH totales que un personaje que ya lleve un tiempo en tu grupo y haya estado participando activamente en batallas. 
+[*]No hace falta tener estadísticas perfectas para completar el juego. {fell-seal} está diseñado para permitirte experimentar con tu grupo. Incluso aunque un personaje obtenga unos cuantos niveles en una clase que no sea “la opción perfecta”, no por eso dejará de ser eficaz.
+[*]La mayoría de las estadísticas dejan de acrecentarse al alcanzar el límite de {stat-cap}, la de {spd} al alcanzar {spd-cap}, y las de {hp} y {mp} al alcanzar {hp-cap}. Esto significa que, aun intentando aumentar/reducir al máximo el nivel de un personaje, seguirás teniendo bastante margen para “subir al máximo una estadística”, incluso si no alcanzas el máximo desarrollo de esa estadística en cada nivel.
+[*]Un ejemplo específico de lo anterior sería subir de nivel exclusivamente como {prin-title} para aprovechar el rápido desarrollo de {mnd}, llegando a tener un personaje con {stat-cap} de {mnd} alrededor del nivel 88. En los niveles posteriores, el desarrollo de {mnd} se habrá desperdiciado. Esto significa que a largo plazo conviene tener una mezcla de clases para cualquier personaje, pues contribuye a redondear sus estadísticas y garantizar que siempre se obtiene algo de cada subida de nivel.
+[/list]
+
+[b]Consideraciones especiales respecto a reiniciar personajes de la historia[/b]
+[list]
+[*]En el gremio, solo se pueden contratar nuevos reclutas hasta el nivel de Kyrie. Si reinicias el nivel de Kyrie, estarás limitando el nivel de los reclutas que puedes contratar. 
+[*]Los personajes de la historia que se unen a tu grupo también están directamente vinculados al nivel de Kyrie, así que, si se lo reinicias, también reducirás el nivel de aquellos. 
+[*]Algunas batallas de la historia requieren la presencia de determinados personajes de la historia. Si reinicias el nivel de un personaje de la historia y luego emprendes una batalla que exija su presencia, podrías verte envuelto en una situación desagradable. Habitualmente solo la presencia de Kyrie es obligatoria en las batallas de la historia, aunque de vez en cuando también es obligatoria la de otros personajes.
+[*]Dado que no puedes contratar a una segunda versión de un personaje de la historia como en el caso de los otros personajes, reiniciar su nivel sin duda puede ser algo que quieras hacer si realmente “has metido la pata” con el desarrollo de sus estadísticas.
+[*]Hay un único personaje monstruo que no tiene un desarrollo de estadísticas permanente. En lugar de ello, sus estadísticas reflejan su clase de monstruo actual. Por lo tanto, no habrá ningún beneficio en restablecerle el nivel 1 a este personaje.
+[/list]

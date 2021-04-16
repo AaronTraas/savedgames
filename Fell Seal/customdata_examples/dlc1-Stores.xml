@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XMLStores>
+  <Store StoreNumber="0" StoryIndex="20" AddToItems="true">
+    <Items data="ARI-36,BADG-06,BADG-07" />
+  </Store>
+  <Store StoreNumber="1" StoryIndex="20" AddToItems="true">
+    <Items data="ARI-36,BADG-06,BADG-07" />
+  </Store>
+  <Store StoreNumber="2" StoryIndex="20" AddToItems="true">
+    <Items data="ARI-36,BADG-06,BADG-07" />
+  </Store>
+  <Store StoreNumber="3" StoryIndex="20" AddToItems="true">
+    <Items data="ARI-36,BADG-06,BADG-07" />
+  </Store>
+  <Store StoreNumber="4" StoryIndex="20" AddToItems="true">
+    <Items data="ARI-36,BADG-06,BADG-07" />
+  </Store>
+  <Store StoreNumber="5" StoryIndex="20" AddToItems="true">
+    <Items data="ARI-36,BADG-06,BADG-07" />
+  </Store>
+  <Store StoreNumber="0" StoryIndex="31" AddToItems="true">
+    <Items data="ARI-36,BADG-06,BADG-07,BADG-08,BADG-09" />
+  </Store>
+  <Store StoreNumber="1" StoryIndex="31" AddToItems="true">
+    <Items data="ARI-36,BADG-06,BADG-07,BADG-08,BADG-09" />
+  </Store>
+  <Store StoreNumber="2" StoryIndex="31" AddToItems="true">
+    <Items data="ARI-36,BADG-06,BADG-07,BADG-08,BADG-09" />
+  </Store>
+  <Store StoreNumber="4" StoryIndex="31" AddToItems="true">
+    <Items data="ARI-36,BADG-06,BADG-07,BADG-08,BADG-09" />
+  </Store>
+  <Store StoreNumber="5" StoryIndex="31" AddToItems="true">
+    <Items data="ARI-36,BADG-06,BADG-07,BADG-08,BADG-09" />
+  </Store>
+  <Store StoreNumber="6" StoryIndex="31" AddToItems="true">
+    <Items data="ARI-36,BADG-06,BADG-07,BADG-08,BADG-09" />
+  </Store>
+  <Store StoreNumber="7" StoryIndex="31" AddToItems="true">
+    <Items data="ARI-36,BADG-06,BADG-07,BADG-08,BADG-09" />
+  </Store>
+  <Store StoreNumber="8" StoryIndex="31" AddToItems="true">
+    <Items data="ARI-36,BADG-06,BADG-07,BADG-08,BADG-09" />
+  </Store>
+  <Store StoreNumber="0" StoryIndex="33" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,SHI-35,SHI-36,RAP-36" />
+  </Store>
+  <Store StoreNumber="1" StoryIndex="33" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,SHI-35,SHI-36,RAP-36" />
+  </Store>
+  <Store StoreNumber="2" StoryIndex="33" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,SHI-35,SHI-36,RAP-36" />
+  </Store>
+  <Store StoreNumber="4" StoryIndex="33" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,SHI-35,SHI-36,RAP-36" />
+  </Store>
+  <Store StoreNumber="5" StoryIndex="33" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,SHI-35,SHI-36,RAP-36" />
+  </Store>
+  <Store StoreNumber="6" StoryIndex="33" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,SHI-35,SHI-36,RAP-36" />
+  </Store>
+  <Store StoreNumber="7" StoryIndex="33" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,SHI-35,SHI-36,RAP-36" />
+  </Store>
+  <Store StoreNumber="8" StoryIndex="33" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,SHI-35,SHI-36,RAP-36" />
+  </Store>
+  <Store StoreNumber="0" StoryIndex="38" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,ARI-37,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,SHI-35,SHI-36,RAP-36,GUN-36" />
+  </Store>
+  <Store StoreNumber="1" StoryIndex="38" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,ARI-37,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,SHI-35,SHI-36,RAP-36,GUN-36" />
+  </Store>
+  <Store StoreNumber="2" StoryIndex="38" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,ARI-37,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,SHI-35,SHI-36,RAP-36,GUN-36" />
+  </Store>
+  <Store StoreNumber="4" StoryIndex="38" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,ARI-37,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,SHI-35,SHI-36,RAP-36,GUN-36" />
+  </Store>
+  <Store StoreNumber="5" StoryIndex="38" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,ARI-37,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,SHI-35,SHI-36,RAP-36,GUN-36" />
+  </Store>
+  <Store StoreNumber="6" StoryIndex="38" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,ARI-37,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,SHI-35,SHI-36,RAP-36,GUN-36" />
+  </Store>
+  <Store StoreNumber="7" StoryIndex="38" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,ARI-37,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,SHI-35,SHI-36,RAP-36,GUN-36" />
+  </Store>
+  <Store StoreNumber="8" StoryIndex="38" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,ARI-37,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,SHI-35,SHI-36,RAP-36,GUN-36" />
+  </Store>
+  <Store StoreNumber="9" StoryIndex="38" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,ARI-37,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,SHI-35,SHI-36,RAP-36,GUN-36" />
+  </Store>
+  <Store StoreNumber="0" StoryIndex="44" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,ARI-37,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,BADG-11,SHI-35,SHI-36,RAP-36,GUN-36,ROD-36" />
+  </Store>
+  <Store StoreNumber="1" StoryIndex="44" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,ARI-37,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,BADG-11,SHI-35,SHI-36,RAP-36,GUN-36,ROD-36" />
+  </Store>
+  <Store StoreNumber="2" StoryIndex="44" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,ARI-37,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,BADG-11,SHI-35,SHI-36,RAP-36,GUN-36,ROD-36" />
+  </Store>
+  <Store StoreNumber="4" StoryIndex="44" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,ARI-37,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,BADG-11,SHI-35,SHI-36,RAP-36,GUN-36,ROD-36" />
+  </Store>
+  <Store StoreNumber="5" StoryIndex="44" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,ARI-37,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,BADG-11,SHI-35,SHI-36,RAP-36,GUN-36,ROD-36" />
+  </Store>
+  <Store StoreNumber="6" StoryIndex="44" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,ARI-37,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,BADG-11,SHI-35,SHI-36,RAP-36,GUN-36,ROD-36" />
+  </Store>
+  <Store StoreNumber="7" StoryIndex="44" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,ARI-37,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,BADG-11,SHI-35,SHI-36,RAP-36,GUN-36,ROD-36" />
+  </Store>
+  <Store StoreNumber="8" StoryIndex="44" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,ARI-37,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,BADG-11,SHI-35,SHI-36,RAP-36,GUN-36,ROD-36" />
+  </Store>
+  <Store StoreNumber="9" StoryIndex="44" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,ARI-37,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,BADG-11,SHI-35,SHI-36,RAP-36,GUN-36,ROD-36" />
+  </Store>
+  <Store StoreNumber="0" StoryIndex="48" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,ARI-37,ARI-39,ARI-40,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,BADG-11,SHI-35,SHI-36,RAP-36,GUN-36,ROD-36" />
+  </Store>
+  <Store StoreNumber="1" StoryIndex="48" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,ARI-37,ARI-39,ARI-40,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,BADG-11,SHI-35,SHI-36,RAP-36,GUN-36,ROD-36" />
+  </Store>
+  <Store StoreNumber="2" StoryIndex="48" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,ARI-37,ARI-39,ARI-40,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,BADG-11,SHI-35,SHI-36,RAP-36,GUN-36,ROD-36" />
+  </Store>
+  <Store StoreNumber="4" StoryIndex="48" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,ARI-37,ARI-39,ARI-40,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,BADG-11,SHI-35,SHI-36,RAP-36,GUN-36,ROD-36" />
+  </Store>
+  <Store StoreNumber="5" StoryIndex="48" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,ARI-37,ARI-39,ARI-40,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,BADG-11,SHI-35,SHI-36,RAP-36,GUN-36,ROD-36" />
+  </Store>
+  <Store StoreNumber="6" StoryIndex="48" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,ARI-37,ARI-39,ARI-40,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,BADG-11,SHI-35,SHI-36,RAP-36,GUN-36,ROD-36" />
+  </Store>
+  <Store StoreNumber="7" StoryIndex="48" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,ARI-37,ARI-39,ARI-40,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,BADG-11,SHI-35,SHI-36,RAP-36,GUN-36,ROD-36" />
+  </Store>
+  <Store StoreNumber="8" StoryIndex="48" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,ARI-37,ARI-39,ARI-40,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,BADG-11,SHI-35,SHI-36,RAP-36,GUN-36,ROD-36" />
+  </Store>
+  <Store StoreNumber="9" StoryIndex="48" AddToItems="true">
+    <Items data="ARI-36,ABO-35,ACO-00,ACO-01,ACO-02,ACO-03,ACO-04,ACO-05,ARI-37,ARI-39,ARI-40,BADG-06,BADG-07,BADG-08,BADG-09,BADG-10,BADG-11,SHI-35,SHI-36,RAP-36,GUN-36,ROD-36" />
+  </Store>
+</XMLStores>

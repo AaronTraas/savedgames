@@ -1,0 +1,18 @@
+item-healing=Одиночная цель восстанавливает {power} {hp}.
+item-negative={addnegative} на цель.
+item-potion=Зелье
+item-potions=Зелья
+item-heavypotion=Тяжелое зелье
+item-fullpotion=Полное зелье
+item-raisepotion=Пепел Феникса
+item-raisepotion-desc=Павший союзник воскресает с {percent} {hp}.
+item-acidbomb=Едкая бомба
+item-mindnumber=Зловонная бомба
+item-manastone=Камень маны
+item-manastone-desc=Одиночная цель восстанавливает {power} {mp}.
+item-rock=Камень
+item-rocks=Камни
+item-rock-desc=Наносит {power} ед. урона одной цели.
+item-remedy=Целебное средство
+item-remedys=Целебные средства
+

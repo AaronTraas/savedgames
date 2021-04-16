@@ -1,0 +1,2900 @@
+#version 1
+
+; ***** NOTE: ****
+; Do NOT copy all the values from this file into your customdata/Encounters.txt file!
+; You should only add/copy headers and their values if you're modifying/adding them.
+; Copying all these values means that whenever the base values of the game change during an update,
+; your mod will keep overriding them (even for values your mod isn't actually using or caring about).
+; This will prevent balance updates from applying correctly to the game if you're using a mod.
+;
+; Please note that this file works a tad differently than GameOptions.txt, in that modifications are on
+; a per header basis, rather than per value. What this means is that if you are modifying 
+; a header (like: [City01-Patrol0] for example), then this modification deletes all the base game
+; values under that header. The main reason for this is that if you're creating an encounter, you don't want
+; your values to be added to the existing encounter, but replace the encounter.
+; **********************
+
+; Story/Random map settings
+
+; ******** City01 : Gelligh *************************************
+[City01]
+GoonAliveGold=300
+Loot=ING-00, ING-00
+Lootcount=0
+LootTable=0
+LevelRange=1,1
+MinGearCount=1
+MaxUnits=3
+StealTable=0
+NoItems=true
+IgnoreScaling=true
+NgpScaling=true
+NoMonsterUpgrade=true
+
+; Story2
+LevelRange2=22,27
+Lootcount2=1
+Loot2=ING-24, ING-15, ING-06
+EnemiesDeadToSpawnBoss=2
+MinDistanceForBossSpawn=2
+BossLevelBonus=1
+Loottable2=25
+StealTable2=14
+NoItems2=true
+
+[City01-Patrol]
+; For random maps, the level range is defined by story chapters (see [Chapters]). If there's no entry for a chapter, it will use the default from [Chapters-LevelRange]
+LevelRange0=4,8
+LevelRange1=7,13
+LevelRange2=10,18
+LevelRange3=17,28
+LevelRange4=24,38
+LevelRange5=24,38
+LevelRange6=24,38
+Lootcount=4
+LootTable=3
+StealTable=3
+
+[City01-Patrol0]
+zone0=0,4,2,5
+facing=ru
+center=12,6
+
+; Extra
+human0=x:13, y:0, ai:melee, class:ROGU, subclass:MERC, nodifficulty: 2
+human7=x:13, y:0, ai:melee, class:RANG, difficulty: 2
+
+human1=x:14, y:8, ai:range, class:ROGU, subclass:RANG, difficulty: 1
+human2=x:9, y:15, dir:rd, ai:melee, class:ROGU, subclass:null
+human3=x:7, y:15, dir:rd, ai:melee, class:ROGU, gender:male
+human4=x:16, y:7, ai:melee, class:ROGU, subclass:TEMP, gender:male
+human5=x:14, y:5, ai:range, class:GUNN, gender:female, isgoldbag:true
+human6=x:11, y:13, ai:healer, class:UTIL, chance:50, difficulty: 1, apbonus:20
+
+monster0=x:16, y:5, class:KAW-01, chance:75, apbonus:15, novariants:true
+
+
+[City01-Patrol1]
+zone0=10,4,2,4
+facing=ld
+center=7,8
+
+human0=x:6, y:11, dir:rd, class:MERC
+human2=x:1, y:5, dir:ru, class:ROGU, subclass:null, wptype:dagger
+human3=x:9, y:14, dir:rd, class:ROGU, subclass:MERC, wptype:crossbow, acc0:ARI-01, acc1:AGL-01
+
+monster0=x:0, y:6, dir:ru, class:KAW-01
+monster1=x:7, y:13, dir:rd, class:KAW-01, chance:50, apbonus:20
+
+; Extra
+monster2=x:8, y:13, dir:rd, class:VAN-01, difficulty:1, nodifficulty:2
+monster3=x:8, y:13, dir:rd, class:VAN-02, difficulty:2
+
+human1=x:1, y:7, dir:ru, class:MERC, subclass:null, wptype:sword, behavior:killer, nodifficulty: 2
+human4=x:1, y:7, dir:ru, class:MERC, subclass:null, wpstyle:meleetwohand, behavior:killer, difficulty: 2
+
+
+; ******** Crossroads01 : The Crossroads *************************************
+[Crossroads01]
+; Controls the spawning of bandits from the door.
+SpawnWarning=1
+SpawnMax=2
+SpawnDelay=2
+SpawnFirstDelay=3
+GoldBonusForDoor=700
+ApBonusForDoor=30
+Loot=CBO-01
+LootTable=1
+LootCount=2
+LevelRange=1,2
+MinGearCount=1
+StealTable=1
+NoItems=true
+AccMissingChance=75
+IgnoreScaling=true
+NgpScaling=true
+NoMonsterUpgrade=true
+
+; Story 2
+Lootcount2=1
+Loot2=ING-24,ING-17
+Loottable2=28
+StealTable2=17
+LevelRange2=30,36
+
+[Crossroads01-Patrol]
+LevelRange0=1,3
+LevelRange1=1,4
+LevelRange2=2,5
+LevelRange3=3,6
+LevelRange4=3,6
+LevelRange5=3,6
+LevelRange6=3,6
+Loot=ING-00, ING-01
+Lootcount=1
+Loottable=1
+StealTable=1
+IgnoreScaling=true
+NoMonsterUpgrade=true
+
+
+[Crossroads01-Patrol0]
+zone0=0,13,2,3
+facing=ru
+center=10,8
+
+monster0=x:11, y:11, dir:ld, class:VAN-02
+monster1=x:9, y:4, dir:ld, class:VAN-01, chance:50, apbonus:20
+human0=x:11, y:10, dir:ld, ai:melee
+human1=x:9, y:7, dir:ld, ai:range
+human2=x:13, y:3, dir:ld, ai:range
+
+monster2=x:5, y:4, dir:lu, class:VAN-01, difficulty:1
+
+; Extra
+human3=x:8, y:9, dir:ld, ai:melee, nodifficulty: 2
+human4=x:8, y:9, dir:ld, ai:melee, difficulty: 2, counter:MERC-C1
+
+
+[Crossroads01-Patrol1]
+zone0=5,0,4,2
+facing=lu
+center=10,8
+
+monster0=x:5, y:15, class:VAN-02, acc0:ARI-00
+human0=x:13, y:5, ai:range, class:ROGU, wpdelta:1
+human2=x:10, y:9, ai:melee, class:MERC
+human3=x:7, y:16, ai:melee, class:ROGU
+human4=x:8, y:12, ai:melee, class:MERC
+
+monster1=x:7, y:15, dir:rd, class:VAN-01, difficulty:1, weightstyle:viciousdps
+
+; Extra
+human1=x:13, y:8, ai:range, class:ROGU, nodifficulty: 2
+human5=x:13, y:8, ai:range, class:ROGU, difficulty: 2, subclass:RANG
+
+
+; ******** Forest04 : Timber Road *************************************
+[Forest04]
+LevelRange=2,4
+AccMissingChance=50
+MinGearCount=1
+Loot=ING-02
+Lootcount=2
+LootTable=2
+StealTable=2
+NoItems=true
+IgnoreScaling=true
+NgpScaling=true
+NoMonsterUpgrade=true
+
+[Forest04-Patrol]
+AccMissingChance=40
+LevelRange0=2,5
+LevelRange1=3,7
+LevelRange2=4,8
+LevelRange3=5,10
+LevelRange4=5,10
+LevelRange5=5,10
+LevelRange6=5,10
+Loot=ING-02
+Lootcount=2
+Loottable=2
+StealTable=2
+IgnoreScaling=true
+NoMonsterUpgrade=true
+
+[Forest04-Patrol0]
+zone0=0,1,1,4
+zone1=1,2,2,2
+center=8,6
+
+monster0=x:10, y:3, dir:ld, class:VAN-01, weightstyle:viciousdps
+monster1=x:9 , y:0, dir:ld, class:VAN-01
+monster3=x:9 , y:2, dir:ld, class:DAO-01
+monster5=x:9 , y:9, dir:ld, class:HAR-01
+
+monster6=x:11, y:1, dir:ld, class:DAO-01, difficulty:1
+
+; Extra
+monster4=x:7 , y:9, dir:rd, class:VAN-02, nodifficulty: 2, leveldelta:-1
+monster2=x:10, y:6, dir:ld, class:VAN-02, nodifficulty: 2, leveldelta:-1
+monster7=x:7 , y:9, dir:rd, class:VAN-02, difficulty: 2, acc0: ABO-01
+monster8=x:10, y:6, dir:ld, class:VAN-02, difficulty: 2, acc0: ABO-01
+
+[Forest04-Patrol1]
+zone0=0,1,1,4
+zone1=1,2,2,2
+center=8,6
+
+human0=x:7 , y:9, dir:rd, ai:range
+human1=x:5 , y:9, dir:rd, ai:melee, class:MERC
+human2=x:10, y:0, dir:ld, ai:melee, class:RANG
+human4=x:9 , y:2, dir:ld, ai:melee, class:RANG, gearpieces:5, leveldelta:-1
+
+monster0=x:9, y:1, dir:ld, class:VAN-01, difficulty:1, weightstyle:viciousdps
+
+; Extra
+human3=x:9 , y:4, dir:ld, ai:magic, class:WIZA, subclass:null, nodifficulty: 2, leveldelta:-1
+human5=x:9 , y:7, dir:ld, ai:healer,class:DRUI, nodifficulty: 2
+human6=x:9 , y:4, dir:ld, ai:magic, class:WIZA, subclass:null, difficulty: 2, counter:HEAL-C1
+human7=x:9 , y:7, dir:ld, ai:healer,class:DRUI, difficulty: 2, counter:HEAL-C1
+
+[Forest04-Patrol2]
+zone0=10,1,2,3
+center=8,6
+
+human0=x:0, y:9  , ai:melee, class:ROGU, acc0:ARI-00
+human1=x:10, y:9 , ai:melee, class:ROGU, acc0:ABO-00
+human2=x:6, y:9  , ai:magic, class:WIZA
+human4=x:3, y:8  , ai:trapper, class:PEDD, subclass:null, acc0:ARI-00, wptype:axe, isgoldbag:true
+human5=x:1, y:1  , ai:melee, class:RANG, minabilities:1|1
+
+monster1=x:0, y:2, dir:ru, class:VAN-01, difficulty:1, weightstyle:viciousdps
+
+; Extra
+monster0=x:1, y:3, class:VAN-01, nodifficulty: 2, weightstyle:viciousdps
+human3=x:7, y:9  , ai:melee, class:MERC, subclass:KNIG, wptype:axe, nodifficulty: 2
+monster2=x:1, y:3, class:VAN-02, weightstyle:viciousdps, difficulty: 2
+human6=x:7, y:9  , ai:melee, class:MERC, subclass:KNIG, wptype:axe, difficulty: 2, counter: MERC-C1
+
+
+; ******** Forest03: Alpine Woods *************************************
+[Forest03]
+LevelRange=2,5
+Loot=ING-03
+Lootcount=2
+Loottable=4
+StealTable=2
+AccMissingChance=50
+IgnoreScaling=true
+NgpScaling=true
+NoMonsterUpgrade=true
+
+; Story2
+LevelRange2=15,25
+Loot2=SWD-16
+Lootcount2=2
+loottable2=32
+StealTable2=10
+
+[Forest03-Patrol]
+LevelRange0=1,4
+LevelRange1=6,10
+LevelRange2=7,12
+LevelRange3=9,15
+LevelRange4=9,15
+LevelRange5=9,15
+LevelRange6=9,15
+Loot=ING-03
+Lootcount=2
+Loottable=4
+StealTable=2
+IgnoreScaling=true
+NoMonsterUpgrade=true
+AccMissingChance=50
+
+[Forest03-Patrol0]
+zone0=3,3,4,2
+center=15,11
+
+human1=x:14, y:15, dir:rd, ai:melee
+human2=x:14, y:14, dir:rd, ai:range
+human3=x:16, y:6 , dir:ld, ai:range
+human4=x:16, y:5 , dir:ld, ai:healer
+
+human6=x:17, y:13, dir:ld, class:ROGU, difficulty:1
+
+; Extra
+human5=x:16, y:3 , dir:ld, ai:melee, class:BLAD, minabilities:1|2, nodifficulty: 2
+human0=x:15, y:11, dir:ld, ai:trapper, nodifficulty: 2
+human7=x:16, y:3 , dir:ld, ai:melee, class:BLAD, minabilities:1|2, difficulty: 2, counter: HEAL-C1
+human8=x:15, y:11, dir:ld, ai:trapper, difficulty: 2, passive0: MERC-P2
+
+
+[Forest03-Patrol1]
+zone0=15,14,3,3
+center=8,8
+
+monster0=x:7, y:5, dir:lu, class:DAO-01, weightstyle:viciousdps
+monster2=x:5, y:7, dir:ru, class:DAO-01
+monster4=x:5, y:8, dir:ru, class:VAN-02
+monster5=x:10, y:4, dir:lu, class:VAN-01, difficulty: 1
+monster6=x:9, y:5, dir:lu, class:VAN-02 
+
+; Extra
+monster1=x:12, y:5, dir:lu, class:PEK-21, nodifficulty: 2
+monster3=x:5, y:11, dir:ru, class:VAN-01, nodifficulty: 2
+monster7=x:12, y:5, dir:lu, class:PEK-11, difficulty: 2
+monster8=x:5, y:11, dir:ru, class:VAN-02, difficulty: 2
+
+
+; ******** Crossroads02: Gyaum Tor *************************************
+[Crossroads02]
+LevelRange=3,6
+Loot=ING-03
+Lootcount=5
+StealTable=4
+GoldBonus=2000
+AccMissingChance=40
+IgnoreScaling=true
+NgpScaling=true
+NoMonsterUpgrade=true
+
+[Crossroads02-Patrol]
+MinGearCount=2
+LevelRange0=3,9
+LevelRange1=3,11
+LevelRange2=3,13
+LevelRange3=5,19
+LevelRange4=5,19
+LevelRange5=5,19
+LevelRange6=5,19
+Loot=ING-03
+Lootcount=2
+Loottable=6
+StealTable=4
+IgnoreScaling=true
+NoMonsterUpgrade=true
+AccMissingChance=50
+
+[Crossroads02-Patrol0]
+zone0=0,0,2,3
+zone1=2,1,2,1
+facing=lu
+center=7,7
+
+human0=x:0 ,y:9,  ai:melee , class:MERC, subclass:null
+human1=x:1 ,y:9,  ai:melee , class:ROGU, wpstyle: meleeonehand
+human2=x:9 ,y:2,  ai:melee , class:REAV, subclass:null, minabilities:1|2
+human3=x:9 ,y:3,  ai:melee , class:KNIG
+human4=x:1 ,y:10, ai:healer, class:ALCH, subclass:HEAL, wpstyle:ranged, difficulty: 1
+human5=x:10 ,y:3, ai:magic , class:ALCH, subclass:WIZA
+
+; Extra
+human6=x:7 ,y:8,  ai:range , class:RANG, wptype:bow, nodifficulty: 2
+human7=x:7 ,y:8,  ai:healer , class:HEAL, difficulty: 2
+
+[Crossroads02-Patrol1]
+zone0=5,6,3,3
+facing=ld
+center=2,4
+
+monster0=x:0, y:5, dir:ru, class:VAN-01, weightstyle:viciousdps
+monster2=x:10, y:3, dir:ld, class:DAO-01
+monster3=x:0, y:10, dir:rd, class:HAR-01
+monster4=x:2, y:1, dir:lu, class:PEK-31
+monster6=x:7, y:1, dir:lu, class:VAN-01, difficulty:1
+
+; Extra
+monster1=x:0, y:3, dir:ru, class:VAN-02, nodifficulty: 2
+monster5=x:8, y:0, dir:lu, class:DAO-01, nodifficulty: 2
+monster7=x:0, y:3, dir:ru, class:VAN-02, difficulty: 2, weightstyle: viciousdps
+monster8=x:8, y:0, dir:lu, class:DAO-02, difficulty: 2
+
+
+; ******** Highlands01: The Highlands *************************************
+[Highlands01]
+LevelRange=3,7
+ChatterDistance=7
+ChatterMaxTurns=4
+KawaDistance=9
+KawaMaxTurns=2
+MaxUnits=7
+Loot=ING-04, ING-09
+Lootcount=2
+Loottable=7
+StealTable=4
+AccMissingChance=75
+
+[Highlands01-Patrol]
+LevelRange0=4,11
+LevelRange1=6,14
+LevelRange2=6,15
+LevelRange3=12,22
+LevelRange4=18,26
+LevelRange5=20,30
+LevelRange6=20,30
+Lootcount=3
+Loottable=7
+StealTable=4
+
+[Highlands01-Patrol0]
+chance=65
+zone0=0,4,1,6
+center=11,6
+
+human0=x:8 , y:11, dir:rd, ai:melee
+human1=x:10, y:5 , dir:ld, ai:range
+human2=x:12, y:4 , dir:ld, ai:magic
+human3=x:12, y:8, dir:ld, ai:magic
+
+human5=x:9, y:10, dir:ld, class:MERC, wptype:axe, difficulty:1
+
+; Extra
+monster0=x:10, y:4, dir:ld, class:VAN-01, behavior:guardian, nodifficulty: 2, weightstyle:viciousdps
+human4=x:13, y:1 , dir:ld, ai:magic, nodifficulty: 2
+monster1=x:10, y:4, dir:ld, class:VAN-02, behavior:guardian, difficulty: 2, weightstyle: viciousdps
+human6=x:13, y:1 , dir:ld, ai:magic, class:WIZA, subclass:GUNN, difficulty: 2
+
+[Highlands01-Patrol1]
+zone0=14,4,2,4
+center=11,6
+;MaxUnits=7
+
+monster0=x:5, y:11, class:KAW-01, novariants:true
+monster1=x:5, y:13, class:KAW-01, difficulty: 1, novariants:true
+monster2=x:8, y:6 , class:KAW-01, difficulty: 1, novariants:true
+monster3=x:8, y:4 , class:KAW-01, novariants:true
+monster4=x:3, y:9 , class:KAW-01, novariants:true
+monster5=x:9, y:5 , class:KAW-01, novariants:true
+
+; Extra
+monster8=x:7, y:0 , class:DAO-01, nodifficulty: 2, weightstyle:viciousdps
+monster6=x:5, y:7 , class:DAO-01, nodifficulty: 2
+monster7=x:5, y:3 , class:DAO-01, nodifficulty: 2
+monster9=x:7, y:0 , class:DAO-02, difficulty: 2, weightstyle: viciousdps
+monster10=x:5, y:7 , class:DAO-01, difficulty: 2, acc0:ABO-01
+monster11=x:5, y:3 , class:DAO-01, difficulty: 2, acc0:ABO-01
+
+
+; ******** TempleOutside01: Scarred Summit *************************************
+[TempleOutside01]
+LevelRange=5,8
+Loot=ING-04
+Lootcount=2
+Loottable=8
+StealTable=4
+AccMissingChance=35
+
+[TempleOutside01-Patrol]
+LevelRange0=5,12
+LevelRange1=8,14
+LevelRange2=10,19
+LevelRange3=18,30
+LevelRange4=26,37
+LevelRange5=26,37
+LevelRange6=26,42
+Lootcount=2
+Loottable=8
+StealTable=4
+
+[TempleOutside01-Patrol0]
+zone0=0,0,3,3
+facing=ru
+center=8,5
+
+monster0=x:3, y:11, class:HAR-01
+monster1=x:6, y:11, class:PHO-01
+monster2=x:8, y:11, class:HAR-01
+
+human0=x:8 ,y:9, ai:magic,  gender:female, class:UTIL, subclass:WIZA, difficulty: 1
+human2=x:9 ,y:7, ai:healer, gender:female, class:UTIL, subclass:HEAL
+human3=x:3 ,y:9, ai:melee,  gender:female, class:DRUI, subclass:BLAD, minsubabilities:1|1|1, passive0:BLAD-P1, passive1:MERC-P1, weapon2:true
+
+; Extra
+human1=x:10,y:8, ai:magic,  gender:female, class:DRUI, subclass:null, minabilities:1|1, nodifficulty: 2
+human4=x:10,y:8, ai:range,  gender:female, class:RANG, subclass:null, minabilities:1|1, difficulty: 2, passive0: FELL-P1, counter:RANG-C1, weight:RANG-A5|100
+
+[TempleOutside01-Patrol1]
+zone0=8,3,2,3
+zone1=10,4,1,2
+facing=ld
+center=3,6
+
+human0=x:0, y:1, dir:ru, class:ALCH, subclass:KNIG, wptype:crossbow
+human1=x:1, y:2, dir:ru, class:KNIG, subclass:UTIL, wptype:spear
+human2=x:2, y:9, dir:rd, class:RANG, subclass:ROGU, wptype:bow
+human3=x:3, y:10, dir:rd, class:WIZA, subclass:ALCH, gender:female
+human4=x:3, y:7, dir:ru, class:MERC, subclass:RANG, counter:MERC-c1, wptype:maul, minsubabilities:1|1|1|1|2
+
+monster0=x:1, y:9, dir:rd, class:VAN-02
+
+; Extra
+human5=x:1, y:6, dir:ru, class:ROGU, subclass:RANG, wptype:crossbow, difficulty:1, nodifficulty: 2
+human6=x:1, y:6, dir:ru, class:PEDD, subclass:RANG, wptype:crossbow, difficulty:2
+
+
+; ******** Temple01: Highlands Temple *************************************
+[Temple01]
+LevelRange=6,9
+MaxUnits=5
+Loot=ING-05
+Lootcount=3
+Loottable=8
+StealTable=5
+
+
+; ******** Cabin01: Yates' Cabin *************************************
+[Cabin01]
+LevelRange=6,10
+TurnsToLast=5
+MaxZombies=5
+ZombieSpawnChance=50
+Loot=ING-05, ING-09
+Lootcount=2
+Loottable=9
+StealTable=5
+; Story 2
+LevelRange2=7,12
+MaxUnits2=5
+Loot2=ING-02, ING-02, ING-06, ING-07
+Lootcount2=2
+Loottable2=11
+StealTable2=6
+
+; Not a real patrol, just to test
+[Cabin01-Patrol0]
+zone0=0,0,2,3
+zone1=2,0,1,1
+facing=ru
+center=5,5
+
+monster0=x:2, y:6, class:DEM-01, dir:rd
+human0=x:5, y:5, class:UTIL, faction:player
+;monster0=x:3, y:8, class:RAK-03, dir:rd, weightstyle:healer
+;monster1=x:3, y:7, class:HRV-03, dir:rd
+;monster2=x:3, y:6, class:HRV-03, dir:rd
+;monster3=x:3, y:5, class:HRV-03, dir:rd
+
+
+; ******** Canyon01: The Resting Giants *************************************
+[Canyon01]
+LevelRange=7,11
+Loot=ING-06
+Lootcount=3
+Loottable=10
+StealTable=6
+
+[Canyon01-Patrol]
+LevelRange1=5,12
+LevelRange2=13,19
+LevelRange3=21,30
+LevelRange4=30,38
+LevelRange5=30,38
+LevelRange6=30,42
+Lootcount=3
+Loottable=11
+StealTable=6
+
+[Canyon01-Patrol0]
+zone0=0,2,2,3
+facing=ru
+center=8,5
+
+human0=x:8, y: 7, dir:ld, ai:range, class:RANG, wptype:bow
+human1=x:7, y: 9, dir:ld, class:GAMB, wptype:spear, isgoldbag:true
+human2=x:8, y: 2, dir:ld, class:ROGU, subclass:GAMB, wptype:crossbow, acc0:ABO-00
+human3=x:8, y: 8, dir:ld, ai:melee, class:REAV, subclass:MERC, behavior:killer
+human5=x:9, y: 6, dir:ld, class:GAMB, subclass:WIZA, acc0:ABO-00, minabilities:0|0|1, isgoldbag:true
+
+monster0=x:8, y:6, dir:ld, class:VAN-01, difficulty:1, weightstyle:viciousdps
+
+; Extra
+human4=x:8, y: 4, dir:ld, class:MERC, nodifficulty: 2
+human6=x:8, y: 4, dir:ld, class:KNIG, difficulty: 2, wptype:spear, weight:KNIG-A3|25
+
+[Canyon01-Patrol1]
+zone0=0,2,2,3
+facing=ru
+center=8,5
+
+monster1=x:9, y:7, dir:ld, class:HAR-02
+monster2=x:7, y:9, dir:ld, class:THE-01, weightstyle:viciousdps
+monster3=x:8, y:6, dir:ld, class:THE-01, weightstyle:viciousdps
+monster5=x:7, y:0, dir:ld, class:THE-01, weightstyle:viciousdps
+monster6=x:6, y:6, dir:ld, class:NIW-01
+
+; Extra
+monster0=x:9, y:2, dir:ld, class:HAR-01, nodifficulty: 2
+monster4=x:9, y:4, dir:ld, class:HAR-01, difficulty: 1, nodifficulty: 2
+monster7=x:9, y:2, dir:ld, class:HAR-02, difficulty: 2
+monster8=x:9, y:4, dir:ld, class:HAR-02, difficulty: 2
+
+
+; ******** Cabin01 *************************************
+; Set above
+
+
+; ******** Plains01: Azure Fields *************************************
+[Plains01]
+LevelRange=8,13
+Loot=ING-00, ING-00, ING-01, ING-01
+Lootcount=2
+Loottable=12
+StealTable=6
+
+[Plains01-Patrol]
+LevelRange1=9,13
+LevelRange2=11,17
+LevelRange3=19,26
+LevelRange4=24,36
+LevelRange5=24,36
+LevelRange6=24,40
+Lootcount=3
+Loottable=12
+StealTable=6
+
+[Plains01-Patrol0]
+zone0=12,9,2,4
+facing=ld
+center=7,9
+
+human1=x:4, y:11, dir:ru, class:PEDD|WRAN, acc0:ABO-01, minabilities:1|1|1|1|1, isgoldbag:true
+human5=x:3, y:11, dir:ru, class:GUNN
+
+monster1=x:3, y:9, dir:ru, class:VAN-01, difficulty:1, weightstyle:viciousdps
+monster2=x:4, y:9, dir:ru, class:VAN-01, weightstyle:viciousdps
+
+; Extra
+human2=x:4, y:10, dir: ru, class: ALCH, nodifficulty: 2
+human0=x:6, y:11, dir: ru, class:BLAD, acc0:ABO-01, acc1:AGL-03, passive0:REAV-P2, passive1:FELL-P2, nodifficulty: 2
+human3=x:4, y:12, dir: ru, class: HEAL, subclass:UTIL, nodifficulty: 2
+human6=x:4, y:10, dir: ru, class: ALCH, difficulty: 2, counter:WIZA-C1
+human7=x:6, y:11, dir: ru, class:BLAD, acc0:ABO-01, acc1:AGL-03, passive0:REAV-P2, passive1:FELL-P2, difficulty: 2, counter:UTIL-C1
+human8=x:4, y:12, dir: ru, class: HEAL, subclass:UTIL, difficulty: 2, counter:WIZA-C1
+
+[Plains01-Patrol1]
+zone0=1,8,2,3
+facing=ru
+center=7,10
+
+monster0=x:10, y:14, dir:ld, class:THE-01, weightstyle:viciousdps
+monster1=x:9, y:6, dir:ld, class:THE-01
+monster3=x:11, y:4, dir:ld, class:PEK-31
+monster4=x:12, y:6, dir:ld, class:PEK-31, difficulty: 1
+monster5=x:12, y:14, dir:ld, class:PEK-01
+
+
+; Extra
+monster2=x:13, y:13, dir:ld, class:PEK-01, nodifficulty: 2
+human0=x:12, y:10, dir:ld, class:REAV, subclass:DRUI, nodifficulty: 2
+monster6=x:13, y:13, dir:ld, class:PEK-11, difficulty: 2
+human1=x:12, y:10, dir:ld, class:REAV, subclass:ASSA, difficulty: 2, passive0:ALCH-P1, counter: MERC-C1
+
+
+; ******** Forest01: Banyan Span *************************************
+[Forest01]
+LevelRange=9,14
+Loot=ING-20, ING-07, ARI-02, AGL-10
+Lootcount=0
+Loottable=13
+StealTable=8
+
+[Forest01-Patrol]
+LevelRange1=10,18
+LevelRange2=15,22
+LevelRange3=24,33
+LevelRange4=25,39
+LevelRange5=25,39
+LevelRange6=25,42
+Lootcount=2
+Loottable=13
+StealTable=8
+
+[Forest01-Patrol0]
+zone0=0,0,2,2
+zone1=1,9,2,2
+facing=ru
+center=12,7
+
+human0=x:14, y:9, dir: ld, class:ROGU, subclass:GAMB, wptype:crossbow
+human1=x:15, y:5, dir: ld, class:ROGU, subclass:UTIL, wptype: crossbow
+human2=x:10, y:5, dir: ld, class:KNIG, subclass:MERC, wptype:spear
+human3=x:12, y:0, dir:ld, class:RANG, wptype:bow
+human4=x:6, y:7, dir:ld, class:WIZA, acc0:AGL-02, acc1:AGL-02, minabilities:1|1|3
+human5=x:11, y:9, dir:ld, class:KNIG, subclass:ALCH, wptype:spear
+
+ monster0=x:15, y:4, dir:ld, class:VAN-02, difficulty:1
+ 
+ ; Extra
+human7=x:17, y:7, class:ROGU, subclass:GUNN, passive0:TEMP-p1, passive1:MERC-p2, counter:MERC-c1, wptype:crossbow, difficulty:2
+
+; Guest
+human6=x:9, y:7, dir:ru, class:MERC, faction:player, apbonus:30, chance:60
+
+[Forest01-Patrol1]
+zone0=17,5,2,4
+facing=ld
+center=12,7
+
+monster0=x:13, y:1, dir:lu, class:NIW-01
+monster1=x:9, y:5, dir:ru, class:NIW-01
+monster2=x:9, y:9, dir:ru, class:NIW-01, acc0:ABO-01
+monster3=x:9, y:7, dir:ru, class:PHO-01
+monster4=x:8, y:0, dir:ru, class:PHO-01
+monster5=x:4, y:10, dir:ru, class:PHO-01
+
+monster6=x:4, y:9, dir:ru, class:NIW-01, difficulty:1
+
+; Guest
+human0=x:15, y:4, dir:ld, class:ALCH, faction:player, apbonus:30, chance:50
+
+; Extra
+human1=x:6, y:4, dir:ru, class:RANG, passive0:GAMB-p2, passive1:FELL-p2, counter:WIZA-c1, difficulty:2
+
+
+; ******** TempleOutside02: Ekhidna Falls *************************************
+[Templeoutside02]
+LevelRange=10,15
+Loot=ING-08
+Lootcount=2
+Loottable=14
+StealTable=8
+
+[Templeoutside02-Patrol]
+LevelRange1=12,19
+LevelRange2=14,23
+LevelRange3=23,31
+LevelRange4=30,49
+LevelRange5=30,49
+LevelRange6=30,51
+Lootcount=2
+Loottable=15
+StealTable=8
+
+[Templeoutside02-Patrol0]
+zone0=4,5,2,2
+zone1=5,4,2,1
+zone2=6,5,1,1
+facing=ru
+center=8,7
+
+monster0=x:0, y:4, dir:ru, class:RAK-01, nomonsterupgrade:true
+monster1=x:1, y:13, dir:rd, class:RAK-02
+monster2=x:10, y:0, dir:lu, class:NIW-01
+monster3=x:4, y:16, dir:rd, class:PHO-01
+monster4=x:1, y:16, dir:rd, class:PHO-01
+monster5=x:9, y:9, dir:ld, class:RAK-01, acc0:ABO-01, acc1:ARI-01, difficulty: 1, nomonsterupgrade:true
+monster6=x:9, y:0, dir:lu, class:NIW-02
+
+; Extra
+monster7=x:0, y:12, class:RAK-01, difficulty:2
+
+[TempleOutside02-Patrol1]
+zone0=8,0,3,3
+center=5,5
+facing=lu
+
+monster0=x:2, y:6, dir:ru, class:RAK-01, nomonsterupgrade:true
+monster1=x:4, y:9, dir:rd, class:RAK-01, nomonsterupgrade:true
+
+human0=x:1, y:5, dir:ru, class:MERC, wptype:axe, counter:MERC-C1
+human1=x:6, y:12, dir:rd, class:BLAD, wptype:scythe, counter:KNIG-C1, passive0:MERC-P1
+human2=x:5, y:10, dir:rd, class:FELL, counter:HEAL-C1
+
+; Extra
+monster3=x:3, y:11, dir:rd, class:DAO-01, difficulty:1, nodifficulty: 2, weightstyle:viciousdps
+monster2=x:8, y:9, dir:rd, class:RAK-01, nodifficulty:2, nomonsterupgrade:true
+monster4=x:3, y:11, dir:rd, class:DAO-02, difficulty: 2
+monster5=x:8, y:9, dir:rd, class:RAK-02, difficulty: 2
+
+
+; ******** Temple02: Jungle Temple *************************************
+[Temple02]
+LevelRange=11,16
+Loot=GUN-03
+Lootcount=2
+Loottable=14
+StealTable=8
+
+
+; ******** City02: Thespeiros *************************************
+[City02]
+; Story 2
+LevelRange2=11,17
+MaxUnits2=5
+Lootcount2=3
+Loot2=ING-08
+Loottable2=16
+StealTable2=8
+
+; Story 3 - no regular drops from enemies
+MaxUnits3=3
+NoItems3=true
+Lootcount3=0
+Loot3=ING-17, SWD-14, ING-10
+StealTable3=22
+LootTable3=28
+NoDrops3=true
+
+; No patrol, just for testing
+[City02-Patrol0]
+zone0=0,0,1,1
+center=10,5
+
+human0=x:10, y:5, dir:ld, ai:range
+
+
+; ******** Desert02: Caravan Trail *************************************
+[Desert02]
+LevelRange=12,17
+Lootcount=3
+Loot=ING-08
+Loottable=17
+StealTable=9
+; Story2
+LevelRange2=17,21
+Lootcount2=0
+Loot2=ING-12, ING-12, ING-18, ING-18, ING-13
+Loottable2=29
+StealTable2=9
+
+[Desert02-Patrol]
+LevelRange2=13,21
+LevelRange3=22,31
+LevelRange4=29,41
+LevelRange5=29,41
+LevelRange6=29,43
+Lootcount=3
+Loottable=17
+StealTable=9
+
+[Desert02-Patrol0]
+zone0=0,3,2,3
+facing=ru
+center=11,5
+
+human0=x:12, y:10, gender:male, dir:rd, class:RANG, subclass:DRUI, wptype:bow
+human1=x:15, y:2, gender:female, dir:ld, class:RANG, subclass:ALCH, wptype:bow
+
+monster0=x:13, y:5, dir:ld, class:DAO-02, difficulty: 1
+monster1=x:13, y:3, dir:ld, class:DAO-02
+monster3=x:12, y:6, dir:ld, class:VAN-02, ai:guardian
+monster4=x:12, y:2, dir:ld, class:VAN-01, ai:guardian, weightstyle:viciousdps
+
+; guest
+human2=x:7, y:6, dir:ru, class:PEDD, apbonus:40, chance:50, faction:player
+
+; Extra
+monster2=x:15, y:4, dir:ld, class:DAO-01, nodifficulty: 2, weightstyle:viciousdps
+monster5=x:15, y:4, dir:ld, class:DAO-01, difficulty: 2, weightstyle: viciousdps
+human3=x:12, y:7, class:RANG, subclass:GUNN, passive0:FELL-p1, passive1:ROGU-p2, counter:UTIL-c1, difficulty:2
+
+[Desert02-Patrol1]
+zone0=5,10,3,2
+facing=rd
+center=7,4
+
+monster0=x:13, y:6, dir:ld, class:BOL-01, acc0:ABO-03
+monster1=x:12, y:2, dir:ld, class:BOL-01, acc0:ABO-01
+monster2=x:11, y:4, dir:ld, class:BOL-02, acc0:ABO-00
+monster3=x:1, y:7, dir:ru, class:BOL-01
+monster4=x:1, y:4, dir:ru, class:BOL-01, acc0:ABO-02, difficulty:1
+monster5=x:0, y:5, dir:ru, class:BOL-02, acc0:ABO-00
+monster6=x:4, y:1, dir:lu, class:HAR-02
+monster7=x:8, y:1, dir:lu, class:HAR-02
+
+; Extra
+human0=x:6, y:2, class:DRUI, subclass:HEAL, passive0:HEAL-p1, passive1:HEAL-p2, acc0:ABO-03, acc1:ARI-02, ai:healer, difficulty:2
+
+;Mook patrol
+[Desert02-Patrol2]
+zone0=14,2,2,5
+facing=ld
+center=6,6
+
+human0=x:4, y:5, dir:ru, class:KNIG, subclass:null, passive0:null, passive1:null, counter: KNIG-C1, abilities:1|3|2|3|2, noitems:true
+human1=x:4, y:3, dir:ru, class:KNIG, subclass:null, passive0:null, passive1:null, counter: KNIG-C1, abilities:1|3|2|3|2, noitems:true
+human2=x:2, y:8, dir:ru, class:RANG, subclass:null, passive0:null, passive1:null, counter: RANG-C1, abilities:1|3|1|3|2|1, wptype:bow, noitems:true, difficulty:1
+human3=x:4, y:10, dir:rd, class:RANG, subclass:null, passive0:null, passive1:null, counter: RANG-C1, abilities:1|3|1|3|2|1, wptype:bow, noitems:true
+human4=x:3, y:4, dir:ru, class:DRUI, subclass:HEAL, passive0:HEAL-P1, passive1:HEAL-P2, counter: UTIL-C1, wptype:staff, weapon2:true, behavior:alwaysoptimal
+human5=x:6, y:8, dir:ru, class:MERC, subclass:null, passive0:null, passive1:null, counter: MERC-C1, noitems:true, wptype:maul, weapon2:true, acc0:ARI-15
+human6=x:5, y:1, dir:ru, class:MERC, subclass:null, passive0:null, passive1:null, counter: MERC-C1, noitems:true, wptype:maul, weapon2:true
+human7=x:4, y:7, dir:ru, class:WIZA, subclass:null, passive0:null, passive1:null, counter: WIZA-C1, abilities:1|1|1|1|1, noitems:true, acc0:ARI-15
+
+; Expert
+monster0=x:2, y:6, dir:ru, class:VAN-03, weightstyle:buffer, acc0: ABO-03, difficulty:2
+
+
+; ******** Oasis01: Oldebzar ****************************************
+[Oasis01]
+LevelRange=13,17
+Lootcount=2
+Loot=ING-07, ING-11
+Loottable=17
+StealTable=9
+
+[Oasis01-Patrol]
+LevelRange2=13,23
+LevelRange3=22,33
+LevelRange4=29,43
+LevelRange5=29,43
+LevelRange6=29,45
+Loot=ING-08
+Lootcount=2
+Loottable=17
+StealTable=9
+
+[Oasis01-Patrol0]
+zone0=0,10,2,3
+facing=ru
+center=10,9
+
+monster0=x:4, y:1, dir:ld, class:PEK-01
+monster1=x:0, y:2, dir:ru, class:PEK-01
+monster2=x:6, y:5, dir:ld, class:PEK-02
+monster3=x:4, y:4, dir:lu, class:PEK-02, difficulty:1
+
+human0=x:12, y:9, dir:ld, class:SORC, ai:magic, counter:GAMB-C1, passive0:ALCH-P1
+human1=x:8, y:11, dir:ld, class:BLAD, subclass:MERC
+human2=x:10, y:11, dir:ld, class:TEMP, subclass:HEAL, counter:GUNN-C1
+
+; guest
+human3=x:0, y:9, dir:ru, class:FELL, acc0:ABO-02, apbonus:40, chance:100, faction:player
+
+; Extra
+human4=x:13, y:11, class:GUNN, subclass:MERC, passive0:RANG-p2, passive1:WIZA-p2, counter:RANG-c1, behavior:killer, difficulty:2
+
+
+[Oasis01-Patrol1]
+zone0=11,8,2,3
+zone1=11,12,2,1
+facing=ld
+center=3,10
+chance=60
+
+monster0=x:11, y:0, dir:lu, class:BLA-01
+monster1=x:10, y:1, dir:lu, class:PEK-12
+monster2=x:0, y:10, dir:ru, class:THE-03
+monster3=x:2, y:11, dir:ru, class:NIW-02
+monster4=x:4, y:7, dir:ru, class:PEK-02, acc0:ABO-02
+monster5=x:3, y:10, dir:ru, class:KAW-02
+monster6=x:9, y:1, dir:lu, class:KAW-02
+
+monster7=x:12, y:0, dir:lu, class:NIW-02, difficulty:1
+
+;Extra
+monster8=x:3, y:3, class:RAK-02, acc0:ABO-02, difficulty:2
+
+
+; ******** Canyon02: Iirzk'tara Gorge *************************************
+[Canyon02]
+LevelRange=14,18
+Loot=ING-11, BADG-03
+Lootcount=1
+Loottable=19
+StealTable=10
+
+[Canyon02-Patrol]
+LevelRange2=15,25
+LevelRange3=22,33
+LevelRange4=30,44
+LevelRange5=30,44
+LevelRange6=30,46
+Lootcount=2
+Loottable=19
+StealTable=10
+
+[Canyon02-Patrol0]
+zone0=12,9,3,2
+facing=rd
+center=9,5
+
+monster0=x:0, y:0, dir:lu, class:HAR-02
+monster1=x:3, y:9, dir:ru, class:THE-01
+monster2=x:4, y:10, dir:ru, class:BLA-01
+monster3=x:8, y:5, dir:lu, class:PEK-12
+monster4=x:13, y:1, dir:lu, class:BLA-01, acc0:ABO-02
+monster5=x:1, y:3, dir:ru, class:THE-02, weightstyle:viciousdps
+
+monster6=x:2, y:7, dir:ru, class:BOL-02, difficulty:1
+
+; Extra
+monster8=x:7, y:6, class:PEK-22, acc0:ABO-04, difficulty:2
+
+
+[Canyon02-Patrol1]
+zone0=12,3,2,3
+zone1=12,6,1,1
+facing=ld
+center=9,5
+
+monster0=x:3, y:7, dir:rd, class:BLA-01, acc0:ABO-02
+monster1=x:1, y:5, dir:ru, class:THE-02
+monster2=x:3, y:4, dir:ru, class:BOL-01, acc0:ABO-00
+monster3=x:3, y:2, dir:ru, class:PEK-32, acc0:ABO-00
+monster4=x:9, y:1, dir:lu, class:BLA-01
+monster5=x:0, y:6, dir:ru, class:BOL-02, acc0:ABO-00
+
+monster6=x:6, y:9, dir:rd, class:BLA-01, acc0:ABO-02, difficulty:1
+
+; Extra
+monster7=x:0, y:3, class:BLA-02, difficulty:2
+
+[Canyon02-Patrol2]
+zone0=12,3,2,3
+zone1=12,6,1,1
+facing=ld
+center=9,5
+
+human0=x:3, y:7, dir:rd, class:MERC, subclass:null, passive0:null, passive1:null, counter: MERC-C1, noitems:true,wptype:maul, acc0:ABO-02
+human1=x:1, y:5, dir:ru, class:BLAD, abilities:1|3|3|3, subclass:null, passive0:null, passive1:null, counter: BLAD-C1, noitems:true, wptype:sword, shield:true
+human2=x:3, y:4, dir:ru, class:REAV, abilities: 1|3|1|3|1|3, subclass:null, passive0:null, passive1:null, counter: REAV-C1, noitems:true, wptype:axe
+human3=x:3, y:2, dir:ru, class:WIZA, abilities:1|1|3|3|1, subclass:null, passive0:null, passive1:null, counter: WIZA-C1, noitems:true
+human4=x:9, y:1, dir:lu, class:MERC, subclass:null, passive0:null, passive1:null, counter: MERC-C1, noitems:true, wptype:maul
+human5=x:0, y:6, dir:ru, class:REAV, abilities: 1|3|1|3|1|3, subclass:null, passive0:null, passive1:null, counter: REAV-C1, noitems:true, wptype:axe
+
+human6=x:6, y:9, dir:rd, class:MERC, subclass:null, passive0:null, passive1:null, counter: MERC-C1, noitems:true, wptype:maul, difficulty:1
+
+; Expert
+human7=x:7, y:10, dir:rd, class:ROGU, subclass:FELL, weapontype:crossbow, passive0:TEMP-p1, passive1:GUNN-p2, counter:RANG-c1, acc0:ABO-02, difficulty:2
+
+
+
+; ******** Graveyard01: Restful Stones *************************************
+[Graveyard01]
+LevelRange=15,19
+Lootcount=2
+Loot=ING-10
+Loottable=18
+StealTable=10
+
+; Story 2
+maxunits2=7
+LevelRange2=23,99
+Lootcount2=2
+Loot2=ABO-08
+StealTable2=14
+Loottable2=25
+
+[Graveyard01-Patrol]
+LevelRange2=16,26
+LevelRange3=22,34
+LevelRange4=28,43
+LevelRange5=28,43
+LevelRange6=28,45
+Loot=ING-10
+Lootcount=2
+Loottable=18
+StealTable=10
+
+[Graveyard01-Patrol0]
+zone0=3,9,3,2
+center=5,3
+
+monster0=x:6, y:2, class:UND-01, dir:rd
+monster1=x:2, y:2, class:UND-01, dir:ld
+monster2=x:8, y:5, class:UND-01, dir:rd
+monster3=x:8, y:1, class:UND-01, dir:lu
+monster4=x:6, y:1, class:UND-01, dir:ru
+monster5=x:9, y:0, class:HAR-01, dir:lu
+monster6=x:0, y:0, class:HAR-01, dir:lu
+
+monster7=x:3, y:0, dir:lu, class:UND-02, acc0:ABO-03, difficulty:1
+
+; Guest
+human0=x:5, y:5, dir:ld, faction:player, apbonus:50, chance:33, class:BLAD
+
+; Extra
+human1=x:7, y:0, class:LICH, subclass:HEAL, acc0:ARI-05, difficulty:2
+
+[Graveyard01-Patrol1]
+zone0=7,0,3,1
+zone1=8,1,1,1
+zone2=7,2,3,1
+facing=ld
+center=4,6
+
+monster0=x:1, y:0, dir:ru, class:UND-01
+monster1=x:0, y:2, dir:ru, class:UND-02
+monster2=x:5, y:5, dir:rd, class:UND-02
+monster3=x:8, y:5, dir:rd, class:UND-01
+monster4=x:5, y:9, dir:rd, class:VAN-03
+monster5=x:1, y:8, dir:rd, class:VAN-03
+monster6=x:0, y:4, dir:ru, class:VAN-03
+
+monster7=x:2, y:6, dir:rd, class:UND-01, acc0:ABO-00, difficulty:1
+
+; Guest
+human0=x:3, y:3, dir:ru, faction:player, apbonus:50, chance:33, class:GAMB
+
+; Extra
+human1=x:3, y:8, dir:rd, class:VAMP, subclass:NULL, passive0: WIZA-P1, passive1: WIZA-P2, counter:VAMP-C1, wptype:bow, difficulty:2
+
+;Mook patrol
+[Graveyard01-Patrol2]
+zone0=0,8,3,3
+facing=rd
+center=5,4
+
+human0=x:3, y:1, dir:ld, class:ROGU, subclass:null, passive0:null, passive1:null, counter: ROGU-C1, noitems:true, wptype:dagger
+human1=x:8, y:3, dir:ru, class:ROGU, subclass:null, passive0:null, passive1:null, counter: ROGU-C1, noitems:true, wptype:crossbow, acc0:ARI-15
+human2=x:0, y:4, dir:lu, class:MERC, subclass:null, passive0:null, passive1:null, counter: MERC-C1, noitems:true, wptype:maul, weapon2:true
+human3=x:5, y:0, dir:lu, class:UTIL, subclass:null, passive0:null, passive1:null, counter: UTIL-C1, wptype:staff
+human4=x:4, y:0, dir:lu, class:GUNN, subclass:null, passive0:null, passive1:null, counter: GUNN-C1, abilities:1|3|3|1|2|1, noitems:true
+human5=x:6, y:1, dir:ru, class:ASSA, subclass:BLAD, passive0:BLAD-P2, passive1:RANG-P2, counter: WARM-C1, wptype:dagger, weapon2:true, acc0:ARI-15
+
+monster0=x:6, y:9, dir:ld, class:UND-01
+monster1=x:5, y:10, dir:ld, class:UND-02, difficulty:1
+
+; Guest
+human6=x:3, y:9, dir:ru, class:BLAD, subclass:KNIG, counter:UTIL-C1, faction:player, apbonus:30
+
+; Expert
+human7=x:8, y:1, dir:ru, class:UTIL, subclass:ANAT, passive0:ANAT-P1, passive1:ANAT-P2, wptype:staff, weight:ANAT-A1|30, counter:WIZA-P1, difficulty:2
+
+
+; ******** Desert01: Zzakander Spires *************************************
+[Desert01]
+LevelRange=14,18
+Lootcount=2
+Loot=ING-18
+Loottable=19
+StealTable=10
+
+[Desert01-Patrol]
+LevelRange2=16,26
+LevelRange3=22,34
+LevelRange4=29,45
+LevelRange5=35,50
+LevelRange6=35,53
+Lootcount=2
+Loottable=19
+StealTable=10
+
+[Desert01-Patrol0]
+zone0=1,0,4,2
+facing=lu
+center=5,11
+
+bzil0=x:10, y:13, class:HAR-99, subclass:THE-99, ai:magic
+bzil1=x:12, y:8,  class:RAK-99, subclass:PEK-99, ai:hybrid, abilities:0|1|0|1|1
+bzil2=x:2, y:12,  class:TAN-99, subclass:VAN-99, ai:melee, abilities:1|1|1|2
+
+human0=x:6, y:12, ai:range, class:ASSA, subclass:GUNN
+human1=x:8, y:11, ai:magic, class:WARM, subclass:DRUI
+human2=x:12, y:2, ai:trapper, class:ROGU, subclass:PEDD
+human3=x:12, y:5, ai:range, class:RANG, subclass:FELL, wptype:bow
+
+bzil4=x:12, y:6, dir:ld, class:VAN-99, subclass:DAO-99, passive0:THE-99-p1, passive1:THE-99-p2, counter:VAN-99-c1, difficulty:1
+
+; Guest
+bzil3=x:6, y:6, dir:lu, class:DAO-99, subclass:UND-99, ai:healer, faction:player, apbonus:50, chance:60
+
+; Extra
+monster0=x:9, y:10, dir:ru, class:BOL-01, acc0:ABO-03, difficulty:2
+
+[Desert01-Patrol1]
+;Showcase of early Bzil combos
+zone0=11,2,2,1
+zone1=11,4,2,2
+facing=ld
+center=3,7
+
+monster0=x:3, y:9, dir:ru, class:BOL-02, acc0:ABO-00
+monster1=x:0, y:7, dir:ru, class:BOL-01, acc0:ABO-00, difficulty:1
+
+bzil0=x:2, y:4, dir:ru, class:HAR-99, subclass:PHO-99, subabilities:1|1|1|2|3, passive0:MAL-99-p1, passive1:BOL-99-p2, counter:BOL-99-c1
+bzil1=x:1, y:10, dir:ru, class:DAO-99, subclass:NIW-99, passive0:NIW-99-p2, passive1:TAN-99-p1, counter:TAN-99-c1, ai:healer, acc0:ARI-15, abilities:1|1|3|1|1
+bzil2=x:8, y:13, dir:rd, class:THE-99, subclass:KAW-99, passive0:DAO-99-p2, passive1:HAR-99-p2, counter:THE-99-c1, abilities:3|3|1|1, subabilities:1|1|1|2
+bzil3=x:5, y:3, dir:ru, class:BLA-99, subclass:RAK-99, passive0:DAA-99-p1, passive1:UND-99-p2, counter:VAN-99-c1, abilities:3|3|1|1, subabilities:1|1|3|1
+bzil4=x:1, y:1, dir:ru, class:PEK-99, subclass:THE-99, passive0:PHO-99-p1, passive1:THE-99-p1, counter:DAA-99-c1, abilities:3|1|3, subabilities:3|3|1
+
+;GUEST
+bzil5=x:13, y:2, dir:ld, class:VAN-99, subclass:TAN-99, passive0:DAO-99-p1, passive1:NIW-99-p2, counter:HRV-99-c1, faction:player, apbonus:45, weight:VAN-99-A3|35, acc0:ARI-15
+
+; Extra
+bzil6=x:2, y:2, dir:ru, class: PHO-99, subclass: DAO-99, abilities:1|1|1, subabilities:1|1, passive0: NIW-99-P1, passive1: BLA-99-P2, counter: PHO-99-C1, difficulty:2
+
+
+; ******** Cave01: Occul Cavern *************************************
+[Cave01]
+LevelRange=15,19
+Lootcount=4
+Loottable=20
+StealTable=11
+maxunits=7
+
+; Story2
+LevelRange2=16,19
+TurnsToLast2=12
+Lootcount2=4
+Loottable2=20
+StealTable2=11
+MaxEnemyCount2=5
+Spawn1EnemyPerXTurn2=2
+Tier2Chance2=25
+
+; No patrol, just to test
+[Cave01-Patrol0]
+zone0=15,12,1,4
+zone1=16,12,1,2
+facing=ld
+center=3,10
+
+monster0=x:2, y:11, class:HAR-01, acc0:ABO-00, acc1:ABO-00
+
+
+; ******** Cave02: Occul Riverbed *************************************
+[Cave02]
+TurnsHidingToForceLoco=2
+TangrelsMax=2
+TangrelsChance=1
+LocoRushEnthusiasmDampener=0.75
+SwitchPositionChance=50
+TurnsToSpawnBoss=3
+SkipTurnOnLoco=false
+LevelRange=15,20
+Lootcount=0
+Loottable=0
+Loot=ING-18, ING-10, ING-10, ING-11, ING-09, ING-09
+StealTable=11
+
+; ******** Cave01 *************************************
+; See Above
+
+
+; ******** Templeoutside03: Baaz Island *************************************
+[Templeoutside03]
+LevelRange=17,21
+Lootcount=2
+Loot=ING-12
+Loottable=21
+StealTable=12
+
+[Templeoutside03-Patrol]
+LevelRange2=16,26
+LevelRange3=23,34
+LevelRange4=30,49
+LevelRange5=33,50
+LevelRange6=35,60
+Lootcount=3
+Loottable=21
+StealTable=12
+
+[Templeoutside03-Patrol0]
+zone0=5,12,3,2
+facing=rd
+center=3,4
+
+monster0=x:2, y:2, class:PHO-02, acc0:ABO-03, acc1:ARI-02
+monster1=x:4, y:0, class:TAN-02, acc0:ARI-00
+monster2=x:7, y:0, class:TAN-02, acc0:AGL-01
+monster3=x:0, y:10, class:BOL-03
+monster4=x:3, y:2, class:HAR-03
+
+monster5=x:7, y:1, dir:lu, class:HAR-03, difficulty:1
+
+bzil0=x:1, y:4, class:RAK-99, abilities:1|1|1, counter:RAK-99-C1, passive0:HRV-99-P1, passive1:HAR-99-P1, gender:female
+
+; Extra
+bzil1=x:5, y:0, class:DAO-99, subclass:PHO-99, passive0:PHO-99-p2, passive1:BUL-99-p2, counter:TAN-99-c1, acc0:ABO-09, difficulty:2
+
+[TempleOutside03-Patrol1]
+;PATROL1 - Adaptive Affinity Bzil
+zone0=5,0,3,2
+facing=lu
+center=6,10
+chance=40
+
+monster0=x:10, y:10, dir:rd, class:TAN-02
+monster1=x:1, y:9, dir:rd, class:HAR-03, acc0:ABO-01
+monster2=x:3, y:12, dir:rd, class:HAR-03, difficulty:1
+
+bzil0=x:0, y:8, dir:rd, class:PEK-99, subclass:MAL-99, abilities:3|1, subabilities:1|1|2|2, passive0:BUL-99-p2, passive1:DAA-99-p2, counter:PEK-99-c1, weight:MAL-99-A2|15, ai:magic
+; ^ MAL-99-A2 = Dark II
+bzil1=x:7, y:11, dir:rd, class:TAN-99, subclass:HHU-99, abilities:1|1|1|2|1|1, subabilities:1|3|3, passive0:BUL-99-p2, passive1:DAO-99-p1, counter:PEK-99-c1, weight:HHU-99-A1|40, acc0:ARI-15, weightstyle:viciousdps
+; ^ HHU-99-A1 = Firescourge
+bzil2=x:5, y:12, dir:rd, class:BLA-99, subclass:BOL-99, passive0:BUL-99-p2, passive1:DAO-99-p1, counter:PEK-99-c1, abilities:3|3|1|1, subabilities:1|1|1|1|1|1, weight:BOL-99-A4|40, waitturns:1, weightstyle:viciousdps
+; ^ BOL-99-A4 = Earth Burst
+bzil3=x:2, y:11, dir:rd, class:MAL-99, subclass:DAO-99, abilities:1|1|3|2, subabilities:1, passive0:BUL-99-p2, passive1:BLA-99-p2, counter:PEK-99-c1, weight:DAO-99-A1|50, acc0:ABO-01, acc1:AGL-04, ai:melee
+; ^ DAO-99-A1 = Holy Chant
+
+; Extra
+bzil4=x:5, y:9, dir:rd, class: PEK-99, subclass: DAO-99, abilities: 1|1|3|1, subabilities: 1|1|3|1, passive0: DAO-99-P1, passive1: BUL-99-P2, counter: NIW-99-C1, difficulty:2
+
+; ******** Temple03: Desert Temple *************************************
+[Temple03]
+Loot=ING-12, BCL-12
+LevelRange=18,22
+Lootcount=1
+Loottable=22
+StealTable=12
+
+; No patrols, just for testing
+[Temple03-Patrol0]
+zone0=0,0,1,1
+center=5,5
+
+human0=x:10, y:10, dir:ld, ai:range
+
+
+; ******** Swamp01: Phougamouth Bogs *************************************
+[Swamp01]
+Lootcount=2
+Loot=ING-12, ING-01, ING-01
+Loottable=23
+StealTable=13
+LevelRange=19,23
+
+[Swamp01-Patrol]
+LevelRange3=20,35
+LevelRange4=28,46
+LevelRange5=30,48
+LevelRange6=35,60
+Lootcount=2
+Loottable=23
+StealTable=13
+
+[Swamp01-Patrol0]
+zone0=1,0,2,3
+center=7,6
+facing=lu
+
+monster0=x:7, y:7, dir:rd, class:NIW-02, acc0:ARI-00
+monster1=x:4, y:7, dir:rd, class:UND-02
+monster2=x:10, y:5, dir:ld, class:UND-03
+monster3=x:0, y:9, dir:rd, class:UND-03
+
+human2=x:2, y:9, dir:rd, class:UTIL, subclass:GAMB, gearfill: noflippers
+
+monster4=x:5, y:9, dir:rd, class:NIW-01, acc0:ARI-00, difficulty:1
+
+; Guest
+human3=x:9, y:0, faction:player, apbonus:50, chance:33, class:HEAL
+human4=x:10, y:0, faction:player, apbonus:50, chance:33, class:RANG
+
+; Extra
+human0=x:6, y:9, dir:rd, class:UTIL, subclass:WARM, ai:caster, nodifficulty: 2
+human1=x:10, y:8, dir:ld, class:UTIL, subclass:ASSA, ai:killer, nodifficulty: 2
+human6=x:6, y:9, dir:rd, class:UTIL, subclass:WARM, ai:caster, difficulty: 2, acc0:ABO-09
+human7=x:10, y:8, dir:ld, class:UTIL, subclass:ASSA, ai:killer, difficulty: 2, acc0:ABO-09
+
+human5=x:9, y:9, class:VAMP, subclass:KNIG, passive0:ASSA-p2, passive1:WARM-p2, counter:UTIL-c1, wptype:gun, weapon2:true, weight:KNIG-A7|30, difficulty:2
+
+
+[Swamp01-Patrol1]
+;Knockback risk KAW and TAN bzil
+zone0=4,8,3,2
+zone1=9,8,2,1
+zone2=9,9,1,1
+facing=rd
+center=5.3
+
+human0=x:2, y:0, dir:lu, class:HEAL, subclass:NULL, passive0:DRUI-P1, passive1:DRUI-P2, counter: GADG-C1
+human1=x:5, y:2, dir:lu, class:UTIL, subclass:ALCH, passive0:WIZA-P1, passive1:HEAL-P2, counter: ALCH-C1, difficulty:1
+
+bzil0=x:4, y:3, dir:lu, class: TAN-99, subclass: BLA-99, passive0: HAR-99-P2, passive1: BLA-99-P1, counter: BLA-99-C1, gearfill:noflippers
+bzil1=x:2, y:4, dir:lu, class: TAN-99, passive0: DAO-99-P1, passive1: UND-99-P2, counter: HRV-99-C1, gearfill:noflippers
+bzil2=x:10, y:1, dirlu:, class: VAN-99, subclass: KAW-99, passive0: HAR-99-P1, passive1: RAK-99-P2, counter: VAN-99-C1, gearfill:noflippers
+
+monster0=x:7, y:0, dir:lu, class: NIW-01
+monster1=x:2, y:2, dir:lu, class: HAR-02, acc0:ABO-09
+
+; Extra
+bzil3=x:3, y:1, dir:lu, class: KAW-99, passive0: RAK-99-P1, passive1:VAN-99-P1, counter: RAK-99-C1, acc0:ARI-00, behavior:killer, difficulty:2
+
+
+; ******** Beach01: Strangled Cove *************************************
+[Beach01]
+Lootcount=2
+Loot=ING-16
+Loottable=24
+StealTable=13
+LevelRange=20,25
+
+[Beach01-Patrol]
+LevelRange3=20,35
+LevelRange4=28,46
+LevelRange5=30,50
+LevelRange6=35,60
+Lootcount=3
+Loottable=24
+StealTable=13
+
+[Beach01-Patrol0]
+zone0=6,0,3,3
+center=4,14
+
+human0=x:4, y:17, dir:lu, class:GUNN, subclass:RANG, ai:range, acc0:ARI-00
+human1=x:4, y:14, dir:rd, class:WARM, subclass:HEAL, ai:caster, acc0:ABO-00
+human2=x:6, y:13, dir:rd, class:GADG, subclass:PEDD, ai:trapper, acc0:ABO-00, acc1:ABO-09
+
+monster0=x:1, y:17, dir:rd, class:BUL-01, difficulty:1
+monster1=x:8, y:12, dir:rd, class:BUL-11
+monster2=x:0, y:12, dir:rd, class:BUL-01, acc0:ARI-00
+monster3=x:4, y:12, dir:rd, class:DAO-03, acc0:ABO-09
+monster4=x:5, y:12, dir:rd, class:DAO-03
+
+; Extra
+ human3=x:3, y:14, class:DRUI, subclass:ALCH, passive0:SORC-p1, passive1:UTIL-p1, counter:WIZA-c1, weight:ALCH-A7|30, weightstyle:buffer, difficulty:2
+
+[Beach01-Patrol1]
+zone0=0,16,3,2
+zone1=0,14,2,1
+facing=ru
+center=6,13
+
+human0=x:4, y:15, dir:ld, class:RANG, subclass:MERC, wptype:bow, nomove:true, passive0:GUNN-p2
+human1=x:7, y:11, dir:ld, class:GADG, subclass:MERC
+human2=x:4, y:2, dir:lu, class:SORC, subclass:WARM
+
+monster0=x:0, y:1, dir:lu, class:BUL-21
+monster1=x:7, y:6, dir:ld, class:KAW-02, acc0:ARI-00
+monster2=x:5, y:1, dir:lu, class:HAR-03
+monster3=x:3, y:0, dir:lu, class:KAW-02, difficulty:1
+
+; Extra
+bzil0=x:3, y:5, dir:lu, class: THE-99, subclass: BUL-99, subabilities:1|3|2|3, passive0: BUL-99-P2, passive1: PEK-99-P1, counter: DAA-99-C1, acc0:ABO-09, acc1:ARI-14, difficulty:2
+
+
+; ******** Ship01: Drakesmouth Seaway *************************************
+[Ship01]
+Lootcount=2
+Loot=ING-13, SWD-07
+Loottable=24
+StealTable=14
+LevelRange=21,26
+
+[Ship01-Patrol]
+LevelRange3=22,36
+LevelRange4=29,47
+LevelRange5=32,50
+LevelRange6=35,60
+Lootcount=3
+Loottable=24
+StealTable=14
+
+[Ship01-Patrol0]
+zone0=3,4,3,3
+center=11,5
+
+human0=x:14, y:5, dir:ld, class:GUNN, subclass:TEMP
+human1=x:15, y:7, dir:ld, class:GUNN, subclass:FELL, difficulty:1
+human3=x:15, y:3, dir:ld, class:GUNN, subclass:ROGU
+
+monster0=x:15, y:2, dir:ld, class:HAR-03
+monster1=x:15, y:8, dir:ld, class:HAR-03
+monster2=x:17, y:5, dir:ld, class:BUL-02
+monster3=x:16, y:1, dir:ld, class:PEK-33, acc0:ABO-00
+monster4=x:16, y:0, dir:ld, class:PEK-33, acc0:ABO-02
+
+; Extra
+monster5=x:1, y:0, class:RAK-03, acc0:ABO-04, waitdistance:6, waitturns:1, difficulty:2
+
+[Ship01-Patrol1]
+;Debuff bzil casters: BUL, MAL, HAR, and DAA alongside a FELL to use Miasma (FELL-A6) and a GAMB to use Pile On (GAMB-A5)
+zone0=15,3,2,5
+facing=ld
+center=9,6
+
+human0=x:5, y:7, dir:ru, class:FELL, subclass:WARM, counter: FELL-C1, weight:FELL-A6|20
+human1=x:5, y:4, dir:ru, class:GAMB, subclass:UTIL, passive0: KNIG-P1, passive1: KNIG-P2, counter:UTIL-C1, weight:GAMB-A5|30, difficulty:1
+
+monster0=x:3, y:5, dir:ru, class: HAR-03
+
+bzil0=x:8, y:4, dir:ru, class: BUL-99, passive0: MAL-99-P1, passive1: PHO-99-P1, counter: PHO-99-C1
+bzil1=x:3, y:6, dir:ru, class: MAL-99, subclass: NIW-99, passive0: DAO-99-P1, passive1: DAO-99-P2, counter: NIW-99-C1
+bzil2=x:4, y:3, dir:ru, class: HAR-99, subclass: BOL-99, passive0: DAO-99-P2, passive1: BLA-99-P1, counter: HAR-99-C1
+bzil3=x:6, y:1, dir:ru, class: RAK-99, subclass: VAN-99, passive0: HRV-99-P1, passive1: KAW-99-P2, counter: HRV-99-C1, acc0:ABO-04, behavior:killer
+
+; Extra
+bzil4=x:7, y:6, dir:ru, class: DAA-99, passive0: THE-99-P1, passive1: THE-99-P2, counter: THE-99-C1, difficulty:2
+
+
+
+; ******** Aqueduct01: Bardvig Aqueduct *************************************
+[Aqueduct01]
+Lootcount=1
+Loot=ING-13, ING-07
+Loottable=25
+StealTable=14
+LevelRange=23,28
+
+[Aqueduct01-Patrol]
+LevelRange3=23,37
+LevelRange4=28,46
+LevelRange5=30,50
+LevelRange6=40,65
+Lootcount=3
+Loottable=25
+StealTable=14
+
+[Aqueduct01-Patrol0]
+zone0=14,6,3,2
+zone1=14,2,3,2
+facing=ld
+center=5,5
+
+monster0=x:2, y:7, class:THE-02, dir:ru, weightstyle:viciousdps
+monster1=x:4, y:1, class:THE-02, dir:ru, weightstyle:viciousdps
+monster2=x:5, y:6, class:PEK-02, dir:ru
+monster3=x:5, y:4, class:PEK-02, dir:ru
+monster4=x:4, y:5, class:PEK-03, dir:ru, difficulty:1
+monster5=x:0, y:6, class:THE-03, dir:ru
+
+; Extra
+monster6=x:0, y:3, class:THE-03, dir:ru, nodifficulty: 2
+monster7=x:0, y:3, class:THE-03, dir:ru, difficulty: 2, acc0: ABO-09
+bzil0=x:1, y:5, dir:ru, class:PEK-99, subclass: THE-99, passive0: DAO-99-P1, passive1: DAO-99-P2, counter: DAA-99-C1, behavior:alwaysoptimal, difficulty:2 
+
+
+[aqueduct01-Patrol1]
+zone0=14,6,2,2
+zone1=14,2,2,2
+facing=ld
+center=3,5
+
+human0=x:5, y:8, dir:ru, class:SMED, subclass:SORC, subabilities:1|1|3|3, passive0:HEAL-p2, passive1:WIZA-p1, wptype:rapier, abilities:1|3|1|3, weight:SMED-A2|45, ai:magic, acc0:ABO-09
+human1=x:2, y:2, dir:ru, class:DRUI, subclass:WIZA, wptype:staff
+human2=x:3, y:1, dir:ru, class:WARM, subclass:GADG, wptype:scythe
+
+monster0=x:1, y:7, dir:ru, class:THE-03
+monster1=x:5, y:1, dir:ru, class:BLA-02, acc0:ABO-09
+monster2=x:6, y:9, dir:ru, class:BLA-02, acc0:AGL-03, acc1:ARI-13
+monster3=x:4, y:7, dir:ru, class:PEK-03, difficulty:1
+
+; Extra
+human3=x:3, y:8, dir:ru, class:ALCH, subclass:GAMB, passive0:DRUI-P2, passive1:GADG-P2, counter: GADG-C1, wptype:staff, difficulty:2
+
+
+; ******** Forest02: Kapawka Jungle *************************************
+[Forest02]
+Lootcount=1
+Loot=CBO-09
+Loottable=26
+StealTable=14
+SpawnMax=10
+LevelRange=25,29
+
+[Forest02-Patrol]
+LevelRange3=24,38
+LevelRange4=28,49
+LevelRange5=31,55
+LevelRange6=40,65
+Lootcount=2
+Loottable=26
+StealTable=16
+
+[Forest02-Patrol0]
+zone0=4,16,1,2
+zone1=7,16,1,2
+zone2=10,16,1,2
+facing=rd
+center=6,5
+
+monster0=x:7, y:0, dir:ld, class:BOL-03, acc0:ABO-03
+monster1=x:2, y:4, dir:lu, class:THE-03, acc0:ABO-03
+monster2=x:12, y:8, dir:ld, class:BUL-23
+monster3=x:14, y:6, dir:ld, class:RAK-03
+monster4=x:10, y:5, dir:lu, class:KAW-03
+monster5=x:1, y:6, dir:lu, class:KAW-03, difficulty:1
+monster6=x:9, y:5, dir:lu, class:KAW-02
+
+; Extra
+human0=x:11, y:4, dir:lu, ai:ranged, class:RANG , subclass:GUNN, passive0:FELL-P2, passive1:WERE-P1, counter:GADG-C1, acc0:ABO-07, wpstyle:ranged, behavior:killer, difficulty:2
+
+
+[Forest02-Patrol1]
+zone0=2,2,2,4
+facing=lu
+center=14,4
+
+monster0=x:10, y:12, dir:ld, class:BLA-03
+monster1=x:10, y:13, dir:ld, class:KAW-03
+monster2=x:16, y:3, dir:ld, class:KAW-02, waitturns:1
+monster3=x:16, y:4, dir:ld, class:BLA-03, acc0:ABO-09
+monster4=x:3, y:14, dir:rd, class:RAK-02
+monster5=x:12, y:3, dir:ld, class:KAW-02
+monster6=x:12, y:4, dir:ld, class:RAK-01
+monster7=x:15, y:8, dir:ld, class:BUL-22, difficulty:1
+
+; Extra
+human0=x:14, y:7, dir:ld, class:RANG, abilities:1|3|1|3|3|1, passive0:FELL-P2, passive1:WERE-P1, counter: ASSA-C1, acc0:ABO-07, difficulty:2
+
+
+; ******** Plains02: Godstear Wastes *************************************
+[Plains02]
+Lootcount=2
+Loottable=27
+Loot=ING-23, ING-10
+StealTable=16
+TurnsToWait=2
+LevelRange=25,30
+
+[Plains02-Patrol]
+LevelRange3=26,38
+LevelRange4=29,49
+LevelRange5=31,53
+LevelRange6=40,65
+Lootcount=2
+Loottable=27
+StealTable=16
+
+[Plains02-Patrol0]
+zone0=9,8,1,2
+zone1=9,11,1,2
+zone2=10,8,1,4
+facing=rd
+center=9,2
+
+monster0=x:15, y:1, dir:ld, class:THE-03
+monster1=x:11, y:0, dir:lu, class:RAK-03
+monster2=x:2, y:12, dir:rd, class:KAW-22
+monster3=x:0, y:9, dir:ru, class:UND-03
+monster4=x:6, y:0, dir:lu, class:KAW-22
+monster5=x:2, y:5, dir:ru, class:HAR-13
+monster6=x:15, y:13, dir:ld, class:UND-03
+
+monster7=x:13, y:0, dir:lu, class:KAW-21, acc0:AGL-11, acc1:AGL-11, ai:healer, difficulty:1
+
+; Extra
+monster8=x:2, y:13, dir:ru, class:HAR-13, difficulty:2
+monster9=x:14, y:6, dir:ld, class:KAW-22, difficulty:2
+
+[Plains02-Patrol1]
+;Regular Attack bzil group: Pounce, Chilling Touch, Deep Wounds + Know Weakness, Manaburn, Sunder, Plaguebearer...
+zone0=0,6,2,4
+facing=ru
+center=10,7
+
+monster0=x:9, y:6, dir:ld, class:THE-03
+monster1=x:10, y:8, dir:ld, class:BUL-22, difficulty:1
+
+bzil0=x:13, y:13, dir:ld, class: VAN-99,passive0: BLA-99-P2, passive1: NIW-99-P1, counter: HHU-99-C1
+bzil1=x:12, y:9, dir:ld, class: UND-99, passive0: HRV-99-P1, counter: HHU-99-C1
+bzil2=x:13, y:6, dir:ld, class: HHU-99, abilities:1|3|1, passive0: DAO-99-P1, passive1: DAO-99-P2, counter: HHU-99-C1
+bzil3=x:10, y:6, dir:ld, class: BLA-99, passive0: DAA-99-P1, passive1: DAA-99-P2, counter: HHU-99-C1
+bzil4=x:9, y:2, dir:ld, class: TAN-99, subclass: BOL-99, passive0: BOL-99-P2, passive1: MAL-99-P2, counter: HHU-99-C1
+
+; Extra
+bzil5=x:15, y:9, dir:ld, class: THE-99, subclass: NIW-99, passive0: HHU-99-P2, passive1: DAO-99-P2, counter: THE-99-C1, difficulty:2
+
+;Mook patrol
+[Plains02-Patrol2]
+zone0=13,5,2,2
+zone1=12,9,2,2
+facing=ld
+center=5,7
+
+human0=x:1, y:8, dir:ru, class:ALCH, subclass:null, passive0:null, passive1:null, counter: ALCH-C1, noitems:true, wptype:staff
+human1=x:1, y:4, dir:ru, class:ALCH, subclass:null, passive0:null, passive1:null, counter: ALCH-C1, noitems:true, wptype:staff, difficulty:1
+human2=x:1, y:9, dir:ru, class:DRUI, subclass:null, passive0:null, passive1:null, counter: DRUI-C1, noitems:true, wptype:staff
+human3=x:1, y:3, dir:ru, class:DRUI, subclass:null, passive0:null, passive1:null, counter: DRUI-C1, noitems:true, wptype:staff
+human4=x:4, y:9, dir:ru, class:GADG, subclass:null, passive0:null, passive1:null, counter: GADG-C1
+human5=x:3, y:5, dir:ru, class:GADG, subclass:null, passive0:null, passive1:null, counter: GADG-C1
+human6=x:2, y:9, dir:ru, class:ASSA, subclass:FELL, passive0:FELL-P1, passive1:UTIL-P1, counter: GADG-C1
+human7=x:2, y:3, dir:ru, class:REAV, subclass:WERE, passive0: BLAD-P2, passive1:MERC-P2, counter: WERE-C1
+
+; Expert
+bzil0=x:2, y:11, dir:ru, class: ZOT-99, subclass: VAN-99, passive0: VAN-99-P2, passive1: UND-99-P1, counter: ZOT-99-C1, difficulty:2
+
+
+; ******** Kawa City *************************************
+[Kawacity01]
+; no story battle
+
+[Kawacity01-Patrol]
+LevelRange3=27,38
+LevelRange4=29,40
+LevelRange5=33,50
+LevelRange6=40,65
+Lootcount=2
+Loottable=27
+StealTable=16
+
+[Kawacity01-Patrol0]
+zone0=5,6,3,2
+zone1=5,5,1,1
+zone2=7,5,1,1
+facing=RD
+center=6,5
+
+monster0=x:5, y:0, dir:lu, class:HHU-01
+monster1=x:11, y:11, dir:rd, class:HHU-01
+monster2=x:10, y:0, dir:lu, class:RAK-03, acc0:ABO-07
+monster3=x:1, y:11, dir:rd, class:HHU-01, novariants:true
+monster4=x:0, y:11, dir:rd, class:KAW-02
+monster5=x:12, y:11, dir:rd, class:RAK-03
+monster6=x:0, y:13, dir:rd, class:RAK-03, novariants:true
+monster7=x:12, y:13, dir:rd, class:KAW-03
+
+monster9=x:12, y:1, dir:ru, class:HHU-01, acc0:ABO-07, acc1:ABO-03, difficulty:1
+
+; guest
+monster8=x:6, y:5, dir:rd, class:KAW-02, faction:player, apbonus:40, chance:60
+
+; Extra
+monster10=x:12, y:2, dir:ld, class:PEK-11, leveldelta:-3, difficulty:2
+monster11=x:0, y:2, dir:ru, class:PEK-11, leveldelta:-3, difficulty:2
+
+
+[KawaCity01-Patrol1]
+;Kawas and Tangrels knockback hazards
+zone0=0,0,2,2
+zone1=11,0,2,2
+facing=lu
+center=6,5
+
+monster0=x:10, y:10, dir:rd, class:KAW-02, novariants:true
+monster1=x:1, y:10, dir:rd, class:KAW-02
+monster2=x:6, y:9, dir:rd, class:KAW-03, difficulty:1
+monster3=x:3, y:7, dir:rd, class:TAN-02 
+monster4=x:9, y:7, dir:rd, class:TAN-02 
+monster5=x:6, y:11, dir:rd, class:HHU-01, acc0:ABO-03, acc1:ABO-07
+monster6=x:7, y:8, dir:rd, class:PEK-13
+monster7=x:5, y:11, dir:rd, class:PEK-23, acc0:ABO-04
+
+; Expert
+monster8=x:12, y:11, dir:rd, class:RAK-01, acc0:ABO-07, difficulty:2
+monster9=x:0, y:11, dir:rd, class:RAK-03, acc0:ABO-07, difficulty:2
+
+
+
+[KawaCity01-Patrol2]
+;Defending alongside Kawas vs PRIN, LORD and mooks
+zone0=0,10,2,2
+zone1=11,10,2,2
+facing=rd
+center=7,3
+
+;Guests
+monster0=x:4, y:10, dir:rd, class:KAW-03, faction:player, apbonus:40, acc0:ARI-05, gearfill:noboots, weight:KAW-03-A4|50
+monster1=x:7, y:10, dir:rd, class:KAW-03, faction:player, apbonus:40, acc0:ARI-05, gearfill:noboots, weight:KAW-03-A4|50
+
+human0=x:5, y:1, dir:lu, class:KNIG, subclass:null, passive0:null, passive1:null, counter: KNIG-C1, abilities:1|3|2|3|2, noitems:true
+human1=x:8, y:1, dir:lu, class:KNIG, subclass:null, passive0:null, passive1:null, counter: KNIG-C1, abilities:1|3|2|3|2, noitems:true
+human2=x:10, y:1, dir:lu, class:RANG, subclass:null, passive0:null, passive1:null, counter: RANG-C1, abilities:1|3|1|3|2|1, wptype:bow, noitems:true
+human3=x:3, y:1, dir:lu, class:RANG, subclass:null, passive0:null, passive1:null, counter: RANG-C1, abilities:1|3|1|3|2|1, wptype:crossbow, noitems:true
+human4=x:2, y:0, dir:lu, class:WIZA, subclass:null, passive0:null, passive1:null, counter: WIZA-C1, noitems:true
+human5=x:10, y:0, dir:lu, class:WIZA, subclass:null, passive0:null, passive1:null, counter: WIZA-C1, noitems:true
+human6=x:6, y:0, dir:lu, class:LORD, subclass:null, passive0:UTIL-P1, passive1:FELL-P1, counter: LORD-C1, wptype:rod
+human7=x:7, y:0, dir:lu, class:PRIN, subclass:null, passive0:SORC-P1, passive1:DRUI-P1, counter: PRIN-C1, acc0:ARI-05
+human8=x:1, y:0, dir:lu, class:GUNN, subclass:null, passive0:null, passive1:null, counter: GUNN-C1, abilities:1|3|3|1|2|1, noitems:true, difficulty:1
+
+; Expert
+human10=x:12, y:1, dir:ld, class:ALCH, subclass:null, passive0:SORC-P1, passive1:DRUI-P2, counter:GADG-C1, weight:ALCH-A8|25, difficulty: 2
+
+
+
+
+; ******** Highlands02 *************************************
+[Highlands02]
+; Story 2
+LevelRange2=32,42
+Lootcount2=1
+StealTable2=20
+LootTable2=31
+Loot2=DAG-12, ING-21
+maxunits2=5
+
+; No patrols, just for testing
+[Highlands02-Patrol0]
+zone0=2,2,1,1
+center=7,6
+
+monster0=x:2, y:10, class:VAN-01, dir:ru
+
+
+; ******** Mountain01: Devilsblood Ascent *************************************
+[Mountain01]
+Lootcount=2
+Loot=ING-24, ARI-04
+Loottable=28
+StealTable=17
+LevelRange=27,32
+maxunits=7
+noitems=true
+
+[Mountain01-Patrol]
+LevelRange3=27,39
+LevelRange4=30,49
+LevelRange5=36,59
+LevelRange6=36,99
+Lootcount=3
+Loottable=28
+StealTable=17
+
+[Mountain01-Patrol0]
+zone0=10,4,2,1
+zone1=10,6,2,1
+zone2=10,8,2,1
+facing=ld
+center=5,5
+
+monster0=x:2, y:5, dir:ru, class:BUL-13
+monster1=x:5, y:2, dir:ru, class:HHU-02
+monster2=x:6, y:1, dir:ru, class:HHU-03
+monster3=x:11, y:1, dir:lu, class:PEK-13, acc0:ABO-04
+monster4=x:7, y:6, dir:rd, class:PHO-03, acc0:ABO-07
+monster5=x:0, y:1, dir:ru, class:KAW-03, acc0:ABO-07
+
+monster6=x:0, y:8, dir:lu, class:HHU-03, acc0:ABO-07, difficulty:1
+
+; Extra
+bzil0=x:2, y:3, dir:ru, class:TAN-99, subclass: BUL-99, passive0:PEK-99-P2, passive1:BUL-99-P2, counter:PEK-99-C1, behavior:killer, difficulty:2
+
+[Mountain01-Patrol1]
+zone0=4,7,2,2
+zone1=3,8,1,1
+zone2=6,8,2,1
+facing=rd
+center=8,1
+
+monster0=x:11, y:3, dir:ld, class:PHO-03, acc0:ABO-07
+monster1=x:11, y:4, dir:ld, class:HHU-03, acc0:ABO-07
+monster2=x:8, y:2, dir:lu, class:HHU-02
+monster3=x:0, y:3, dir:lu, class:PEK-13
+monster4=x:0, y:8, dir:ru, class:UND-02, acc0:ABO-02 , difficulty:1
+monster5=x:5, y:3, dir:lu, class:UND-03
+monster6=x:4, y:2, dir:lu, class:UND-02
+monster7=x:5, y:2, dir:lu, class:BUL-13
+
+; Extra
+bzil0=x:3, y:1, dir:lu, class: BOL-99, subclass: VAN-99, passive0: TAN-99-P2, passive1: DAO-99-P1, counter: BOL-99-C1, acc0:ABO-05, acc1:ABO-07, difficulty:2
+
+
+; ******** Temple04: Mountain Temple *************************************
+[Temple04]
+Lootcount=2
+Loot=ING-24, ARI-02
+Loottable=27
+StealTable=16
+LevelRange=26,34
+; Story 2
+Lootcount2=2
+Loot2=ING-23
+Loottable2=28
+StealTable2=16
+LevelRange2=26,34
+
+; No patrol, just for testing.
+[Temple04-Patrol0]
+zone0=8,7,2,3
+zone1=7,8,1,2
+center=18,15
+
+human0=x:10, y:10, dir:ld, ai:range
+
+
+; ******** Crossroads01 ambush *************************************
+; See above.
+
+
+; ******** City01 revisited *************************************
+; See above.
+
+
+; ******** Gate01: Illuster *************************************
+[Gate01]
+; Story 3
+LevelRange=31,38
+LevelRange3=31,38
+Lootcount3=0
+Loot3=ING-21, SWD-11, ING-25
+StealTable3=18
+Loottable3=28
+GuestBonus3=100
+
+; No patrol, just for testing.
+[Gate01-Patrol0]
+zone0=0,0,2,3
+center=3,10
+
+human0=x:3, y:3, dir:ld, ai:hybrid, behavior: optimal, class:WARM, subclass:WIZA, weight: WARM-A1|25
+monster1=x:3, y:4, dir:ld, class:VAN-01
+;monster0=x:7, y:1, class:DEM-01
+;monster1=x:8, y:5, class:DEM-01
+
+; ******** Grandhall01:  *************************************
+[Grandhall01]
+LevelRange=32,39
+Lootcount=0
+Loot=ING-21, AGL-09, HCL-11
+StealTable=18
+Loottable=28
+TeleportOtherChance=50
+
+; No patrols, just for testing
+[Grandhall01-Patrol0]
+zone0=0,4,2,4
+center=7,6
+
+monster0=x:2, y:11, class:VAN-01, dir:ru
+
+
+; ******** Council01 *************************************
+[Council01]
+; Story2
+LevelRange2=33,41
+Lootcount2=2
+Loot2=ING-26, ABO-09
+StealTable2=18
+Loottable2=28
+
+; Story3
+MaxUnits3=7
+GuardsHpBoost3=0
+Lootcount3=0
+Loottable3=28
+Loot3=BCL-15, ING-19
+NoItems3=true
+StealTable3=18
+InterstichOdds=75
+TeleportOdds=70
+
+
+; ******** City03 ************************************************
+[City03]
+; Story 1
+LevelRange=34,42
+Lootcount=1
+Loot=SPR-11, ING-22
+StealTable=19
+Loottable=30
+
+[City03-Patrol]
+LevelRange4=34,50
+LevelRange5=34,53
+LevelRange6=34,60
+Lootcount=1
+Loot=ING-21
+StealTable=19
+Loottable=30
+
+[City03-Patrol0]
+zone0=0,4,2,5
+facing=ru
+center=12,6
+
+human0=x:13, y:0, ai:melee, class:ROGU, subclass:MERC, acc0:ABO-04
+human2=x:9, y:15, dir:rd, ai:melee, class:ROGU, subclass:MERC, wptype:crossbow
+human3=x:7, y:15, dir:rd, ai:melee, class:ROGU, gender:male, acc0:ABO-04
+human4=x:16, y:7, ai:melee, class:ROGU, subclass:TEMP, gender:male, wptype:crossbow
+human5=x:14, y:5, ai:range, class:GUNN, gender:female, isgoldbag:true
+human6=x:11, y:13, ai:healer, class:UTIL, chance:50, acc0:ABO-04, apbonus:35, difficulty:1
+
+monster0=x:16, y:5, class:KAW-02, chance:75, acc0:ABO-04, apbonus:30
+
+; Extra
+human1=x:14, y:8, ai:range, class:ROGU, subclass:RANG, wptype:crossbow, difficulty: 1, nodifficulty: 2
+bzil0=x:14, y:8, class:BOL-99, subclass:null, passive0:VAN-99-p1, counter:HAR-99-c1, waitturns:1, difficulty:2
+
+human7=x:16, y:6, dir:ld, class:SMED, subclass:WARM, wptype:mace, passive0:SORC-p1, passive1:HEAL-p2, counter:ALCH-c1, weight:SMED-A4|35, difficulty:2
+
+; Guest group saving patrol
+[city03-Patrol1]
+zone0=15,5,2,3
+zone1=16,8,1,1
+facing=ld
+center=7,8
+
+human0=x:0, y:6, dir:ru, class:LICH, subclass:null, nomove:true, weight:LICH-A1|200, abilities:1|3|1|3|2|3, acc0:ARI-10, acc1:ARI-06
+human1=x:6, y:11, dir:rd, class:RANG, subclass:GUNN, passive0:VAMP-P1, passive1:VAMP-P2, counter:GADG-C1, wptype:bow, behavior:killer
+human3=x:7, y:13, dir:rd, class:ALCH
+human4=x:2, y:8, dir:ru, class:HEAL
+
+;Guests
+human5=x:7, y:4, dir:ld, class:ROGU, subclass:null, faction:player, apbonus:20, leveldelta:-5, wptype:crossbow
+human6=x:7, y:7, dir:lu, class:ROGU, subclass:null, faction:player, apbonus:20, leveldelta:-5, wptype:dagger
+human7=x:6, y:6, dir:ld, class:MERC, subclass:null, faction:player, apbonus:20, leveldelta:-5
+
+monster0=x:4, y:7, dir:ru, class:UND-03, acc0:ABO-04
+monster1=x:3, y:5, dir:ru, class:UND-03, acc0:ABO-04
+monster2=x:10, y:14, dir:rd, class:HAR-13
+
+monster3=x:8, y:13, dir:rd, class:VAN-03, difficulty:1
+
+; Extra
+human2=x:1, y:7, dir:ru, class:ASSA, subclass:REAV, passive0:GAMB-P1, passive1:ROGU-P1, counter:HEAL-C1, acc0:ABO-08, behavior:killer, nodifficulty: 2
+human8=x:1, y:7, dir:ru, class:DEMK, subclass:REAV, passive0:GAMB-P1, passive1:ROGU-P1, counter:HEAL-C1, acc0:ABO-08, behavior:killer, difficulty: 2
+
+
+; ******** Mountain02 ************************************************
+[Mountain02]
+; Story 1
+LevelRange=35,43
+Lootcount=2
+Loot=ABO-07
+StealTable=19
+LootTable=33
+
+[Mountain02-Patrol]
+LevelRange4=35,55
+LevelRange5=35,65
+LevelRange6=35,75
+Lootcount=3
+StealTable=19
+LootTable=30
+
+[Mountain02-Patrol0]
+zone0=7,7,1,2
+zone1=9,7,2,2
+facing=rd
+center=6,4
+
+monster0=x:2, y:8, dir:ru, class:DAO-02
+monster1=x:10, y:2, dir:lu, class:DAO-03
+monster2=x:8, y:4, dir:lu, class:PEK-03
+monster3=x:0, y:5, dir:ru, class:HAR-03
+monster4=x:6, y:4, dir:lu, class:TAN-02
+monster5=x:4, y:2, dir:lu, class:TAN-03
+monster6=x:7, y:0, dir:lu, class:BUL-03
+
+monster7=x:1, y:0, dir:lu, class:BUL-02, difficulty:1
+
+; Extra
+human0=x:4, y:0, dir:lu, class:ALCH, subclass:UTIL, passive0:UTIL-p1, passive1:DRUI-p2, counter:GADG-c1, wptype:staff, acc0:ARI-10, weight:UTIL-A7|15, weight:UTIL-A4|15, weight:ALCH-A6|15, difficulty:2
+
+
+[Mountain02-Patrol1]
+zone0=9,3,2,4
+facing=ld
+center=2,2
+
+human0=x:0, y:4, dir:ru, class:DRUI, subclass:SORC, passive0:SORC-p1, passive1:LICH-p1, counter:FELL-c1, acc0:ARI-05, acc1:ARI-06
+
+monster0=x:4, y:1, dir:ru, class:TAN-03, acc0:ABO-05, weightstyle:viciousdps
+monster1=x:0, y:5, dir:ru, class:DAO-03, acc0:ABO-07, weightstyle:viciousdps
+monster2=x:1, y:4, dir:ru, class:NIW-03, weight:NIW-03-A4|60, ai:healer
+monster3=x:3, y:8, dir:rd, class:PHO-02
+monster4=x:2, y:0, dir:ru, class:BUL-03, acc0:ABO-04
+monster5=x:1, y:7, dir:ru, class:PEK-23, difficulty:1
+
+; Extra
+bzil0=x:0, y:2, dir:ru, class:PHO-99, subclass:DAO-99, passive0:TAN-99-p1, passive1:DAO-99-p2, counter:ZOT-99-c1, acc0:ABO-07, difficulty:2
+
+;Mooks
+[Mountain02-Patrol2]
+zone0=0,5,3,1
+zone1=0,6,3,1
+zone2=1,7,2,1
+facing=ru
+center=8,6
+
+human0=x:10, y:6, dir:ld, class:LORD, subclass:KNIG, passive0:LICH-P2, passive1:WARM-P2, counter:RANG-C1, weight:KNIG-A7|30, acc0:ABO-07, wpstyle:ranged
+human1=x:9, y:5, dir:ld, class:WIZA, subclass:null, passive0:null, passive1:null, counter: WIZA-C1, noitems:true, acc0:ABO-09
+human2=x:9, y:3, dir:ld, class:WIZA, subclass:null, passive0:null, passive1:null, counter: WIZA-C1, noitems:true, acc0:ABO-09
+human3=x:10, y:5, dir:ld, class:HEAL, subclass:null, passive0:null, passive1:null, counter: HEAL-C1
+human4=x:9, y:6, dir:ld, class:UTIL, subclass:null, passive0:null, passive1:null, counter: UTIL-C1, wptype:mace, weapon2:true
+human5=x:7, y:6, dir:ld, class:BLAD, subclass:null, passive0:null, passive1:null, counter: BLAD-C1, noitems:true, wptype:mace, weapon2:true, abilities:1|3|3|3|1, acc0:ABO-09
+human6=x:6, y:8, dir:rd, class:BLAD, subclass:null, passive0:null, passive1:null, counter: BLAD-C1, noitems:true, wptype:mace, weapon2:true, abilities:1|3|3|3|1, acc0:ABO-04
+human7=x:9, y:7, dir:ld, class:GUNN, subclass:null, passive0:null, passive1:null, counter: GUNN-C1, abilities:1|3|3|1|2|1, noitems:true, difficulty:1
+
+; Expert
+bzil0=x:6, y:0, dir:lu, class:BOL-99, subclass:TAN-99, passive0:MAL-99-p2, passive1:UND-99-p2, counter:HHU-99-c1, acc0:ABO-07, difficulty:2
+
+
+
+; ******** Mountain03 ************************************************
+[Mountain03]
+; Story 1
+LevelRange=36,45
+Lootcount=0
+Loot=ING-15, BLI-15
+StealTable=19
+LootTable=33
+
+[Mountain03-Patrol]
+LevelRange5=35,75
+LevelRange6=35,75
+Lootcount=3
+StealTable=19
+LootTable=30
+
+[Mountain03-Patrol0]
+zone0=8,0,2,3
+facing=lu
+center=5,11
+
+monster0=x:5, y:11, dir:ru, class:HHU-03
+monster1=x:6, y:10, dir:lu, class:HHU-02
+monster2=x:4, y:13, dir:rd, class:DAO-03
+monster3=x:0, y:4, dir:ru, class:DAO-02
+monster4=x:1, y:8, dir:rd, class:BUL-03
+monster5=x:3, y:8, dir:rd, class:BUL-33
+monster6=x:2, y:7, dir:rd, class:RAK-02, difficulty:1
+
+; Extra
+ bzil0=x:4, y:9, dir:rd, class: TAN-99, subclass: VAN-99, passive0: DAO-99-P1, passive1: DAO-99-P2, counter: APB-99-C1, acc0:ABO-07, acc1:AGL-07, shield:ARI-09, difficulty:2
+
+[Mountain03-Patrol1]
+zone0=4,12,3,2
+facing=rd
+center=4,5
+
+human0=x:3, y:2, dir:lu, class:VAMP, subclass:WARM, passive0:WARM-P2, passive1: GADG-P2, counter:TEMP-C1, wptype:gun, weight:VAMP-A6|90, acc0:ARI-10
+human1=x:6, y:2, dir:lu, class:VAMP, subclass:ASSA, passive0:GADG-P2, passive1:ASSA-P2, counter:GADG-C1, wpstyle:meleeonehand, weight:VAMP-A6|60, acc0:ABO-06, acc1:ARI-10
+human2=x:0, y:7, dir:ru, ai:healer
+human3=x:0, y:6, dir:ru, ai:melee
+
+;Guests
+human4=x:7, y:4, dir:rd, class:RANG, subclass:NULL, wptype:bow, faction:player, acc0:ARI-04, acc1:ABO-09, apbonus:25
+human5=x:4, y:6, dir:rd, class:UTIL, subclass:NULL, faction:player, acc0:ARI-04, acc1:ABO-09, apbonus:25
+
+monster0=x:5, y:5, dir:lu, class:BUL-03
+monster1=x:8, y:5, dir:lu, class:PEK-03
+monster2=x:3, y:4, dir:lu, class:HHU-03
+
+bzil0=x:4, y:3, dir:lu, class:DAO-99, subclass:MAL-99, passive0:UND-99-P1, passive1:PEK-99-P1, counter:BOL-99-C1, difficulty:1
+
+; Extra
+human6=x:5, y:2, dir:lu, class:DRUI, subclass:GAMB, passive0:UTIL-P1, passive1:SORC-P1, counter: SORC-C1, acc0: ARI-05, acc1:ARI-06,  weight:GAMB-A5|50, weight:GAMB-A7|65, wptype:staff, weapon2:true, noitems:true, weightstyle:debuffer, difficulty:2
+
+
+; ******** Void02 ************************************************
+[Void02]
+; Story 1
+LevelRange=38,47
+Lootcount=3
+StealTable=19
+LootTable=33
+
+[Void02-Patrol]
+LevelRange5=38,99
+LevelRange6=38,99
+Lootcount=3
+StealTable=19
+LootTable=30
+
+[Void02-Patrol0]
+zone0=0,14,4,1
+zone1=1,15,2,1
+zone2=4,14,3,1
+zone3=5,15,2,1
+facing=rd
+center=3,4
+
+monster0=x:0, y:1, dir:lu, class:DAA-03
+monster1=x:2, y:7, dir:lu, class:DAA-02
+monster2=x:6, y:2, dir:lu, class:MAL-03
+monster3=x:6, y:6, dir:lu, class:MAL-02
+monster4=x:5, y:7, dir:lu, class:HRV-02
+monster5=x:1, y:7, dir:lu, class:HRV-03, acc0:ABO-07
+monster6=x:6, y:10, dir:lu, class:MAL-02, difficulty:1
+
+; Extra
+bzil0=x:4, y:6, dir:lu, class: MAL-99, subclass: NIW-99, passive0: PEK-99-P1, passive1: DAA-99-P2, counter: NIW-99-C1, acc0:ARI-13, acc1:ARI-04, weapon2:ARI-11, difficulty:2
+
+
+[Void02-Patrol1]
+;Bzil running assorted mana engines, with demonic or ZOT-99 primaries, Expert DEMK
+zone0=5,3,4,2
+facing=lu
+center=3,12
+
+monster0=x:1, y:12, dir:rd, class: HRV-02
+monster1=x:3, y:14, dir:rd, class: MAL-02
+
+bzil0=x:5, y:9, dir:rd, class: HRV-99, subclass: RAK-99, passive0: TAN-99-P1, passive1: TAN-99-P2, counter: THE-99-C1, behavior:killer, acc0:ARI-06
+bzil1=x:1, y:5, dir:ru, class: MAL-99, subclass: PEK-99, passive0: DAA-99-P2, passive1: PEK-99-P2, counter: PEK-99-C1
+bzil2=x:5, y:14, dir:rd, class: DAA-99, subclass: HAR-99, passive0: MAL-99-P1, passive1: HAR-99-P1, counter: HAR-99-C1
+bzil3=x:0, y:14, dir:rd, class: ZOT-99, subclass: HHU-99, passive0: PEK-99-P1, passive1: DAO-99-P2, counter: ZOT-99-C1, acc0:ABO-06, acc1:ARI-04
+bzil4=x:6, y:11, dir:rd, class: DAA-99, subclass: BUL-99, passive0: DAO-99-P1, passive1: BUL-99-P2, counter: NIW-99-C1, acc0:ARI-06, acc1:ABO-6, difficulty:1
+
+; Extra
+human0=x:4, y:12, dir:rd, class:DEMK, subclass:FELL, passive0: WARM-P2, passive1: KNIG-P2, counter: GADG-C1, behavior:killer, wptype:scythe, acc0:ARI-06, difficulty:2
+
+
+
+; ******** Void01 ************************************************
+[Void01]
+LevelRange=38,55
+UniqueGear=true
+Lootcount=2
+StealTable=19
+LootTable=34
+ForsakenOneMinTurns=3
+NoItems=true
+
+
+; ******** Void03 ************************************************
+[Void03]
+LevelRange=39,60
+UniqueGear=true
+Lootcount=2
+StealTable=19
+LootTable=35
+ForsakenOneMinTurns=3
+NoItems=true
+
+
+; Special: Arena
+; ******** Arena01 *************************************
+[Arena01]
+LevelRange=13,19
+NoMonsterUpgrade=true
+NoGold=true
+NoDrops=true
+NoStealing=true
+NoDefeat=true
+Prize1=GLD-5000
+Prize2=GLD-10000
+Prize3=ABO-08,ARI-05
+
+; Tournament2
+LevelRange2=38,50
+NoMonsterUpgrade2=true
+NoGold2=true
+NoDrops2=true
+NoStealing2=true
+NoDefeat2=true
+Prize2-1=GLD-5000
+Prize2-2=GLD-10000
+Prize2-3=GLD-15000
+Prize2-4=ING-15, BHE-11, SHI-12, HHE-10, ING-23, ING-23
+
+
+[Arena01-Patrol]
+LevelRange0=1,99
+LevelRange1=1,99
+LevelRange2=1,99
+LevelRange3=1,99
+LevelRange4=1,99
+LevelRange5=1,99
+LevelRange6=1,99
+MinGearCount=3
+AdjustLevel=true
+NoMonsterUpgrade=true
+Lootcount=0
+NoDrops=true
+Loottable=50
+StealTable=50
+NoDefeat=true
+GoldBonusPercent=40
+APBonusPercent=40
+
+
+[Arena01-Patrol0]
+zone0=3,2,5,1
+zone1=4,1,3,1
+zone2=5,0,1,1
+facing=lu
+center=5,11
+color=black
+
+;Turn 1 buff party (Patrol 0)
+human0=x:5, y:15, dir:rd, ai:range
+human1=x:5, y:14, dir:rd, class:DRUI, subclass:ALCH, passive0:GAMB-P1, passive1:SORC-P1, counter:GADG-C1, weight:ALCH-A1|15
+human2=x:5, y:13, dir:rd, ai:magic
+human3=x:4, y:14, dir:rd, ai:melee
+human4=x:6, y:14, dir:rd, ai:melee
+human5=x:4, y:13, dir:rd, class:ALCH, subclass:HEAL, counter:ALCH-C1, passive0:GAMB-P1, passive1:GADG-P2, ai:healer, weight:ALCH-A6|15
+
+monster0=x:6, y:13, dir:rd, class:VAN-02
+
+terrain0=x:3, y:9, atlas:manmade, sprite:debriswoodaa, block:true
+terrain1=x:4, y:9, atlas:manmade, sprite:debriswoodab, block:true
+terrain2=x:6, y:9, atlas:manmade, sprite:debriswoodab, block:true
+terrain3=x:7, y:9, atlas:manmade, sprite:debriswoodaa, block:true
+
+
+[Arena01-Patrol1]
+zone0=3,13,5,1
+zone1=4,14,3,1
+zone2=5,15,1,1
+facing=rd
+center=6,6
+color=brown
+
+;Monster/Ranger/Caster party (Patrol 1)
+human0=x:5, y:6, dir:lu, ai:magic
+human1=x:8, y:7, dir:lu, class:RANG, wptype:bow, passive0:FELL-P1, passive1:GUNN-P2, counter:SORC-C1, acc0:ABO-04, waitturns:1
+human2=x:6, y:6, dir:lu, ai:healer
+human3=x:7, y:6, dir:lu, class:PEDD, wptype:crossbow, ai:trapper,  passive0:HEAL-P2, passive1:MERC-P2, counter:BLAD-C1, weight:PEDD-A3|10
+
+monster0=x:6, y:7, dir:lu, class:VAN-03
+monster1= x:6, y:4, dir:lu, class: DAO-03
+
+bzil0= x:4, y:4, dir:lu, class: TAN-99, subclass: RAK-99, passive0:PEK-99-P1, passive1: RAK-99-P2, counter: VAN-99-C1, behavior:killer
+
+terrain0=x:3, y:7, atlas:manmade, sprite:debriswoodab, block:true
+terrain1=x:3, y:8, atlas:manmade, sprite:debriswoodaa, block:true
+terrain2=x:3, y:9, atlas:manmade, sprite:debriswoodaa, block:true
+terrain3=x:4, y:9, atlas:manmade, sprite:debriswoodab, block:true
+
+trap0=x:5, y:9, skill:PEDD-A1, caster:human3
+trap1=x:6, y:9, skill:PEDD-A1, caster:human3
+
+terrain4=x:8, y:5, atlas:arena01, sprite:pillarheight4, height:4
+terrain5=x:8, y:6, atlas:arena01, sprite:pillarheight8, height:8
+terrain6=x:8, y:7, atlas:arena01, sprite:pillarheight10, height:10
+terrain7=x:8, y:8, atlas:arena01, sprite:pillarheight10, height:10
+terrain8=x:7, y:8, atlas:arena01, sprite:pillarheight10, height:10
+terrain9=x:7, y:7, atlas:arena01, sprite:pillarheight10, height:10
+
+
+[Arena01-Patrol2]
+zone0=3,2,5,1
+zone1=4,1,3,1
+zone2=5,0,1,1
+facing=lu
+center=5,11
+color=orange
+
+;Beatsticks(Patrol 2)
+human0=x:3, y:10, dir:rd, class:BLAD, passive0:RANG-P1, passive1:FELL-P2, counter:FELL-C1
+human1=x:4, y:10, dir:rd, ai:range
+human2=x:4, y:12, dir:rd, ai:magic
+human3=x:6, y:11, dir:rd, class:REAV, counter:UTIL-C1
+human4=x:7, y:11, dir:rd, ai:melee
+human5=x:4, y:13, dir:rd, class:HEAL, counter:WIZA-C1
+
+monster0=x:6, y:13, dir:rd, class:BOL-03
+
+terrain0=x:8, y:6, atlas:manmade, sprite:debriswoodaa, block:true
+terrain1=x:7, y:6, atlas:manmade, sprite:debriswoodab, block:true
+terrain2=x:4, y:6, atlas:manmade, sprite:debriswoodab, block:true
+terrain3=x:3, y:6, atlas:manmade, sprite:debriswoodaa, block:true
+terrain4=x:6, y:8, atlas:manmade, sprite:debriswoodab, block:true
+terrain5=x:5, y:8, atlas:manmade, sprite:debriswoodaa, block:true
+
+
+[Arena01-Patrol3]
+zone0=3,2,5,1
+zone1=4,1,3,1
+zone2=5,0,1,1
+facing=lu
+center=5,11
+color=orange
+
+;Tanks and Casters(Patrol 3, no variant map)
+human0=x:5, y:10, dir:rd, class:WARM, wptype:scythe, counter:TEMP-C1
+human1=x:4, y:10, dir:rd, class:BLAD, passive0:ASSA-P1, counter:GADG-C1
+human2=x:3, y:10, dir:rd, class:MERC, wptype:maul, subclass:GADG, passive0:HEAL-P2, counter:HEAL-C1
+human3=x:7, y:12, dir:rd, ai:healer
+human4=x:7, y:11, dir:rd, ai:melee
+human5=x:4, y:13, dir:rd, class:HEAL, passive0:SORC-P1, passive1:WIZA-P1, counter:UTIL-C1
+
+monster0=x:4, y:12, dir:rd, class:BUL-23
+
+
+[Arena01-Patrol4]
+zone0=3,13,5,1
+zone1=4,14,3,1
+zone2=5,15,1,1
+facing=rd
+center=6,6
+color=grass
+
+;Ranged-focused party (Patrol 4)
+human0=x:8, y:7, dir:lu, class:GUNN, passive0:ASSA-P2, passive1:GUNN-P2, counter:MERC-C1, acc0:ABO-03
+human1=x:7, y:7, dir:lu, class:RANG, wptype:bow, passive0:FELL-P1, passive1:GUNN-02, counter:SORC-C1, acc0:ABO-03
+human2=x:6, y:5, dir:lu, ai:range
+human3=x:5, y:5, dir:lu, ai:healer
+
+monster0=x:5, y:6, dir:lu, class:KAW-03
+monster1=x:5, y:2, dir:lu, class:THE-03
+
+bzil0= x:3, y:5, dir:lu, class:PHO-99, subclass:PEK-99, passive0:PEK-99-P1, passive1:DAO-99-P2, counter:NIW-99-C1, acc0:ABO-03
+
+terrain0=x:1, y:7, atlas:manmade, sprite:debriswoodaa, block:true
+terrain1=x:3, y:7, atlas:manmade, sprite:debriswoodab, block:true
+terrain2=x:5, y:7, atlas:manmade, sprite:debriswoodaa, block:true
+terrain3=x:2, y:9, atlas:manmade, sprite:debriswoodaa, block:true
+terrain4=x:4, y:9, atlas:manmade, sprite:debriswoodab, block:true
+terrain5=x:6, y:9, atlas:manmade, sprite:debriswoodab, block:true
+
+; Sprite is multiple tile large
+terrain6=x:6, y:2, atlas:arena01, sprite:platformb, cornerX:8, cornerY:3
+terrain7=x:7, y:3, height:2
+terrain8=x:8, y:3, height:6
+
+; Sprite is multiple tile large
+terrain9=x:6, y:5, atlas:arena01, sprite:platforma, cornerX:8, cornerY:7
+terrain10=x:8, y:5, height:6
+terrain11=x:8, y:6, height:10
+terrain12=x:7, y:6, height:10
+terrain13=x:7, y:7, height:10
+terrain14=x:8, y:7, height:10
+
+
+[Arena01-Patrol5]
+zone0=3,13,5,1
+zone1=4,14,3,1
+zone2=5,15,1,1
+facing=rd
+center=6,6
+color=purple
+
+;Fliers and Rogues (Patrol 5)
+human0=x:6, y:5, dir:lu, class:GAMB, subclass:PEDD, ai:healer, passive0:PEDD-P2, passive1:VAMP-P1, counter: VAMP-C1, weightstyle:item
+human1=x:3, y:4, dir:lu, ai:melee
+human2=x:5, y:5, dir:lu, ai:range
+human3=x:8, y:7, dir:lu, class:ROGU, wptype:crossbow
+
+monster0=x:8, y:5, dir:lu, class:PHO-03
+monster1=x:7, y:4, dir:lu, class:HAR-03, behavior:killer
+
+bzil0= x:6, y:2, dir:lu, class:RAK-99, subclass:BUL-99, passive0:HHU-99-P2, passive1:BOL-99-P1, counter:RAK-99-C1, behavior:alwaysoptimal
+
+; Pillar 4
+terrain0=x:6, y:4, atlas:arena01, sprite:pillarheight4, height:4
+terrain1=x:6, y:5, atlas:arena01, sprite:pillarheight4, height:4
+terrain2=x:6, y:6, atlas:arena01, sprite:pillarheight4, height:4
+terrain3=x:6, y:7, atlas:arena01, sprite:pillarheight4, height:4
+
+; Pillar 8
+terrain4=x:7, y:6, atlas:arena01, sprite:pillarheight8, height:8
+terrain5=x:7, y:7, atlas:arena01, sprite:pillarheight8, height:8
+terrain6=x:7, y:8, atlas:arena01, sprite:pillarheight8, height:8
+terrain7=x:7, y:9, atlas:arena01, sprite:pillarheight8, height:8
+terrain8=x:7, y:10, atlas:arena01, sprite:pillarheight8, height:8
+terrain9=x:7, y:11, atlas:arena01, sprite:pillarheight8, height:8
+
+; Pillar 10
+terrain10=x:7, y:2, atlas:arena01, sprite:pillarheight10, height:10
+terrain11=x:7, y:3, atlas:arena01, sprite:pillarheight10, height:10
+terrain12=x:7, y:4, atlas:arena01, sprite:pillarheight10, height:10
+terrain13=x:7, y:5, atlas:arena01, sprite:pillarheight10, height:10
+terrain14=x:7, y:12, atlas:arena01, sprite:pillarheight10, height:10
+terrain15=x:7, y:13, atlas:arena01, sprite:pillarheight10, height:10
+terrain16=x:8, y:3, atlas:arena01, sprite:pillarheight10, height:10
+terrain17=x:8, y:4, atlas:arena01, sprite:pillarheight10, height:10
+terrain18=x:8, y:5, atlas:arena01, sprite:pillarheight10, height:10
+terrain19=x:8, y:6, atlas:arena01, sprite:pillarheight10, height:10
+terrain20=x:8, y:7, atlas:arena01, sprite:pillarheight10, height:10
+terrain21=x:8, y:8, atlas:arena01, sprite:pillarheight10, height:10
+terrain22=x:8, y:9, atlas:arena01, sprite:pillarheight10, height:10
+terrain23=x:8, y:10, atlas:arena01, sprite:pillarheight10, height:10
+terrain24=x:8, y:11, atlas:arena01, sprite:pillarheight10, height:10
+terrain25=x:8, y:12, atlas:arena01, sprite:pillarheight10, height:10
+
+
+[Arena01-Patrol6]
+zone0=3,2,5,1
+zone1=4,1,3,1
+zone2=5,0,1,1
+facing=lu
+center=5,11
+color=pink
+
+;Balanced Party (Patrol 6, no variant map)
+human0=x:7, y:13, dir:rd, ai:range
+human1=x:5, y:12, dir:rd, class:UTIL, subclass:GADG, passive0:HEAL-P2, passive1:WIZA-P1, counter:UTIL-C1, ai:healer
+human2=x:7, y:11, dir:rd, ai:magic
+human3=x:7, y:10, dir:rd, ai:melee
+human4=x:3, y:11, dir:rd, class:TEMP, passive0:REAV-P1, passive1:MERC-P2, counter:FELL-C1
+
+monster0=x:4, y:11, dir:rd, class:BLA-03
+monster1=x:2, y:12, dir:rd, class:PEK-22
+
+
+; *****************************************************
+; Ancient Path
+; *****************************************************
+
+; ******** Forest05 *************************************
+[Forest05]
+LevelRange=40,50
+UniqueGear=true
+NoHeroBonus=true
+LootCount=1
+Loot=ING-14, ING-21
+LootTable=33
+StealTable=23
+Poachtable=90
+; Story 1 stuff
+SpawnIfLessThanXEnemies=4
+SpawnAfterXTurns=4
+SpawnEveryXTurn=2
+MaxEnemies=8
+; Crystal
+CrystalKills=4
+
+[forest05-Patrol]
+LevelRange5=40,50
+LevelRange6=40,50
+LootTable=33
+StealTable=23
+Poachtable=90
+
+[forest05-Patrol0]
+zone0=3,0,4,2
+facing=lu
+center=4,4
+
+human0=x:8, y:10, dir:rd, class:SMED, subclass:GAMB, passive0: SORC-P1, passive1: HEAL-P2, counter:GADG-C1
+
+monster0=x:10, y:3, dir:ld, class:HAR-13
+monster1=x:9, y:7, dir:rd, class:HAR-13
+monster2=x:6, y:10, dir:rd, class:KAW-23
+monster3=x:5, y:10, dir:rd, class:KAW-23
+monster4=x:5, y:8, dir:rd, class:HRV-03
+
+bzil0=x:3, y:7, dir:rd, class:DAA-99, subclass:MAL-99, passive0: MAL-99-P1, passive1: HAR-99-P1, counter:NIW-99-C1
+
+monster5=x:11, y:2, dir:ld, class:KAW-23, difficulty:1
+; Extra
+human1=x:7, y:12, dir:rd, class:LICH, subclass:HEAL, passive0:MERC-P2, passive1:DRUI-P2, counter:UTIL-C1, difficulty:2
+
+[forest05-Patrol1]
+zone0=7,10,4,2
+facing=rd
+center=4,4
+
+human0=x:8, y:0, dir:lu, class:UTIL, subclass:ALCH, passive0:WIZA-P1, counter:LICH-C1
+
+monster0=x:5, y:2, dir:lu, class:DAA-03
+monster1=x:6, y:1, dir:lu, class:MAL-03
+monster2=x:0, y:8, dir:ru, class:PEK-03, acc0: ABO-04
+monster3=x:0, y:6, dir:ru, class:RAK-03, acc0: ABO-03
+monster4=x:4, y:1, dir:lu, class:HRV-03
+monster5=x:2, y:8, dir:ru, class:UND-03, acc0:ABO-03
+
+monster6=x:0, y:4, dir:ld, class:UND-03, difficulty:1
+; Extra
+human1=x:10, y:2, dir:lu, class:GUNN, passive0:ROGU-P1, passive1:VAMP-P2, counter:TEMP-C1, difficulty:2
+
+[Forest05-Patrol2]
+zone0=3,0,3,2
+facing=lu
+center=8,11
+chance=45
+
+monster0=x:10, y:11, dir:rd, class:PHO-03
+monster1=x:11, y:3, dir:ld, class:PHO-03
+monster2=x:2, y:8, dir:lu, class:PEK-03
+monster3=x:7, y:11, dir:ld, class:DAO-03
+monster4=x:11, y:0, dir:ld, class:DAO-03
+monster5=x:4, y:9, dir:ld, class:THE-03, acc0:ABO-02
+monster6=x:0, y:5, dir:ru, class:RAK-03, acc0:ABO-02
+
+;Guest
+human0=x:1, y:12, dir:ru, class:ROGU, subclass:RANG, wptype:crossbow, faction:player, apbonus:45, acc0:ABO-04
+
+monster7=x:10, y:7, dir:ld, class:PHO-01, difficulty:1
+; Extra
+bzil0=x:10, y:8, dir:ld, class:PHO-99, subclass:THE-99, passive0:DAO-99-P1, passive1:UND-99-P1, counter:DAA-99-C1, difficulty:2
+
+
+; ******** Swamp02 *************************************
+[Swamp02]
+LevelRange=40,55
+NoHeroBonus=true
+UniqueGear=true
+LootCount=2
+Loot=ING-22
+LootTable=40
+StealTable=23
+Poachtable=90
+; Story 1 stuff
+SpawnIfLessThanXEnemies=5
+
+[Swamp02-Patrol]
+LevelRange5=40,60
+LevelRange6=40,60
+LootTable=40
+StealTable=23
+Poachtable=90
+
+[swamp02-Patrol0]
+zone0=17,5,2,3
+zone1=17,8,1,1
+facing=ld
+center=7,5
+
+human0=x:10, y:1, dir:ru, class:SMED, subclass:HEAL, passive0: WIZA-P1, passive1: SORC-P1, counter:GADG-C1, acc0: ARI-05
+human1=x:6, y:5, dir:ru, class:UTIL, subclass:GADG, passive0:WIZA-P1, passive1:ANAT-P1, counter:GADG-C1
+human2=x:4, y:3, dir:ru, class:SORC, subclass: GAMB, passive0:RANG-P1, passive1:FELL-P2, counter:GADG-C1
+
+monster0=x:6, y:1, dir:ru, class:DAA-03, acc0:ABO-03, acc1:ARI-06
+monster1=x:6, y:2, dir:rd, class:UND-03
+monster2=x:6, y:0, dir:lu, class:UND-03
+monster3=x:7, y:1, dir:ld, class:KAW-23, acc0:ARI-04, difficulty:1
+monster4=x:11, y:0, dir:ru, class:HRV-03
+monster5=x:0, y:3, dir:ru, class:KAW-23, acc0:ARI-04
+
+; Extra
+bzil0=x:6, y:4, dir:ru, class:KAW-99, subclass:ZOT-99, passive0: RAK-99-P2, passive1: PEK-99-P1, counter:RAK-99-C1, acc0:ARI-04, acc1: ARI-00, shield:ABO-03, difficulty:2
+
+[swamp02-Patrol1]
+zone0=3,9,3,2
+zone1=2,9,1,1
+zone2=4,11,2,1
+facing=rd
+center=11,5
+
+human0=x:17, y:6, dir:ld, class:GUNN
+human2=x:8, y:0, dir:lu, class:KNIG, subclass:WERE, passive0:UTIL-P2, passive1:GAMB-P2, counter:UTIL-C1
+human3=x:13, y:5, dir:ld, class:PEDD, subclass:ASSA, passive0:HEAL-P2, ai:trapper
+
+monster1=x:17, y:4, dir:ld, class:BUL-23, acc0:ARI-06
+monster2=x:15, y:9, dir:ld, class:MAL-03, waitturns:1, waitdistance:6
+monster3=x:12, y:3, dir:ld, class:KAW-23, waitturns:1, waitdistance:6
+
+monster4=x:7, y:0, dir:lu, class:VAN-03, difficulty:1
+
+; Expert Mode
+human1=x:17, y:3, dir:ld, class:DRUI, subclass:HEAL, passive0:HEAL-P1, passive1:HEAL-P2, counter:WIZA-C1, acc0:ARI-04, acc1: ARI-00, weight:HEAL-A4|150, difficulty:2
+monster5=x:9, y:0, dir:lu, class:VAN-03, difficulty:2
+
+
+; ******** Cave03 *************************************
+[Cave03]
+LevelRange=42,60
+UniqueGear=true
+NoHeroBonus=true
+LootTable=40
+StealTable=24
+Poachtable=90
+Loot=GUN-09, ING-15
+Lootcount=1
+; Crystal
+CrystalKills=4
+
+[Cave03-Patrol]
+LevelRange5=42,65
+LevelRange6=42,65
+LootTable=40
+StealTable=24
+Poachtable=90
+
+[cave03-Patrol0]
+zone0=10,0,3,3
+facing=ld
+center=5,4
+
+human1=x:2, y:6, dir:rd, class:HEAL, subclass:SORC, passive0: SORC-P1, passive1: SORC-P2, counter:GADG-C1
+
+monster0=x:0, y:4, dir:rd, class:BUL-23
+monster1=x:0, y:0, dir:ru, class:BOL-03
+monster2=x:1, y:7, dir:rd, class:BLA-03
+monster3=x:0, y:5, dir:ru, class:DAA-03
+
+bzil0=x:0, y:1, dir:ru, class:BLA-99, subclass:BOL-99, passive0:BUL-99-P2, passive1: HHU-99-P2, counter:VAN-99-C1
+bzil1=x:4, y:5, dir:rd, class:MAL-99, subclass:DAO-99, passive0:DAO-99-P2, passive1:BOL-99-P2, counter:ZOT-99-C1, acc0:ARI-06, ai:magic, waitturns:1, waitdistance:6, difficulty:1
+
+; Extra
+human0=x:3, y:5, dir:rd, class:REAV, subclass:WERE, passive0:ALCH-P1, passive1:UTIL-P2, counter:UTIL-C1, acc0:ARI-05, wptype:axe, behavior:killer, difficulty:2
+
+[Cave03-Patrol1]
+zone0=0,8,3,2
+zone1=0,7,2,1
+facing=rd
+center=7,2
+
+human0=x:10, y:0, dir:ld, class:VAMP, subclass:KNIG, passive0:ASSA-p2, wptype:gun, weapon2:true, weight:KNIG-A7|20, gender:female
+human1=x:10, y:2, dir:ld, class:VAMP, subclass:WARM, passive0:ASSA-p2, wptype:gun, weapon2:true, weight:WARM-A5|20, gender:male
+
+monster1=x:1, y:0, dir:lu, class:HRV-03, behavior:killer
+monster2=x:8, y:5, dir:ld, class:BOL-03, acc0:ABO-08, acc1:ABO-06
+monster3=x:7, y:9, dir:ld, class:BLA-03, acc0:ARI-05
+monster5=x:4, y:1, dir:lu, class:NIW-03, weight:NIW-03-A4|60, ai:healer, acc0:ARI-05, acc1:ABO-08
+
+monster4=x:8, y:1, dir:ld, class:MAL-03, difficulty:1
+
+; Extra
+human2=x:9, y:3, dir:ld, class:PRIN, subclass:WIZA, passive0:HEAL-P2, passive1:FELL-P2, counter: GADG-C1, acc0:ARI-10, acc1:ARI-13, wptype:staff, difficulty:2
+
+
+; ******** Cave04 *************************************
+[Cave04]
+LevelRange=44,65
+UniqueGear=true
+NoHeroBonus=true
+LootTable=41
+StealTable=24
+Lootcount=2
+Loot=DAG-12
+Poachtable=90
+; Crystal
+CrystalKills=5
+
+[Cave04-Patrol]
+LevelRange5=45,80
+LevelRange6=45,80
+LootTable=41
+StealTable=24
+Poachtable=90
+
+[cave04-Patrol0]
+zone0=3,11,2,2
+zone1=0,7,2,2
+facing=ru
+center=8,4
+
+human0=x:11, y:3, dir:ld, class:SMED, subclass:GAMB, passive0:GADG-P2, passive1:SORC-P1, counter:GADG-C1, acc0:ARI-06, weight:SMED-A5|25
+human2=x:10, y:5, dir:ld, class:GUNN, subclass:WERE
+
+monster0=x:9, y:2, dir:ld, class:DAA-03
+monster1=x:8, y:2, dir:ld, class:UND-03
+monster2=x:8, y:1, dir:ld, class:UND-03
+
+bzil0=x:8, y:9, dir:ld, class:BUL-99, subclass:DAO-99, passive0:PEK-99-P1, passive1:HHU-99-P2, counter:HHU-99-C1, acc0:ARI-06
+
+; Extra
+human1=x:12, y:5, dir:ld, class:SORC, subclass:MEND, passive0:RANG-P1, passive1:FELL-P2, counter:SORC-C1, acc0:ARI-06, difficulty:1
+
+; Expert
+bzil1=x:10, y:6, dir:ld, class:HRV-99, subclass:BLA-99, passive0:HAR-99-P2, passive1:KAW-99-P2, counter:TAN-99-C1, behavior:killer, acc0:ABO-05, difficulty:2
+
+
+[cave04-Patrol1]
+zone0=7,14,3,2
+zone1=6,14,1,1
+facing=rd
+center=6,5
+
+human0=x:3, y:1, dir:lu, class:ALCH, subclass:GAMB, passive0:LICH-P1, passive1:KNIG-P2, counter:UTIL-C1, acc0:ABO-06, difficulty:1
+human1=x:5, y:3, dir:lu, class:ASSA, subclass:MERC, passive0:MERC-P2, passive1:ROGU-P1, counter:KNIG-C1, wptype:bow
+human2=x:6, y:1, dir:lu, class:PRIN, subclass:WIZA, passive0:HEAL-P2, passive1:ASSA-P2, counter:WIZA-C1, wptype:staff, acc0:ARI-06
+
+monster0=x:0, y:2, dir:lu, class:MAL-03
+monster1=x:10, y:2, dir:lu, class:KAW-23
+monster2=x:11, y:0, dir:lu, class:VAN-03
+monster3=x:11, y:3, dir:lu, class:PEK-23
+
+; Expert
+human3=x:12, y:5, dir:ld, class:LORD, subclass:TEMP, passive0:WIZA-P1, passive1:WIZA-P2, counter:UTIL-C1, acc0:ARI-06, behavior:killer, difficulty:2
+
+
+; ******** Cave05 *************************************
+[Cave05]
+LevelRange=44,68
+UniqueGear=true
+NoHeroBonus=true
+MaxEnemies=10
+LootTable=41
+StealTable=24
+Poachtable=90
+Lootcount=2
+Loot=SPR-11
+; Crystal
+CrystalKills=5
+
+[Cave05-Patrol]
+LevelRange5=45,99
+LevelRange6=45,99
+LootTable=41
+StealTable=24
+Poachtable=90
+
+[cave05-Patrol0]
+zone0=3,11,2,4
+facing=rd
+center=6,6
+
+human0=x:6, y:0, dir:lu, class:DEMK, subclass:BLAD, passive0:MERC-P1, passive1:KNIG-P2, counter:UTIL-C1, acc0:ABO-07, acc1:ABO-06, wptype:scythe, weapon2:true, behavior:killer
+human1=x:7, y:0, dir:lu, class:GADG, subclass:PEDD, passive0:WIZA-P1, passive1:BHUN-P2, counter:ALCH-C1, acc0:ARI-06, behavior:alwaysoptimal
+human3=x:9, y:4, dir:ld, class:VAMP, subclass:LORD, passive0:FELL-P1, passive1:RANG-P2, counter:LICH-C1, acc0:ABO-07, wptype:rapier, gender:male
+
+monster0=x:2, y:2, dir:lu, class:KAW-23, acc0:ABO-07
+monster1=x:11, y:4, dir:ld, class:TAN-03
+monster2=x:10, y:2, dir:ld, class:BLA-03
+
+; Extra
+human2=x:7, y:2, dir:lu, class:FELL, subclass:WARM, passive0:TEMP-P1, passive1:RANG-P1, counter:ALCH-C1, behavior:alwaysoptimal, difficulty:1
+
+; Expert
+bzil0=x:3, y:0, dir:lu, class:MAL-99, subclass:PEK-99, passive0:NIW-99-P1, passive1:BLA-99-P2, counter:HAR-99-C1, acc0:ABO-07, acc1:ARI-08, difficulty:2
+
+
+[cave05-Patrol1]
+zone0=10,0,3,3
+facing=ld
+center=5,7
+
+human0=x:2, y:7, dir:ru, class:REAV
+human1=x:0, y:8, dir:ru, class:ALCH, subclass:UTIL, passive0:SORC-P1, passive1:MERC-P2, counter:ALCH-C1, acc0:ARI-06
+human2=x:2, y:10, dir:rd, class:WIZA, subclass:LICH, passive0:DRUI-P1, passive1:ALCH-P1, counter:WIZA-C1, acc0:ABO-07
+
+monster0=x:5, y:12, dir:rd, class:PEK-13
+monster1=x:3, y:13, dir:rd, class:DEM-01
+monster2=x:6, y:10, dir:rd, class:KAW-23, behavior:killer
+monster3=x:5, y:8, dir:rd, class:HRV-03, behavior:killer
+
+monster4=x:1, y:14, dir:rd, class:PEK-13, difficulty:1
+
+; Expert
+human3=x:0, y:4, dir:ru, class:PRIN, subclass:UTIL, passive0:LICH-P1, passive1:HEAL-P1, counter:TEMP-C1, acc0:ABO-07, acc1:ARI-06, wptype:staff, difficulty:2
+
+
+
+; ******** Cave06 *************************************
+[Cave06]
+LevelRange=46,70
+UniqueGear=true
+NoHeroBonus=true
+LootTable=42
+StealTable=25
+Poachtable=90
+Lootcount=2
+Loot=BCL-15, HCL-11
+; Story1
+TurnsHidingToForceLoco=99
+TangrelsMax=2
+LocoRushEnthusiasmDampener=0.75
+SwitchPositionChance=0
+TurnsToSpawnBoss=3
+
+[Cave06-Patrol]
+LevelRange5=45,99
+LevelRange6=45,99
+LootTable=42
+StealTable=25
+Poachtable=90
+
+[Cave06-Patrol0]
+zone0=7,5,2,3
+facing=ld
+center=13,3
+
+monster0=x:2, y:1, dir:lu, class:TAN-03, acc0:ABO-07
+monster1=x:14, y:4, dir:ld, class:TAN-02
+monster2=x:1, y:9, dir:ru, class:HHU-02
+monster3=x:14, y:1, dir:ld, class:HHU-03, acc0:ABO-07
+monster4=x:12, y:0, dir:lu, class:PEK-13, difficulty:1
+; NOTE: a queen is automatically spawned on this patrol
+
+; Extra
+human0=x:0, y:3, dir:ru, class:UTIL, subclass:HEAL, passive0:BLAD-p1, passive1:KNIG-p1, counter:FELL-c1, wptype:mace, weapon2:true, acc0:ARI-06, acc1:ABO-07, weight:HEAL-A6|65, gearfill:nodots, difficulty:2
+
+[cave06-Patrol1]
+zone0=1,8,3,2
+facing=ru
+center=11,4
+
+monster0=x:11, y:7, dir:ld, class:ZOT-03, acc0:AGL-05, acc1:AGL-10, apbonus:400
+monster1=x:11, y:4, dir:ld, class:ZOT-01, apbonus:125
+monster2=x:0, y:0, dir:lu, class:ZOT-02, apbonus:250
+
+bzil1=x:14, y:4, dir:ld, class:ZOT-99, subclass:RAK-99, passive0:BOL-99-p1, passive1:HAR-99-p2, counter:DAA-99-c1, behavior:killer, acc0:ABO-06, acc1:AGL-10, waitturns:1
+bzil2=x:12, y:2, dir:ld, class:ZOT-99, subclass:DAO-99, passive0:DAO-99-p1, passive1:DAO-99-p2, counter:DAO-99-c1
+bzil3=x:14, y:1, dir:ld, class:ZOT-99, subclass:BOL-99, passive0:BLA-99-p1, passive1:HHU-99-p2, counter:NIW-99-c1, difficulty:1
+
+; Expert
+bzil0=x:2, y:1, dir:lu, class:ZOT-99, subclass:KAW-99, passive0:HAR-99-p1, passive1:KAW-99-p2, counter:BUL-99-c1, acc0:ARI-04, acc1:AGL-07, difficulty:2
+
+
+; ******** Tomb01 *************************************
+[Tomb01]
+LevelRange=48,99
+UniqueGear=true
+NoHeroBonus=true
+LootTable=42
+StealTable=25
+Poachtable=90
+Lootcount=0
+Loot=ING-12, ING-14, ING-15, ING-17
+; Story1
+SpawnMax=9
+DoorSpawnMax=3
+NoItems=true
+
+[Tomb01-Patrol]
+LevelRange5=45,99
+LevelRange6=45,99
+LootTable=42
+StealTable=25
+Poachtable=90
+
+[Tomb01-Patrol0]
+zone0=0,11,4,2
+facing=rd
+center=5,2
+
+monster0=x:7, y:7, dir:ld, class:KAW-23
+monster1=x:6, y:1, dir:ld, class:VAN-03
+monster2=x:1, y:0, dir:lu, class:BOL-03, waitdistance:7, acc0:ABO-05, acc1:ARI-06
+monster3=x:5, y:5, dir:ld, class:HAR-13
+
+bzil0=x:5, y:2, dir:ld, class:APB-99, subclass:KAW-99, passive0:NIW-99-p1, passive1:BLA-99-p2, counter:APB-99-c1, acc0:ABO-08, acc1:AGL-09
+bzil1=x:0, y:1, dir:lu, class:APB-99, subclass:ZOT-99, passive0:RAK-99-p2, passive1:DAO-99-p2, counter:HAR-99-c1
+bzil2=x:6, y:3, dir:ld, class:HRV-99, subclass:THE-99, passive0:NIW-99-p1, passive1:BLA-99-p2, counter:RAK-99-c1, acc0:ARI-10, acc1:ARI-04, weight:HRV-99-A3|100
+
+monster4=x:7, y:8, dir:ld, class:KAW-23, difficulty:1
+
+; Extra
+bzil3=x:4, y:2, dir:ru, class:DAO-99, subclass:NIW-99, passive0:TAN-99-P1, passive1:NIW-99-P2, counter:APB-99-C1, ai:healer, acc0:ABO-05, gearfill:noboots, difficulty:2

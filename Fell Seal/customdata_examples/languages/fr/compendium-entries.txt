@@ -1,0 +1,460 @@
+[entry 0-0]
+[h1]Phase de déploiement[/h1]
+
+Avant de commencer une bataille, vous devez placer vos combattants sur les cases bleues brillantes et choisir dans quelle direction ils seront tournés. Le nombre maximal de troupes que vous pouvez faire combattre s'affiche en haut à gauche de l'écran. Les commandes permettant de passer vos troupes en revue se trouvent en bas à droite de l'écran. Une fois vos personnages choisis, appuyez sur le bouton {button-battlestart} pour lancer la bataille.
+
+Quelques conseils pour le déploiement :
+[list] 
+[*]En général, il est recommandé de placer les combattants robustes, spécialistes du combat rapproché, devant les unités plus fragiles telles que les lanceurs de sorts et les archers.
+[*]Durant la phase de déploiement, prenez le temps d'étudier le champ de bataille et vos ennemis pour choisir les troupes à envoyer au combat. Vous pouvez également en profiter pour adapter l'équipement et les capacités de vos personnages dans le menu Troupes, afin de les préparer au mieux pour les défis uniques de chaque bataille.
+[*]Si un personnage s'est fait blesser au combat précédemment, il ne pourra se rétablir qu'en sautant une bataille. Si vous déployez une unité blessée, elle ne pourra pas se rétablir et courra le risque de subir des blessures supplémentaires. Cependant, si vous devez déployer un personnage blessé, il pourra tout de même se rétablir plus tard en sautant une bataille à venir (sauf si les options de blessure/mort définitive sont activées).
+[/list]
+
+
+[entry 0-1]
+[h1]Ordre du tour[/h1]
+
+Pendant la bataille, la file en haut de l'écran vous indique dans quel ordre les unités pourront jouer. En outre, lorsque vous passez le curseur sur un personnage du champ de bataille, son portrait s'agrandit dans la file pour vous indiquer quand son tour arrivera. Les portraits à bord bleu sont vos alliés (ils regardent généralement vers la droite), tandis que les portraits à bord rouge sont vos ennemis (ils regardent généralement vers la gauche).
+
+L'ordre du tour est déterminé par la statistique de Vitesse (VIT) de chaque personnage. Les personnages à la VIT élevée pourront jouer plus tôt et plus souvent que les personnages plus lents.
+
+
+[entry 0-2]
+[h1]Déplacement et élévation[/h1]
+
+Un personnage peut bouger une fois pendant son tour, avant ou après avoir effectué son action. La distance qu'il peut parcourir au combat dépend principalement de sa statistique de Déplacement 
+(<sprite name="icon-stats-move">), indiquée en bas de son panneau d'informations. Cependant, le relief du terrain peut restreindre les déplacements d'un personnage. S'il existe une importante différence de hauteur entre les cases, la valeur de Saut (<sprite name="icon-stats-jump">) d'une unité détermine alors si elle peut franchir l'obstacle. La hauteur de chaque case apparaît en haut à gauche de l'écran pendant le combat. Les valeurs de Déplacement et de Saut sont déterminées par la classe du personnage. Il est possible de les augmenter avec certains accessoires, comme des bottes.
+
+Certaines unités possèdent des attributs spéciaux qui leur permettent d'accéder à des zones inaccessibles à d'autres. Ces attributs sont indiqués par une icône en bas du panneau d'informations de l'unité.
+[list]
+[*]L'attribut Nage (<sprite name="icon-stats-swim">) n'est disponible que pour certaines classes et certains monstres. Le personnage sait nager, ce qui lui permet de traverser des cases d'eau et d'eau toxique. Quand il nage, le personnage inflige moins de dégâts et en subit davantage. Il ne peut pas non plus ouvrir de trésors ni collecter de composants. Les personnages incapables de nager doivent se méfier de l'eau : ils pourraient bien s'y faire pousser et se noyer !
+[*]Les unités capables de voler, de se téléporter ou de s'enfouir sont indiquées par l'icône (<sprite name="icon-stats-fly">). Le personnage est capable de se déplacer instantanément sans marcher sur les cases qui le séparent de sa destination. Cela lui permet d'ignorer la hauteur des cases et de ne pas déclencher les pièges sur son parcours (sauf ceux sur la case de destination). Cet attribut est généralement réservé aux monstres, mais les humains peuvent en bénéficier au moyen d'accessoires rares et de capacités passives.
+[*]Les unités capables de planer sont indiquées par l'icône (<sprite name="icon-stats-levitate">). Le personnage plane au-dessus du sol, ce qui lui permet de franchir n'importe quelle surface liquide et d'ignorer tout piège au sol. Cet attribut est généralement réservé aux monstres, mais les humains peuvent en bénéficier au moyen d'accessoires rares. Si une unité peut à la fois planer et nager, alors elle choisira de planer.
+[/list]
+
+
+[entry 0-3]
+[h1]Ciblage[/h1]
+
+Chaque personnage peut effectuer une action pendant son tour, avant ou après son déplacement. En général, cette action consiste à effectuer une attaque normale avec l'arme équipée par le personnage, ou à utiliser une capacité active qu'il connaît. Une fois l'action sélectionnée, vous devez choisir une cible.
+[list]
+[*]Pour cela, le positionnement est important ! Les attaques normales, ainsi que de nombreuses capacités, infligent des dégâts supplémentaires si elles atteignent l'ennemi par le côté, et encore plus si elles le touchent dans le dos. (En général, les dégâts causés par un sort ne prennent pas en compte le positionnement.)
+[*]La portée de votre arme ou de votre capacité limite les cibles que vous pouvez choisir. La portée comporte deux paramètres : la distance d'attaque maximale (Portée), et la hauteur qu'elle peut atteindre (valeur « verticale »). Les cases à portée apparaîtront en surbrillance une fois votre action sélectionnée.
+[*]Une fois la cible choisie, et avant la confirmation de l'action, une estimation des dégâts de l'attaque et de sa précision s'affichera. Si vous visez plusieurs ennemis avec une capacité, vous pouvez consulter ces estimations pour chaque cible. Si l'estimation n'est pas encourageante, vous pouvez choisir des actions ou des cibles différentes. Notez bien que l'estimation des dégâts est fixe et n'est pas calculée aléatoirement, sauf pour les coups critiques et certaines capacités rares. Si la capacité touche sa cible, les dégâts infligés correspondront aux dégâts estimés.
+[*]Certaines capacités peuvent toucher plusieurs cases adjacentes. Attention, car ces actions peuvent blesser vos alliés : veillez à bien consulter les estimations pour ne pas attaquer vos amis et soigner vos ennemis !
+[*]Remarque : dans {Fell-Seal}, les attaques à distance ne prennent pas en compte la « ligne de vue ». Si la cible est à portée de l'action, elle peut être touchée même si des obstacles ou des personnages la protègent.
+[/list]
+
+
+[entry 0-4]
+[h1]Objets[/h1]
+
+Dans {fell-seal}, les objets fonctionnent un peu différemment que dans d'autres jeux. Les objets ont un nombre d'utilisations limité pendant les combats, mais ils se rechargent après chaque bataille. N'hésitez donc pas à les utiliser à votre guise, vous n'en manquerez pas. Vous ne pouvez pas acheter d'objets, mais l'Artisanat vous permet de changer leur nombre d'utilisations au combat, leur puissance et leur type.
+
+Vos personnages ont accès à l'ensemble des objets en votre possession.
+
+Conseils pour l'utilisation :
+[list]
+[*]Les objets sont particulièrement utiles au début du jeu, quand vos soigneurs ne sont pas encore très puissants. Pensez-y si vous rencontrez des difficultés !
+[*]Les objets comme les potions et les remèdes peuvent s'utiliser sur les personnages adjacents. Ils peuvent donc sauver la vie de vos héros si votre soigneur vous fait défaut.
+[*]Les pierres et les autres objets de lancer conviennent parfaitement aux spécialistes du combat rapproché qui sont encore éloignés de l'ennemi. Ces objets ne manquent jamais leur cible, ils sont donc extrêmement efficaces contre les ennemis dotés d'une Esquive (ESQ) élevée. Et comme ils ignorent la statistique de Défense (DEF) des unités, ils sont parfaits contre les cibles à défense élevée, telles que les monstres Pektite.
+[/list]
+
+
+[entry 0-5]
+[h1]Blessures / Mort au combat[/h1]
+
+Si les PV d'un personnage tombent à 0, il battra en retraite et sera blessé (avec les paramètres par défaut du jeu).
+
+Chaque blessure non soignée affaiblit les statistiques du personnage et le rend moins performant au combat. Pour guérir une blessure, un personnage ne doit pas combattre. Sauter un combat pour se reposer permet de soigner une blessure. Kyrie, quant à elle, ne peut être blessée, mais son équipe recevra un bonus de PC si elle ne tombe pas au combat.
+
+Un personnage dont les PV sont tombés à 0 peut être ranimé pendant le combat avec des objets et des capacités spécifiques. Il est possible de ranimer tous les personnages se trouvant sur une case à portée de l'objet ou de la capacité, peu importe l'endroit où ils sont tombés au combat. Cependant, n'oubliez pas que si un personnage ranimé tombe à nouveau, il recevra une blessure supplémentaire.
+
+
+[entry 0-6]
+[h1]Objets interactifs[/h1]
+
+Certains champs de bataille comportent des objets avec lesquels vous pouvez interagir au moyen d'actions spéciales. Ces objets sont généralement signalés par des cases jaunes brillantes durant la phase de déploiement. Pendant le combat, vous pouvez les remettre en surbrillance en appuyant sur le bouton {button-details}. Les objets interactifs sont parfois cachés, alors ouvrez l'œil !
+
+Types d'objets interactifs :
+[list]
+[*][b]Trésors[/b] : Pour ouvrir un coffre au trésor, placez-vous à côté et sélectionnez l'action Ouvrir, qui s'affiche dans la liste de commandes du personnage. Les trésors ne se récupèrent qu'une seule fois. Les personnages ne peuvent pas ouvrir de coffres au trésor en nageant.
+[*][b]Points de ramassage[/b] : Pour ramasser un composant de fabrication, placez-vous à côté d'un point de ramassage et sélectionnez l'action Ramasser, qui s'affiche dans la liste de commandes du personnage. Les points de ramassage sont réapprovisionnés après chaque bataille. Les personnages ne peuvent rien ramasser en nageant.
+[*][b]Échelles / Escaliers / Cordes[/b] : Certaines cases permettent aux personnages d'accéder à d'autres zones du champ de bataille. Sur l'écran Détails, ou pendant la phase de déploiement, vous pouvez afficher les coordonnées de destination en passant le curseur sur la case jaune brillante. Pour utiliser ce type de case, placez-vous dessus et sélectionnez l'action Grimper, qui s'affiche dans la liste de commandes du personnage. L'action Grimper est disponible uniquement si le personnage peut se tenir sur la case de destination.
+[*][b]Terriers / Tourbillons[/b] : Ces cases transportent le personnage vers une autre zone du champ de bataille sans consommer d'action. Sur l'écran Détails, ou pendant la phase de déploiement, vous pouvez afficher les coordonnées de destination en passant le curseur sur la case jaune brillante. Pour utiliser ce type de case, placez-vous dessus quand la case de destination est libre.
+[*][b]Interrupteurs[/b] : Pour activer un interrupteur, placez-vous à côté et sélectionnez l'action Activer, qui s'affiche dans la liste de commandes du personnage. Les interrupteurs ont des effets variés sur le champ de bataille, en permettant par exemple d'ouvrir de nouvelles zones.
+[/list]
+
+
+[entry 0-7]
+[h1]Butin[/h1]
+
+Le butin s'obtient de différentes façons. Le type de butin que vous obtenez dépend du champ de bataille, et non du type d'ennemis que vous affrontez. Ainsi, vous obtiendrez généralement de meilleurs butins en progressant dans l'histoire.
+[list]
+[*]Les ennemis battus laissent parfois tomber un butin.
+[*]Vous pouvez récupérer le butin après la bataille, sur l'écran de Victoire. En outre, les rencontres de l'histoire offrent parfois des récompenses uniques.
+[*]Certaines capacités vous permettent de voler du butin aux ennemis. Le butin volé est parfois meilleur que le butin normal. 
+[*]Certaines capacités vous permettent d'obtenir le trophée d'une cible. Si vous parvenez à la battre ainsi, vous obtiendrez à coup sûr un butin. Un butin obtenu de cette façon est parfois meilleur qu'un butin normal.
+[/list]
+
+
+[entry 0-8]
+[h1]Gain de PC[/h1]
+
+Dépensez vos PC, ou points de capacité, pour apprendre des capacités. Tous les personnages en reçoivent après chaque bataille, mais ceux qui se sont battus en obtiennent bien plus que les autres. Les PC sont attribués de la façon suivante :
+[list]
+[*]Les personnages ayant participé au combat gagnent de nombreux PC pour leur classe principale.
+[*]Chaque participant reçoit une petite quantité de PC bonus si les PV de Kyrie ne sont jamais tombés à 0 (uniquement pendant les rencontres de l'histoire).
+[*]Tous les personnages, y compris ceux qui n'ont pas pris part à la bataille, reçoivent un petit bonus d'apprentissage indirect pour avoir « observé » leurs compagnons combattre. Les PC indirects sont même attribués aux classes que le personnage n'a pas encore débloquées.
+[*]Il existe un personnage de monstre unique qui ne reçoit pas de PC indirects comme les autres. En lieu et place, lorsqu'il débloque une classe, il reçoit des PC bonus quand il affronte des monstres associés à cette même classe. 
+[*]Parfois, un personnage gagne le titre de « MVP » (meilleur joueur) en fonction de ses résultats. Ce personnage reçoit un important bonus de PC pour cette bataille.
+[*]Certaines zones comportent des personnages « Invités » qui aideront le joueur pendant une seule patrouille. Vous recevrez un petit bonus de PC s'ils survivent au combat.
+[*]Les batailles de l'histoire permettent de gagner bien plus de PC que les patrouilles. 
+[*]Les PC gagnés varient en fonction de la différence de niveau entre vos ennemis et vous. Si le niveau de votre groupe est bien plus élevé que celui de vos adversaires, vous gagnerez moins de PC après la bataille.
+[/list]
+
+
+[entry 1-0]
+[h1]Panneau d'informations du personnage[/h1]
+
+Le panneau d'informations d'un personnage contient de nombreux renseignements sur ses capacités de combat et vous permet de tout savoir sur lui. Il s'affiche en bas à gauche de l'écran lorsque le curseur est sur le personnage.
+
+Le panneau d'informations comporte jusqu'à cinq pages de renseignements. Vous pouvez passer d'une page à l'autre avec {patchstring1-term}. Voici une brève description de chaque page :
+[list]
+[*]La page 1 est la plus importante : elle indique les statistiques essentielles et les résistances élémentaires du personnage. Pour en savoir plus là-dessus, utilisez le bouton {button-help}.
+[*]La page 2 affiche l'équipement et les immunités de debuff du personnage. Utilisez {patchstring2-term} pour consulter la description de chaque partie de votre équipement, et surtout connaître la portée de votre arme.
+[*]La page 3 indique les {Abilities} actives de la {Class} principale du personnage. À l'instar de la page 2, utilisez {patchstring2-term} pour parcourir les {Abilities} et obtenir des renseignements à leur sujet.
+[*]La page 4 est identique à la page 3, si ce n'est qu'elle indique les capacités actives de la sous-classe du personnage. (Cette page apparaît uniquement si le personnage a équipé une sous-classe.)
+[*]La page 5 indique les {passive-traits} et la {Ability} de {counter} du personnage.  À l'instar des pages 3 et 4, utilisez {patchstring2-term} pour obtenir des renseignements sur ces {Abilities}.
+[/list]
+
+
+[entry 1-1]
+[h1]Classes et sous-classes[/h1]
+
+La classe et la sous-classe sont indiquées en page 1 du panneau d'informations, sous le nom du personnage. Cela vous donne une idée du type de capacités actives et d'équipement qu'il pourrait utiliser. Cependant, mieux vaut consulter les pages 2-5 du panneau d'informations pour obtenir des précisions sur les capacités et l'équipement du personnage. 
+
+Rendez-vous dans le menu Troupes pour assigner des classes et des sous-classes à vos personnages, et obtenir plus d'informations sur les capacités de chaque classe.
+
+
+[entry 1-2]
+[h1]Expérience et gain de niveau[/h1]
+
+Un personnage reçoit de l'expérience, ou XP, chaque fois qu'il effectue une action ayant un effet notable. Lorsqu'un personnage cumule 100 points d'XP, il gagne un niveau et améliore ses statistiques en fonction de sa classe principale. Une fois un niveau gagné, le compteur d'XP est remis à 0.
+
+Voici quelques actions récompensées par de l'XP :
+[list]
+[*]Infliger des dégâts à un ennemi
+[*]Battre un ennemi 
+[*]Lancer avec succès un buff ou un debuff
+[*]Soigner un personnage
+[*]Supprimer un debuff
+[/list]
+
+Un personnage ne gagne pas d'XP s'il interagit avec un objet, rate une attaque, effectue une action inutile sans effet notable, ou se déplace.
+
+Remarques à propos de l'XP :
+[list]
+[*]Achever un ennemi permet de gagner bien plus d'XP que normalement.
+[*]Pour compenser cela, les capacités de soin permettent de gagner plus d'XP que les actions offensives, car les soigneurs achèvent rarement les ennemis. 
+[*]La quantité d'XP gagnée varie selon la différence de niveau entre un personnage et sa cible. Lorsqu'un personnage de faible niveau attaque un ennemi de niveau élevé, il reçoit plus d'XP en raison de cet écart. L'inverse est également vrai : vous gagnerez moins d'XP en attaquant un ennemi de faible niveau avec un personnage de niveau élevé.
+[/list]
+
+
+[entry 1-3]
+[h1]Statistiques[/h1]
+Les statistiques, ou stats, reflètent la puissance générale d'un personnage dans différents domaines.
+[list]
+[*]{hp} : Les points de vie indiquent la santé globale du personnage. Lorsque les PV tombent à 0 pendant un combat, le personnage perd connaissance et souffre d'une blessure après la bataille (dans la plupart des niveaux de difficulté).
+[*]{mp} : Les points de mana sont nécessaires pour utiliser certaines capacités au combat. Les personnages commencent la bataille avec 0 PM, et gagnent 10 PM au début de chaque tour. Des PM sont généralement requis pour utiliser les plus puissantes capacités du jeu.
+[*]{atk} : L'attaque représente l'aptitude physique d'un personnage, c'est-à-dire la force de ses attaques et de ses capacités dans ce domaine. Les attaques normales et la plupart des capacités martiales basent leurs dégâts (ou leurs soins) sur la valeur d'ATT. Si une capacité base ses dégâts sur l'ATT, sa description le précisera.
+[*]{mnd} : L'intelligence représente l'aptitude magique d'un personnage, c'est-à-dire la force de ses attaques et de ses capacités dans ce domaine. La plupart des capacités magiques basent leurs dégâts (ou leurs soins) sur la valeur d'INT. Si une capacité base ses dégâts sur l'INT, sa description le précisera.
+[*]{DEF} : La défense représente la résistance du personnage aux dégâts physiques. Plus la DEF est élevée, moins vous subirez de dégâts en cas d'attaque visant le score de DEF (c'est-à-dire la plupart des attaques physiques).
+[*]{RES} : La résistance représente la résistance du personnage aux dégâts magiques. Plus la RES est élevée, moins vous subirez de dégâts en cas d'attaque visant le score de RES (c'est-à-dire la plupart des attaques magiques).
+[*]{spd} : La vitesse représente la vitesse du personnage au combat. Plus sa valeur est élevée, plus vite le prochain tour du personnage arrivera. Une vitesse assez élevée peut permettre à un personnage de bénéficier de plus de tours pendant un combat qu'un autre personnage avec une vitesse plus faible.
+[*]{eva} : L'esquive représente la capacité du personnage à éviter totalement les actions offensives (dont les capacités et les attaques normales). Votre score d'ESQ est basé sur votre classe actuelle et sur votre équipement. En général, tous les personnages ont (100 - ESQ de la cible) % de chances de toucher une cible. Cela signifie qu'à moins qu'une cible ne cumule de l'ESQ, vos chances de toucher sont élevées (généralement autour de 95-99 %), mais aussi que cumuler de l'ESQ peut être un très bon moyen d'éviter les dégâts.
+[*]<sprite name="icon-stats-crit">: La chance de critique représente les chances qu'a un personnage de réussir un coup critique sur une cible. Les coups critiques infligent par défaut 50 % de dégâts en plus et appliquent automatiquement tout debuff que peut comporter l’attaque. Votre chance de critique est basée sur votre classe et votre équipement actuels. Normalement, seules les attaques normales peuvent devenir des coups critiques, mais avec une caractéristique passive spéciale, les capacités peuvent aussi entraîner un coup critique.
+[/list]
+
+
+[entry 1-4]
+[h1]État du personnage[/h1]
+
+Des équipements et des {Abilities} spécifiques peuvent modifier l'état d'un personnage. Les buffs et les debuffs actuels d'un personnage sont indiqués en haut à droite de son panneau d'informations. Au combat, maintenez le bouton {button-details} pour voir rapidement l'état de tous les combattants. Si l'icône d'un buff/debuff comporte un chiffre, celui-ci indique le nombre de tours avant que les effets ne disparaissent. Les icônes dépourvues de chiffre indiquent des effets permanents, généralement obtenus avec de l'équipement ou des {Abilities} passives.
+
+Les états de statut affectent leur cible de la façon suivante :
+[b]Buffs :[/b]
+[list]
+[*]<sprite name="icon-buff-atkup">{positive-ATKUp} : Augmente le score d’attaque de l’unité.
+[*]<sprite name="icon-buff-matkup">{positive-MNDUp} : Augmente le score d’intelligence de l’unité.
+[*]<sprite name="icon-buff-defup">{positive-DEFUp}: Augmente le score de défense de l’unité.
+[*]<sprite name="icon-buff-mdefup">{positive-RESUp} : Augmente le score de résistance de l’unité.
+[*]<sprite name="icon-buff-critup">{positive-CRITUp} : Augmente les chances de l’unité de réussir un coup critique.
+[*]<sprite name="icon-buff-thorns">{positive-Thorns} : Une unité bénéficiant d'Épines renvoie automatiquement des dégâts quand elle en subit (quelle qu'en soit l'origine).
+[*]<sprite name="icon-buff-haste">{positive-Haste} : Une unité bénéficiant de Hâte voit son tour arriver plus vite.
+[*]<sprite name="icon-buff-regen">{positive-Renew} : Une unité bénéficiant de Renouvellement récupère des PV à chaque tour.
+[*]<sprite name="icon-buff-reraise">{positive-Rebirth} : Une unité bénéficiant de Renaissance est automatiquement ranimée si elle tombe au combat.
+[*]<sprite name="icon-buff-mirage">{positive-Mirage} : Une unité bénéficiant de Mirage esquive automatiquement la prochaine action offensive infligeant des dégâts.
+[*]<sprite name="icon-buff-barrier">{positive-Barrier} : Une unité bénéficiant de Barrière esquive automatiquement le prochain effet de statut offensif utilisé contre elle.
+[*]<sprite name="icon-buff-aegiswater"><sprite name="icon-buff-aegisfire"><sprite name="icon-buff-aegisearth"><sprite name="icon-buff-aegiselectric"><sprite name="icon-buff-aegisdark"><sprite name="icon-buff-aegisholy">{positive-AdaptAegis} : Une unité bénéficiant d'Égide élémentaire obtient une meilleure résistance au dernier élément avec lequel elle a été attaquée.
+[*]<sprite name="icon-buff-fleetoffoot">{positive-fleetoffoot} : Une unité bénéficiant de Pieds agiles voit ses déplacements augmentés de +1.
+[*]<sprite name="icon-buff-affinitywater"><sprite name="icon-buff-affinityfire"><sprite name="icon-buff-affinityearth"><sprite name="icon-buff-affinityelectric"><sprite name="icon-buff-affinitydark"><sprite name="icon-buff-affinityholy">[b]{DRUI-C1}[/b] : Une unité bénéficiant d'Affinité d’adaptation infligera plus de dégâts avec le dernier élément l'ayant touchée.
+[*]<sprite name="icon-buff-boon">{positive-boon} : L'unité est garantie de réaliser un coup critique lors de sa prochaine action.
+[*]<sprite name="icon-buff-focus">{positive-focus} : La prochaine action de l'unité infligera le double de dégâts ou de soins. (Ne fonctionne pas avec les objets.)
+[/list]
+
+[b]Debuffs :[/b]
+[list]
+[*]<sprite name="icon-debuff-poison">{help-status-0-0} : Inflige des dégâts à chaque tour en fonction du maximum de PV. L'unité ne peut pas descendre en dessous de 1 PV à cause de cet effet.
+[*]<sprite name="icon-debuff-bleed">{help-status-0-1} : Inflige des dégâts à chaque tour en fonction du maximum de PV. L'unité ne peut pas descendre en dessous de 1 PV à cause de cet effet.
+[*]<sprite name="icon-debuff-blind">{help-status-0-2} : Réduit énormément la précision de l'unité.
+[*]<sprite name="icon-debuff-root">{help-status-0-3} : Empêche l'unité d'utiliser la commande de déplacement.
+[*]<sprite name="icon-debuff-silence">{help-status-0-4} : Empêche l'unité d'utiliser des sorts (le type de chaque capacité est indiqué dans sa description).
+[*]<sprite name="icon-debuff-cripple">{help-status-1-0} : Empêche l'unité d'utiliser des compétences (le type de chaque capacité est indiqué dans sa description).
+[*]<sprite name="icon-debuff-sleep">{help-status-1-1} : L'unité est endormie et elle passe son tour jusqu'à son réveil. Si le personnage subit des dégâts, ce debuff sera supprimé. (Une unité ne peut avoir qu'un seul de ces états à la fois : Furieux, Sommeil ou Envoûtement.)
+[*]<sprite name="icon-debuff-berserk">{help-status-1-2} : L’unité attaque sans réfléchir la cible la plus proche, amie ou ennemie. (Une unité ne peut avoir qu'un seul de ces états à la fois : Furieux, Sommeil ou Envoûtement.)
+[*]<sprite name="icon-debuff-charm">{help-status-1-3} : L’unité agit au bénéfice de l’équipe de l'envoûteur. Si le personnage subit des dégâts, ce debuff sera supprimé. (Une unité ne peut avoir qu'un seul de ces états à la fois : Furieux, Sommeil ou Envoûtement.)
+[*]<sprite name="icon-debuff-slow">{help-status-1-4} : Le tour de l’unité arrive plus lentement que d’habitude.
+[*]<sprite name="icon-debuff-atkdown">{help-status-2-0} : Réduit le score d’attaque de l’unité affectée.
+[*]<sprite name="icon-debuff-matkdown">{help-status-2-1} : Réduit le score d’intelligence de l’unité affectée.
+[*]<sprite name="icon-debuff-defdown">{help-status-2-2} : Réduit le score de défense de l’unité affectée.
+[*]<sprite name="icon-debuff-mdefdown">{help-status-2-3} : Réduit le score de résistance de l’unité affectée.
+[*]<sprite name="icon-debuff-weaken">{help-status-2-4} : Tout soin normal appliqué sur l’unité affectée sera réduit à 0.
+[*]<sprite name="icon-debuff-noquicken">{negative-exhaust}: {help-status-exhaust-desc}
+[/list]
+
+
+[entry 1-5]
+[h1]Résistances[/h1]
+
+Un personnage possède deux types de résistances : les résistances élémentaires et les résistances aux debuffs.
+[list]
+[*]Les résistances élémentaires sont indiquées sur la page 1 du panneau d'informations du personnage. Les éléments sont les suivants : {element-Water}, {element-fire}, {element-earth}, {element-thunder}, {element-dark} et {element-holy}. Les nombres indiqués à côté de chaque icône sont des pourcentages : un personnage dont la résistance est de 50 subira 50 % de dégâts en moins contre cet élément, tandis qu'une résistance de -50 signifiera 50 % de dégâts en plus. Une résistance supérieure à 100 permet d'être soigné par l'élément !
+[*]Les immunités aux debuffs sont indiquées sur la page 2 du panneau d'informations du personnage. Leur fonctionnement est simple : si l'icône est en surbrillance, le personnage en entièrement immunisé contre le debuff ; si l'icône n'est pas en surbrillance, le personnage peut être affecté normalement par le debuff.
+[/list]
+
+
+[entry 2-0]
+[h1]Qu’est-ce que le menu Troupes ?[/h1]
+
+Le menu Troupes est l'outil le plus important pour renforcer vos personnages. Dans cette interface, vous pouvez changer les classes de vos personnages, apprendre de nouvelles capacités, vous équiper, fabriquer de nouveaux objets et régler la difficulté du jeu. Le menu Troupes est accessible à la fois depuis la carte du monde et pendant la phase de déploiement avant la bataille. Choisissez un personnage pour afficher une liste d'options.
+
+
+[entry 2-1]
+[h1]Equipment[/h1]
+
+Cette partie du menu Troupes vous permet d'équiper vos personnages avec un maximum de 6 éléments d'équipement, comme des armes, des armures et des accessoires.
+[list]
+[*]N'oubliez pas que l'arme avec la meilleure puissance d'attaque, ou l'armure avec la meilleure défense, n'est pas toujours la plus adaptée : certains équipements ont des caractéristiques spéciales qui les rendent parfaits pour affronter des situations spécifiques. Par exemple, les armes de longue portée peuvent être très utiles malgré leur faible puissance d'attaque.
+[*]Les types d'armes et d'armures utilisables par un personnage sont limités par sa classe.
+[*]Un personnage peut porter un casque et un ensemble d'armure. Il peut choisir de manier une arme à une main (ainsi qu'un bouclier si sa classe le permet), ou une arme à deux mains. Certaines capacités passives permettent bien d'autres possibilités, comme manier d'une main une arme qui en nécessite deux, ou manier deux armes simultanément. Remarque : les arcs et les arbalètes s'utilisent obligatoirement à deux mains.
+[*]Vous pouvez équiper les accessoires comme bon vous semble dans les 6 emplacements d'équipement restants, sans restriction de type ou de classe. Par exemple, un personnage peut équiper autant de bottes ou de gants qu'il le souhaite.
+[/list]
+
+
+[entry 2-2]
+[h1]Capacités[/h1]
+
+Les capacités que vous choisissez d'apprendre à vos personnages sont essentielles pour les rendre uniques. Utilisez les PC gagnés au combat pour apprendre des capacités. Lorsqu'un personnage dispose d'assez de PC pour apprendre une capacité, une petite flèche (<sprite name="icon-ability-ready">) s'affiche à côté de lui dans le menu Troupes. Si la flèche bouge, cela signifie que le personnage peut apprendre une nouvelle capacité depuis la dernière fois que vous l'avez consulté.
+
+[b]Apprendre des capacités :[/b] Pour apprendre une capacité, sélectionnez le personnage, puis « Capacités », puis « Apprendre des capacités ». Une liste de toutes les classes disponibles pour le personnage apparaît, ainsi que le nombre de PC dont il dispose pour chaque classe. Pour voir l'arbre de toutes les capacités spécifiques à chaque classe, choisissez une classe dans la liste. L'arbre se divise en « échelons ». Pour accéder aux échelons supérieurs, le personnage doit d'abord apprendre les capacités des échelons inférieurs. 
+	
+Chaque classe peut apprendre trois types de capacités :
+[list]
+[*][b]Les capacités actives[/b] (<sprite name="icon-ability-active">) sont des commandes pouvant être sélectionnées pendant la bataille. Les capacités actives peuvent être des compétences, des sorts ou des capacités spéciales. Les compétences sont généralement renforcées par la statistique d'ATT. Elles ciblent la statistique de DEF et peuvent être bloquées par le debuff Paralysie. Les sorts sont généralement renforcés par la statistique d'INT. Ils ciblent la statistique de RES et peuvent être bloqués par le debuff Silence magique. Seules quelques capacités actives sont spéciales et ne sont ni des compétences, ni des sorts.
+[*]Lorsqu'elles sont équipées, [b]les capacités passives[/b] (<sprite name="icon-ability-passive">) peuvent renforcer automatiquement un personnage de différentes manières. 
+[*]Lorsqu'elles sont équipées, [b]les capacités de contre[/b] (<sprite name="icon-ability-counter">) se déclenchent automatiquement dans certaines situations pendant la bataille.
+[/list]
+
+[b]Équiper des capacités :[/b] Une fois que vos personnages ont appris des capacités de différentes classes, vous devez les équiper pour en profiter. Dans le menu de capacités d'un personnage, sélectionnez « Définir les capacités ».
+[list]
+[*][b]Capacités actives[/b] : Un personnage équipe automatiquement toutes les capacités actives apprises pour sa classe principale. Il peut également équiper toutes les capacités actives apprises pour sa sous-classe.
+[*][b]Capacités passives[/b] : Un personnage équipe automatiquement toutes les capacités passives apprises pour sa classe principale. Il peut également équiper deux capacités passives apprises pour d'autres classes.
+[*][b]Capacités de contre[/b] : Un personnage peut équiper une seule capacité de contre qu'il connaît.
+[/list]
+
+
+[entry 2-3]
+[h1]Changement de classe[/h1]
+
+La classe d'un personnage influence les capacités qu'il possède, l'équipement qu'il peut utiliser, la façon dont il peut dépenser les PC gagnés, et l'amélioration de ses statistiques lorsqu'il gagne un niveau. Vous pouvez changer la classe principale d'un personnage et consulter des informations sur chaque classe en sélectionnant un personnage dans le menu Troupes, puis en choisissant « Changement de classe ».
+
+[b]Débloquer de nouvelles classes :[/b]
+Chaque fois qu'un personnage dépense des PC pour apprendre une capacité, son niveau de classe augmente de 1. Gagner différents niveaux de classe débloque de nouvelles classes pour le personnage. Pour en savoir plus, consultez l'écran de changement de classe. À mesure que votre groupe débloquera des classes, des classes supplémentaires apparaîtront sur l'écran de changement de classe.
+
+Après le changement de classe d'un personnage, pensez à vérifier ses capacités et son équipement, car ils sont influencés par celle-ci.
+
+
+[entry 2-4]
+[h1]Trier les unités[/h1]
+
+Cette option vous permet de changer l'ordre de vos personnages dans le menu Troupes. De nombreuses méthodes de tri sont à votre disposition.
+
+
+[entry 2-5]
+[h1]Congédier les unités[/h1]
+
+Si vous souhaitez retirer un personnage de votre armée, vous pouvez le congédier dans le menu Troupes. Mais attention : après son départ, le personnage ne reviendra pas et vous ne pourrez jamais le récupérer. Il est impossible de congédier les personnages de l'histoire.
+
+
+[entry 2-6]
+[h1]Artisanat[/h1]
+
+Avec les bons composants, vous pouvez fabriquer de nouveaux objets, équipements, gadgets ou insignes, mais aussi améliorer l'efficacité des objets existants. Si vous avez tout ce qu'il faut pour fabriquer quelque chose, une coche verte apparaîtra à côté de la recette. 
+
+Lorsque vous récupérez un nouveau composant, de nouvelles recettes apparaissent parfois dans le menu Artisanat. Pensez à consulter ce menu lorsque vous récupérez un nouveau composant, pour savoir si vous pouvez fabriquer de nouveaux objets.
+
+
+[entry 2-7]
+[h1]Paramètres de difficulté[/h1]
+
+Rendez-vous dans le {hint-wm-menu} si vous souhaitez modifier les paramètres de difficulté choisis au début du jeu. Appuyez sur le bouton {ps4-button-size-on}{button-difficulty}{ps4-button-size-off} pour faire apparaître les paramètres de difficulté. Il n'est pas possible de changer la difficulté pendant une bataille.
+
+
+[entry 3-0]
+[h1]Présentation[/h1]
+
+Depuis la carte du monde, vous pouvez accéder au menu Troupes et voyager vers différentes zones indiquées par des points de couleurs variées. Pour tout savoir du menu Troupes, consultez la partie qui lui est consacrée. Dans cette section, vous allez découvrir les autres fonctionnalités de la carte du monde. 
+
+De nouveaux points apparaissent sur la carte du monde à mesure que vous progressez dans l'histoire.
+[list]
+[*]Les points rouges indiquent où aller pour continuer l'histoire. 
+[*]Les points verts représentent les champs de bataille. Vous pouvez y patrouiller pour lancer des batailles facultatives.
+[*]Les grands points bleus indiquent les villes, où vous pouvez recruter des troupes et visiter les boutiques. Il est aussi possible de patrouiller dans quelques villes pour lancer des batailles facultatives.
+[*]Les petits points bleus sont des points « neutres ». Il n'est généralement pas possible d'interagir avec eux.
+[/list]
+
+Le symbole <sprite name="speechbubble"> s'affiche parfois sur certains points.
+[list]
+[*]Le symbole <sprite name="speechbubble"> signifie qu'il est possible de déclencher un dialogue facultatif à cet endroit, pour en apprendre davantage sur l'histoire et la personnalité des personnages.
+[/list]
+
+
+[entry 3-1]
+[h1]Embaucher des partenaires à la Guilde[/h1]
+
+Vous pouvez embaucher de nouveaux partenaires à la Guilde, accessible dans les villes indiquées par un grand point bleu.
+[list]
+[*]Dépensez plus de PO (pièces d'or) pour recruter un personnage de niveau supérieur. Le niveau de Kyrie détermine le niveau maximum des personnages que vous pouvez embaucher.
+[*]Vous pouvez embaucher tout personnage dont vous avez déjà débloqué la classe (à l'exception de quelques classes spéciales limitées). Ce choix influence ses statistiques, car le jeu considère que le personnage appartient à cette classe depuis le niveau 1. Notez bien qu'une recrue d'une classe avancée pourra ne plus y avoir accès si elle en change par la suite. Elle devra alors remplir les conditions normales pour retrouver sa classe d'origine. Réfléchissez bien avant de lui faire changer de classe.
+[*]Les nouvelles recrues débutent avec des PC bonus pour toute classe déjà utilisée par votre équipe.
+[*]Lors du recrutement d'un nouveau personnage, vous pouvez choisir son apparence, son portrait et son nom. {patchstring3-term}
+[/list]
+
+À la Guilde, vous pouvez également personnaliser l'apparence des personnages existants (à l'exception des personnages de l'histoire).
+
+
+[entry 3-2]
+[h1]Boutiques[/h1]
+
+Vous pouvez acheter de l'équipement dans les villes indiquées par des points bleus. Chaque ville propose le même équipement, mais toutes les boutiques vendent des améliorations au fur et à mesure que vous progressez dans l'histoire. Vous devriez donc vérifier l'inventaire de chaque ville que vous découvrez.
+[list]
+[*][b]Acheter[/b] : Les achats s'effectuent avec des PO. Vous devrez d'abord choisir une catégorie, puis un élément d'équipement, et enfin la quantité que vous souhaitez acheter.
+[*][b]Vendre[/b] : Vous pouvez vendre l'équipement dont vous n'avez plus besoin contre des PO. Comme pour les achats, choisissez d'abord une catégorie, puis un élément d'équipement, et enfin la quantité à vendre.
+[*][b]Essayer et acheter[/b] : Il s'agit de la meilleure façon d'acheter de l'équipement pour vos personnages, car elle vous permet de comparer directement le nouvel équipement avec celui que vous portez actuellement. Sur le panneau d'informations du personnage, les améliorations apparaissent en bleu, tandis que les effets négatifs s'affichent en rouge. Pendant les essayages, vous pouvez surveiller vos dépenses en haut à droite de l'écran. En quittant l'écran Essayer et acheter, il vous sera demandé de confirmer vos achats.
+[/list]
+
+
+[entry 3-3]
+[h1]Patrouiller pour lancer des batailles facultatives[/h1]
+
+Vous pouvez « patrouiller » et lancer une bataille facultative sur les points verts de champ de bataille, et dans quelques villes indiquées par des points bleus. En patrouille, le niveau minimum/maximum des ennemis est spécifique à chaque point. Cet éventail de niveaux est indiqué sur la carte du monde, et les ennemis s'adapteront à celui-ci pour correspondre à vos six personnages les plus forts. 
+
+Il existe plusieurs raisons de retourner sur un champ de bataille :
+[list]
+[*]Patrouiller vous permet d'entraîner vos personnages si vous jugez cela nécessaire avant de continuer l'histoire. 
+[*]De nombreux coffres au trésor sont inaccessibles lorsque vous traversez le champ de bataille pour la première fois. Lorsque vous aurez débloqué l'équipement ou les capacités nécessaires pour atteindre ces trésors, vous devrez retourner dans la zone pour les récupérer. La carte du monde vous indique quels points contiennent encore des coffres à ouvrir.
+[*]À un moment donné du jeu, vous devrez peut-être trouver des types de monstres spécifiques, et patrouiller est souvent la meilleure façon d'y parvenir.
+[/list]
+
+
+[entry 4-0]
+[h1]Composition de groupe[/h1]
+
+Créer un groupe hétérogène est une bonne idée, car la variété des personnages permet de compenser leurs faiblesses respectives.
+[list]
+[*]Votre groupe devrait comporter des spécialistes du combat rapproché / à distance, des lanceurs de sorts et des soigneurs. La plupart des batailles vous permettent de déployer 6 personnages, vous avez donc assez de marge pour essayer aussi des unités originales.
+[*]Recruter quelques partenaires supplémentaires est une bonne idée : l'un de vos combattants devra parfois soigner une blessure, un personnage de l'histoire pourra s'absenter temporairement, ou une bataille permettra de déployer plus de troupes que normalement.
+[/list]
+
+
+[entry 4-1]
+[h1]Consultez le menu Troupes après chaque bataille[/h1]
+
+Après chaque bataille, vos personnages gagnent des PC et peuvent parfois accéder à de nouveaux objets. Il est donc important de consulter le menu Troupes régulièrement.
+[list]
+[*]Dépensez vos PC fraîchement gagnés. Apprendre la bonne capacité peut rendre un personnage bien plus puissant. 
+[*]Si un personnage maîtrise parfaitement sa classe principale (en apprenant toutes les capacités de celle-ci), il peut être intéressant de le faire changer de classe immédiatement. La plupart des PC qu'il gagne sont inutiles s'il maîtrise déjà sa classe. 
+[*]Si un personnage change de classe, vérifiez ses capacités et son équipement. Essayez de toujours sélectionner une sous-classe, des capacités passives et une capacité de contre, si vous en avez appris. Et même si l'équipement est automatiquement « optimisé » après un changement de classe, cela ne vous conviendra peut-être pas. Par exemple, si un personnage change de classe pour devenir une Crapule, il peut se servir d'une dague ou d'une arbalète. Comme les dagues sont souvent plus puissantes que les arbalètes, l'optimisation automatique choisira une dague. Mais vous préférerez peut-être l'arbalète et sa portée accrue.
+[*]Mettez à jour l'équipement des vos personnages. Vous avez peut-être trouvé un nouvel équipement dans un coffre au trésor, après une bataille, ou dans un magasin devenu accessible sur la carte du monde.
+[*]Consultez le menu Artisanat. Pendant les batailles de l'histoire, vous trouverez souvent de nouveaux composants de fabrication. Pensez à vérifier si vous pouvez créer ou améliorer quelque chose avec.
+[/list]
+
+
+[entry 4-2]
+[h1]Attendre : arriver plus vite à votre tour[/h1]
+
+Si un personnage n'agit pas pendant son tour (à part pour bouger), son prochain tour arrivera un peu plus rapidement. Pendant le combat, cette technique est utile si aucun ennemi n'est encore à portée du personnage. Cependant, vous n'obtiendrez pas d'XP si vous n'agissez pas. Il faut donc faire un choix : prendre l'avantage dans l'ordre du tour, ou réaliser une action médiocre simplement pour gagner de l'XP ? Tout dépend de la situation, et si vous préférez avoir un avantage rapidement ou sur le long terme.
+
+
+[entry 4-3]
+[h1]De l'importance des buffs et des debuffs[/h1]
+
+L'utilisation de buffs et de debuffs peut vous donner l'avantage sur votre adversaire, même si vous êtes plus faible que lui. Par exemple, vous pouvez complètement neutraliser un lanceur avec les debuffs Silence magique ou Furieux. Vous pouvez affaiblir un guerrier avec la Paralysie, et s'il n'a que des armes et des capacités de combat rapproché, l'Enracinement est tout aussi efficace. Quant aux ennemis dotés de nombreux PV, ils sont très vulnérables aux dégâts de Poison et de Saignement, basés sur le %.
+Bien sûr, vos adversaires peuvent employer les mêmes techniques contre vous. Pour contrer les debuffs, utilisez une Barrière, une Panacée ou de l'équipement protecteur, et améliorez vos remèdes dès que possible avec l'artisanat.
+
+
+[entry 4-4]
+[h1]Pousser et noyer l’adversaire[/h1]
+
+Il est très utile d'apprendre à l'un de vos personnages une capacité permettant de pousser une cible, comme la Frappe percutante du mercenaire. En effet, pousser l'ennemi contre un mur, le jeter contre d'autres unités ou le faire tomber d'un lieu surélevé inflige des dégâts supplémentaires. Vous pouvez même noyer les adversaires incapables de nager en les poussant dans l'eau ! Remarque : les dégâts causés par une chute depuis un lieu surélevé varient selon la hauteur, mais aussi en fonction du score de saut de la cible et de sa capacité à voler ou non.
+
+
+[entry 4-5]
+[h1]Coincé dans un combat ?[/h1]
+
+Voici quelques stratégies simples qui peuvent changer drastiquement l'issue d'une bataille :
+[list]
+[*]Combattez avec le maximum de troupes ! La plupart des batailles autorisent 6 combattants, mais quelques-unes en acceptent jusqu'à 7.
+[*]Utilisez vos objets ! Comme ils sont réapprovisionnés après chaque bataille, inutile de les économiser. 
+[*]Tâchez d'éliminer un ennemi à la fois ! Réduire le nombre d'ennemis rapidement peut vous donner l'avantage pour survivre.
+[*]Exploitez les faiblesses élémentaires des monstres ! Pensez à utiliser les sorts et les armes élémentaires pour prendre l'avantage sur eux. 
+[*]Étudiez vos ennemis avant la bataille ! Adaptez votre tactique en fonction de leurs armes, de leurs capacités passives et de leurs capacités de contre. Lors du déploiement, vous pouvez ajuster vos personnages dans le menu Troupes pour accroître vos chances de triompher dans différentes situations. 
+[/list]
+
+
+[entry 4-6]
+[h1]Aide Contextuelle[/h1]
+
+Sur la plupart des écrans, vous pouvez {patchstring-click1-term} sur {button-help} pour accéder aux descriptions des icônes et des éléments d'interface. Lorsqu'il est accessible, le bouton Aide s'affiche en bas à droite de l'écran.
+
+
+[entry 5-0]
+[h1]Réinitialiser au niveau 1[/h1]
+
+[b]Présentation[/b]
+À la Guilde, vous avez la possibilité de réinitialiser un personnage au niveau 1. Cela vous permet de personnaliser efficacement ses statistiques si vous le souhaitez. Cependant, cette fonctionnalité n'est pas nécessaire pour terminer le jeu, et mieux vaut s'en servir avec parcimonie. Utilisez-la avec précaution !
+
+[b]Pourquoi revenir au niveau 1 ?[/b]
+Réinitialiser au niveau 1 vous permet d'effacer tous les progrès statistiques que votre personnage a effectués jusque-là, tout en conservant ses PC, ses capacités et ses classes débloquées. 
+
+Lorsqu'un personnage gagne un niveau, certaines de ses statistiques augmentent en fonction de sa classe principale actuelle. Vous pouvez consulter l'évolution de ces statistiques sur l'écran de changement de classe. Si vous souhaitez vous concentrer sur certaines statistiques d'un personnage mais que vous pensez avoir « manqué votre cible », ou si vous voulez renforcer les statistiques d'une classe débloquée plus tard dans le jeu, réinitialiser au niveau 1 vous permet de créer le personnage de vos rêves.
+
+[b]Pourquoi NE PAS revenir au niveau 1[/b]
+[list]
+[*]Remettre un personnage à niveau peut être très long. Si vous revenez au niveau 1, vous devrez peut-être arrêter de progresser dans le jeu, le temps que votre personnage soit à nouveau prêt au combat.
+[*]C'est très onéreux. Dépenser vos PO en équipement pourrait aussi vous permettre d'améliorer les statistiques qui vous intéressent.
+[*]Recruter un personnage différent à la Guilde est parfois plus simple. Un recrutement coûte deux fois moins cher qu'une réinitialisation, et vous ne devrez pas consacrer de temps à gagner des niveaux pour intégrer le personnage à votre équipe. L'inconvénient, cependant, est qu'une recrue dispose généralement de moins de PC qu'un personnage qui combat à vos côtés depuis un moment. 
+[*]Il n'est pas nécessaire d'avoir des statistiques parfaites pour terminer le jeu. {fell-seal} est conçu pour vous permettre d'expérimenter avec votre équipe. Même si un personnage gagne quelques niveaux dans une classe qui n'est pas « idéale », il n'en sera pas inefficace pour autant.
+[*]La plupart des statistiques cessent d'augmenter en atteignant le palier de {stat-cap}. Celui-ci est fixé à {spd-cap} pour la {spd} et {hp-cap} pour les {hp}/{mp}. En somme, même si vous privilégiez certaines statistiques au détriment des autres, vous aurez toujours une marge de manœuvre pour « maximiser » une statistique que vous n'auriez pas augmentée à chaque gain niveau.
+[*]Un exemple pour illustrer le paragraphe ci-dessus : vous choisissez de gagner des niveaux uniquement en tant que {prin-title}, car vous souhaitez augmenter rapidement l'{mnd} de votre personnage. Arrivé au niveau 88, son {mnd} est de {stat-cap}. Passé ce niveau, cela n'est plus intéressant car son {mnd} cesse d'augmenter. En somme, mélanger plusieurs classes est bénéfique sur le long terme. Cela permettra à vos personnages d'avoir des statistiques plus équilibrées et de profiter de chaque gain de niveau. Ceci étant dit, la plupart des {classes} n'attendront pas ce maximum, alors il n'y a pas de raison de trop s'en soucier.
+[/list]
+
+[b]Quelques remarques sur la réinitialisation des personnages de l'histoire[/b]
+[list]
+[*]Le recrutement de nouveaux personnages à la Guilde dépend du niveau de Kyrie. Si vous la réinitialisez, le niveau de vos recrues potentielles sera limité. 
+[*]Les personnages de l'histoire qui rejoignent votre groupe dépendent aussi du niveau de Kyrie. Si vous la réinitialisez, les nouveaux personnages auront un niveau plus faible. 
+[*]Certaines batailles de l'histoire requièrent également la présence de personnages spécifiques. Si vous réinitialisez le niveau d'un personnage de l'histoire et que vous participez ensuite à une bataille où sa présence est requise, vous risquez de le regretter. Kyrie doit généralement participer aux batailles de l'histoire, mais d'autres personnages sont également requis de temps en temps.
+[*]Étant donné que vous ne pouvez pas recruter une seconde version des personnages de l'histoire, comme c'est le cas avec les combattants normaux, vous pouvez les réinitialiser si vous pensez vraiment avoir « manqué votre cible ».
+[*]Il existe un personnage de monstre unique qui ne peut pas augmenter ses statistiques de façon permanente. À la place, ses statistiques reflètent sa classe de monstre actuelle. Il n'y a donc aucun avantage à réinitialiser ce personnage de monstre au niveau 1.
+[/list]

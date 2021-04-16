@@ -1,0 +1,12 @@
+company-points-long=Einflusspunkte
+company-points=EP
+missions=Missionen
+experience-points=Erfahrungspunkte
+variant=Variante
+variants=Varianten
+upgrade=Verbesserung
+upgrades=Verbesserungen
+gpandip={currency} und {ip}
+pet-effect=Tiereffekt
+pet-effects={pet-effect}e
+

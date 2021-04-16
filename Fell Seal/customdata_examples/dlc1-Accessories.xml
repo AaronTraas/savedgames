@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XMLAccessories>
+  <Accessories HashName="ARI-35" Name="Tyrant's Band" Desc="acc-ring-35" Icon="icon-accring-35" IsDLCIcon="true" Critical="5" Tier="999" Special="kfTyrant">
+    <Stats Values="10 -7 10 -7" />
+  </Accessories>
+  <Accessories HashName="ARI-36" Name="Focus Crystal" Desc="acc-ring-36" Icon="icon-accring-36" IsDLCIcon="true" BonusAcc="5" NegativeEffectsProtect="kfMute" Price="3750" Tier="4">
+    <Stats Values="0 0 6 0" />
+  </Accessories>
+  <Accessories HashName="ARI-37" Name="Everbloom" Desc="acc-ring-37" Icon="icon-accring-37" IsDLCIcon="true" NegativeEffectsProtect="kfPoison kfBleed" PositiveEffectsAdd="kfRenew" Price="8500" Tier="7">
+    <Stats Values="0 3 0 3" />
+  </Accessories>
+  <Accessories HashName="ARI-38" Name="Everspring" Desc="acc-ring-38" Icon="icon-accring-38" IsDLCIcon="true" Critical="3" MPTurn="2" Tier="999">
+    <Stats Values="0 4 6 4" />
+  </Accessories>
+  <Accessories HashName="ARI-39" Name="Drake Ruby" Desc="acc-ring-39" Icon="icon-accring-39" IsDLCIcon="true" NegativeEffectsProtect="kfMute kfCripple kfBerserk kfCharm" Price="24000" Tier="9">
+    <Stats Values="0 3 8 3" />
+  </Accessories>
+  <Accessories HashName="ARI-40" Name="Corrupt Ruby" Desc="acc-ring-40" Icon="icon-accring-40" IsDLCIcon="true" NegativeEffectsProtect="kfMute kfCripple kfSleep kfCharm" Price="24000" Tier="9">
+    <Stats Values="8 3 0 3" />
+  </Accessories>
+  <Accessories HashName="ARI-41" Name="Drake Amethyst" Desc="acc-ring-41" Icon="icon-accring-41" IsDLCIcon="true" NegativeEffectsProtect="kfPoison kfBleed kfBlind kfRoot kfMute kfCripple kfBerserk kfCharm kfSlow kfAtkDown kfMAtkDown kfDefDown kfMDefDown kfWeaken" Tier="999">
+    <Stats Values="0 1 8 1" />
+  </Accessories>
+  <Accessories HashName="ARI-42" Name="Corrupt Amethyst" Desc="acc-ring-42" Icon="icon-accring-42" IsDLCIcon="true" NegativeEffectsProtect="kfPoison kfBleed kfBlind kfRoot kfMute kfCripple kfSleep kfCharm kfSlow kfAtkDown kfMAtkDown kfDefDown kfMDefDown kfWeaken" Tier="999">
+    <Stats Values="8 1 0 1" />
+  </Accessories>
+  <Accessories HashName="ABO-35" Name="Spiked Shoes" Desc="acc-boot-35" Icon="icon-accshoe-35" IsDLCIcon="true" Critical="3" Move="1" Price="7000" Tier="6">
+    <Stats Values="10 0 0 0" />
+  </Accessories>
+  <Accessories HashName="ABO-36" Name="Riftwalkers+" Desc="acc-boot-36" Icon="icon-accshoe-36" IsDLCIcon="true" Move="1" Tier="999" Special="kfTeleport kfSwim" />
+  <Accessories HashName="AGL-35" Name="Multi Gloves" Desc="acc-glove-35" Icon="icon-accglove-35" IsDLCIcon="true" Speed="10" Critical="5" ItemRange="1" BonusAcc="10" Tier="999" Special="kfStealMoreGold">
+    <Stats Values="12 9 12 9" />
+  </Accessories>
+</XMLAccessories>

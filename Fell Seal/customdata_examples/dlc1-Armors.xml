@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XMLArmors>
+  <Armors HashName="HCL-35" Name="Hardened Circlet" Desc="ar-hat-35" Icon="icon-helmcloth-35" IsDLCIcon="true" Type="clothhelmet" Tier="7">
+    <Health Values="15 0" />
+    <Stats Values="0 18 10 24" />
+  </Armors>
+  <Armors HashName="HCL-36" Name="Horned Crown" Desc="ar-hat-36" Icon="icon-helmcloth-36" IsDLCIcon="true" Type="clothhelmet" Critical="5" Tier="9">
+    <Stats Values="14 21 0 33" />
+  </Armors>
+  <Armors HashName="BCL-35" Name="Abbot's Wrappings" Desc="ar-cloth-35" Icon="icon-armorcloth-35" IsDLCIcon="true" Type="robes" Tier="999">
+    <Stats Values="16 57 0 84" />
+    <ElementalResist Values="0 0 0 0 0 50" />
+  </Armors>
+  <Armors HashName="HLI-35" Name="Desert Cowl" Desc="ar-cap-35" Icon="icon-helmlight-35" IsDLCIcon="true" Type="lighthelmet" Tier="7">
+    <Stats Values="0 18 0 24" />
+    <ElementalResist Values="0 25 0 0 0 25" />
+  </Armors>
+  <Armors HashName="HLI-36" Name="Royal Beret" Desc="ar-cap-36" Icon="icon-helmlight-36" IsDLCIcon="true" Type="lighthelmet" Speed="3" Evasion="5" Tier="9">
+    <Health Values="45 0" />
+    <Stats Values="10 22 0 28" />
+  </Armors>
+  <Armors HashName="BLI-35" Name="Scout's Garb" Desc="ar-light-35" Icon="icon-armorlight-35" IsDLCIcon="true" Type="lightarmor" Speed="2" NegativeEffectsProtect="kfRoot" Tier="5">
+    <Stats Values="0 54 0 12" />
+  </Armors>
+  <Armors HashName="BLI-36" Name="Second Wind" Desc="ar-light-36" Icon="icon-armorlight-36" IsDLCIcon="true" Type="lightarmor" Speed="7" PositiveEffectsAdd="kfHaste" PositiveBuffTrigger="kBuffsOnCriticalHp" Tier="9">
+    <Stats Values="0 73 0 27" />
+  </Armors>
+  <Armors HashName="HHE-35" Name="Sergeant's Helm" Desc="ar-helm-35" Icon="icon-helmheavy-35" IsDLCIcon="true" Type="heavyhelmet" NegativeEffectsProtect="kfBlind" Tier="5">
+    <Stats Values="0 15 0 15" />
+  </Armors>
+  <Armors HashName="HHE-36" Name="Raider's Helm" Desc="ar-helm-36" Icon="icon-helmheavy-36" IsDLCIcon="true" Type="heavyhelmet" Tier="8">
+    <Stats Values="8 30 0 18" />
+    <ElementalResist Values="25 0 0 0 0 0" />
+  </Armors>
+  <Armors HashName="BHE-35" Name="Sanctified Armor" Desc="ar-heavy-35" Icon="icon-armorheavy-35" IsDLCIcon="true" Type="heavyarmor" Tier="6">
+    <Stats Values="0 66 8 10" />
+    <ElementalResist Values="0 0 0 0 25 25" />
+  </Armors>
+  <Armors HashName="BHE-36" Name="Vangalthorn Mail" Desc="ar-heavy-36" Icon="icon-armorheavy-36" IsDLCIcon="true" Type="heavyarmor" Speed="7" Evasion="3" PositiveEffectsAdd="kfThorns" Tier="999">
+    <Stats Values="8 87 0 18" />
+    <ElementalResist Values="0 -25 0 0 0 0" />
+  </Armors>
+  <Armors HashName="SHI-35" Name="Spellbook Shield" Desc="ar-shield-35" Icon="icon-shield-35" IsDLCIcon="true" Type="shield" Evasion="7" SpellRange="1" Price="9000" Tier="6" WeaponSprite="Hu-Ma-Fe-Shield@Shield35">
+    <Stats Values="0 10 0 10" />
+  </Armors>
+  <Armors HashName="SHI-36" Name="Spiked Shield" Desc="ar-shield-36" Icon="icon-shield-36" IsDLCIcon="true" Type="shield" Evasion="8" PositiveEffectsAdd="kfThorns" PositiveBuffTrigger="kBuffsOnCriticalHp" Price="9000" Tier="6" WeaponSprite="Hu-Ma-Fe-Shield@Shield36">
+    <Stats Values="8 16 0 16" />
+  </Armors>
+  <Armors HashName="ACO-00" Name="Blue Collar" Desc="acc-collar-00" Icon="icon-acccollar-00" IsDLCIcon="true" Type="collar" Price="7500" Tier="6">
+    <Stats Values="0 12 0 21" />
+    <ElementalResist Values="150 0 0 0 0 0" />
+  </Armors>
+  <Armors HashName="ACO-01" Name="Red Collar" Desc="acc-collar-01" Icon="icon-acccollar-01" IsDLCIcon="true" Type="collar" Price="7500" Tier="6">
+    <Stats Values="12 12 0 12" />
+    <ElementalResist Values="0 150 0 0 0 0" />
+  </Armors>
+  <Armors HashName="ACO-02" Name="Orange Collar" Desc="acc-collar-02" Icon="icon-acccollar-02" IsDLCIcon="true" Type="collar" Price="7500" Tier="6">
+    <Stats Values="0 21 0 12" />
+    <ElementalResist Values="0 0 150 0 0 0" />
+  </Armors>
+  <Armors HashName="ACO-03" Name="Yellow Collar" Desc="acc-collar-03" Icon="icon-acccollar-03" IsDLCIcon="true" Type="collar" Price="7500" Tier="6">
+    <Stats Values="0 12 12 12" />
+    <ElementalResist Values="0 0 0 150 0 0" />
+  </Armors>
+  <Armors HashName="ACO-04" Name="Black Collar" Desc="acc-collar-04" Icon="icon-acccollar-04" IsDLCIcon="true" Type="collar" Speed="10" Price="8000" Tier="6">
+    <Stats Values="0 9 12 9" />
+    <ElementalResist Values="0 0 0 0 150 0" />
+  </Armors>
+  <Armors HashName="ACO-05" Name="White Collar" Desc="acc-collar-05" Icon="icon-acccollar-05" IsDLCIcon="true" Type="collar" Speed="10" Price="8000" Tier="6">
+    <Stats Values="12 9 0 9" />
+    <ElementalResist Values="0 0 0 0 0 150" />
+  </Armors>
+  <Armors HashName="ACO-06" Name="Prism Collar" Desc="acc-collar-06" Icon="icon-acccollar-06" IsDLCIcon="true" Type="collar" Tier="999">
+    <Stats Values="0 12 0 12" />
+    <ElementalResist Values="100 100 100 100 0 0" />
+  </Armors>
+</XMLArmors>

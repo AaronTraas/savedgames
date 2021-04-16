@@ -1,0 +1,27 @@
+arbiter=Hüter
+arbiters=Hüter
+immortal=Unsterblicher
+immortals=Unsterbliche
+immortalsn=Unsterblichen
+immortarsn=Unsterblichen
+guild=Gilde
+marked=Gezeichneter
+markeds=Gezeichnete
+markedsn=Gezeichneten
+mark=Zeichen
+council=Rat
+immortal-council=Unsterblichenrat
+relic=Relikt
+relics=Relikte
+ancient-bone=Knochen der uralten Bestie
+chapterhouse=Haus der Hüter
+rebel-faction=Siegel
+rebels=Siegelmitglieder
+temple=Tempel
+temples=Tempel
+sealed-temple=Verschlossener {temple}
+sealed-temples=Verschlossene {Temples}
+medallion=Medaillon
+ancient-beast=Schlund
+ancient-path=Uralter Pfad
+

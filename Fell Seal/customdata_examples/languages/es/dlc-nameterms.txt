@@ -1,0 +1,5 @@
+miss-bandit-male-nickname=Lebrice el afortunado
+miss-super-female-recruit=La Celestial
+hunt-monster-bulldrake=Zelk, señor de la playa
+hunt-monster-raife=Esquirla de Raife
+

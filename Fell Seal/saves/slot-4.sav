@@ -1,0 +1,690 @@
+﻿<SaveData>
+  <mVersion>11</mVersion>
+  <mWeaponsCountByHashNew data="CBO-01|2,SPR-02|2,SPR-01|1,ROD-02|2,STF-03|1,MAU-02|1,STF-02|2,CBO-02|1,STF-04|1,SCY-02|2,MAU-03|1,GUN-03|1,CBO-05|1,SCY-03|3,ROD-04|1,SPR-06|1,SPR-04|2,STF-05|4,ROD-07|2,SCY-04|2,SPR-07|1,MAC-05|1,RAP-04|3,AXE-05|1,GUN-06|1,RAP-36|2,RAP-05|2,SWD-07|1,STF-35|2,STF-06|2,CBO-09|2,SCY-06|1,SPR-08|1,SPR-09|1,STF-07|2,GUN-36|1,DAG-06|1,ROD-09|1,MAU-35|1,SWD-35|1,SCY-35|1,SWD-11|1,CBO-35|1,BOW-35|1,SWD-36|1,STF-36|1,AXE-36|1,GUN-35|1,BOW-07|2,ROD-35|1,RAP-35|1,SWD-10|1,DAG-08|1,DAG-09|1,MAU-36|1,SWD-15|4,SCY-08|1,SPR-36|1,MAC-35|1,ROD-36|1,SPR-11|2,GUN-37|1,MAC-37|1,AXE-09|1,SCY-09|1,AXE-10|1,MAU-06|1,BOW-09|1,SWD-16|1,RAP-08|1,ROD-16|1,STF-10|1,BOW-37|1,DAG-12|2,SWD-09|1,CBO-36|1,SCY-36|1,DAG-11|1,MAC-10|1,GUN-09|2" />
+  <mArmorsCountByHashNew data="HLI-00|1,SHI-01|1,BCL-01|3,SHI-02|5,HCL-02|1,HHE-02|7,BHE-02|4,HLI-02|1,BLI-02|1,HCL-03|3,BCL-03|1,HLI-04|3,BLI-03|2,BCL-06|1,BCL-05|1,SHI-04|2,BHE-14|1,SHI-05|1,BLI-06|1,BCL-02|1,HHE-03|3,BCL-09|1,SHI-08|3,HHE-04|3,BHE-04|2,HCL-06|3,BLI-04|1,BCL-08|1,BLI-05|1,BCL-12|1,BLI-07|2,ACO-04|1,ACO-03|1,ACO-01|2,SHI-36|5,HLI-35|1,SHI-35|1,BLI-08|1,BHE-05|1,HLI-07|2,BLI-09|2,HLI-08|2,HLI-09|2,BCL-13|1,HCL-09|2,BHE-07|1,HLI-03|1,HHE-35|1,BLI-35|2,BLI-10|2,HCL-11|2,ACO-02|1,HHE-08|2,HCL-04|1,BCL-07|1,SHI-10|2,ACO-05|1,BHE-35|1,BCL-15|2,HCL-35|1,HLI-11|1,HLI-12|1,BLI-12|1,HHE-36|1,HLI-36|1,HCL-36|1,HLI-13|1,BHE-09|1,HHE-05|1,SHI-09|1,BHE-10|1,HLI-10|1,BLI-36|1,BLI-15|1,BHE-36|1,BHE-11|1,SHI-12|1,HHE-10|1,SHI-15|1,ACO-06|1,BLI-14|1,SHI-13|1,BHE-12|1,BHE-13|1" />
+  <mAccessoriesCountByHashNew data="ABO-00|7,AGL-01|7,AGL-02|5,ABO-01|5,ARI-00|1,ARI-13|1,AGL-04|2,ARI-01|3,AGL-11|1,ARI-02|2,AGL-10|1,ABO-02|5,ABO-04|1,ABO-03|5,ABO-09|2,ABO-08|2,ARI-05|4,ARI-03|3,AGL-05|1,AGL-06|1,ARI-37|5,ARI-04|4,AGL-07|2,ARI-36|3,ARI-14|3,ABO-07|2,AGL-09|1,ARI-38|4,ABO-36|2,ARI-06|1,ARI-07|4,ARI-35|1,ARI-42|1,ARI-41|2,ARI-16|1,ABO-05|4" />
+  <mIngredientsCountByHashNew data="ING-00|27,ING-01|37,ING-03|24,ING-02|29,ING-04|15,ING-07|39,ING-05|7,ING-06|10,ING-09|17,ING-11|16,ING-08|5,ING-10|17,ING-13|16,ING-16|52,ING-12|18,ING-24|8,ING-20|11,ING-18|18,ING-17|12,ING-26|3,ING-25|6,ING-23|8,ING-14|5,ING-15|13,ING-21|13,ING-22|3" />
+  <mBadgesByHashNew data="BADG-04|2,BADG-00|2,BADG-03|1,BADG-14|0,BADG-01|2,BADG-12|0,BADG-07|4,BADG-08|4,BADG-09|4,BADG-06|4,BADG-05|7,BADG-10|4,BADG-11|4,BADG-02|1,BADG-13|1" />
+  <mGadgetsByHashNew data="GADG-A1,GADG-A11,GADG-A10,GADG-A3,GADG-A14,GADG-A12,GADG-A9,GADG-A15,GADG-A8,GADG-A13,GADG-A5,GADG-A6,GADG-A2,GADG-A4,GADG-A7" />
+  <mPatrolsNumberByHashNew data="" />
+  <mGold>720160</mGold>
+  <mZotzitCounter>60</mZotzitCounter>
+  <mZotzitCounter2>0</mZotzitCounter2>
+  <mLootBanditCounter>55</mLootBanditCounter>
+  <mTimes>
+    <mTimePlayed>268035</mTimePlayed>
+    <mStoryTimePlayed>0</mStoryTimePlayed>
+    <mPatrolTimePlayed>0</mPatrolTimePlayed>
+    <mCutsceneTimePlayed>14042</mCutsceneTimePlayed>
+    <mMenuTimePlayed>39454</mMenuTimePlayed>
+  </mTimes>
+  <mHeroLevel>65</mHeroLevel>
+  <mGameDays>3</mGameDays>
+  <mCharacters>
+    <CharacterData>
+      <mVersion>3</mVersion>
+      <mBodyFile>hero</mBodyFile>
+      <apPerJob data="MERC|25143,HEAL|7310,ROGU|8268,WIZA|9183,KNIG|8362,MARK|1512511,UTIL|7111,RANG|26201,BLAD|8757,ALCH|6732,GADG|7288,FELL|8614,DRUI|7063,WARM|9763,SORC|14932,GAMB|23013,GUNN|6911,WRAN|6191,PEDD|6284,ASSA|233957,BEAS|6205,REAV|6205,TEMP|6105,SAMU|38732" />
+      <apPerJobCheck data="MERC|285,HEAL|6967,MARK|185,ROGU|104,KNIG|12,WIZA|6949,UTIL|7111,BLAD|602,FELL|149,ALCH|6732,WARM|199,GAMB|14733,RANG|6951,GUNN|6911,WRAN|6191,ASSA|14329,PEDD|6284,BEAS|6205,REAV|6205,TEMP|6105,GADG|7288,DRUI|7063,SORC|6777,SAMU|14085" />
+      <jobsLearned data="MERC|1!1!3!3!3!1!1,HEAL|1!3!3!3!3!1,ROGU|1!3!3!3!3!3,KNIG|1!3!3!3!3!1,WIZA|1!1!3!3!1!1!1,MARK|1!3!3!3!3!3!1,BLAD|1!3!3!3!3!1,FELL|1!3!3!3!3!1,UTIL|1!1!3!3!1!3!1,ALCH|1!3!3!3!3!3,WARM|1!1!3!3!3!1,GAMB|1!3!3!3!3!1,GADG|1!3!1,WRAN|1!3!3!1!3!3!3,REAV|1!3!1!3!3!3,RANG|1!3!1!3!3!1!1,GUNN|1!3!3!3!3!1,PEDD|1!3!3!3!3!1,BEAS|1!3!3!3!1!3,ASSA|1!3!1!3!3!1!1,TEMP|1!3!1!3!3!3,DRUI|1!1!3!3!1,SORC|1!1!3!3!3!1!1,SAMU|1!1!3!3!3!1!3" />
+      <bonusPassives data="BONU-P1" />
+      <statsBonus data="1,0,19,10,4,0,8" />
+      <name>Kyrie</name>
+      <experience>32</experience>
+      <level>65</level>
+      <index>0</index>
+      <storyCharacterName>hero</storyCharacterName>
+      <realStatsNew data="343.99,270.01,314.25,270.16" />
+      <realHealthMaxNew data="535.35,213.2" />
+      <realSpeed>162.9</realSpeed>
+      <mainJob>MARK</mainJob>
+      <subJob>SAMU</subJob>
+      <equippedPassivesNew data="ASSA-P2,KNIG-P2" />
+      <counter>MERC-C1</counter>
+      <mGearOrderNew data="SWD-15,SWD-15,ARI-07,BHE-35,ABO-05,HHE-10" />
+      <portraitName>Portrait-Story-Kyrie</portraitName>
+      <gender>kFemale</gender>
+      <isPermanent>true</isPermanent>
+    </CharacterData>
+    <CharacterData>
+      <mVersion>3</mVersion>
+      <mBodyFile>partner</mBodyFile>
+      <apPerJob data="ROGU|8801,MERC|24791,HEAL|7282,WIZA|9169,KNIG|8484,UTIL|7104,RANG|28241,BLAD|6885,ALCH|6713,GADG|8204,FELL|8333,DRUI|7044,WARM|6738,SORC|14927,GAMB|24648,GUNN|8402,WRAN|6191,PEDD|6970,ASSA|437379,BEAS|6205,REAV|6185,TEMP|6105,SAMU|38732,REIN|727297,MARK|362777" />
+      <apPerJobCheck data="ROGU|8801,MERC|126,HEAL|6939,WIZA|6935,KNIG|329,RANG|300,UTIL|7104,BLAD|6885,GADG|49,ALCH|6713,FELL|19,GAMB|49,GUNN|160,WARM|6738,WRAN|6191,PEDD|6970,ASSA|14314,BEAS|6205,REAV|6185,TEMP|6105,DRUI|7044,SORC|6772,SAMU|14085,REIN|7650" />
+      <jobsLearned data="MERC|1!1!3!3!3!1!1,HEAL|1!3!3!3!3!1,ROGU|1!3!3!3!3!3,RANG|1!3!1!3!3!1!1,KNIG|1!3!3!3!3!1,WIZA|1!1!3!3!1!1!1,PEDD|1!3!3!3!3!1,GAMB|1!3!3!3!3!1,BLAD|1!3!3!3!3!1,GUNN|1!3!3!3!3!1,FELL|1!3!3!3!3!1,GADG|1!3!1,UTIL|1!1!3!3!1!3!1,ALCH|1!3!3!3!3!3,WARM|1!1!3!3!3!1,WRAN|1!3!3!1!3!3!3,BEAS|1!3!3!3!1!3,ASSA|1!3!1!3!3!1!1,REAV|1!3!1!3!3!3,TEMP|1!3!1!3!3!3,DRUI|1!1!3!3!1,SORC|1!1!3!3!3!1!1,SAMU|1!1!3!3!3!1!3,REIN|1!3!3!3!1" />
+      <bonusPassives data="BONU-P5" />
+      <statsBonus data="3,0,6,4,4,-4,0" />
+      <name>Reiner</name>
+      <experience>19</experience>
+      <level>68</level>
+      <index>1</index>
+      <storyCharacterName>partner</storyCharacterName>
+      <realStatsNew data="324.49,287.19,279.53,274.16" />
+      <realHealthMaxNew data="526.9,160.49" />
+      <realSpeed>178.72</realSpeed>
+      <mainJob>REIN</mainJob>
+      <subJob>ASSA</subJob>
+      <equippedPassivesNew data="ROGU-P1,ROGU-P2" />
+      <counter>MERC-C1</counter>
+      <mGearOrderNew data="SWD-15,SHI-15,HHE-08,BHE-36,AGL-10,ABO-05" />
+      <portraitName>Portrait-Story-Reiner</portraitName>
+      <isPermanent>true</isPermanent>
+    </CharacterData>
+    <CharacterData>
+      <mVersion>3</mVersion>
+      <mBodyFile>apprentice</mBodyFile>
+      <apPerJob data="MERC|49821,HEAL|8580,ROGU|8591,WIZA|9254,KNIG|8365,UTIL|7049,DEMK|1122029,BLAD|8386,RANG|27644,ALCH|6717,GADG|7288,FELL|8577,DRUI|7062,WARM|6743,SORC|14931,GAMB|23013,GUNN|7229,WRAN|6191,PEDD|6284,ASSA|233942,BEAS|6205,REAV|6185,TEMP|6105,SAMU|14267,MARK|362777" />
+      <apPerJobCheck data="MERC|714,HEAL|82,ROGU|264,WIZA|7020,KNIG|210,DEMK|207,BLAD|107,GAMB|14733,UTIL|7049,ALCH|6717,FELL|243,RANG|204,WARM|6743,GUNN|7229,WRAN|6191,BEAS|6205,ASSA|14314,PEDD|6284,REAV|6185,TEMP|6105,GADG|7288,DRUI|7062,SORC|6776,SAMU|14085" />
+      <jobsLearned data="MERC|1!1!3!3!3!1!1,HEAL|1!3!3!3!3!1,ROGU|1!3!3!3!3!3,KNIG|1!3!3!3!3!1,WIZA|1!1!3!3!1!1!1,DEMK|1!3!3!3!1!3,BLAD|1!3!3!3!3!1,GAMB|1!3!3!3!3!1,FELL|1!3!3!3!3!1,GADG|1!3!1,UTIL|1!1!3!3!1!3!1,ALCH|1!3!3!3!3!3,WARM|1!1!3!3!3!1,REAV|1!3!1!3!3!3,RANG|1!3!1!3!3!1!1,WRAN|1!3!3!1!3!3!3,GUNN|1!3!3!3!3!1,PEDD|1!3!3!3!3!1,BEAS|1!3!3!3!1!3,ASSA|1!3!1!3!3!1!1,TEMP|1!3!1!3!3!3,DRUI|1!1!3!3!1,SORC|1!1!3!3!3!1!1,SAMU|1!1!3!3!3!1!3" />
+      <bonusPassives data="BONU-P3" />
+      <statsBonus data="2,0,0,0,0,4,0" />
+      <name>Anadine</name>
+      <experience>0</experience>
+      <level>69</level>
+      <index>2</index>
+      <storyCharacterName>apprentice</storyCharacterName>
+      <realStatsNew data="380.66,281.72,268.95,258.47" />
+      <realHealthMaxNew data="613.95,125.05" />
+      <realSpeed>153.99</realSpeed>
+      <mainJob>DEMK</mainJob>
+      <subJob>ASSA</subJob>
+      <equippedPassivesNew data="ASSA-P2,KNIG-P2" />
+      <counter>MERC-C1</counter>
+      <mGearOrderNew data="AXE-36,AXE-10,HHE-08,BHE-14,ABO-07,ARI-07" />
+      <portraitName>Portrait-Story-anadine</portraitName>
+      <gender>kFemale</gender>
+      <isPermanent>true</isPermanent>
+    </CharacterData>
+    <CharacterData>
+      <mVersion>3</mVersion>
+      <mBodyFile>kairu</mBodyFile>
+      <apPerJob data="EXIL|663150,MERC|218,HEAL|1206,ROGU|234,WIZA|2394,KNIG|243,UTIL|218,RANG|250,BLAD|250,ALCH|275,GADG|125,FELL|246,DRUI|193,WARM|237,SORC|243,GAMB|239,GUNN|231,WRAN|265,PEDD|246,ASSA|250,BEAS|243,REAV|246,TEMP|256,SAMU|278,SMED|1021,LICH|1105,WERE|1265,VAMP|2343,LORD|644,PRIN|454" />
+      <apPerJobCheck data="EXIL|12737,HEAL|1150,MERC|218,UTIL|218,KNIG|243,ROGU|234,RANG|250,BEAS|243,GAMB|228,GUNN|231,ASSA|250,PEDD|246,SAMU|278,BLAD|250,REAV|246,TEMP|256,WIZA|231,ALCH|275,DRUI|193,FELL|246,GADG|125,SORC|243,WARM|237,WRAN|265" />
+      <jobsLearned data="EXIL|1!3!3!3!3!1,HEAL|1!3!3!3!3!1,MERC|1!1!3!3!3!1!1,UTIL|1!1!3!3!1!3!1,WIZA|1!1!3!3!1!1!1,ROGU|1!3!3!3!3!3,KNIG|1!3!3!3!3!1,WRAN|1!3!3!1!3!3!3,BLAD|1!3!3!3!3!1,GAMB|1!3!3!3!3!1,RANG|1!3!1!3!3!1!1,GUNN|1!3!3!3!3!1,SAMU|1!1!3!3!3!1!3,PEDD|1!3!3!3!3!1,BEAS|1!3!3!3!1!3,ASSA|1!3!1!3!3!1!1,REAV|1!3!1!3!3!3,TEMP|1!3!1!3!3!3,FELL|1!3!3!3!3!1,GADG|1!3!1,ALCH|1!3!3!3!3!3,DRUI|1!1!3!3!1,SORC|1!1!3!3!3!1!1,WARM|1!1!3!3!3!1" />
+      <bonusPassives data="BONU-P2" />
+      <statsBonus data="0,0,8,0,4,0,0" />
+      <name>Kairu</name>
+      <experience>0</experience>
+      <level>65</level>
+      <index>6</index>
+      <storyCharacterName>kairu</storyCharacterName>
+      <realStatsNew data="344.6,247.68,335.8,244.32" />
+      <realHealthMaxNew data="497.95,410.2" />
+      <realSpeed>179.65</realSpeed>
+      <mainJob>EXIL</mainJob>
+      <subJob>WARM</subJob>
+      <equippedPassivesNew data="ROGU-P1,ASSA-P2" />
+      <counter>MERC-C1</counter>
+      <mGearOrderNew data="SWD-15,SWD-16,HLI-13,BHE-07,ABO-05,ARI-07" />
+      <portraitName>Portrait-story-kairu</portraitName>
+      <isPermanent>true</isPermanent>
+    </CharacterData>
+    <CharacterData>
+      <mVersion>3</mVersion>
+      <mOutfitSelection>
+        <mBody>medium</mBody>
+        <mHead>catscheming</mHead>
+        <mEye>gray</mEye>
+        <mHair>headbandcurls</mHair>
+        <mHairColor>brown</mHairColor>
+        <mHat>horns</mHat>
+        <mHatColor>green</mHatColor>
+        <mAcc>glasses</mAcc>
+        <mAccColor>green</mAccColor>
+        <mOutfit>paragon</mOutfit>
+        <mOutfitColor>grass</mOutfitColor>
+        <mHatMatch>false</mHatMatch>
+        <mOutfiteMatch>false</mOutfiteMatch>
+      </mOutfitSelection>
+      <apPerJob data="MERC|34088,HEAL|2049,ROGU|1921,WIZA|4003,KNIG|1998,UTIL|1793,RANG|21299,BLAD|2049,ALCH|2254,GADG|1024,FELL|2024,DRUI|1588,WARM|1947,SORC|1998,GAMB|1870,GUNN|1896,WRAN|2178,PEDD|2024,ASSA|221677,BEAS|1998,REAV|2019,TEMP|2101,SAMU|2280,SMED|89697,LICH|14231,WERE|15455,VAMP|20223,LORD|868,PRIN|529402,MARK|362777" />
+      <apPerJobCheck data="MERC|34088,ROGU|1921,KNIG|1998,HEAL|2049,RANG|2049,BEAS|1998,WRAN|2178,GAMB|1870,GUNN|1896,ASSA|34094,LICH|14231,PEDD|2024,UTIL|1793,PRIN|5900,SAMU|2280,BLAD|2049,SMED|14381,REAV|2019,WIZA|1896,ALCH|2254,DRUI|1588,TEMP|2101,FELL|2024,GADG|1024,SORC|1998,WARM|1947,WERE|15455,VAMP|873" />
+      <jobsLearned data="MERC|1!1!3!3!3!1!1,LICH|1!3!1!3!3!3,PRIN|1!3!3!1!3!1!1,SMED|1!3!1!3!1!3!1,WIZA|1!1!3!3!1!1!1,ROGU|1!3!3!3!3!3,BLAD|1!3!3!3!3!1,KNIG|1!3!3!3!3!1,HEAL|1!3!3!3!3!1,RANG|1!3!1!3!3!1!1,GAMB|1!3!3!3!3!1,WRAN|1!3!3!1!3!3!3,UTIL|1!1!3!3!1!3!1,GUNN|1!3!3!3!3!1,SAMU|1!1!3!3!3!1!3,PEDD|1!3!3!3!3!1,BEAS|1!3!3!3!1!3,ASSA|1!3!1!3!3!1!1,REAV|1!3!1!3!3!3,TEMP|1!3!1!3!3!3,FELL|1!3!3!3!3!1,GADG|1!3!1,ALCH|1!3!3!3!3!3,DRUI|1!1!3!3!1,SORC|1!1!3!3!3!1!1,WARM|1!1!3!3!3!1,WERE|1!3!3!3!1!3,VAMP|1!3!3!3!1!3" />
+      <statsBonus data="8,-8,8,-8,6,-20,10" />
+      <name>The Celestial One</name>
+      <experience>90</experience>
+      <level>48</level>
+      <index>22</index>
+      <realStatsNew data="236.25,272.6,188.25,225.4" />
+      <realHealthMaxNew data="415.4,99.3" />
+      <realSpeed>134.74</realSpeed>
+      <mainJob>PRIN</mainJob>
+      <subJob>VAMP</subJob>
+      <equippedPassivesNew data="MERC-P1,MERC-P2" />
+      <counter>UTIL-C1</counter>
+      <mGearOrderNew data="RAP-36,SHI-36,HLI-09,BHE-09,ABO-05,ARI-01" />
+      <portraitName>portrait-human-female-mage-moorel</portraitName>
+      <gender>kFemale</gender>
+    </CharacterData>
+    <CharacterData>
+      <mVersion>3</mVersion>
+      <mOutfitSelection>
+        <mBody>medium</mBody>
+        <mHead>serious</mHead>
+        <mEye>blue</mEye>
+        <mHair>swoopshavedsides</mHair>
+        <mHairColor>fiery</mHairColor>
+        <mBeard>handlebarchinpuff</mBeard>
+        <mBeardColor>fiery</mBeardColor>
+        <mHat>wizard</mHat>
+        <mHatColor>cream</mHatColor>
+        <mOutfit>mage1</mOutfit>
+        <mOutfitColor>cream</mOutfitColor>
+        <mHatMatch>true</mHatMatch>
+        <mOutfiteMatch>true</mOutfiteMatch>
+      </mOutfitSelection>
+      <apPerJob data="WIZA|626739,MERC|23435,HEAL|8497,ROGU|6823,KNIG|7036,UTIL|8450,RANG|25920,BLAD|6745,ALCH|8602,GADG|7288,DRUI|8312,FELL|6791,SORC|16457,WARM|14848,GAMB|39209,GUNN|6694,SMED|7673,PEDD|6237,ASSA|233940,BEAS|6205,WRAN|6030,LICH|5265,REAV|6185,TEMP|6105,SAMU|136856,MARK|362777" />
+      <apPerJobCheck data="WIZA|38,MERC|7125,HEAL|191,ROGU|6823,ALCH|130,KNIG|7036,UTIL|193,DRUI|7,BLAD|6745,FELL|6791,SORC|53,WARM|6633,GAMB|6535,SMED|7673,RANG|6670,GUNN|6694,ASSA|14312,BEAS|6205,PEDD|6237,WRAN|6030,LICH|5205,REAV|6185,TEMP|6105,GADG|7288,SAMU|22240" />
+      <jobsLearned data="WIZA|1!1!3!3!1!1!1,MERC|1!1!3!3!3!1!1,HEAL|1!3!3!3!3!1,ROGU|1!3!3!3!3!3,ALCH|1!3!3!3!3!3,KNIG|1!3!3!3!3!1,UTIL|1!1!3!3!1!3!1,FELL|1!3!3!3!3!1,DRUI|1!1!3!3!1,BLAD|1!3!3!3!3!1,SORC|1!1!3!3!3!1!1,WARM|1!1!3!3!3!1,WRAN|1!3!3!1!3!3!3,SMED|1!3!1!3!1!3!1,GAMB|1!3!3!3!3!1,GADG|1!3!1,RANG|1!3!1!3!3!1!1,GUNN|1!3!3!3!3!1,ASSA|1!3!1!3!3!1!1,PEDD|1!3!3!3!3!1,BEAS|1!3!3!3!1!3,LICH|1!3!1!3!3!3,REAV|1!3!1!3!3!3,TEMP|1!3!1!3!3!3,SAMU|1!1!3!3!3!1!3" />
+      <name>Virgil</name>
+      <experience>73</experience>
+      <level>42</level>
+      <index>10</index>
+      <realStatsNew data="174,172.45,236.02,223.58" />
+      <realHealthMaxNew data="327.95,184.5" />
+      <realSpeed>134.89</realSpeed>
+      <mainJob>WIZA</mainJob>
+      <subJob>SAMU</subJob>
+      <equippedPassivesNew data="SAMU-P1,HEAL-P2" />
+      <counter>HEAL-C1</counter>
+      <mGearOrderNew data="ROD-16,HCL-11,ARI-41,BCL-15,AGL-02,ABO-36" />
+      <portraitName>portrait-human-male-healer-cecil</portraitName>
+    </CharacterData>
+    <CharacterData>
+      <mVersion>3</mVersion>
+      <mOutfitSelection>
+        <mBody>dark</mBody>
+        <mHead>default</mHead>
+        <mEye>brown</mEye>
+        <mHair>longwavy</mHair>
+        <mHairColor>espresso</mHairColor>
+        <mHat>healer</mHat>
+        <mHatColor>blue</mHatColor>
+        <mOutfit>healer2</mOutfit>
+        <mOutfitColor>blue</mOutfitColor>
+        <mHatMatch>true</mHatMatch>
+        <mOutfiteMatch>true</mOutfiteMatch>
+      </mOutfitSelection>
+      <apPerJob data="HEAL|763898,MERC|23478,ROGU|6833,WIZA|10406,KNIG|7049,UTIL|8645,RANG|25923,BLAD|6700,ALCH|8363,DRUI|8295,GADG|7259,FELL|8290,WARM|15459,SORC|16476,GAMB|31052,GUNN|6687,PEDD|6237,ASSA|233940,BEAS|6205,WRAN|6030,WERE|5905,REAV|6185,TEMP|6105,SAMU|14085,MARK|362777" />
+      <apPerJobCheck data="HEAL|13,MERC|7168,WIZA|8,ROGU|6833,KNIG|7049,UTIL|195,FELL|106,ALCH|31,DRUI|1,BLAD|6700,SORC|72,GAMB|6527,WARM|7304,GADG|7259,RANG|6673,GUNN|6687,ASSA|14312,BEAS|6205,PEDD|6237,WRAN|6030,REAV|6185,WERE|5905,TEMP|6105,SAMU|14085" />
+      <jobsLearned data="HEAL|1!3!3!3!3!1,MERC|1!1!3!3!3!1!1,WIZA|1!1!3!3!1!1!1,UTIL|1!1!3!3!1!3!1,ROGU|1!3!3!3!3!3,KNIG|1!3!3!3!3!1,FELL|1!3!3!3!3!1,ALCH|1!3!3!3!3!3,BLAD|1!3!3!3!3!1,DRUI|1!1!3!3!1,SORC|1!1!3!3!3!1!1,WRAN|1!3!3!1!3!3!3,GAMB|1!3!3!3!3!1,GADG|1!3!1,WARM|1!1!3!3!3!1,RANG|1!3!1!3!3!1!1,GUNN|1!3!3!3!3!1,ASSA|1!3!1!3!3!1!1,PEDD|1!3!3!3!3!1,BEAS|1!3!3!3!1!3,WERE|1!3!3!3!1!3,REAV|1!3!1!3!3!3,TEMP|1!3!1!3!3!3,SAMU|1!1!3!3!3!1!3" />
+      <name>Lana</name>
+      <experience>20</experience>
+      <level>39</level>
+      <index>11</index>
+      <realStatsNew data="163.69,166.92,217.33,201.59" />
+      <realHealthMaxNew data="318.25,166.45" />
+      <realSpeed>133.09</realSpeed>
+      <mainJob>HEAL</mainJob>
+      <subJob>WERE</subJob>
+      <equippedPassivesNew data="WERE-P1,WERE-P2" />
+      <counter>HEAL-C1</counter>
+      <mGearOrderNew data="STF-07,HLI-09,AGL-02,BLI-06,ARI-00,ABO-02" />
+      <portraitName>portrait-human-female-healer-alma</portraitName>
+      <gender>kFemale</gender>
+    </CharacterData>
+    <CharacterData>
+      <mVersion>3</mVersion>
+      <mOutfitSelection>
+        <mBody>asian</mBody>
+        <mHead>cheer</mHead>
+        <mEye>blue</mEye>
+        <mHair>dreadstiedback</mHair>
+        <mHairColor>espresso</mHairColor>
+        <mBeard>friendlymuttonchops</mBeard>
+        <mBeardColor>espresso</mBeardColor>
+        <mHat>vampire</mHat>
+        <mHatColor>white</mHatColor>
+        <mOutfit>vampire</mOutfit>
+        <mOutfitColor>white</mOutfitColor>
+        <mHatMatch>true</mHatMatch>
+        <mOutfiteMatch>true</mOutfiteMatch>
+      </mOutfitSelection>
+      <apPerJob data="MERC|24479,HEAL|6883,ROGU|8575,WIZA|17157,KNIG|8693,UTIL|15137,RANG|27640,BLAD|8284,ALCH|6550,GADG|7259,FELL|6723,DRUI|15047,WARM|6621,SORC|14661,GAMB|22837,GUNN|8184,PEDD|14739,ASSA|233940,BEAS|6205,WRAN|6030,REAV|6185,TEMP|6105,VAMP|743717,SAMU|14085,MARK|362777" />
+      <apPerJobCheck data="MERC|14,KNIG|97,HEAL|6883,ROGU|8575,WIZA|6835,BLAD|20,UTIL|6922,RANG|33,FELL|6723,GAMB|14682,GUNN|0,PEDD|14739,ASSA|14312,BEAS|6205,WARM|6621,WRAN|6030,REAV|6185,ALCH|6550,DRUI|6892,TEMP|6105,GADG|7259,SORC|14661,VAMP|5655,SAMU|14085" />
+      <jobsLearned data="MERC|1!1!3!3!3!1!1,KNIG|1!3!3!3!3!1,HEAL|1!3!3!3!3!1,ROGU|1!3!3!3!3!3,BLAD|1!3!3!3!3!1,WIZA|1!1!3!3!1!1!1,FELL|1!3!3!3!3!1,UTIL|1!1!3!3!1!3!1,GAMB|1!3!3!3!3!1,GADG|1!3!1,REAV|1!3!1!3!3!3,RANG|1!3!1!3!3!1!1,GUNN|1!3!3!3!3!1,PEDD|1!3!3!3!3!1,WRAN|1!3!3!1!3!3!3,BEAS|1!3!3!3!1!3,ASSA|1!3!1!3!3!1!1,WARM|1!1!3!3!3!1,TEMP|1!3!1!3!3!3,ALCH|1!3!3!3!3!3,DRUI|1!1!3!3!1,SORC|1!1!3!3!3!1!1,VAMP|1!3!3!3!1!3,SAMU|1!1!3!3!3!1!3" />
+      <name>Michael Damusan</name>
+      <experience>18</experience>
+      <level>30</level>
+      <index>13</index>
+      <realStatsNew data="162.7,161.59,134.13,155.86" />
+      <realHealthMaxNew data="287.4,73.8" />
+      <realSpeed>121.98</realSpeed>
+      <mainJob>VAMP</mainJob>
+      <subJob>MERC</subJob>
+      <equippedPassivesNew data="KNIG-P1,KNIG-P2" />
+      <counter>BLAD-C1</counter>
+      <mGearOrderNew data="BOW-07,,HLI-02,BLI-03,AGL-01,ABO-03" />
+      <portraitName>portrait-human-male-warrior-barbar</portraitName>
+    </CharacterData>
+    <CharacterData>
+      <mVersion>3</mVersion>
+      <mOutfitSelection>
+        <mBody>asian</mBody>
+        <mHead>serious</mHead>
+        <mEye>yellow</mEye>
+        <mHair>gavin</mHair>
+        <mHairColor>espresso</mHairColor>
+        <mBeard>fullbeard</mBeard>
+        <mBeardColor>espresso</mBeardColor>
+        <mHat>gambler</mHat>
+        <mHatColor>brown</mHatColor>
+        <mOutfit>pirate</mOutfit>
+        <mOutfitColor>brown</mOutfitColor>
+        <mHatMatch>true</mHatMatch>
+        <mOutfiteMatch>true</mOutfiteMatch>
+      </mOutfitSelection>
+      <apPerJob data="MERC|24664,HEAL|6843,ROGU|8544,WIZA|17140,KNIG|8378,UTIL|6896,RANG|27533,BLAD|8410,ALCH|6510,GADG|7259,FELL|6721,DRUI|15046,WARM|6615,SORC|14637,GAMB|768574,GUNN|15796,PEDD|6237,ASSA|233940,LORD|5640,BEAS|6205,WRAN|6030,REAV|6185,TEMP|6105,SAMU|14085,MARK|362777" />
+      <apPerJobCheck data="MERC|10,HEAL|6843,ROGU|1,KNIG|0,WIZA|6818,BLAD|227,UTIL|6896,FELL|6721,RANG|15,GUNN|15796,GAMB|22832,ASSA|14312,PEDD|6237,WARM|6615,BEAS|6205,LORD|5580,WRAN|6030,REAV|6185,ALCH|6510,DRUI|6891,TEMP|6105,GADG|7259,SORC|6482,SAMU|14085" />
+      <jobsLearned data="MERC|1!1!3!3!3!1!1,HEAL|1!3!3!3!3!1,ROGU|1!3!3!3!3!3,KNIG|1!3!3!3!3!1,WIZA|1!1!3!3!1!1!1,BLAD|1!3!3!3!3!1,UTIL|1!1!3!3!1!3!1,FELL|1!3!3!3!3!1,GAMB|1!3!3!3!3!1,GADG|1!3!1,REAV|1!3!1!3!3!3,RANG|1!3!1!3!3!1!1,WRAN|1!3!3!1!3!3!3,GUNN|1!3!3!3!3!1,PEDD|1!3!3!3!3!1,BEAS|1!3!3!3!1!3,ASSA|1!3!1!3!3!1!1,WARM|1!1!3!3!3!1,LORD|1!3!3!3!1!1!1,TEMP|1!3!1!3!3!3,ALCH|1!3!3!3!3!3,DRUI|1!1!3!3!1,SORC|1!1!3!3!3!1!1,SAMU|1!1!3!3!3!1!3" />
+      <name>Psyava</name>
+      <experience>80</experience>
+      <level>14</level>
+      <index>12</index>
+      <realStatsNew data="99.6,88.2,73,82.77" />
+      <realHealthMaxNew data="178.55,32.85" />
+      <realSpeed>109.94</realSpeed>
+      <mainJob>GAMB</mainJob>
+      <subJob>MERC</subJob>
+      <equippedPassivesNew data="MERC-P1,MERC-P2" />
+      <counter>MERC-C1</counter>
+      <mGearOrderNew data="SPR-04,SHI-02,HLI-07,BLI-09,AGL-01,ABO-01" />
+      <portraitName>portrait-human-male-zenemy-mercenarymedium</portraitName>
+    </CharacterData>
+    <CharacterData>
+      <mVersion>3</mVersion>
+      <mOutfitSelection>
+        <mBody>asian</mBody>
+        <mHead>squint</mHead>
+        <mEye>purple</mEye>
+        <mHair>dreadstiedback</mHair>
+        <mHairColor>brown</mHairColor>
+        <mBeard>handlebarchinpuff</mBeard>
+        <mBeardColor>brown</mBeardColor>
+        <mHat>werewolf</mHat>
+        <mHatColor>black</mHatColor>
+        <mOutfit>reaver</mOutfit>
+        <mOutfitColor>black</mOutfitColor>
+        <mHatMatch>true</mHatMatch>
+        <mOutfiteMatch>true</mOutfiteMatch>
+      </mOutfitSelection>
+      <apPerJob data="MERC|23353,HEAL|8349,ROGU|6796,WIZA|10581,KNIG|6879,UTIL|8216,RANG|25858,BLAD|6629,ALCH|8240,GADG|7259,FELL|6721,DRUI|8205,WARM|14766,SORC|31855,GAMB|30983,GUNN|6679,PEDD|6237,ASSA|233940,BEAS|6205,WRAN|6030,REAV|6185,TEMP|6105,VAMP|5715,WERE|735327,SAMU|14085,MARK|362777" />
+      <apPerJobCheck data="MERC|7043,WIZA|65,HEAL|54,ALCH|85,ROGU|6796,KNIG|6879,UTIL|33,BLAD|6629,FELL|6721,DRUI|50,SORC|7330,GAMB|6518,RANG|6608,GUNN|6679,ASSA|14312,WARM|6611,PEDD|6237,WRAN|6030,REAV|6185,BEAS|6205,TEMP|6105,GADG|7259,VAMP|5655,WERE|5905,SAMU|14085" />
+      <jobsLearned data="MERC|1!1!3!3!3!1!1,WIZA|1!1!3!3!1!1!1,HEAL|1!3!3!3!3!1,ROGU|1!3!3!3!3!3,KNIG|1!3!3!3!3!1,ALCH|1!3!3!3!3!3,UTIL|1!1!3!3!1!3!1,FELL|1!3!3!3!3!1,BLAD|1!3!3!3!3!1,DRUI|1!1!3!3!1,SORC|1!1!3!3!3!1!1,WRAN|1!3!3!1!3!3!3,GAMB|1!3!3!3!3!1,GADG|1!3!1,RANG|1!3!1!3!3!1!1,GUNN|1!3!3!3!3!1,WARM|1!1!3!3!3!1,ASSA|1!3!1!3!3!1!1,PEDD|1!3!3!3!3!1,REAV|1!3!1!3!3!3,TEMP|1!3!1!3!3!3,BEAS|1!3!3!3!1!3,WERE|1!3!3!3!1!3,VAMP|1!3!3!3!1!3,SAMU|1!1!3!3!3!1!3" />
+      <name>Bongi</name>
+      <experience>65</experience>
+      <level>9</level>
+      <index>14</index>
+      <realStatsNew data="58.27,62.17,80.2,82.2" />
+      <realHealthMaxNew data="129.95,53.5" />
+      <realSpeed>101.26</realSpeed>
+      <mainJob>WERE</mainJob>
+      <subJob>MERC</subJob>
+      <equippedPassivesNew data="WIZA-P1,WIZA-P2" />
+      <counter />
+      <mGearOrderNew data="SWD-35,AGL-02,HLI-04,BLI-35,AGL-02,ABO-00" />
+      <portraitName>portrait-human-unisex-zenemy-gamblerfair</portraitName>
+    </CharacterData>
+    <CharacterData>
+      <mVersion>3</mVersion>
+      <mOutfitSelection>
+        <mBody>darker</mBody>
+        <mHead>content</mHead>
+        <mEye>blue</mEye>
+        <mHair>longish</mHair>
+        <mHairColor>espresso</mHairColor>
+        <mBeard>friendlymuttonchops</mBeard>
+        <mBeardColor>espresso</mBeardColor>
+        <mHat>coonskin</mHat>
+        <mHatColor>blue</mHatColor>
+        <mOutfit>healer2</mOutfit>
+        <mOutfitColor>blue</mOutfitColor>
+        <mHatMatch>false</mHatMatch>
+        <mOutfiteMatch>false</mOutfiteMatch>
+      </mOutfitSelection>
+      <apPerJob data="MERC|40248,HEAL|6881,ROGU|15294,WIZA|17150,KNIG|6919,UTIL|6861,RANG|25946,BLAD|6803,ALCH|6646,GADG|7265,FELL|6729,DRUI|7052,WARM|6613,SORC|14787,GAMB|22866,GUNN|6694,WRAN|8558,PEDD|6237,REAV|6185,ASSA|234036,BEAS|6205,TEMP|6105,VAMP|743167,SAMU|14085,MARK|362777" />
+      <apPerJobCheck data="KNIG|6919,HEAL|6881,MERC|7568,UTIL|6861,ROGU|7079,RANG|6696,BLAD|6803,WIZA|15043,FELL|6729,GAMB|14711,WRAN|403,GUNN|6694,ASSA|14408,WARM|6613,BEAS|6205,PEDD|6237,REAV|6185,TEMP|6105,GADG|7265,ALCH|6646,DRUI|7052,SORC|6632,VAMP|5655,SAMU|14085" />
+      <jobsLearned data="WRAN|1!3!3!1!3!3!3,KNIG|1!3!3!3!3!1,ROGU|1!3!3!3!3!3,WIZA|1!1!3!3!1!1!1,MERC|1!1!3!3!3!1!1,HEAL|1!3!3!3!3!1,BLAD|1!3!3!3!3!1,UTIL|1!1!3!3!1!3!1,GAMB|1!3!3!3!3!1,RANG|1!3!1!3!3!1!1,FELL|1!3!3!3!3!1,GADG|1!3!1,GUNN|1!3!3!3!3!1,WARM|1!1!3!3!3!1,ASSA|1!3!1!3!3!1!1,PEDD|1!3!3!3!3!1,BEAS|1!3!3!3!1!3,REAV|1!3!1!3!3!3,TEMP|1!3!1!3!3!3,ALCH|1!3!3!3!3!3,DRUI|1!1!3!3!1,VAMP|1!3!3!3!1!3,SORC|1!1!3!3!3!1!1,SAMU|1!1!3!3!3!1!3" />
+      <name>Pelier</name>
+      <experience>50</experience>
+      <level>41</level>
+      <index>16</index>
+      <realStatsNew data="193.8,191.03,180.6,189.35" />
+      <realHealthMaxNew data="374.7,94.5" />
+      <realSpeed>154.18</realSpeed>
+      <mainJob>VAMP</mainJob>
+      <subJob>HEAL</subJob>
+      <equippedPassivesNew data="KNIG-P2,HEAL-P2" />
+      <counter>BLAD-C1</counter>
+      <mGearOrderNew data="RAP-05,HLI-07,BLI-03,,ABO-02,AGL-05" />
+      <portraitName>portrait-human-male-healer-coonskin</portraitName>
+    </CharacterData>
+    <CharacterData>
+      <mVersion>3</mVersion>
+      <mOutfitSelection>
+        <mBody>darker</mBody>
+        <mHead>default</mHead>
+        <mEye>brown</mEye>
+        <mHair>buzzcut</mHair>
+        <mHairColor>espresso</mHairColor>
+        <mBeard>fullbeard</mBeard>
+        <mBeardColor>espresso</mBeardColor>
+        <mAcc>eyepatch</mAcc>
+        <mAccColor>brown</mAccColor>
+        <mOutfit>medarmor</mOutfit>
+        <mOutfitColor>brown</mOutfitColor>
+        <mHatMatch>false</mHatMatch>
+        <mOutfiteMatch>false</mOutfiteMatch>
+      </mOutfitSelection>
+      <apPerJob data="MERC|41212,HEAL|6989,ROGU|7159,WIZA|17298,KNIG|7026,UTIL|6914,RANG|26012,BLAD|8195,ALCH|6750,GADG|7281,FELL|6807,DRUI|15297,WARM|6625,SORC|14862,GAMB|22899,GUNN|6723,WRAN|6050,PEDD|6237,REAV|6185,ASSA|234058,BEAS|6205,TEMP|6105,VAMP|742937,SAMU|14085,MARK|362777" />
+      <apPerJobCheck data="ALCH|6750,KNIG|7026,HEAL|6989,MERC|39,UTIL|6914,ROGU|7159,WIZA|6976,BLAD|39,RANG|6762,GAMB|14744,FELL|6807,WARM|6625,REAV|6185,GUNN|6723,ASSA|14430,PEDD|6237,BEAS|6205,WRAN|6050,DRUI|7142,TEMP|6105,GADG|7281,SORC|6707,VAMP|5655,SAMU|14085" />
+      <jobsLearned data="BLAD|1!3!3!3!3!1,KNIG|1!3!3!3!3!1,ROGU|1!3!3!3!3!3,WIZA|1!1!3!3!1!1!1,ALCH|1!3!3!3!3!3,MERC|1!1!3!3!3!1!1,HEAL|1!3!3!3!3!1,WRAN|1!3!3!1!3!3!3,UTIL|1!1!3!3!1!3!1,GAMB|1!3!3!3!3!1,RANG|1!3!1!3!3!1!1,FELL|1!3!3!3!3!1,GADG|1!3!1,REAV|1!3!1!3!3!3,WARM|1!1!3!3!3!1,GUNN|1!3!3!3!3!1,PEDD|1!3!3!3!3!1,BEAS|1!3!3!3!1!3,ASSA|1!3!1!3!3!1!1,TEMP|1!3!1!3!3!3,DRUI|1!1!3!3!1,SORC|1!1!3!3!3!1!1,VAMP|1!3!3!3!1!3,SAMU|1!1!3!3!3!1!3" />
+      <name>Lancaster</name>
+      <experience>15</experience>
+      <level>43</level>
+      <index>17</index>
+      <realStatsNew data="230.4,187.1,185.43,229.05" />
+      <realHealthMaxNew data="368.95,107.55" />
+      <realSpeed>131.39</realSpeed>
+      <mainJob>VAMP</mainJob>
+      <subJob>BLAD</subJob>
+      <equippedPassivesNew data="KNIG-P2,BLAD-P2" />
+      <counter>MERC-C1</counter>
+      <mGearOrderNew data="RAP-05,,HLI-08,BLI-09,," />
+      <portraitName>portrait-human-male-warrior-backer21</portraitName>
+    </CharacterData>
+    <CharacterData>
+      <mVersion>3</mVersion>
+      <mVariantAcc data="var-aer,var-dre,var-wrd,var-tho,var-gua,var-cor" />
+      <mVariantAccCustom>true</mVariantAccCustom>
+      <apPerJob data="VAN-98|780624,VAR-SYL|8173,VAR-ALP|43,VAR-DFT|23768,VAR-FER|7155,VAR-GUA|15285,VAR-HRN|7184,VAR-MYS|15210,VAR-COR|7180,VAR-SKE|7180,VAR-SCO|7205,VAR-THO|7155,VAR-DRW|8155,VAR-MYC|7180,VAR-VEN|7180,VAR-AER|130627,VAR-CLO|7130,VAR-TYR|23292,VAR-CEL|7105,VAR-DRF|202142,VAR-WRD|16187,VAR-SPE|394648" />
+      <apPerJobCheck data="VAN-98|24,VAR-ALP|43,VAR-SYL|8173,VAR-DFT|7398,VAR-GUA|7130,VAR-FER|7155,VAR-HRN|7130,VAR-MYS|7055,VAR-COR|7180,VAR-SCO|7205,VAR-VEN|7180,VAR-DRF|30995,VAR-SKE|7180,VAR-MYC|7180,VAR-THO|7155,VAR-TYR|23292,VAR-AER|7105,VAR-CEL|7105,VAR-CLO|7130,VAR-SPE|15793" />
+      <jobsLearned data="VAN-98|1!1!3!1!1!1!3,VAR-DFT|1!1!1!3!1,VAR-ALP|1!1!3!1!1,VAR-GUA|1!1!1!3!1,VAR-SYL|1!1!3!3,VAR-SCO|1!1!1!3!1,VAR-FER|1!1!3!3,VAR-HRN|1!1!1!3!1,VAR-MYS|1!1!3!3,VAR-COR|1!1!3!3,VAR-VEN|1!1!1!3!1,VAR-DRF|1!1!3!3,VAR-AER|1!1!1!3!1,VAR-TYR|1!1!3!1!1,VAR-THO|1!1!1!3!1,VAR-SKE|1!1!1!3!1,VAR-MYC|1!1!1!3!1,VAR-CLO|1!1!1!3!1,VAR-SPE|1!1!1!3!1,VAR-CEL|1!1!3!3" />
+      <name>Jimmy</name>
+      <experience>80</experience>
+      <level>43</level>
+      <index>15</index>
+      <realStatsNew data="408,202,238,186" />
+      <realHealthMaxNew data="372,72" />
+      <realElementalResistanceNew data="0,-50,0,0,0,0" />
+      <realSpeed>169.543</realSpeed>
+      <realEvasion>5</realEvasion>
+      <mainJob>VAN-98</mainJob>
+      <subJob>VAR-SPE</subJob>
+      <extraVariant>VAR-TYR</extraVariant>
+      <equippedPassivesNew data="VAR-SPE-P1,VAR-SPE-P2" />
+      <counter>VAN-98-C1</counter>
+      <mGearOrderNew data=",ABO-01,,,," />
+      <portraitName>portrait-monster-vangal3</portraitName>
+      <race>kMonster</race>
+    </CharacterData>
+    <CharacterData>
+      <mVersion>3</mVersion>
+      <mVariantAcc data="var-aer,var-wrd" />
+      <mVariantAccCustom>true</mVariantAccCustom>
+      <apPerJob data="VAR-DFT|23678,VAR-ALP|50,VAR-GUA|15345,VAR-SYL|15360,THE-98|779562,VAR-SKE|23544,VAR-MYS|7055,VAR-COR|7180,VAR-SCO|7205,VAR-THO|7155,VAR-DRW|8155,VAR-MYC|7180,VAR-AER|333744,VAR-VEN|7180,VAR-CLO|7130,VAR-TYR|23292,VAR-CEL|7105,VAR-WRD|16187,VAR-FER|15843,VAR-SPE|16121,VAR-HRN|360659" />
+      <apPerJobCheck data="THE-98|29,VAR-ALP|50,VAR-SYL|15360,VAR-DFT|7308,VAR-GUA|7130,VAR-SKE|23544,VAR-MYS|7055,VAR-SCO|7205,VAR-AER|7105,VAR-CEL|7105,VAR-THO|7155,VAR-TYR|23292,VAR-VEN|7180,VAR-MYC|7180,VAR-CLO|7130,VAR-FER|15843,VAR-SPE|16121,VAR-HRN|16475,VAR-COR|7180" />
+      <jobsLearned data="THE-98|1!1!1!3!1!1!3,VAR-ALP|1!1!3!1!1,VAR-DFT|1!1!1!3!1,VAR-GUA|1!1!1!3!1,VAR-SYL|1!1!3!3,VAR-SCO|1!1!1!3!1,VAR-SKE|1!1!1!3!1,VAR-MYS|1!1!3!3,VAR-AER|1!1!1!3!1,VAR-CEL|1!1!3!3,VAR-VEN|1!1!1!3!1,VAR-TYR|1!1!3!1!1,VAR-THO|1!1!1!3!1,VAR-FER|1!1!3!3,VAR-CLO|1!1!1!3!1,VAR-MYC|1!1!1!3!1,VAR-SPE|1!1!1!3!1,VAR-HRN|1!1!1!3!1,VAR-COR|1!1!3!3" />
+      <name>Nyz</name>
+      <experience>25</experience>
+      <level>47</level>
+      <index>18</index>
+      <realStatsNew data="338.0875,296,308.5,299" />
+      <realHealthMaxNew data="381,105" />
+      <realElementalResistanceNew data="-25,25,25,25,-25,25" />
+      <realSpeed>158.82</realSpeed>
+      <mainJob>THE-98</mainJob>
+      <subJob>VAR-HRN</subJob>
+      <extraVariant>VAR-ALP</extraVariant>
+      <equippedPassivesNew data="VAR-HRN-P1,VAR-HRN-P2" />
+      <counter />
+      <mGearOrderNew data=",ARI-36,ACO-04,,," />
+      <portraitName>portrait-monster-therva3</portraitName>
+      <race>kMonster</race>
+    </CharacterData>
+    <CharacterData>
+      <mVersion>3</mVersion>
+      <apPerJob data="VAR-SYL|7260,VAR-DFT|7180,VAR-ALP|15411,VAR-GUA|7130,NIW-98|778225,VAR-AER|138827,VAR-CEL|15260,VAR-SKE|7180,VAR-COR|7180,VAR-MYS|7055,VAR-THO|7155,VAR-SCO|7205,VAR-DRW|8155,VAR-MYC|7180,VAR-CLO|210272,VAR-VEN|7180,VAR-TYR|23292,VAR-WRD|16187,VAR-FER|33014,VAR-HRN|16475,VAR-SPE|343134" />
+      <apPerJobCheck data="NIW-98|7968,VAR-SKE|7180,VAR-ALP|7206,VAR-AER|7105,VAR-CEL|7105,VAR-GUA|7130,VAR-SYL|7260,VAR-MYS|7055,VAR-DFT|7180,VAR-SCO|7205,VAR-THO|7155,VAR-CLO|7130,VAR-TYR|23292,VAR-VEN|7180,VAR-MYC|7180,VAR-FER|15843,VAR-HRN|16475,VAR-COR|7180,VAR-SPE|51450" />
+      <jobsLearned data="NIW-98|1!1!1!3!3!1!1,VAR-ALP|1!1!3!1!1,VAR-SCO|1!1!1!3!1,VAR-SKE|1!1!1!3!1,VAR-DFT|1!1!1!3!1,VAR-GUA|1!1!1!3!1,VAR-SYL|1!1!3!3,VAR-AER|1!1!1!3!1,VAR-CEL|1!1!3!3,VAR-MYS|1!1!3!3,VAR-THO|1!1!1!3!1,VAR-CLO|1!1!1!3!1,VAR-FER|1!1!3!3,VAR-TYR|1!1!3!1!1,VAR-VEN|1!1!1!3!1,VAR-MYC|1!1!1!3!1,VAR-SPE|1!1!1!3!1,VAR-HRN|1!1!1!3!1,VAR-COR|1!1!3!3" />
+      <name>Suljin</name>
+      <experience>33</experience>
+      <level>44</level>
+      <index>19</index>
+      <realStatsNew data="246,250,355,262.75" />
+      <realHealthMaxNew data="520,196" />
+      <realElementalResistanceNew data="25,25,-25,25,0,0" />
+      <realSpeed>149.314011</realSpeed>
+      <realEvasion>5</realEvasion>
+      <mainJob>NIW-98</mainJob>
+      <subJob>VAR-SPE</subJob>
+      <extraVariant>VAR-ALP</extraVariant>
+      <equippedPassivesNew data="VAR-SPE-P1,VAR-SPE-P2" />
+      <counter />
+      <mGearOrderNew data=",ACO-02,ARI-38,,," />
+      <portraitName>portrait-monster-niwot3</portraitName>
+      <race>kMonster</race>
+    </CharacterData>
+    <CharacterData>
+      <mVersion>3</mVersion>
+      <apPerJob data="VAR-SYL|15426,VAR-ALP|7329,VAR-DFT|7180,VAR-GUA|7130,VAR-SCO|7205,VAR-SKE|7180,TAN-98|793152,VAR-VEN|23540,VAR-COR|7180,VAR-MYS|7055,VAR-DRW|7105,VAR-THO|7155,VAR-MYC|7180,VAR-TYR|226309,VAR-AER|130627,VAR-CLO|7130,VAR-CEL|7105,VAR-WRD|16187,VAR-FER|15843,VAR-SPE|16121,VAR-HRN|360659" />
+      <apPerJobCheck data="TAN-98|291432,VAR-VEN|15385,VAR-SYL|7271,VAR-ALP|7329,VAR-GUA|7130,VAR-MYS|7055,VAR-DFT|7180,VAR-SCO|7205,VAR-DRW|7105,VAR-TYR|7105,VAR-AER|7105,VAR-CEL|7105,VAR-SKE|7180,VAR-MYC|7180,VAR-THO|7155,VAR-CLO|7130,VAR-FER|15843,VAR-SPE|16121,VAR-HRN|16475,VAR-COR|7180" />
+      <jobsLearned data="TAN-98|1!3!1!1!1!1!3,VAR-ALP|1!1!3!1!1,VAR-VEN|1!1!1!3!1,VAR-DFT|1!1!1!3!1,VAR-GUA|1!1!1!3!1,VAR-SYL|1!1!3!3,VAR-MYS|1!1!3!3,VAR-DRW|1!1!3!3,VAR-SCO|1!1!1!3!1,VAR-TYR|1!1!3!1!1,VAR-THO|1!1!1!3!1,VAR-SKE|1!1!1!3!1,VAR-FER|1!1!3!3,VAR-AER|1!1!1!3!1,VAR-CEL|1!1!3!3,VAR-MYC|1!1!1!3!1,VAR-CLO|1!1!1!3!1,VAR-SPE|1!1!1!3!1,VAR-HRN|1!1!1!3!1,VAR-COR|1!1!3!3" />
+      <name>Alteren</name>
+      <experience>97</experience>
+      <level>47</level>
+      <index>20</index>
+      <realStatsNew data="331.6375,320,217.5,320" />
+      <realHealthMaxNew data="550,77" />
+      <realElementalResistanceNew data="25,-25,50,25,0,0" />
+      <realSpeed>129.5</realSpeed>
+      <mainJob>TAN-98</mainJob>
+      <subJob>VAR-HRN</subJob>
+      <extraVariant>VAR-VEN</extraVariant>
+      <equippedPassivesNew data="VAR-HRN-P1,VAR-HRN-P2" />
+      <counter />
+      <mGearOrderNew data=",ACO-01,ARI-14,,," />
+      <portraitName>portrait-monster-tangrel3</portraitName>
+      <race>kMonster</race>
+    </CharacterData>
+    <CharacterData>
+      <mVersion>3</mVersion>
+      <apPerJob data="VAR-SYL|7381,VAR-ALP|7583,VAR-DFT|7501,VAR-GUA|7130,VAR-SCO|7205,VAR-SKE|7180,VAR-VEN|15335,MAL-98|785029,VAR-AER|146987,VAR-COR|7180,VAR-MYS|7055,VAR-MYC|7180,VAR-THO|7155,VAR-DRW|7105,VAR-CEL|7105,VAR-CLO|7130,VAR-TYR|23292,VAR-WRD|218099,VAR-FER|15843,VAR-HRN|16146,VAR-SPE|360634" />
+      <apPerJobCheck data="VAR-DFT|7501,MAL-98|406174,VAR-ALP|7538,VAR-AER|23465,VAR-SYL|7381,VAR-VEN|7180,VAR-GUA|7130,VAR-MYS|7055,VAR-SKE|7180,VAR-MYC|7180,VAR-SCO|7205,VAR-CEL|7105,VAR-WRD|30765,VAR-THO|7155,VAR-TYR|23292,VAR-DRW|7105,VAR-CLO|7130,VAR-FER|15843,VAR-HRN|16146,VAR-COR|7180,VAR-SPE|16450" />
+      <jobsLearned data="MAL-98|1!3!1!3!1!1!1,VAR-DFT|1!1!1!3!1,VAR-ALP|1!1!3!1!1,VAR-SCO|1!1!1!3!1,VAR-SKE|1!1!1!3!1,VAR-VEN|1!1!1!3!1,VAR-AER|1!1!1!3!1,VAR-GUA|1!1!1!3!1,VAR-SYL|1!1!3!3,VAR-CEL|1!1!3!3,VAR-MYS|1!1!3!3,VAR-MYC|1!1!1!3!1,VAR-WRD|1!1!3!1!1,VAR-TYR|1!1!3!1!1,VAR-THO|1!1!1!3!1,VAR-FER|1!1!3!3,VAR-DRW|1!1!3!3,VAR-CLO|1!1!1!3!1,VAR-SPE|1!1!1!3!1,VAR-HRN|1!1!1!3!1,VAR-COR|1!1!3!3" />
+      <name>Varukha</name>
+      <experience>35</experience>
+      <level>46</level>
+      <index>21</index>
+      <realStatsNew data="229.5,227.5,340.5,323" />
+      <realHealthMaxNew data="419.5,153" />
+      <realElementalResistanceNew data="25,50,0,0,75,-50" />
+      <realSpeed>145.937</realSpeed>
+      <realEvasion>5</realEvasion>
+      <mainJob>MAL-98</mainJob>
+      <subJob>VAR-SPE</subJob>
+      <extraVariant>VAR-THO</extraVariant>
+      <equippedPassivesNew data="VAR-SPE-P1,VAR-SPE-P2" />
+      <counter />
+      <mGearOrderNew data=",ACO-05,ABO-00,,," />
+      <portraitName>portrait-monster-malcubus3</portraitName>
+      <race>kMonster</race>
+      <noDismiss>true</noDismiss>
+    </CharacterData>
+    <CharacterData>
+      <mVersion>3</mVersion>
+      <apPerJob data="VAR-SYL|17039,VAR-ALP|43179,VAR-DFT|174049,VAR-FER|171,VAR-GUA|44858,VAR-HRN|175,VAR-MYS|44848,VAR-COR|840,VAR-SKE|17365,VAR-SCO|17368,VAR-THO|862,VAR-DRW|905,VAR-MYC|9865,VAR-VEN|16708,VAR-AER|72823,VAR-CLO|883,VAR-TYR|16698,VAR-CEL|9480,VAR-DRF|181,VAR-WRD|1120,KAW-98|539020,VAR-SHA|51450" />
+      <apPerJobCheck data="VAR-AER|19230,VAR-CEL|9480,VAR-DFT|17365,KAW-98|17875,VAR-ALP|43179,VAR-SCO|17368,VAR-SKE|17365,VAR-TYR|16698,VAR-VEN|16708,VAR-MYC|9865,VAR-GUA|44858,VAR-SYL|17039,VAR-MYS|44848,VAR-SHA|51450" />
+      <jobsLearned data="KAW-98|1!3!3!1!1!1!1,VAR-DFT|1!1!1!3!1,VAR-ALP|1!1!3!1!1,VAR-SCO|1!1!1!3!1,VAR-SKE|1!1!1!3!1,VAR-VEN|1!1!1!3!1,VAR-AER|1!1!1!3!1,VAR-SHA|1!1!1!1!3,VAR-TYR|1!1!3!1!1,VAR-CEL|1!1!3!3,VAR-MYC|1!1!1!3!1,VAR-GUA|1!1!1!3!1,VAR-SYL|1!1!3!3,VAR-MYS|1!1!3!3" />
+      <name>Nizzly</name>
+      <experience>65</experience>
+      <level>48</level>
+      <index>23</index>
+      <realStatsNew data="289,266.5,304.75,312.5" />
+      <realHealthMaxNew data="313,130.5" />
+      <realElementalResistanceNew data="-25,0,0,0,50,0" />
+      <realSpeed>179.612991</realSpeed>
+      <mainJob>KAW-98</mainJob>
+      <subJob>VAR-DFT</subJob>
+      <extraVariant>VAR-AER</extraVariant>
+      <equippedPassivesNew data="VAR-DFT-P1,VAR-DFT-P2" />
+      <counter />
+      <mGearOrderNew data=",AGL-04,,,," />
+      <portraitName>portrait-monster-kawa3</portraitName>
+      <race>kMonster</race>
+    </CharacterData>
+    <CharacterData>
+      <mVersion>3</mVersion>
+      <apPerJob data="VAR-SYL|52,VAR-ALP|76,VAR-DFT|53,VAR-FER|210,VAR-GUA|56,VAR-HRN|216,VAR-MYS|59,VAR-COR|1028,VAR-SKE|53,VAR-SCO|52,VAR-THO|1055,VAR-DRW|1107,VAR-MYC|53,VAR-VEN|53,VAR-AER|219268,VAR-CLO|1081,VAR-TYR|176571,VAR-CEL|84,VAR-DRF|221,VAR-WRD|71,VAR-SPE|0,VAR-SHA|0,DAA-98|411376" />
+      <apPerJobCheck data="VAR-AER|84,DAA-98|15678,VAR-CEL|84,VAR-DFT|53,VAR-GUA|56,VAR-ALP|76,VAR-SCO|52,VAR-SKE|53,VAR-SYL|52,VAR-MYS|59,VAR-VEN|53,VAR-MYC|53,VAR-WRD|71,VAR-TYR|16900" />
+      <jobsLearned data="DAA-98|1!1!1!3!1!1!3,VAR-DFT|1!1!1!3!1,VAR-ALP|1!1!3!1!1,VAR-SCO|1!1!1!3!1,VAR-SKE|1!1!1!3!1,VAR-VEN|1!1!1!3!1,VAR-AER|1!1!1!3!1,VAR-WRD|1!1!3!1!1,VAR-CEL|1!1!3!3,VAR-GUA|1!1!1!3!1,VAR-SYL|1!1!3!3,VAR-MYS|1!1!3!3,VAR-MYC|1!1!1!3!1,VAR-TYR|1!1!3!1!1" />
+      <name>Malsester</name>
+      <experience>63</experience>
+      <level>53</level>
+      <index>24</index>
+      <realStatsNew data="420,317,331,257" />
+      <realHealthMaxNew data="522,118" />
+      <realElementalResistanceNew data="0,50,50,-25,100,-75" />
+      <realSpeed>145.76</realSpeed>
+      <realEvasion>2</realEvasion>
+      <mainJob>DAA-98</mainJob>
+      <subJob>VAR-AER</subJob>
+      <extraVariant>VAR-CEL</extraVariant>
+      <equippedPassivesNew data="VAR-AER-P1,VAR-AER-P2" />
+      <counter>VAR-SYL-C1</counter>
+      <mGearOrderNew data=",ARI-38,ARI-05,,," />
+      <portraitName>portrait-monster-archafflictor3</portraitName>
+      <race>kMonster</race>
+      <noDismiss>true</noDismiss>
+    </CharacterData>
+    <CharacterData>
+      <mVersion>3</mVersion>
+      <apPerJob data="VAR-SYL|76,VAR-ALP|76,VAR-DFT|78,VAR-FER|16091,VAR-GUA|82,VAR-HRN|33900,VAR-MYS|88,VAR-COR|78,VAR-SKE|78,VAR-SCO|76,VAR-THO|80,VAR-DRW|1134,VAR-MYC|78,VAR-VEN|78,VAR-AER|17584,VAR-CLO|82,VAR-TYR|84,VAR-CEL|84,VAR-DRF|290895,VAR-WRD|1404,VAR-SPE|51450,VAR-SHA|0,HRV-98|411141" />
+      <apPerJobCheck data="VAR-AER|84,VAR-CEL|84,VAR-DFT|78,HRV-98|15443,VAR-GUA|82,VAR-ALP|76,VAR-SCO|76,VAR-SKE|78,VAR-SYL|76,VAR-MYS|88,VAR-TYR|84,VAR-VEN|78,VAR-MYC|78,VAR-FER|16091,VAR-DRF|16711,VAR-THO|80,VAR-CLO|82,VAR-HRN|16400,VAR-COR|78,VAR-SPE|51450" />
+      <jobsLearned data="HRV-98|1!3!1!1!1!1!3,VAR-ALP|1!1!3!1!1,VAR-SCO|1!1!1!3!1,VAR-SKE|1!1!1!3!1,VAR-VEN|1!1!1!3!1,VAR-AER|1!1!1!3!1,VAR-TYR|1!1!3!1!1,VAR-DFT|1!1!1!3!1,VAR-CEL|1!1!3!3,VAR-GUA|1!1!1!3!1,VAR-SYL|1!1!3!3,VAR-MYS|1!1!3!3,VAR-MYC|1!1!1!3!1,VAR-THO|1!1!1!3!1,VAR-FER|1!1!3!3,VAR-DRF|1!1!3!3,VAR-CLO|1!1!1!3!1,VAR-SPE|1!1!1!3!1,VAR-HRN|1!1!1!3!1,VAR-COR|1!1!3!3" />
+      <name>Wrax</name>
+      <experience>0</experience>
+      <level>53</level>
+      <index>25</index>
+      <realStatsNew data="509.25,281.875,258.3,297.25" />
+      <realHealthMaxNew data="503,96" />
+      <realElementalResistanceNew data="0,-25,25,0,25,-25" />
+      <realSpeed>154.29</realSpeed>
+      <mainJob>HRV-98</mainJob>
+      <subJob>VAR-DRF</subJob>
+      <extraVariant>VAR-THO</extraVariant>
+      <equippedPassivesNew data="VAR-DRF-P1,VAR-DRF-P2" />
+      <counter />
+      <mGearOrderNew data=",ABO-36,,,," />
+      <portraitName>portrait-monster-harvester3</portraitName>
+      <race>kMonster</race>
+      <noDismiss>true</noDismiss>
+    </CharacterData>
+  </mCharacters>
+  <mCharactersNotWithUs />
+  <mCharactersSaved>
+    <CharacterData>
+      <mVersion>3</mVersion>
+      <mBodyFile>bountyhuntress</mBodyFile>
+      <apPerJob data="MERC|23891,KNIG|7166,RANG|27420,GUNN|8736,HEAL|7388,ROGU|8509,WIZA|7126,UTIL|7029,BLAD|6995,ALCH|6754,GADG|7279,FELL|6984,DRUI|7099,WARM|6734,PEDD|6277,GAMB|47976,SORC|14923,REAV|6185,BHUN|1093292,WRAN|6191,ASSA|235407,BEAS|6205,TEMP|6105,SAMU|14267,MARK|358593" />
+      <apPerJobCheck data="HEAL|7045,MERC|7581,KNIG|7166,UTIL|7029,ROGU|226,RANG|15,BLAD|6995,GUNN|223,WIZA|6999,FELL|6984,ALCH|6754,BHUN|86,GAMB|15231,WARM|6734,WRAN|6191,ASSA|15779,PEDD|6277,BEAS|6205,REAV|6185,TEMP|6105,GADG|7279,DRUI|7099,SORC|6768,SAMU|14085" />
+      <jobsLearned data="BHUN|1!3!3!3!3!1,ASSA|1!3!1!3!3!1!1,MERC|1!1!3!3!3!1!1,HEAL|1!3!3!3!3!1,ROGU|1!3!3!3!3!3,GAMB|1!3!3!3!3!1,WIZA|1!1!3!3!1!1!1,UTIL|1!1!3!3!1!3!1,KNIG|1!3!3!3!3!1,BLAD|1!3!3!3!3!1,RANG|1!3!1!3!3!1!1,GUNN|1!3!3!3!3!1,FELL|1!3!3!3!3!1,GADG|1!3!1,ALCH|1!3!3!3!3!3,REAV|1!3!1!3!3!3,WARM|1!1!3!3!3!1,WRAN|1!3!3!1!3!3!3,PEDD|1!3!3!3!3!1,BEAS|1!3!3!3!1!3,TEMP|1!3!1!3!3!3,DRUI|1!1!3!3!1,SORC|1!1!3!3!3!1!1,SAMU|1!1!3!3!3!1!3" />
+      <bonusPassives data="BONU-P4" />
+      <statsBonus data="3,0,0,0,0,0,-4" />
+      <name>Katja</name>
+      <experience>78</experience>
+      <level>65</level>
+      <index>5</index>
+      <storyCharacterName>hunter</storyCharacterName>
+      <realStatsNew data="315.21,265.74,274.02,247.89" />
+      <realHealthMaxNew data="472.5,137.3" />
+      <realSpeed>190.95</realSpeed>
+      <mainJob>BHUN</mainJob>
+      <subJob>ASSA</subJob>
+      <equippedPassivesNew data="GAMB-P1,ASSA-P2" />
+      <counter>GAMB-C1</counter>
+      <mGearOrderNew data=",,,,," />
+      <portraitName>portrait-story-katja</portraitName>
+      <gender>kFemale</gender>
+      <isPermanent>true</isPermanent>
+    </CharacterData>
+    <CharacterData>
+      <mVersion>3</mVersion>
+      <mBodyFile>necromancer</mBodyFile>
+      <apPerJob data="ANAT|1040292,MERC|23605,HEAL|8855,ROGU|7059,WIZA|8349,KNIG|7023,UTIL|8269,RANG|26193,ALCH|8217,BLAD|6862,GADG|7283,FELL|7225,DRUI|8181,WARM|6740,SORC|40887,GAMB|23011,GUNN|6910,WRAN|6191,PEDD|6284,ASSA|233942,BEAS|6205,REAV|6185,TEMP|6105,SAMU|14267,MARK|358593" />
+      <apPerJobCheck data="HEAL|8512,MERC|7295,KNIG|7023,ROGU|7059,WIZA|40,ANAT|559522,UTIL|105,BLAD|6862,ALCH|53,FELL|7225,DRUI|12,GAMB|14731,SORC|50,WARM|6740,RANG|6943,GUNN|6910,WRAN|6191,ASSA|14314,PEDD|6284,BEAS|6205,REAV|6185,TEMP|6105,GADG|7283,SAMU|14085" />
+      <jobsLearned data="ANAT|1!3!3!3!1!3,HEAL|1!3!3!3!3!1,MERC|1!1!3!3!3!1!1,WIZA|1!1!3!3!1!1!1,ROGU|1!3!3!3!3!3,KNIG|1!3!3!3!3!1,UTIL|1!1!3!3!1!3!1,FELL|1!3!3!3!3!1,BLAD|1!3!3!3!3!1,ALCH|1!3!3!3!3!3,DRUI|1!1!3!3!1,WARM|1!1!3!3!3!1,GAMB|1!3!3!3!3!1,GADG|1!3!1,SORC|1!1!3!3!3!1!1,WRAN|1!3!3!1!3!3!3,RANG|1!3!1!3!3!1!1,GUNN|1!3!3!3!3!1,REAV|1!3!1!3!3!3,PEDD|1!3!3!3!3!1,BEAS|1!3!3!3!1!3,ASSA|1!3!1!3!3!1!1,TEMP|1!3!1!3!3!3,SAMU|1!1!3!3!3!1!3" />
+      <bonusPassives data="BONU-P1" />
+      <statsBonus data="0,0,0,4,2,0,0" />
+      <name>Yates</name>
+      <experience>45</experience>
+      <level>65</level>
+      <index>3</index>
+      <storyCharacterName>necro</storyCharacterName>
+      <realStatsNew data="274.81,263.26,349.05,310.27" />
+      <realHealthMaxNew data="439.8,292.65" />
+      <realSpeed>165.41</realSpeed>
+      <mainJob>ANAT</mainJob>
+      <subJob>SORC</subJob>
+      <equippedPassivesNew data="HEAL-P2,GADG-P2" />
+      <counter>HEAL-C1</counter>
+      <mGearOrderNew data=",,,,," />
+      <portraitName>portrait-story-yates</portraitName>
+      <isPermanent>true</isPermanent>
+    </CharacterData>
+    <CharacterData>
+      <mVersion>3</mVersion>
+      <mBodyFile>goodarbiter</mBodyFile>
+      <apPerJob data="DAO-99|15062,VAN-99|25217,THE-99|24853,BOL-99|102058,HAR-99|717,PEK-99|7949,TAN-99|39530,NIW-99|31712,UND-99|156,KAW-99|516,BLA-99|31429,HHU-99|7205,MAL-99|47798,DAA-99|24290,HRV-99|79350,BUL-99|31309,PHO-99|15010,RAK-99|31109,ZOT-99|549654" />
+      <apPerJobCheck data="DAO-99|15032,THE-99|63,VAN-99|133,UND-99|6,KAW-99|94,BOL-99|7025,PEK-99|7799,HAR-99|76,TAN-99|6949,DAA-99|6710,MAL-99|7000,HHU-99|7145,NIW-99|7109,PHO-99|6755,HRV-99|6905,BLA-99|31309,BUL-99|31219,RAK-99|31049,ZOT-99|8300" />
+      <jobsLearned data="THE-99|1!3!1!3,VAN-99|1!3!3!1!1,DAO-99|1!1!3!1!1!1,PEK-99|1!1!3!1!3!1,BLA-99|1!3!1!1!1,TAN-99|1!1!1!3!1!1,BOL-99|1!3!1!1!1!1,MAL-99|1!1!3!3!1,UND-99|1!1!3!1!3,NIW-99|1!3!3!1,HAR-99|1!1!1!1!3!1,KAW-99|1!1!3!3!1,PHO-99|1!1!1!3!3,BUL-99|1!3!3!3,HHU-99|1!3!3!3,RAK-99|1!1!3!1!3,HRV-99|1!3!1!1!1!1,DAA-99|1!1!1!3!3,APB-99|1,ZOT-99|1!1!3!1!3" />
+      <bonusPassives data="BONU-P6" />
+      <name>Bzaro</name>
+      <experience>0</experience>
+      <level>50</level>
+      <index>4</index>
+      <storyCharacterName>goodarbiter</storyCharacterName>
+      <realStatsNew data="418.5,341,263.75,341" />
+      <realHealthMaxNew data="368,109" />
+      <realElementalResistanceNew data="0,0,0,0,-50,0" />
+      <realSpeed>168.9</realSpeed>
+      <mainJob>ZOT-99</mainJob>
+      <subJob>THE-99</subJob>
+      <equippedPassivesNew data="THE-99-P2,THE-99-P1" />
+      <counter>THE-99-C1</counter>
+      <mGearOrderNew data=",,,,," />
+      <portraitName>Portrait-story-bzaro</portraitName>
+      <race>kMonster</race>
+      <bzil>true</bzil>
+      <isPermanent>true</isPermanent>
+    </CharacterData>
+  </mCharactersSaved>
+  <mTreasureIsOpened />
+  <mSortOption>UnitNumber</mSortOption>
+  <mCraftingSortOption>0</mCraftingSortOption>
+  <mDifficulty>
+    <injury>none</injury>
+    <randomNumbers>playerfriendly</randomNumbers>
+    <levelScaling>alwaysscale</levelScaling>
+    <powerLevel>regular</powerLevel>
+    <extraEnemies>regular</extraEnemies>
+    <extraGear>regular</extraGear>
+    <itemUsage>regular</itemUsage>
+    <enemySkills>regular</enemySkills>
+    <itemFrequency>regular</itemFrequency>
+    <enemyRevives>regular</enemyRevives>
+    <drowningStyle>regular</drowningStyle>
+    <preset>custom</preset>
+  </mDifficulty>
+  <mWorldmapNode>B01</mWorldmapNode>
+  <mConsumableTiersNew data="potion|2,heavypotion|2,fullpotion|2,raisepotion|2,acidbomb|2,mindnumber|2,manastone|2,rock|2,remedy|2" />
+  <mBzilProgressionNew data="THE-99|5,VAN-99|5,DAO-99|5,HAR-99|5,BOL-99|5,PEK-99|5,BLA-99|5,UND-99|5,TAN-99|5,HRV-99|5,MAL-99|5,NIW-99|5,BUL-99|5,KAW-99|5,PHO-99|5,RAK-99|5,HHU-99|5,ZOT-99|5,DAA-99|5" />
+  <mMainStoryIndex>2</mMainStoryIndex>
+  <flags compendium="0 0 16 0 0 0 0 0" keyItems="0 0" storyValues="0 0 22 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" ingKnown="268435455 0" storyFlags="679796 2684354576 4273995777 3" ngpFlags="1023" seenRecipes="1090256896 1040448" />
+  <dlc1 companyPoints="212540" showBuildingNames="true">
+    <nodesvisited data="B01" />
+    <classesUnlocked data="VAR-DFT,VAR-SYL,WRAN,BEAS,VAR-COR,SAMU" />
+    <outfitsUnlocked data="UNLOCK-HEROES" />
+    <petsUnlocked data="VAN,THE,NIW,TAN" />
+    <monstersRecruited data="VAN,THE,NIW,TAN,MAL,KAW,DAA,HRV" />
+  </dlc1>
+</SaveData>

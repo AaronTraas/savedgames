@@ -1,0 +1,28 @@
+** How to add custom portraits to the game **
+
+Portrait images need to be png files with these dimensions:
+Big portrait: 228x340
+Small portrait: 64x72
+
+And need to be named thus:
+<name>-large.png
+<name>-small.png
+
+such as:
+MyPortrait-large.png
+MyPortrait-small.png
+
+Then, go to the folder "My Documents\Fell Seal\customdata\portraits" on Windows, "~/Fell Seal/customdata/portraits" on Mac/Linux from your file explorer.
+
+And in there, put your portrait files in the appropriate gender folders (female, male, unisex).
+Your portraits will now appear as an option in the guild when recruiting a new character or customizing an existing one.
+
+eg:
+
+Windows:
+"My Documents\Fell Seal\customdata\portraits\male\MyPortrait-large.png"
+"My Documents\Fell Seal\customdata\portraits\male\MyPortrait-small.png"
+
+Mac/Linux:
+"~/Fell Seal/customdata/portraits/male/MyPortrait-large.png"
+"~/Fell Seal/customdata/portraits/male/MyPortrait-small.png"
