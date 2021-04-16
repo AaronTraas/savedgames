@@ -1,0 +1,30 @@
+nwsync: reconfigured successfully
+Error: 40964
+Error: 40964
+Error: 40964
+Game is using local port: 64545
+Your cryptographic public identity is: 3A6B/Po1fvEhIU3R8cZALTdEvE9qBhZkAznbVrxrPTg=
+GOG: Authentication failed: 2
+*** ValidateGFFResource sent by user.
+*** ValidateGFFResource sent by user.
+*** ValidateGFFResource sent by user.
+*** ValidateGFFResource sent by user.
+*** ValidateGFFResource sent by user.
+*** ValidateGFFResource sent by user.
+*** ValidateGFFResource sent by user.
+*** ValidateGFFResource sent by user.
+*** ValidateGFFResource sent by user.
+*** ValidateGFFResource sent by user.
+*** ValidateGFFResource sent by user.
+*** ValidateGFFResource sent by user.
+*** ValidateGFFResource sent by user.
+*** ValidateGFFResource sent by user.
+*** ValidateGFFResource sent by user.
+*** ValidateGFFResource sent by user.
+*** ValidateGFFResource sent by user.
+*** ValidateGFFResource sent by user.
+*** ValidateGFFResource sent by user.
+*** ValidateGFFResource sent by user.
+*** ValidateGFFResource sent by user.
+*** ValidateGFFResource sent by user.
+*** ValidateGFFResource sent by user.
